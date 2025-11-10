@@ -17,12 +17,16 @@ fetch('data.json')
     // Add size to nodes based on out-degree
     const nodesWithSize = data.nodes.map(node => {
       const degree = outDegree[node.id];
-      // Base size of 15, plus 3 for each outgoing edge
-      const size = 15 + (degree * 10);
+
+      // Scale font size and margin based on out-degree
+      const fontSize = 12 + (degree * 2);
+      const margin = 6 + (degree * 4);
+
       return {
         ...node,
-        size: size,
-        font: { size: Math.max(24, 5 + degree) } // Larger font for nodes with more edges
+        font: { size: fontSize, face: 'system-ui' },
+        margin: margin,
+        widthConstraint: { minimum: 80 + (degree * 3) }
       };
     });
 
@@ -81,13 +85,16 @@ fetch('data.json')
             forceAtlas2Based: {
               gravitationalConstant: -50,
               centralGravity: 0.01,
-              springLength: 100,
-              springConstant: 0.08,
+              springLength: 150,
+              springConstant: 0.05,
               avoidOverlap: 1
             },
             stabilization: {
-              iterations: 100
-            }
+              enabled: true,
+              iterations: 200,
+              updateInterval: 25
+            },
+            adaptiveTimestep: true
           }
         };
       }
@@ -108,9 +115,10 @@ fetch('data.json')
 
         network = new vis.Network(container, networkData, getOptions(layoutType));
 
-        // For force-directed, wait for stabilization then fit
+        // For force-directed, wait for stabilization then fit and stop physics
         if (layoutType === 'forceDirected') {
           network.once('stabilizationIterationsDone', () => {
+            network.setOptions({ physics: { enabled: false } });
             network.fit();
           });
         } else {
