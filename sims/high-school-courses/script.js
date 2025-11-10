@@ -66,9 +66,9 @@ fetch('data.json')
             hierarchical: {
               enabled: true,
               direction: 'LR',
-              sortMethod: 'hubsize',
+              sortMethod: 'directed',
               levelSeparation: 250,
-              nodeSpacing: 50
+              nodeSpacing: 70
             }
           },
           physics: { enabled: false }
