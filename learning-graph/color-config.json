@@ -1,0 +1,50 @@
+{
+  "FOUND": {
+    "color": "red",
+    "classifierName": "Foundation Concepts"
+  },
+  "PROP": {
+    "color": "orange",
+    "classifierName": "Properties and Operations"
+  },
+  "NUMS": {
+    "color": "gold",
+    "classifierName": "Number Systems"
+  },
+  "EXP": {
+    "color": "green",
+    "classifierName": "Exponents and Radicals"
+  },
+  "POLY": {
+    "color": "cyan",
+    "classifierName": "Polynomials"
+  },
+  "FACT": {
+    "color": "blue",
+    "classifierName": "Factoring"
+  },
+  "LIN": {
+    "color": "indigo",
+    "classifierName": "Linear Equations and Inequalities"
+  },
+  "FUNC": {
+    "color": "violet",
+    "classifierName": "Functions and Relations"
+  },
+  "GRAPH": {
+    "color": "purple",
+    "classifierName": "Graphing and Coordinate Geometry"
+  },
+  "SYS": {
+    "color": "brown",
+    "classifierName": "Systems"
+  },
+  "QUAD": {
+    "color": "teal",
+    "classifierName": "Quadratic and Exponential Functions"
+  },
+  "DATA": {
+    "color": "olive",
+    "classifierName": "Data Analysis and Applications"
+  }
+}
