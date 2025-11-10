@@ -18,6 +18,7 @@ nav:
       - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
   - MicroSims:
       - List of MicroSims: sims/index.md
+      - Learning Graph Viewer: sims/graph-viewer/index.md
       - Algebra Concept Viewer: sims/algebra-concept-viewer/index.md
   - Glossary: glossary.md
   - How We Built This Site: how-we-built-this-site.md
