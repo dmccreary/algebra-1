@@ -18,8 +18,30 @@ p {
   font-size: 0.85rem;
   color: #555;
 }
+.controls {
+  padding: 8px 16px;
+  background: #ffffff;
+  border-bottom: 1px solid #dcdfe6;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.controls label {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: normal;
+  cursor: pointer;
+}
+.radio-option input[type="radio"] {
+  cursor: pointer;
+}
 main {
-  height: calc(100vh - 70px);
+  height: calc(100vh - 120px);
 }
 #network {
   width: 100%;
