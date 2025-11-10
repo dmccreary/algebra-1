@@ -1,5 +1,5 @@
-site_name: Mkdocs Template Site
-site_description: 'DESCRIPTION All content licensed Creative Commons ShareAlike Attribution Noncommercial'
+site_name: Algebra I
+site_description: An introductory course to Algebra covering fundamental concepts and skills with many interactive simulations.
 site_author: 'Dan McCreary'
 repo_name: 'GitHub Repo'
 site_url: 'https://dmccreary.github.io/algebra-1/'
@@ -9,6 +9,21 @@ edit_uri: 'blob/master/docs'
 nav:
   - Home: index.md
   - Course Description: course-description.md
+  - Chapters:
+      - Overview: chapters/index.md
+      - Chapter 1 - Foundations of Algebra: chapters/01-foundations-of-algebra/index.md
+      - Chapter 2 - Number Systems and Properties: chapters/02-number-systems-and-properties/index.md
+      - Chapter 3 - Exponents and Powers: chapters/03-exponents-and-powers/index.md
+      - Chapter 4 - Polynomial Expressions: chapters/04-polynomial-expressions/index.md
+      - Chapter 5 - Factoring Polynomials: chapters/05-factoring-polynomials/index.md
+      - Chapter 6 - Solving Linear Equations: chapters/06-solving-linear-equations/index.md
+      - Chapter 7 - Linear Inequalities and Absolute Value: chapters/07-linear-inequalities-and-absolute-value/index.md
+      - Chapter 8 - Introduction to Functions: chapters/08-introduction-to-functions/index.md
+      - Chapter 9 - Graphing and Linear Functions: chapters/09-graphing-and-linear-functions/index.md
+      - Chapter 10 - Systems of Equations and Inequalities: chapters/10-systems-of-equations-and-inequalities/index.md
+      - Chapter 11 - Quadratic Functions and Equations: chapters/11-quadratic-functions-and-equations/index.md
+      - Chapter 12 - Exponential Functions: chapters/12-exponential-functions/index.md
+      - Chapter 13 - Data Analysis and Real-World Applications: chapters/13-data-analysis-and-real-world-applications/index.md
   - Learning Graph:
       - Introduction: learning-graph/index.md
       - Course Description Assessment: learning-graph/course-description-assessment.md
