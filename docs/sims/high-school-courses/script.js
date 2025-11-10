@@ -42,7 +42,7 @@ fetch('data.json')
         ...node,
         font: { size: fontSize, face: 'system-ui' },
         margin: margin,
-        widthConstraint: { minimum: 80 + (degree * 3) },
+        widthConstraint: { minimum: 80 + (degree * 2) },
         color: {
           background: backgroundColor,
           border: '#4a7dff',
@@ -134,6 +134,23 @@ fetch('data.json')
           network.once('stabilizationIterationsDone', () => {
             network.setOptions({ physics: { enabled: false } });
             network.fit();
+          });
+
+          // Re-enable physics temporarily when a node is moved
+          let physicsTimeout = null;
+          network.on('dragEnd', () => {
+            // Clear any existing timeout
+            if (physicsTimeout) {
+              clearTimeout(physicsTimeout);
+            }
+
+            // Enable physics
+            network.setOptions({ physics: { enabled: true } });
+
+            // Disable physics after 5 seconds
+            physicsTimeout = setTimeout(() => {
+              network.setOptions({ physics: { enabled: false } });
+            }, 5000);
           });
         } else {
           network.fit();
