@@ -11,6 +11,17 @@
     <h1>High School Course Dependency Graph</h1>
     <p>Arrows point from a course to a more advanced course that typically comes later.</p>
   </header>
+  <div class="controls">
+    <label>Layout:</label>
+    <label class="radio-option">
+      <input type="radio" name="layout" value="hierarchical" checked>
+      Left to Right
+    </label>
+    <label class="radio-option">
+      <input type="radio" name="layout" value="forceDirected">
+      Force Directed
+    </label>
+  </div>
   <main>
     <div id="network"></div>
   </main>
