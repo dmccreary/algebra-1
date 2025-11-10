@@ -14,19 +14,40 @@ fetch('data.json')
       outDegree[edge.from]++;
     });
 
-    // Add size to nodes based on out-degree
+    // Function to get color based on level
+    function getLevelColor(level) {
+      const colors = [
+        '#ffcccc', // Level 0: light red
+        '#ffd9b3', // Level 1: light orange
+        '#ffff99', // Level 2: yellow
+        '#ccffcc', // Level 3: light green
+        '#ccffff', // Level 4: cyan
+        '#e6ccff', // Level 5: light purple
+        '#ffccf2', // Level 6: light pink
+        '#d9d9d9'  // Level 7+: light gray
+      ];
+      return colors[Math.min(level, colors.length - 1)];
+    }
+
+    // Add size and color to nodes based on out-degree and level
     const nodesWithSize = data.nodes.map(node => {
       const degree = outDegree[node.id];
 
       // Scale font size and margin based on out-degree
       const fontSize = 12 + (degree * 2);
       const margin = 6 + (degree * 4);
+      const backgroundColor = getLevelColor(node.level);
 
       return {
         ...node,
         font: { size: fontSize, face: 'system-ui' },
         margin: margin,
-        widthConstraint: { minimum: 80 + (degree * 3) }
+        widthConstraint: { minimum: 80 + (degree * 3) },
+        color: {
+          background: backgroundColor,
+          border: '#4a7dff',
+          highlight: { background: '#fff7d6', border: '#ffb100' }
+        }
       };
     });
 
@@ -42,13 +63,6 @@ fetch('data.json')
         },
         nodes: {
           shape: 'box',
-          margin: 6,
-          font: { face: 'system-ui', size: 12 },
-          color: {
-            background: '#e8f0ff',
-            border: '#4a7dff',
-            highlight: { background: '#fff7d6', border: '#ffb100' }
-          },
           borderWidth: 1
         },
         interaction: {
