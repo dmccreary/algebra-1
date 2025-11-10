@@ -1,3 +1,3 @@
 # Algebra Concept Viewer
 
-[Main](main.html)
+[Main Algebra Concept Viewer](main.html)
