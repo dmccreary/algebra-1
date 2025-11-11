@@ -113,8 +113,9 @@ fetch('data.json')
         };
       }
     }
-
-    network = new vis.Network(container, networkData, getOptions('hierarchical'));
+    
+    // Initialize with force-directed layout
+    network = new vis.Network(container, networkData, getOptions('forceDirected'));
 
     // Add event listeners for layout switching
     const radioButtons = document.querySelectorAll('input[name="layout"]');

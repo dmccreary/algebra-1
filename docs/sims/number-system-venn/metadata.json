@@ -1,0 +1,28 @@
+{
+  "title": "Number Systems Hierarchy Diagram",
+  "description": "An interactive Venn-style diagram showing how natural, whole, integer, rational, and real numbers are nested within each other, highlighting the position of irrational numbers.",
+  "subject": "Mathematics - Number Systems",
+  "creator": "Dan McCreary and Claude AI",
+  "date": "2025-11-11",
+  "type": "Interactive Venn Diagram",
+  "format": "text/html",
+  "language": "en-US",
+  "coverage": "Middle and High School Mathematics",
+  "rights": "CC-BY-4.0 Educational Use",
+  "audience": "Students and Educators",
+  "diagram_type": "venn",
+  "set_count": 6,
+  "intersection_count": 5,
+  "concepts": [
+    "Natural Numbers (N)",
+    "Whole Numbers (W)",
+    "Integers (Z)",
+    "Rational Numbers (Q)",
+    "Real Numbers (R)",
+    "Irrational Numbers (I)"
+  ],
+  "bloom_taxonomy": "Understand",
+  "version": "1.0",
+  "library": "venn.js 0.2.20",
+  "dependencies": ["d3.js 7.9.0", "venn.js 0.2.20"]
+}

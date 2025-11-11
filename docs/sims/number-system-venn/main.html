@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Number Systems Hierarchy Diagram</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Small inline tweaks specific to this diagram */
+    .legend-box {
+      background: #fafafa;
+      border: 1px solid #e0e0e0;
+      border-radius: 6px;
+      padding: 16px 20px;
+      margin-top: 10px;
+      line-height: 1.5;
+    }
+    .subset-chain {
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .examples-row {
+      font-size: 14px;
+    }
+    .examples-row strong {
+      display: inline-block;
+      min-width: 140px;
+    }
+  </style>
+  <!-- D3 and venn.js (must be loaded before script.js) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/venn.js/0.2.20/venn.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Number Systems Hierarchy</h1>
+      <p class="subtitle">Visualize how N, W, Z, Q, and R are nested — and where irrationals live.</p>
+    </header>
+
+    <main>
+      <section class="diagram-container" aria-label="Number Systems Hierarchy Diagram">
+        <div id="venn" role="img" aria-label="Venn-style diagram of number systems"></div>
+      </section>
+
+      <section class="description">
+        <h2>About This Diagram</h2>
+        <p>
+          This interactive diagram shows the containment relationships among common number sets:
+          <strong>Natural</strong> (ℕ), <strong>Whole</strong> (𝕎), <strong>Integers</strong> (ℤ),
+          <strong>Rational</strong> (ℚ), and <strong>Real</strong> (ℝ) numbers. It also highlights
+          <strong>Irrational</strong> numbers (𝕀) as real but not rational.
+        </p>
+
+        <div class="legend-box">
+          <div class="subset-chain">
+            ℕ ⊂ 𝕎 ⊂ ℤ ⊂ ℚ ⊂ ℝ
+          </div>
+          <div class="examples-row">
+            <strong>Natural (ℕ):</strong> 1, 2, 3, 15
+          </div>
+          <div class="examples-row">
+            <strong>Whole (𝕎):</strong> 0
+          </div>
+          <div class="examples-row">
+            <strong>Integers (ℤ):</strong> -5, -12
+          </div>
+          <div class="examples-row">
+            <strong>Rational (ℚ):</strong> 1/2, 0.75, -2/3
+          </div>
+          <div class="examples-row">
+            <strong>Irrational (𝕀):</strong> π, √2, e
+          </div>
+          <p style="margin-top:10px; font-size:13px; color:#666;">
+            Hover over a region to see its definition.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Number Systems Hierarchy Diagram · generated as a Venn-style MicroSim</p>
+    </footer>
+  </div>
+
+  <!-- Your task-specific script (the one I generated earlier) -->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Now generate an icon for the favicon. The image should be square on an orange background. Use a minimalistic design with no text, but with bright contrasting colors.
