@@ -45,6 +45,10 @@ nav:
     - List of Prompts: prompts/index.md
     - Cover Image: prompts/cover-image.md
     - Icon: prompts/icon.md
+    - Generate Content Ch 1: prompts/ch-01-content.md
+    - Generate Content Ch 2-7: prompts/ch-02-to-07-content.md
+    - Generate Content Ch 8-13: prompts/ch-08-to-13.md
+  
   - Glossary: glossary.md
   - Equation Rendering Test: equation-render-test.md
   - How We Built This Site: how-we-built-this-site.md
