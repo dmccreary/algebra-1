@@ -1,5 +1,8 @@
 # Learning Graph Generator Session Log
 
+!!! prompt
+   Run the learning-graph-generator skill.  Export the session log to logs/learning-graph-generator.md
+
 **Date:** 2025-11-10
 **Course:** Algebra I
 **Status:** ✅ COMPLETED SUCCESSFULLY
