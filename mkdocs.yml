@@ -76,11 +76,12 @@ plugins:
   - social
   - social_override
 markdown_extensions:
-  - admonition
   - md_in_html
+  - attr_list
+  - admonition
   - pymdownx.details
   - pymdownx.superfences
-  - attr_list
+  
   - pymdownx.highlight:
       linenums: true
   - pymdownx.arithmatex:
