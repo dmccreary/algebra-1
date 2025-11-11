@@ -4,8 +4,10 @@ description: Visualize how natural, whole, integer, rational, and real numbers a
 ---
 # Number Systems Hierarchy Diagram
 
+Goal:
+![](Number-Sets-Venn-Diagram.jpg)
 
-
+So Far:
 <iframe src="main.html" height="800px" scrolling="no"></iframe>
 
 [Run the Number Systems Hierarchy Diagram MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }

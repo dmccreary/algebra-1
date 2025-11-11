@@ -1,0 +1,167 @@
+{
+  "chapter": "Foundations of Algebra",
+  "chapter_number": 1,
+  "chapter_file": "docs/chapters/01-foundations-of-algebra/index.md",
+  "quiz_file": "docs/chapters/01-foundations-of-algebra/quiz.md",
+  "generated_date": "2025-11-11",
+  "total_questions": 10,
+  "content_readiness_score": 92,
+  "overall_quality_score": 88,
+  "questions": [
+    {
+      "id": "ch1-q001",
+      "number": 1,
+      "question_text": "What is a variable in algebra?",
+      "correct_answer": "B",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Variable",
+      "source_link": "index.md#variables-the-power-of-the-unknown",
+      "distractor_quality": 0.90,
+      "explanation_word_count": 58
+    },
+    {
+      "id": "ch1-q002",
+      "number": 2,
+      "question_text": "What does PEMDAS stand for in the order of operations?",
+      "correct_answer": "A",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Order of Operations",
+      "source_link": "index.md#order-of-operations-the-rules-of-the-game",
+      "distractor_quality": 0.85,
+      "explanation_word_count": 52
+    },
+    {
+      "id": "ch1-q003",
+      "number": 3,
+      "question_text": "In the expression $5x + 7$, what are the coefficients and constants?",
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Coefficient, Constant",
+      "source_link": "index.md#coefficients-numbers-that-multiply-variables",
+      "distractor_quality": 0.88,
+      "explanation_word_count": 54
+    },
+    {
+      "id": "ch1-q004",
+      "number": 4,
+      "question_text": "Which of the following are like terms?",
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Like Terms",
+      "source_link": "index.md#like-terms-terms-that-match",
+      "distractor_quality": 0.92,
+      "explanation_word_count": 62
+    },
+    {
+      "id": "ch1-q005",
+      "number": 5,
+      "question_text": "What is the difference between an expression and an equation?",
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Expression, Equation",
+      "source_link": "index.md#equations-making-mathematical-statements",
+      "distractor_quality": 0.87,
+      "explanation_word_count": 65
+    },
+    {
+      "id": "ch1-q006",
+      "number": 6,
+      "question_text": "Which statement correctly describes combining like terms in the expression $4x + 3 + 2x - 7$?",
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Combining Like Terms",
+      "source_link": "index.md#combining-like-terms-simplifying-by-adding",
+      "distractor_quality": 0.90,
+      "explanation_word_count": 78
+    },
+    {
+      "id": "ch1-q007",
+      "number": 7,
+      "question_text": "Evaluate the expression $3x + 5$ when $x = 4$.",
+      "correct_answer": "C",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Evaluating Expressions, Substitution",
+      "source_link": "index.md#evaluating-expressions-finding-the-value",
+      "distractor_quality": 0.85,
+      "explanation_word_count": 60
+    },
+    {
+      "id": "ch1-q008",
+      "number": 8,
+      "question_text": "Using the distributive property, which expression is equivalent to $3(x + 4)$?",
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Expanding Expressions, Distributive Property",
+      "source_link": "index.md#expanding-expressions-removing-parentheses",
+      "distractor_quality": 0.89,
+      "explanation_word_count": 68
+    },
+    {
+      "id": "ch1-q009",
+      "number": 9,
+      "question_text": "How many terms are in the expression $2x^2 - 5x + 3y - 8$?",
+      "correct_answer": "C",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Term",
+      "source_link": "index.md#terms-building-blocks-of-expressions",
+      "distractor_quality": 0.83,
+      "explanation_word_count": 56
+    },
+    {
+      "id": "ch1-q010",
+      "number": 10,
+      "question_text": "Which of the following is a monomial?",
+      "correct_answer": "B",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Monomial",
+      "source_link": "index.md#monomials-single-term-expressions",
+      "distractor_quality": 0.86,
+      "explanation_word_count": 58
+    }
+  ],
+  "answer_distribution": {
+    "A": 1,
+    "B": 6,
+    "C": 3,
+    "D": 0
+  },
+  "bloom_distribution": {
+    "Remember": 4,
+    "Understand": 3,
+    "Apply": 3,
+    "Analyze": 0,
+    "Evaluate": 0,
+    "Create": 0
+  },
+  "concept_coverage": {
+    "total_concepts": 17,
+    "tested_concepts": 12,
+    "coverage_percentage": 71,
+    "untested_concepts": [
+      "Number",
+      "Inequality",
+      "Simplifying Expressions",
+      "Prime Factorization",
+      "Evaluating Expressions"
+    ]
+  },
+  "quality_metrics": {
+    "well_formed_questions": 10,
+    "average_distractor_quality": 0.875,
+    "all_explanations_present": true,
+    "all_links_valid": true,
+    "answer_balance_score": 12,
+    "bloom_distribution_score": 23
+  },
+  "notes": "Answer distribution is slightly unbalanced with option B appearing 6 times. Consider revising 1-2 questions to use options A or D for better balance in future versions."
+}
