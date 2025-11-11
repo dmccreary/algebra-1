@@ -37,6 +37,7 @@ const COLORS = {
   variable: '#4CAF50',       // green
   constant: '#FF9800',       // orange
   operation: '#757575',      // gray
+  exponent: '#9C27B0',       // purple
   highlight: '#FFEB3B',      // yellow
   background: 'aliceblue',
   controlBg: 'white'
@@ -75,9 +76,16 @@ class ExpressionPart {
       fill('black');
     }
 
-    textSize(36);
-    textAlign(LEFT, TOP);
-    text(this.value, this.x, this.y);
+    // Render exponents as superscripts
+    if (this.type === 'exponent') {
+      textSize(24); // Smaller text for exponents
+      textAlign(LEFT, TOP);
+      text(this.value, this.x, this.y - 10); // Raised position
+    } else {
+      textSize(36);
+      textAlign(LEFT, TOP);
+      text(this.value, this.x, this.y);
+    }
 
     pop();
   }
@@ -88,6 +96,7 @@ class ExpressionPart {
       case 'variable': return 'Variable';
       case 'constant': return 'Constant';
       case 'operation': return 'Operation';
+      case 'exponent': return 'Exponent';
       default: return 'Unknown';
     }
   }
@@ -418,8 +427,13 @@ function generateDefaultExpression() {
     {value: '7', type: 'constant'}
   ];
 
-  textSize(36);
   for (let part of parts) {
+    // Calculate width based on type (exponents use smaller text)
+    if (part.type === 'exponent') {
+      textSize(24);
+    } else {
+      textSize(36);
+    }
     let w = textWidth(part.value);
     let h = 40;
     currentExpression.push(new ExpressionPart(part.value, part.type, xPos, yPos, w, h));
@@ -437,8 +451,13 @@ function generateNewExpression() {
   let xPos = margin;
   let yPos = drawHeight * .5;
 
-  textSize(36);
   for (let part of expression) {
+    // Calculate width based on type (exponents use smaller text)
+    if (part.type === 'exponent') {
+      textSize(24);
+    } else {
+      textSize(36);
+    }
     let w = textWidth(part.value);
     let h = 40;
     currentExpression.push(new ExpressionPart(part.value, part.type, xPos, yPos, w, h));
@@ -496,7 +515,7 @@ function createRandomExpression(complexity) {
       // Exponent (for medium/complex)
       if (useExponents && random() > 0.6) {
         let exp = floor(random(2, 4));
-        parts.push({value: '^' + exp, type: 'operation'});
+        parts.push({value: String(exp), type: 'exponent'});
       }
     } else {
       // Constant term
