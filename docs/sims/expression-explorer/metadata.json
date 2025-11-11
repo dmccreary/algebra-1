@@ -1,0 +1,148 @@
+{
+  "title": "Expression Parts Explorer",
+  "description": "An interactive educational MicroSim that helps students identify and understand the different parts of algebraic expressions including coefficients, variables, constants, and terms through color-coding and interactive exploration.",
+  "subject": "Mathematics - Algebra",
+  "topic": "Algebraic Expressions",
+  "creator": "Generated with Claude Code",
+  "date": "2025-11-10",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY 4.0",
+  "gradeLevel": "6-8",
+  "duration": "15-20 minutes",
+  "prerequisites": [
+    "Basic understanding of numbers and arithmetic operations",
+    "Familiarity with the concept of variables in algebra"
+  ],
+  "learningObjectives": [
+    "Identify coefficients, variables, constants, and operations in algebraic expressions",
+    "Distinguish between different types of terms in multi-term expressions",
+    "Analyze the structure of algebraic expressions of varying complexity",
+    "Apply understanding to classify expression parts independently"
+  ],
+  "bloomsTaxonomy": [
+    "Remember",
+    "Understand",
+    "Apply",
+    "Analyze"
+  ],
+  "framework": "p5.js",
+  "version": "1.11.10",
+  "canvasDimensions": {
+    "width": "responsive",
+    "height": "600",
+    "drawHeight": 400,
+    "controlHeight": 200
+  },
+  "responsive": "Width-responsive",
+  "dependencies": [
+    "p5.js CDN v1.11.10"
+  ],
+  "accessibility": [
+    "Screen reader support via describe() function",
+    "High contrast color-coding",
+    "Clear visual labels",
+    "Hover tooltips for identification"
+  ],
+  "controls": [
+    {
+      "type": "button",
+      "name": "New Expression",
+      "description": "Generates a new random algebraic expression based on the selected complexity level"
+    },
+    {
+      "type": "button",
+      "name": "Quiz Mode",
+      "description": "Toggles quiz mode where users can click on parts to test their understanding without color hints"
+    },
+    {
+      "type": "dropdown",
+      "name": "Complexity Level",
+      "options": ["Simple", "Medium", "Complex"],
+      "default": "Simple",
+      "description": "Controls the complexity of generated expressions: Simple (2-3 terms), Medium (3-5 terms with exponents), Complex (4-6 terms with exponents)"
+    },
+    {
+      "type": "checkbox",
+      "name": "Show Coefficients",
+      "default": true,
+      "description": "Toggles color highlighting of coefficients in blue"
+    },
+    {
+      "type": "checkbox",
+      "name": "Show Variables",
+      "default": true,
+      "description": "Toggles color highlighting of variables in green"
+    },
+    {
+      "type": "checkbox",
+      "name": "Show Constants",
+      "default": true,
+      "description": "Toggles color highlighting of constants in orange"
+    },
+    {
+      "type": "checkbox",
+      "name": "Highlight Terms",
+      "default": false,
+      "description": "Toggles visual highlighting of individual terms in the expression"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "Complexity",
+      "type": "categorical",
+      "values": ["Simple", "Medium", "Complex"],
+      "default": "Simple",
+      "description": "Determines the number of terms, use of exponents, and coefficient ranges"
+    }
+  ],
+  "simulationModel": {
+    "modelType": "Interactive visualization and classification tool",
+    "variables": [
+      "expressionParts (array of expression components)",
+      "complexityLevel (Simple, Medium, Complex)",
+      "quizMode (boolean)",
+      "hoveredPart (currently hovered expression component)"
+    ],
+    "colorCoding": {
+      "coefficients": "Blue (#2196F3)",
+      "variables": "Green (#4CAF50)",
+      "constants": "Orange (#FF9800)",
+      "operations": "Gray (#757575)",
+      "highlight": "Yellow (#FFEB3B)"
+    },
+    "expressionGeneration": {
+      "Simple": "2-3 terms, single variables, coefficients 1-10",
+      "Medium": "3-5 terms, may include exponents up to ^3, coefficients 1-20",
+      "Complex": "4-6 terms, multiple variables, exponents, coefficients 1-50"
+    }
+  },
+  "educationalStandards": [
+    "CCSS.MATH.CONTENT.6.EE.A.2 - Write, read, and evaluate expressions in which letters stand for numbers",
+    "CCSS.MATH.CONTENT.7.EE.A.1 - Apply properties of operations as strategies to add, subtract, factor, and expand linear expressions"
+  ],
+  "keywords": [
+    "algebra",
+    "expressions",
+    "coefficients",
+    "variables",
+    "constants",
+    "terms",
+    "algebraic notation",
+    "expression analysis"
+  ],
+  "interactionTypes": [
+    "Hover for tooltips",
+    "Click for quiz mode answers",
+    "Checkbox toggling for selective highlighting",
+    "Button press for expression generation",
+    "Dropdown selection for complexity adjustment"
+  ],
+  "assessmentFeatures": [
+    "Quiz mode for independent practice",
+    "Real-time visual feedback",
+    "Interactive identification of parts",
+    "Analysis panel showing expression structure"
+  ]
+}

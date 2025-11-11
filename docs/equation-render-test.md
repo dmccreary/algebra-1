@@ -1,17 +1,22 @@
 # Equation Rendering Test
 
-This page tests the rendering of mathematical equations using MathJax in LaTeX format.
+This page tests the rendering of mathematical equations using MathJax in LaTeX format.  We use the ```$$``` characters before and after an equation and we clearly list the definitions of the variables after each equation where new variables are introduced.
 
 ## Linear Equations
 
 ### Equation 1: Slope-Intercept Form
+
 The slope-intercept form of a linear equation:
 
 $$y = mx + b$$
 
-where $m$ is the slope and $b$ is the y-intercept.
+where:
+
+- $m$ is the slope
+- $b$ is the y-intercept
 
 ### Equation 2: Point-Slope Form
+
 The point-slope form of a line passing through point $(x_1, y_1)$ with slope $m$:
 
 $$y - y_1 = m(x - x_1)$$
@@ -23,7 +28,9 @@ The standard form of a quadratic equation:
 
 $$ax^2 + bx + c = 0$$
 
-where $a \neq 0$.
+where:
+
+-  $a \neq 0$.
 
 ### Equation 4: Quadratic Formula
 The quadratic formula for solving $ax^2 + bx + c = 0$:
@@ -31,15 +38,19 @@ The quadratic formula for solving $ax^2 + bx + c = 0$:
 $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 
 ### Equation 5: Vertex Form
+
 The vertex form of a quadratic function:
 
 $$y = a(x - h)^2 + k$$
 
-where $(h, k)$ is the vertex of the parabola.
+where:
+
+- $(h, k)$ is the vertex of the parabola.
 
 ## Exponents and Radicals
 
 ### Equation 6: Product Rule for Exponents
+
 When multiplying powers with the same base:
 
 $$a^m \cdot a^n = a^{m+n}$$
