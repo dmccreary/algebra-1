@@ -425,3 +425,7 @@ In this chapter, you've learned powerful factoring techniques that are essential
 - **Zeros/roots:** Values that make the function equal zero
 
 Mastering factoring takes practice, but these techniques will serve you throughout algebra and beyond. In the next chapter, you'll apply factoring skills to solve linear equations systematically.
+
+## References
+
+1. [Factoring Polynomials](https://math.libretexts.org/Courses/Hope_College/Math_125:_Hope_College/01:_Algebra_Essentials/1.05:_Factoring_Polynomials) - 2024 - Mathematics LibreTexts - Comprehensive guide to factoring techniques including GCF, difference of squares, perfect square trinomials, and factoring by grouping with extensive examples and practice problems.

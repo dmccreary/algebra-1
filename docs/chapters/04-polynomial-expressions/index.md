@@ -529,3 +529,7 @@ $d = rt = (x + 10) \cdot 3 = 3x + 30$ miles
 - **Difference of cubes:** $a^3 - b^3 = (a-b)(a^2+ab+b^2)$
 - **Consecutive integers:** $n, n+1, n+2, ...$
 - Polynomial expressions model perimeter, area, distance, and many other real quantities
+
+## References
+
+1. [Multiplying Binomials: "foil" (and a warning)](https://www.purplemath.com/modules/polymult2.htm) - Purplemath - Detailed lesson on the FOIL method for multiplying two binomials with a critical warning that it only works for two-term expressions, plus vertical multiplication as a more generalizable technique for larger polynomials.

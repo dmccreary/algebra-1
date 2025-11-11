@@ -975,3 +975,7 @@ Exponents connect to many other areas of mathematics:
 - **Polynomials:** Expressions with variables raised to non-negative integer powers
 - **Binomials:** Polynomials with exactly 2 terms
 - **Trinomials:** Polynomials with exactly 3 terms
+
+## References
+
+1. [Simplify by Using the Product, Quotient, and Power Rules](https://math.libretexts.org/Bookshelves/Applied_Mathematics/Developmental_Math_(NROC)/11:_Exponents_and_Polynomials/11.01:_Integer_Exponents/11.1.02:_Simplify_by_Using_the_Product_Quotient_and_Power_Rules) - 2024 - Mathematics LibreTexts - Comprehensive tutorial on the three fundamental laws of exponents with step-by-step examples demonstrating how to multiply, divide, and raise powers to powers.

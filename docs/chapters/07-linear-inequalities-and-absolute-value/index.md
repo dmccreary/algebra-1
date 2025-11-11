@@ -528,3 +528,7 @@ In this chapter, you've learned to work with inequalities and absolute values:
 - Apply inequalities to real-world constraints
 
 These tools allow you to model and solve problems involving ranges, tolerances, and conditions—essential skills for mathematics, science, engineering, and everyday decision-making.
+
+## References
+
+1. [Inequalities on a Number Line - Steps, Examples & Questions](https://thirdspacelearning.com/us/math-resources/topic-guides/algebra/inequalities-on-a-number-line/) - 2024 - Third Space Learning - Visual guide to graphing linear inequalities on number lines with clear explanations of open vs. closed circles and direction of shading, addressing common student challenges.

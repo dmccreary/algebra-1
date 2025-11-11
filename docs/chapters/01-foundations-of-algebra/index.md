@@ -1122,3 +1122,9 @@ Remember these essential ideas:
 ---
 
 Continue to the next chapter to begin solving equations and applying these algebraic foundations to real problems.
+
+## References
+
+1. [Order of Operations - PEMDAS](https://www.mathsisfun.com/operation-order-pemdas.html) - Math is Fun - Interactive explanation of PEMDAS with visual examples and common mistakes, perfect for understanding why operation order matters in evaluating algebraic expressions.
+
+2. [Simplifying Algebraic Expressions](https://math.libretexts.org/Bookshelves/Algebra/Elementary_Algebra_(LibreTexts)/02:_Linear_Equations_and_Inequalities/2.02:_Simplifying_Algebraic_Expressions) - 2024 - Mathematics LibreTexts - Comprehensive guide to the distributive property and combining like terms with extensive worked examples progressing from basic to complex expressions.

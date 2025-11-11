@@ -923,3 +923,7 @@ The algebraic thinking you've developed in this course is foundational for:
 - Applied fields: Physics, chemistry, economics, computer science
 
 Congratulations on completing Algebra 1! You now have powerful mathematical tools to understand and solve problems in the world around you.
+
+## References
+
+1. [Scatterplots: Correlation, Outliers, and Model Types](https://www.purplemath.com/modules/scattreg2.htm) - Purplemath - Comprehensive lesson on analyzing scatterplots by identifying positive, negative, or no correlation patterns, detecting outliers, and selecting appropriate mathematical models (linear, quadratic, or exponential) to fit data.

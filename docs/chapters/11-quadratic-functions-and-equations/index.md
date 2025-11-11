@@ -642,3 +642,7 @@ In this chapter, you've learned about quadratic functions and equations:
 - Optimization problems
 
 Quadratic functions and equations are fundamental in mathematics, physics, engineering, and many other fields where relationships involve squares or curved motion.
+
+## References
+
+1. [Graphing quadratics: vertex form](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratic-functions-equations/x2f8bb11595b61c86:vertex-form/v/graphing-a-parabola-in-vertex-form) - Khan Academy - Video lesson demonstrating how to graph parabolas using vertex form y = a(x-h)² + k, explaining how to identify the vertex and determine the direction and shape of the parabola.

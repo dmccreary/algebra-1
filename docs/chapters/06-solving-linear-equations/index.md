@@ -601,3 +601,7 @@ In this chapter, you've developed systematic methods for solving linear equation
 6. Check that your answer makes sense
 
 Linear equations are foundational to algebra and appear throughout mathematics and science. The systematic approach you've learned here will serve you well as equations become more complex in future chapters.
+
+## References
+
+1. [One-step and two-step equations & inequalities](https://www.khanacademy.org/math/pre-algebra/xb4832e56:one-step-and-two-step-equations-inequalities) - Khan Academy - Interactive lessons and practice problems covering solving one-step and two-step equations with all four operations, perfect for building foundational equation-solving skills.

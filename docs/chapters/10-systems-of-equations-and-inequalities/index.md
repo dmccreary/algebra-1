@@ -664,3 +664,7 @@ In this chapter, you've learned to solve systems of equations and inequalities:
 - Optimization with constraints
 
 These techniques are essential for modeling situations with multiple constraints and finding optimal solutions in business, science, engineering, and everyday life.
+
+## References
+
+1. [Solving Systems of Equations: Graphing, Substitution, Elimination](https://courses.lumenlearning.com/csn-precalculusv2/chapter/cr-24-solving-systems-of-equations-graphing-substitution-elimination/) - 2024 - Lumen Learning - Comprehensive comparison of all three methods for solving systems of equations with guidance on when to use each approach and extensive practice problems.

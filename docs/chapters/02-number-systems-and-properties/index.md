@@ -821,3 +821,7 @@ Mastering these fundamentals now will make everything that follows much easier t
 - **Absolute value** measures distance from zero: $|a| \geq 0$
 - The **coordinate system** uses ordered pairs $(x, y)$ to locate points in a plane
 - **Exponents** indicate repeated multiplication: in $b^n$, $b$ is the base and $n$ is the exponent
+
+## References
+
+1. [What are the different types, or kinds, of numbers?](https://www.purplemath.com/modules/numtypes.htm) - Purplemath - Clear explanation of the hierarchical classification of number systems from counting numbers through complex numbers, with mathematical symbols and worked examples showing how to classify specific numbers.
