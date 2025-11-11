@@ -1,0 +1,463 @@
+{
+  "textbook_title": "Algebra I",
+  "generated_date": "2025-11-11",
+  "total_chapters": 13,
+  "chapters_with_quizzes": 2,
+  "total_questions": 20,
+  "questions": [
+    {
+      "id": "ch1-q001",
+      "chapter": 1,
+      "chapter_name": "Foundations of Algebra",
+      "question_number": 1,
+      "question_text": "What is a variable in algebra?",
+      "options": {
+        "A": "A number that never changes its value",
+        "B": "A symbol (usually a letter) that represents an unknown or changing value",
+        "C": "A mathematical operation like addition or subtraction",
+        "D": "The answer to an equation"
+      },
+      "correct_answer": "B",
+      "explanation": "A variable is a symbol (usually a letter) that represents an unknown or changing value. Variables are what make algebra powerful—they let us work with values we don't know yet or values that can change. Option A describes a constant, not a variable. Option C describes an operation, and option D describes a solution.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept": "Variable",
+      "chapter_file": "docs/chapters/01-foundations-of-algebra/index.md",
+      "source_section": "#variables-the-power-of-the-unknown",
+      "tags": ["variable", "algebra-foundations", "definitions"]
+    },
+    {
+      "id": "ch1-q002",
+      "chapter": 1,
+      "chapter_name": "Foundations of Algebra",
+      "question_number": 2,
+      "question_text": "What does PEMDAS stand for in the order of operations?",
+      "options": {
+        "A": "Please Excuse My Dear Aunt Sally - representing Parentheses, Exponents, Multiplication, Division, Addition, Subtraction",
+        "B": "Problems Evaluate More Difficult After Solving",
+        "C": "Powers, Equations, Multiplication, Division, Addition, Symbols",
+        "D": "Parentheses, Expressions, Monomials, Division, Addition, Simplification"
+      },
+      "correct_answer": "A",
+      "explanation": "PEMDAS is a memory tool that stands for Parentheses, Exponents, Multiplication and Division (left to right), Addition and Subtraction (left to right). The phrase 'Please Excuse My Dear Aunt Sally' helps students remember this sequence. The other options are not standard mathematical acronyms and do not represent the correct order of operations.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept": "Order of Operations",
+      "chapter_file": "docs/chapters/01-foundations-of-algebra/index.md",
+      "source_section": "#order-of-operations-the-rules-of-the-game",
+      "tags": ["order-of-operations", "PEMDAS", "arithmetic"]
+    },
+    {
+      "id": "ch1-q003",
+      "chapter": 1,
+      "chapter_name": "Foundations of Algebra",
+      "question_number": 3,
+      "question_text": "In the expression $5x + 7$, what are the coefficients and constants?",
+      "options": {
+        "A": "Coefficient is 7, constant is 5",
+        "B": "Coefficient is 5, constant is 7",
+        "C": "Both 5 and 7 are coefficients",
+        "D": "Both 5 and 7 are constants"
+      },
+      "correct_answer": "B",
+      "explanation": "In the expression $5x + 7$, the coefficient is 5 (the number that multiplies the variable $x$) and the constant is 7 (the number standing alone without a variable). A coefficient always multiplies a variable, while a constant is a value that doesn't change and has no variable attached to it.",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept": "Coefficient, Constant",
+      "chapter_file": "docs/chapters/01-foundations-of-algebra/index.md",
+      "source_section": "#coefficients-numbers-that-multiply-variables",
+      "tags": ["coefficient", "constant", "expressions"]
+    },
+    {
+      "id": "ch1-q004",
+      "chapter": 1,
+      "chapter_name": "Foundations of Algebra",
+      "question_number": 4,
+      "question_text": "Which of the following are like terms?",
+      "options": {
+        "A": "$3x$ and $3y$",
+        "B": "$5x^2$ and $5x$",
+        "C": "$7y$ and $-2y$",
+        "D": "$4ab$ and $4a$"
+      },
+      "correct_answer": "C",
+      "explanation": "Like terms have exactly the same variable parts (same variables raised to the same powers), with only the coefficients being different. $7y$ and $-2y$ both have the variable $y$ raised to the first power, so they are like terms. Option A has different variables ($x$ vs $y$), option B has different exponents ($x^2$ vs $x$), and option D has different variable combinations ($ab$ vs $a$).",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept": "Like Terms",
+      "chapter_file": "docs/chapters/01-foundations-of-algebra/index.md",
+      "source_section": "#like-terms-terms-that-match",
+      "tags": ["like-terms", "simplifying", "expressions"]
+    },
+    {
+      "id": "ch1-q005",
+      "chapter": 1,
+      "chapter_name": "Foundations of Algebra",
+      "question_number": 5,
+      "question_text": "What is the difference between an expression and an equation?",
+      "options": {
+        "A": "Expressions contain variables, equations do not",
+        "B": "Equations have an equals sign, expressions do not",
+        "C": "Expressions can be solved, equations cannot",
+        "D": "There is no difference between them"
+      },
+      "correct_answer": "B",
+      "explanation": "An equation is a mathematical statement that two expressions are equal, and it always contains an equals sign (=). An expression is a mathematical phrase that represents a value but does not make a statement about equality. For example, $3x + 5$ is an expression, while $3x + 5 = 17$ is an equation. Both can contain variables, but only equations make claims that can be verified or solved.",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept": "Expression, Equation",
+      "chapter_file": "docs/chapters/01-foundations-of-algebra/index.md",
+      "source_section": "#equations-making-mathematical-statements",
+      "tags": ["expression", "equation", "definitions"]
+    },
+    {
+      "id": "ch1-q006",
+      "chapter": 1,
+      "chapter_name": "Foundations of Algebra",
+      "question_number": 6,
+      "question_text": "Which statement correctly describes combining like terms in the expression $4x + 3 + 2x - 7$?",
+      "options": {
+        "A": "Combine all terms to get $12x$",
+        "B": "Combine $x$ terms to get $6x$ and constants to get $-4$, resulting in $6x - 4$",
+        "C": "Combine $x$ terms to get $6x$ and constants to get $10$, resulting in $6x + 10$",
+        "D": "The expression cannot be simplified further"
+      },
+      "correct_answer": "B",
+      "explanation": "When combining like terms, we add the $x$ terms: $4x + 2x = 6x$, and we add the constant terms: $3 + (-7) = 3 - 7 = -4$. The simplified expression is $6x - 4$. We cannot combine the variable terms with the constant terms because they are not like terms. Option A incorrectly combines unlike terms, option C makes an arithmetic error with the constants, and option D is incorrect because the expression can be simplified.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept": "Combining Like Terms",
+      "chapter_file": "docs/chapters/01-foundations-of-algebra/index.md",
+      "source_section": "#combining-like-terms-simplifying-by-adding",
+      "tags": ["combining-like-terms", "simplifying", "expressions"]
+    },
+    {
+      "id": "ch1-q007",
+      "chapter": 1,
+      "chapter_name": "Foundations of Algebra",
+      "question_number": 7,
+      "question_text": "Evaluate the expression $3x + 5$ when $x = 4$.",
+      "options": {
+        "A": "12",
+        "B": "32",
+        "C": "17",
+        "D": "15"
+      },
+      "correct_answer": "C",
+      "explanation": "To evaluate the expression, we substitute $x = 4$ into the expression: $3(4) + 5 = 12 + 5 = 17$. First multiply $3 \\times 4 = 12$, then add $5$ to get $17$. Option A represents only the multiplication step ($3 \\times 4$), option B incorrectly multiplies $4 \\times (3 + 5)$, and option D represents an arithmetic error.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept": "Evaluating Expressions, Substitution",
+      "chapter_file": "docs/chapters/01-foundations-of-algebra/index.md",
+      "source_section": "#evaluating-expressions-finding-the-value",
+      "tags": ["evaluating", "substitution", "expressions"]
+    },
+    {
+      "id": "ch1-q008",
+      "chapter": 1,
+      "chapter_name": "Foundations of Algebra",
+      "question_number": 8,
+      "question_text": "Using the distributive property, which expression is equivalent to $3(x + 4)$?",
+      "options": {
+        "A": "$3x + 4$",
+        "B": "$3x + 12$",
+        "C": "$x + 12$",
+        "D": "$3x + 7$"
+      },
+      "correct_answer": "B",
+      "explanation": "The distributive property states that $a(b + c) = ab + ac$. Applying this to $3(x + 4)$, we multiply $3$ by each term inside the parentheses: $3 \\times x = 3x$ and $3 \\times 4 = 12$, giving us $3x + 12$. Option A fails to distribute the $3$ to the constant $4$, option C fails to multiply the variable term by $3$, and option D is completely incorrect.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept": "Expanding Expressions, Distributive Property",
+      "chapter_file": "docs/chapters/01-foundations-of-algebra/index.md",
+      "source_section": "#expanding-expressions-removing-parentheses",
+      "tags": ["distributive-property", "expanding", "expressions"]
+    },
+    {
+      "id": "ch1-q009",
+      "chapter": 1,
+      "chapter_name": "Foundations of Algebra",
+      "question_number": 9,
+      "question_text": "How many terms are in the expression $2x^2 - 5x + 3y - 8$?",
+      "options": {
+        "A": "2 terms",
+        "B": "3 terms",
+        "C": "4 terms",
+        "D": "5 terms"
+      },
+      "correct_answer": "C",
+      "explanation": "Terms are separated by plus (+) or minus (-) signs. In the expression $2x^2 - 5x + 3y - 8$, we have four terms: $2x^2$, $-5x$, $3y$, and $-8$. Each term can be a single number, variable, or product of numbers and variables. When counting terms, remember that the sign in front of each term is part of that term.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept": "Term",
+      "chapter_file": "docs/chapters/01-foundations-of-algebra/index.md",
+      "source_section": "#terms-building-blocks-of-expressions",
+      "tags": ["terms", "expressions", "definitions"]
+    },
+    {
+      "id": "ch1-q010",
+      "chapter": 1,
+      "chapter_name": "Foundations of Algebra",
+      "question_number": 10,
+      "question_text": "Which of the following is a monomial?",
+      "options": {
+        "A": "$x + 5$",
+        "B": "$7x^2y$",
+        "C": "$2x - 3$",
+        "D": "$a + b + c$"
+      },
+      "correct_answer": "B",
+      "explanation": "A monomial is an algebraic expression with only one term. $7x^2y$ is a single term consisting of a coefficient ($7$) multiplied by variables ($x^2$ and $y$). Option A, C, and D all have multiple terms separated by plus or minus signs, making them binomials (two terms) or trinomials (three terms), not monomials.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept": "Monomial",
+      "chapter_file": "docs/chapters/01-foundations-of-algebra/index.md",
+      "source_section": "#monomials-single-term-expressions",
+      "tags": ["monomial", "polynomial", "definitions"]
+    },
+    {
+      "id": "ch2-q001",
+      "chapter": 2,
+      "chapter_name": "Number Systems and Properties",
+      "question_number": 1,
+      "question_text": "What are integers?",
+      "options": {
+        "A": "Only positive whole numbers",
+        "B": "All whole numbers including positive numbers, negative numbers, and zero",
+        "C": "Only numbers that can be written as fractions",
+        "D": "Numbers that include decimals and fractions"
+      },
+      "correct_answer": "B",
+      "explanation": "Integers are the set of all whole numbers including positive numbers, negative numbers, and zero: {..., -3, -2, -1, 0, 1, 2, 3, ...}. Option A describes only natural numbers (positive integers), option C describes rational numbers, and option D incorrectly includes non-whole numbers.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept": "Integers",
+      "chapter_file": "docs/chapters/02-number-systems-and-properties/index.md",
+      "source_section": "#understanding-number-systems",
+      "tags": ["integers", "number-systems", "definitions"]
+    },
+    {
+      "id": "ch2-q002",
+      "chapter": 2,
+      "chapter_name": "Number Systems and Properties",
+      "question_number": 2,
+      "question_text": "Which property states that $a + b = b + a$?",
+      "options": {
+        "A": "Associative Property",
+        "B": "Distributive Property",
+        "C": "Commutative Property",
+        "D": "Identity Property"
+      },
+      "correct_answer": "C",
+      "explanation": "The Commutative Property of Addition states that changing the order of addends does not change the sum: $a + b = b + a$. The Associative Property deals with grouping, the Distributive Property involves multiplication over addition, and the Identity Property states that adding zero doesn't change a number.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept": "Commutative Property",
+      "chapter_file": "docs/chapters/02-number-systems-and-properties/index.md",
+      "source_section": "#commutative-property",
+      "tags": ["commutative", "properties", "addition"]
+    },
+    {
+      "id": "ch2-q003",
+      "chapter": 2,
+      "chapter_name": "Number Systems and Properties",
+      "question_number": 3,
+      "question_text": "What is the absolute value of -12?",
+      "options": {
+        "A": "-12",
+        "B": "0",
+        "C": "12",
+        "D": "24"
+      },
+      "correct_answer": "C",
+      "explanation": "The absolute value of a number is its distance from zero on the number line, always expressed as a non-negative value. Since -12 is 12 units away from zero, $|-12| = 12$. Absolute value represents distance, which is always positive or zero, never negative.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept": "Absolute Value",
+      "chapter_file": "docs/chapters/02-number-systems-and-properties/index.md",
+      "source_section": "#absolute-value",
+      "tags": ["absolute-value", "number-line", "operations"]
+    },
+    {
+      "id": "ch2-q004",
+      "chapter": 2,
+      "chapter_name": "Number Systems and Properties",
+      "question_number": 4,
+      "question_text": "Which set of numbers includes all integers and all fractions?",
+      "options": {
+        "A": "Natural numbers",
+        "B": "Whole numbers",
+        "C": "Rational numbers",
+        "D": "Irrational numbers"
+      },
+      "correct_answer": "C",
+      "explanation": "Rational numbers are numbers that can be expressed as the quotient of two integers (a fraction), which includes all integers (since any integer $n$ can be written as $\\frac{n}{1}$) and all fractions. Natural numbers are only positive counting numbers, whole numbers include zero but no negatives or fractions, and irrational numbers cannot be written as fractions.",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept": "Rational Numbers",
+      "chapter_file": "docs/chapters/02-number-systems-and-properties/index.md",
+      "source_section": "#rational-numbers",
+      "tags": ["rational-numbers", "number-systems", "definitions"]
+    },
+    {
+      "id": "ch2-q005",
+      "chapter": 2,
+      "chapter_name": "Number Systems and Properties",
+      "question_number": 5,
+      "question_text": "The distributive property $a(b + c) = ab + ac$ combines which two operations?",
+      "options": {
+        "A": "Addition and subtraction",
+        "B": "Multiplication and addition",
+        "C": "Division and multiplication",
+        "D": "Exponents and multiplication"
+      },
+      "correct_answer": "B",
+      "explanation": "The distributive property shows how multiplication distributes over addition (or subtraction). It states that multiplying a number by a sum is the same as multiplying the number by each addend and then adding the products: $a(b + c) = ab + ac$. This property is essential for expanding and simplifying algebraic expressions.",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept": "Distributive Property",
+      "chapter_file": "docs/chapters/02-number-systems-and-properties/index.md",
+      "source_section": "#distributive-property",
+      "tags": ["distributive", "properties", "operations"]
+    },
+    {
+      "id": "ch2-q006",
+      "chapter": 2,
+      "chapter_name": "Number Systems and Properties",
+      "question_number": 6,
+      "question_text": "Which number is the additive identity?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "-1",
+        "D": "Any negative number"
+      },
+      "correct_answer": "B",
+      "explanation": "The additive identity is zero (0) because adding zero to any number does not change that number: $a + 0 = a$. The number 1 is the multiplicative identity (not additive), and negative numbers are not identity elements.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept": "Identity Property",
+      "chapter_file": "docs/chapters/02-number-systems-and-properties/index.md",
+      "source_section": "#identity-property",
+      "tags": ["identity", "properties", "addition"]
+    },
+    {
+      "id": "ch2-q007",
+      "chapter": 2,
+      "chapter_name": "Number Systems and Properties",
+      "question_number": 7,
+      "question_text": "Using the associative property, $(2 + 3) + 4$ equals which of the following?",
+      "options": {
+        "A": "$2 + (3 + 4)$",
+        "B": "$(2 + 4) + 3$",
+        "C": "$2 \\times 3 + 4$",
+        "D": "Both A and B"
+      },
+      "correct_answer": "D",
+      "explanation": "The Associative Property states that the grouping of numbers doesn't affect the sum (or product). Both $(2 + 3) + 4 = 2 + (3 + 4) = 9$ and regrouping as $(2 + 4) + 3$ also equals $9$. When adding three or more numbers, any grouping gives the same result. Option C changes the operation to multiplication, which is different.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept": "Associative Property",
+      "chapter_file": "docs/chapters/02-number-systems-and-properties/index.md",
+      "source_section": "#associative-property",
+      "tags": ["associative", "properties", "addition"]
+    },
+    {
+      "id": "ch2-q008",
+      "chapter": 2,
+      "chapter_name": "Number Systems and Properties",
+      "question_number": 8,
+      "question_text": "On a number line, which direction represents positive integers?",
+      "options": {
+        "A": "To the left of zero",
+        "B": "To the right of zero",
+        "C": "Below zero",
+        "D": "Above zero"
+      },
+      "correct_answer": "B",
+      "explanation": "On a horizontal number line, positive integers are located to the right of zero, while negative integers are to the left. The number line is typically drawn horizontally (not vertically), so 'above' and 'below' are not the standard orientations. This visualization helps understand the ordering and magnitude of numbers.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept": "Number Line",
+      "chapter_file": "docs/chapters/02-number-systems-and-properties/index.md",
+      "source_section": "#number-line",
+      "tags": ["number-line", "integers", "visualization"]
+    },
+    {
+      "id": "ch2-q009",
+      "chapter": 2,
+      "chapter_name": "Number Systems and Properties",
+      "question_number": 9,
+      "question_text": "What is the additive inverse of 7?",
+      "options": {
+        "A": "7",
+        "B": "0",
+        "C": "-7",
+        "D": "$\\frac{1}{7}$"
+      },
+      "correct_answer": "C",
+      "explanation": "The additive inverse of a number is the number that, when added to the original, gives zero. Since $7 + (-7) = 0$, the additive inverse of 7 is -7. The Inverse Property of Addition states that every number has an additive inverse. Option D ($\\frac{1}{7}$) would be the multiplicative inverse (reciprocal), not the additive inverse.",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept": "Inverse Property",
+      "chapter_file": "docs/chapters/02-number-systems-and-properties/index.md",
+      "source_section": "#inverse-property",
+      "tags": ["inverse", "properties", "addition"]
+    },
+    {
+      "id": "ch2-q010",
+      "chapter": 2,
+      "chapter_name": "Number Systems and Properties",
+      "question_number": 10,
+      "question_text": "Which of the following is an example of the distributive property?",
+      "options": {
+        "A": "$5 + 3 = 3 + 5$",
+        "B": "$3(4 + 2) = 3 \\times 4 + 3 \\times 2$",
+        "C": "$(2 + 3) + 4 = 2 + (3 + 4)$",
+        "D": "$7 + 0 = 7$"
+      },
+      "correct_answer": "B",
+      "explanation": "The distributive property shows that $a(b + c) = ab + ac$. In this example, $3(4 + 2) = 3 \\times 4 + 3 \\times 2$ demonstrates distributing the multiplication of 3 over the addition inside the parentheses. Option A shows the commutative property, option C shows the associative property, and option D shows the identity property.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept": "Distributive Property",
+      "chapter_file": "docs/chapters/02-number-systems-and-properties/index.md",
+      "source_section": "#distributive-property",
+      "tags": ["distributive", "properties", "examples"]
+    }
+  ],
+  "metadata": {
+    "total_concepts_in_learning_graph": 200,
+    "concepts_tested": 22,
+    "average_explanation_length": 62,
+    "format": "mkdocs-material question admonition",
+    "bloom_taxonomy_levels": ["Remember", "Understand", "Apply", "Analyze", "Evaluate", "Create"],
+    "difficulty_levels": ["easy", "medium", "hard"]
+  },
+  "next_chapters_recommended": [
+    {
+      "chapter": 3,
+      "name": "Exponents and Powers",
+      "readiness_score": 87,
+      "priority": "high"
+    },
+    {
+      "chapter": 8,
+      "name": "Introduction to Functions",
+      "readiness_score": 94,
+      "priority": "high"
+    },
+    {
+      "chapter": 9,
+      "name": "Graphing and Linear Functions",
+      "readiness_score": 96,
+      "priority": "high"
+    },
+    {
+      "chapter": 13,
+      "name": "Data Analysis and Real-World Applications",
+      "readiness_score": 86,
+      "priority": "high"
+    }
+  ]
+}
