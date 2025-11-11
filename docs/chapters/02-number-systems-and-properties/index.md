@@ -57,6 +57,11 @@ Integers appear everywhere in daily life:
 - Elevation (200 feet above sea level, 50 feet below sea level)
 - Sports scores and point differences
 
+<iframe src="../../sims/integer-ops-number-line/main.html" height="402px" scrolling="no"></iframe>
+
+[Run the Integer Operations MicroSim Fullscreen](../../sims/integer-ops-number-line/main.html){ .md-button .md-button--primary }
+
+
 <details markdown="1">
     <summary>Integer Operations on the Number Line</summary>
     Type: microsim

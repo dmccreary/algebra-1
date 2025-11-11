@@ -39,6 +39,7 @@ nav:
       - Algebra Concept Viewer: sims/algebra-concept-viewer/index.md
       - High School Courses Graph: sims/high-school-courses/index.md
       - Expression Explorer: sims/expression-explorer/index.md
+      - Integer Operations Number Line: sims/integer-ops-number-line/index.md
 
   - Prompts:
     - List of Prompts: prompts/index.md

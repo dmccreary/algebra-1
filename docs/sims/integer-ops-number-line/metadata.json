@@ -1,0 +1,218 @@
+{
+  "microsim": {
+    "dublinCore": {
+      "title": "Integer Operations on the Number Line",
+      "creator": ["Dan McCreary", "ChatGPT (GPT-5)"],
+      "subject": ["Mathematics", "Integers", "Number Line", "Arithmetic"],
+      "description": "An interactive p5.js simulation that visualizes integer addition and subtraction as movements on a horizontal number line. Users can click buttons to add or subtract values from -10 to +10, observing animated arrows and a cumulative equation.",
+      "date": "2025-11-11T00:00:00Z",
+      "type": "Interactive Simulation",
+      "format": "text/javascript",
+      "language": "en",
+      "rights": "CC BY 4.0"
+    },
+    "search": {
+      "tags": [
+        "integers",
+        "number line",
+        "addition",
+        "subtraction",
+        "math",
+        "integer operations",
+        "animation"
+      ],
+      "visualizationType": ["animation", "simulation", "interactive-demo"],
+      "interactionLevel": "high",
+      "complexity": 3,
+      "applicationDomains": ["education", "training", "exploration"]
+    },
+    "educational": {
+      "gradeLevel": ["4", "5", "6", "7"],
+      "subjectArea": ["Mathematics"],
+      "topic": ["Integer Operations", "Addition and Subtraction", "Number Line"],
+      "learningObjectives": [
+        "Visualize integer addition as movement to the right on a number line.",
+        "Visualize integer subtraction as movement to the left on a number line.",
+        "Interpret a cumulative arithmetic expression such as 0 + 3 - 2 + 4 = 5."
+      ],
+      "bloomsTaxonomy": ["Remember", "Understand", "Apply"],
+      "prerequisites": [
+        "Understanding of positive and negative numbers",
+        "Basic familiarity with number lines"
+      ],
+      "duration": {
+        "typical": 10,
+        "range": { "min": 5, "max": 15 }
+      },
+      "difficulty": "Beginner",
+      "learningTheory": ["constructivism", "experiential"]
+    },
+    "technical": {
+      "framework": "p5.js",
+      "version": "1.11.10",
+      "canvasDimensions": {
+        "width": 800,
+        "height": 400,
+        "responsive": true
+      },
+      "regions": {
+        "drawHeight": 300,
+        "controlHeight": 100
+      },
+      "dependencies": ["https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"],
+      "browserCompatibility": ["Chrome", "Firefox", "Safari", "Edge"],
+      "performance": {
+        "targetFrameRate": 60,
+        "memoryUsage": "low",
+        "computationalComplexity": "O(1)",
+        "loadTime": 300,
+        "optimizations": ["NoLoop when idle", "Efficient arrow drawing", "Responsive resizing"]
+      },
+      "accessibility": {
+        "screenReader": true,
+        "keyboardNavigation": false,
+        "colorContrast": true,
+        "altText": true,
+        "screenReaderScript": "Simulation that shows integer addition and subtraction as movement along a horizontal number line from -10 to +10. Blue circle shows current value, green arrows for addition, red arrows for subtraction."
+      }
+    },
+    "userInterface": {
+      "layoutType": "responsive-width",
+      "colorScheme": {
+        "drawingArea": "aliceblue",
+        "controlArea": "white",
+        "borders": "silver",
+        "accent": "blue",
+        "text": "black"
+      },
+      "controls": [
+        {
+          "id": "addButtons",
+          "type": "button",
+          "label": "Add Buttons",
+          "description": "Adds positive integers (1–5) to the current position",
+          "properties": {
+            "text": "Add n",
+            "style": "success"
+          }
+        },
+        {
+          "id": "subButtons",
+          "type": "button",
+          "label": "Subtract Buttons",
+          "description": "Subtracts positive integers (1–5) from the current position",
+          "properties": {
+            "text": "Subtract n",
+            "style": "danger"
+          }
+        },
+        {
+          "id": "resetButton",
+          "type": "button",
+          "label": "Reset",
+          "description": "Resets the simulation back to zero",
+          "properties": {
+            "text": "Reset to Zero",
+            "style": "secondary"
+          }
+        }
+      ],
+      "visualElements": [
+        {
+          "type": "graph",
+          "description": "Horizontal number line from -10 to +10 with labeled tick marks",
+          "interactive": true,
+          "updateTriggers": ["addButtons", "subButtons", "resetButton"]
+        },
+        {
+          "type": "animation",
+          "description": "Green and red arrows animate integer addition and subtraction.",
+          "interactive": false
+        },
+        {
+          "type": "text-display",
+          "description": "Displays current arithmetic equation (e.g., 0 + 3 - 2 + 4 = 5)",
+          "interactive": false
+        }
+      ]
+    },
+    "simulation": {
+      "model": {
+        "type": "mathematical",
+        "description": "Integer arithmetic model representing cumulative addition and subtraction operations visualized as movements along a number line.",
+        "equations": ["position = start + Σ(operations)"],
+        "assumptions": [
+          "Each operation changes the position by an integer step between -5 and +5.",
+          "Position range is clamped between -10 and +10."
+        ],
+        "limitations": ["Only supports integer values", "Fixed range from -10 to +10"]
+      },
+      "variables": [
+        {
+          "name": "currentPosition",
+          "type": "output",
+          "description": "Current integer value on the number line",
+          "dataType": "integer",
+          "range": { "min": -10, "max": 10 }
+        },
+        {
+          "name": "targetPosition",
+          "type": "intermediate",
+          "description": "Position after the current operation",
+          "dataType": "integer",
+          "range": { "min": -10, "max": 10 }
+        },
+        {
+          "name": "equationParts",
+          "type": "output",
+          "description": "String representation of the sequence of operations",
+          "dataType": "array"
+        }
+      ]
+    },
+    "analytics": {
+      "events": [
+        {
+          "name": "operationPerformed",
+          "description": "User clicked an Add or Subtract button",
+          "category": "interaction",
+          "importance": "important",
+          "data": ["operationType", "operationValue", "currentPosition", "timestamp"],
+          "xAPIverb": "experienced"
+        },
+        {
+          "name": "resetSimulation",
+          "description": "User clicked the Reset button",
+          "category": "interaction",
+          "importance": "moderate",
+          "data": ["currentPosition"],
+          "xAPIverb": "reset"
+        }
+      ]
+    },
+    "usage": {
+      "recommendedUsage": ["guided-practice", "demonstration", "exploration"],
+      "instructionalStrategies": [
+        "Predict-Test-Observe",
+        "Guided Discovery",
+        "Collaborative Discussion"
+      ],
+      "assessmentQuestions": [
+        {
+          "question": "If you start at -2 and add 4, what is your new position?",
+          "type": "short-answer",
+          "level": "Understand"
+        },
+        {
+          "question": "Explain why subtraction moves left on the number line.",
+          "type": "essay",
+          "level": "Analyze"
+        }
+      ],
+      "extensions": [
+        "Add sliders for variable step sizes",
+        "Include random problem generator for practice"
+      ]
+    }
+  }
+}
