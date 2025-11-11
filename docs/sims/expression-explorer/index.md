@@ -29,12 +29,13 @@ Students can:
 
 ### Key Features
 
-- **Color-coded visualization**: Coefficients (blue), Variables (green), Constants (orange), Operations (gray)
+- **Color-coded visualization**: Coefficients (blue), Variables (green), Constants (orange), Operations (gray), Exponents (purple superscripts)
 - **Multiple complexity levels**: Simple (2-3 terms), Medium (3-5 terms with exponents), and Complex (4-6 terms with exponents)
 - **Interactive controls**: Toggle visibility of different element types and highlight terms with purple boxes
-- **Quiz mode**: Test understanding by identifying parts without color hints
+- **Quiz mode**: Interactive assessment where students select checkboxes for what they're looking for (e.g., "Find Coefficients") and click on expression parts to identify them; provides immediate corrective feedback
 - **Hover tooltips**: See classifications when hovering over expression parts
 - **Real-time analysis panel**: Displays term count, operator count, coefficients, variables, and constants
+- **Mathematical notation**: Exponents displayed as proper superscripts (e.g., x² instead of x^2)
 
 ## You can include this MicroSim on your website
 
@@ -76,13 +77,17 @@ By the end of this activity, students will be able to:
 
 #### 3. Increasing Complexity (5 minutes)
 - Progress to Medium complexity expressions
-- Discuss how exponents affect coefficients
-- Explore expressions with multiple variables
+- Notice how exponents appear as purple superscripts (e.g., x² or y³)
+- Discuss how exponents relate to variables
+- Explore expressions with multiple variables and exponents
 
 #### 4. Independent Practice (5 minutes)
 - Switch to Quiz Mode by clicking the "Quiz Mode is OFF (colors)" button
-- Students click on expression parts to identify them without color hints
-- System provides immediate feedback on identification
+- Notice how checkbox labels change from "Show" to "Find"
+- Students check one or more "Find" boxes (e.g., "Find Coefficients") to specify what they're looking for
+- Click on expression parts to identify them
+- System validates answers and provides immediate corrective feedback
+- Example: If "Find Coefficients" is checked and student clicks a variable, feedback says "Sorry, that's a Variable, not a coefficient"
 - Review common mistakes
 
 #### 5. Challenge (2 minutes)
@@ -105,12 +110,14 @@ By the end of this activity, students will be able to:
 4. What happens to expressions as complexity increases?
 5. How many operators are in an expression with 4 terms? Why?
 6. What do you notice when you use the "Highlight Terms" feature?
+7. What does an exponent tell us about a variable? How is x² different from 2x?
+8. In Quiz Mode, why is it helpful to select only one "Find" checkbox at a time?
 
 ### Differentiation
 
-- **Support**: Start with Simple complexity and use checkboxes to focus on one element type at a time
-- **Extension**: Challenge students to predict the structure before generating a new expression
-- **ELL Support**: Hover tooltips provide vocabulary reinforcement
+- **Support**: Start with Simple complexity and use checkboxes to focus on one element type at a time; in Quiz Mode, check only one "Find" box for focused practice
+- **Extension**: Challenge students to predict the structure before generating a new expression; use Complex expressions with exponents; have students identify all parts of a term including exponents
+- **ELL Support**: Hover tooltips provide vocabulary reinforcement; color-coding supports visual learners
 
 ### Standards Alignment
 
