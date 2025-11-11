@@ -192,7 +192,11 @@ Famous irrational numbers include:
 
 The real number line extends infinitely in both directions and contains every possible number you can represent as a decimal—whether it terminates, repeats, or continues infinitely without repeating.
 
-Here's how the number systems nest within each other:
+Here's a Venn diagram that shows how the number systems nest within each other:
+
+<iframe src="../../sims/number-system-venn/main.html" height="800px" scrolling="no"></iframe>
+
+[Run the Number Systems Hierarchy Diagram MicroSim Fullscreen](../../sims/number-system-venn/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
     <summary>Number Systems Hierarchy Diagram</summary>
