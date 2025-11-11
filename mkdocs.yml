@@ -41,8 +41,8 @@ nav:
 
   - Prompts:
     - List of Prompts: prompts/index.md
-             - prompts/cover-image.md
-             - prompts/icon.md
+    - Cover Image: prompts/cover-image.md
+    - Icon: prompts/icon.md
   - Glossary: glossary.md
   - Equation Rendering Test: equation-render-test.md
   - How We Built This Site: how-we-built-this-site.md
