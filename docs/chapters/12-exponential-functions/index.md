@@ -153,6 +153,7 @@ To find the initial value: $f(0) = a \cdot b^0 = a \cdot 1 = a$
 **Example:** For $f(x) = 7 \cdot 2^x$, the initial value is $a = 7$.
 
 The initial value represents:
+
 - Starting population
 - Original investment amount
 - Initial quantity of substance
