@@ -1,0 +1,13 @@
+{
+  "chapter": "Introduction to Functions",
+  "chapter_number": 8,
+  "chapter_file": "docs/chapters/08-introduction-to-functions/index.md",
+  "quiz_file": "docs/chapters/08-introduction-to-functions/quiz.md",
+  "generated_date": "2025-11-17",
+  "total_questions": 10,
+  "content_readiness_score": 96,
+  "overall_quality_score": 93,
+  "answer_distribution": {"A": 0, "B": 4, "C": 5, "D": 1},
+  "bloom_distribution": {"Remember": 1, "Understand": 4, "Apply": 3, "Analyze": 2, "Evaluate": 0, "Create": 0},
+  "concept_coverage": {"total_concepts": 15, "tested_concepts": 13, "coverage_percentage": 87}
+}

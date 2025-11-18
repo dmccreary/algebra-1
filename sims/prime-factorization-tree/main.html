@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Factorization Tree Builder</title>
+
+    <!-- Vis-Network CDN -->
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 28px;
+        }
+
+        .header p {
+            margin: 0;
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .controls {
+            padding: 15px 20px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e0e0e0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .controls input,
+        .controls select,
+        .controls button {
+            padding: 8px 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .controls input[type="number"] {
+            width: 100px;
+        }
+
+        .controls button {
+            background: #667eea;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .controls button:hover {
+            background: #5568d3;
+        }
+
+        .controls button.secondary {
+            background: #6c757d;
+        }
+
+        .controls button.secondary:hover {
+            background: #5a6268;
+        }
+
+        #tree-network {
+            width: 100%;
+            height: 500px;
+            background: #fafafa;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .factor-input {
+            padding: 20px;
+            background: #fff3cd;
+            border-bottom: 2px solid #ffc107;
+            display: none;
+        }
+
+        .factor-input h3 {
+            margin: 0 0 15px 0;
+            color: #856404;
+        }
+
+        .factor-form {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .factor-form input {
+            width: 80px;
+            padding: 8px;
+            border: 2px solid #ffc107;
+            border-radius: 5px;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .factor-form button {
+            padding: 8px 20px;
+            background: #ffc107;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .factor-form button:hover {
+            background: #e0a800;
+        }
+
+        .completion {
+            padding: 20px;
+            background: #d4edda;
+            border-bottom: 2px solid #28a745;
+            display: none;
+            text-align: center;
+        }
+
+        .completion h2 {
+            margin: 0 0 10px 0;
+            color: #155724;
+        }
+
+        .completion .result {
+            font-size: 20px;
+            font-weight: bold;
+            color: #155724;
+            margin: 10px 0;
+        }
+
+        .info-panel {
+            padding: 20px;
+            background: #e7f3ff;
+        }
+
+        .info-panel h3 {
+            margin: 0 0 10px 0;
+            color: #004085;
+        }
+
+        .prime-list {
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #b8daff;
+            margin: 10px 0;
+        }
+
+        .legend {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .legend-box {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 2px solid #333;
+        }
+
+        .legend-box.prime {
+            background: #90EE90;
+            border-color: #228B22;
+        }
+
+        .legend-box.composite {
+            background: #4A90E2;
+            border-color: #2E5C8A;
+        }
+
+        .legend-box.factored {
+            background: #CCCCCC;
+            border-color: #999999;
+        }
+
+        #feedback {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        #feedback.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        #feedback.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        #feedback.hint {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+
+        .divisibility-rules {
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #b8daff;
+            margin-top: 10px;
+            font-size: 13px;
+        }
+
+        .divisibility-rules ul {
+            margin: 5px 0;
+            padding-left: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .controls input,
+            .controls select,
+            .controls button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌳 Prime Factorization Tree Builder</h1>
+            <p>Build a factor tree to find the prime factorization of composite numbers</p>
+        </div>
+
+        <div class="controls">
+            <input type="number" id="number-input" value="24" min="4" max="200" placeholder="Number">
+            <button onclick="startNewProblem()">Start New Problem</button>
+            <select id="difficulty">
+                <option value="easy">Easy (4-50)</option>
+                <option value="medium">Medium (50-100)</option>
+                <option value="hard">Hard (100-200)</option>
+            </select>
+            <button onclick="randomNumber()">Random Number</button>
+            <button onclick="giveHint()" class="secondary">Give Hint</button>
+            <button onclick="showAnswer()" class="secondary">Show Answer</button>
+        </div>
+
+        <div id="factor-input-section" class="factor-input">
+            <h3>Factor <span id="selected-number"></span> into two factors:</h3>
+            <div class="factor-form">
+                <input type="number" id="factor1" placeholder="Factor 1" min="2">
+                <span style="font-size: 20px;">×</span>
+                <input type="number" id="factor2" placeholder="Factor 2" min="2">
+                <button onclick="submitFactors()">Submit Factors</button>
+            </div>
+            <div id="feedback"></div>
+        </div>
+
+        <div id="completion-section" class="completion">
+            <h2>🎉 Congratulations! Factorization Complete!</h2>
+            <div class="result">
+                <span id="result-number"></span> = <span id="result-factorization"></span>
+            </div>
+        </div>
+
+        <div id="tree-network"></div>
+
+        <div class="info-panel">
+            <h3>Prime Numbers (up to 47):</h3>
+            <div class="prime-list" id="prime-list"></div>
+
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-box prime"></div>
+                    <span>Prime Number (cannot factor)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-box composite"></div>
+                    <span>Composite (click to factor)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-box factored"></div>
+                    <span>Already Factored</span>
+                </div>
+            </div>
+
+            <div class="divisibility-rules">
+                <strong>Divisibility Rules:</strong>
+                <ul>
+                    <li><strong>2:</strong> Number is even (ends in 0, 2, 4, 6, 8)</li>
+                    <li><strong>3:</strong> Sum of digits is divisible by 3</li>
+                    <li><strong>5:</strong> Number ends in 0 or 5</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="prime-factorization-tree.js"></script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+{
+  "chapter": "Linear Inequalities and Absolute Value",
+  "chapter_number": 7,
+  "chapter_file": "docs/chapters/07-linear-inequalities-and-absolute-value/index.md",
+  "quiz_file": "docs/chapters/07-linear-inequalities-and-absolute-value/quiz.md",
+  "generated_date": "2025-11-17",
+  "total_questions": 10,
+  "content_readiness_score": 90,
+  "overall_quality_score": 91,
+  "questions": [
+    {
+      "id": "ch7-q001",
+      "number": 1,
+      "question_text": "When solving -3x > 12, what must you remember to do?",
+      "correct_answer": "B",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Solving Linear Inequalities",
+      "source_link": "index.md#solving-linear-inequalities",
+      "distractor_quality": 0.89,
+      "explanation_word_count": 78
+    },
+    {
+      "id": "ch7-q002",
+      "number": 2,
+      "question_text": "Which graph correctly represents x ≤ 3?",
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Graphing Inequalities",
+      "source_link": "index.md#graphing-inequalities-on-a-number-line",
+      "distractor_quality": 0.90,
+      "explanation_word_count": 81
+    },
+    {
+      "id": "ch7-q003",
+      "number": 3,
+      "question_text": "Solve the compound inequality -2 < x + 1 < 5. What is the solution?",
+      "correct_answer": "A",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "And Inequalities",
+      "source_link": "index.md#and-inequalities",
+      "distractor_quality": 0.87,
+      "explanation_word_count": 69
+    },
+    {
+      "id": "ch7-q004",
+      "number": 4,
+      "question_text": "What are the solutions to |x| = 8?",
+      "correct_answer": "D",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Absolute Value Equations",
+      "source_link": "index.md#solving-absolute-value-equations",
+      "distractor_quality": 0.91,
+      "explanation_word_count": 76
+    },
+    {
+      "id": "ch7-q005",
+      "number": 5,
+      "question_text": "Solve |x - 4| < 6. Which is the correct solution?",
+      "correct_answer": "A",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Absolute Value Inequalities",
+      "source_link": "index.md#less-than-type-x--a",
+      "distractor_quality": 0.88,
+      "explanation_word_count": 72
+    },
+    {
+      "id": "ch7-q006",
+      "number": 6,
+      "question_text": "Which compound inequality represents 'x < -1 OR x ≥ 4'?",
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Or Inequalities",
+      "source_link": "index.md#or-inequalities",
+      "distractor_quality": 0.86,
+      "explanation_word_count": 77
+    },
+    {
+      "id": "ch7-q007",
+      "number": 7,
+      "question_text": "What is the solution to |2x + 5| > 9?",
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "hard",
+      "concept_tested": "Absolute Value Inequalities",
+      "source_link": "index.md#greater-than-type-x--a",
+      "distractor_quality": 0.89,
+      "explanation_word_count": 84
+    },
+    {
+      "id": "ch7-q008",
+      "number": 8,
+      "question_text": "A temperature must stay between 35°F and 40°F. Which inequality represents this?",
+      "correct_answer": "D",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Applications of Linear Equations and Inequalities",
+      "source_link": "index.md#applications-of-linear-equations-and-inequalities",
+      "distractor_quality": 0.92,
+      "explanation_word_count": 85
+    },
+    {
+      "id": "ch7-q009",
+      "number": 9,
+      "question_text": "When solving 2x + 3 ≤ 11, what is the solution set in interval notation?",
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Linear Inequality / Solving Linear Inequalities",
+      "source_link": "index.md#solving-linear-inequalities",
+      "distractor_quality": 0.88,
+      "explanation_word_count": 79
+    },
+    {
+      "id": "ch7-q010",
+      "number": 10,
+      "question_text": "What happens when you try to solve |x + 2| = -5?",
+      "correct_answer": "D",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concept_tested": "Absolute Value Equations",
+      "source_link": "index.md#special-cases",
+      "distractor_quality": 0.93,
+      "explanation_word_count": 70
+    }
+  ],
+  "answer_distribution": {
+    "A": 2,
+    "B": 4,
+    "C": 1,
+    "D": 3
+  },
+  "bloom_distribution": {
+    "Remember": 1,
+    "Understand": 3,
+    "Apply": 4,
+    "Analyze": 2,
+    "Evaluate": 0,
+    "Create": 0
+  },
+  "concept_coverage": {
+    "total_concepts": 10,
+    "tested_concepts": 10,
+    "coverage_percentage": 100
+  }
+}

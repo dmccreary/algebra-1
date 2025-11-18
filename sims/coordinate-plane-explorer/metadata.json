@@ -1,0 +1,246 @@
+{
+  "title": "Coordinate Plane Explorer",
+  "description": "An interactive MicroSim that helps students understand the coordinate plane structure, including quadrants, axes, origin, and point location through hands-on exploration and quiz mode.",
+  "subject": "Mathematics",
+  "topic": "Coordinate Plane and Cartesian Coordinates",
+  "gradeLevel": "6-8",
+  "targetAge": "11-14",
+  "duration": "15-20 minutes",
+  "prerequisites": [
+    "Understanding of positive and negative numbers",
+    "Basic number line concepts",
+    "Ability to read and write ordered pairs"
+  ],
+  "learningObjectives": [
+    "Identify and label the x-axis, y-axis, and origin on a coordinate plane",
+    "Understand the structure and numbering of the four quadrants",
+    "Plot points accurately using ordered pairs (x, y)",
+    "Determine which quadrant contains a given point",
+    "Recognize the sign patterns for coordinates in each quadrant",
+    "Use coordinates to describe the location of points on a plane"
+  ],
+  "bloomsTaxonomy": [
+    "Remember",
+    "Understand",
+    "Apply",
+    "Analyze"
+  ],
+  "educationalStandards": [
+    "CCSS.MATH.CONTENT.6.NS.C.6 - Understand rational numbers as points on the number line and in the coordinate plane",
+    "CCSS.MATH.CONTENT.6.NS.C.8 - Solve problems by graphing points in all four quadrants",
+    "CCSS.MATH.CONTENT.6.G.A.3 - Draw polygons in the coordinate plane"
+  ],
+  "author": "MicroSim Development Team",
+  "dateCreated": "2025-01-17",
+  "dateModified": "2025-01-17",
+  "version": "1.0.0",
+  "license": "MIT",
+  "language": "en",
+  "format": "text/html",
+  "type": "Interactive Simulation",
+  "framework": "p5.js",
+  "frameworkVersion": "1.11.10",
+  "canvasDimensions": {
+    "width": 700,
+    "height": 700,
+    "responsive": false
+  },
+  "controls": [
+    {
+      "type": "draggable-point",
+      "label": "Point",
+      "description": "Drag the red point anywhere on the coordinate plane to explore different coordinate positions",
+      "initial": {
+        "x": 3,
+        "y": 4
+      },
+      "range": {
+        "x": [-10, 10],
+        "y": [-10, 10]
+      }
+    },
+    {
+      "type": "input",
+      "label": "Enter x",
+      "description": "Input field to enter the x-coordinate directly",
+      "initial": 3,
+      "range": [-10, 10]
+    },
+    {
+      "type": "input",
+      "label": "Enter y",
+      "description": "Input field to enter the y-coordinate directly",
+      "initial": 4,
+      "range": [-10, 10]
+    },
+    {
+      "type": "button",
+      "label": "Plot",
+      "description": "Plot the point at the coordinates entered in the input fields"
+    },
+    {
+      "type": "button",
+      "label": "Random Point",
+      "description": "Generate and plot a random point on the coordinate plane"
+    },
+    {
+      "type": "button",
+      "label": "Quiz Mode",
+      "description": "Toggle quiz mode where students are challenged to plot given coordinates"
+    },
+    {
+      "type": "button",
+      "label": "Check Answer",
+      "description": "Check if the plotted point matches the quiz target (only visible in quiz mode)"
+    },
+    {
+      "type": "checkbox",
+      "label": "Quadrant Shading",
+      "description": "Toggle color-coded shading of the four quadrants",
+      "initial": true
+    },
+    {
+      "type": "checkbox",
+      "label": "Grid Lines",
+      "description": "Toggle visibility of grid lines for easier point placement",
+      "initial": true
+    },
+    {
+      "type": "checkbox",
+      "label": "Reference Lines",
+      "description": "Toggle dotted lines from the point to both axes",
+      "initial": true
+    }
+  ],
+  "visualElements": [
+    "Coordinate grid from -10 to 10 on both axes",
+    "Bold axis lines (x-axis and y-axis)",
+    "Origin marked with dot and (0, 0) label",
+    "Quadrant labels (I, II, III, IV) in Roman numerals",
+    "Color-coded quadrant shading (I: light blue, II: light green, III: light yellow, IV: light pink)",
+    "Draggable red point with shadow effect",
+    "Dotted reference lines from point to axes",
+    "Real-time coordinate display with color coding",
+    "Quadrant identification display"
+  ],
+  "interactiveFeatures": [
+    "Drag point to any location on the plane",
+    "Real-time coordinate updates during dragging",
+    "Smooth animations when plotting new points",
+    "Direct coordinate entry via input fields",
+    "Random point generation",
+    "Quiz mode with target coordinates",
+    "Immediate feedback on quiz answers",
+    "Toggle visual aids on/off"
+  ],
+  "modelType": "Mathematical visualization",
+  "mathematicalConcepts": [
+    "Cartesian coordinate system",
+    "Ordered pairs (x, y)",
+    "Quadrants of the coordinate plane",
+    "Positive and negative number placement",
+    "Distance from axes"
+  ],
+  "colorScheme": {
+    "drawingArea": "aliceblue",
+    "controlArea": "white",
+    "quadrant1": "rgba(173, 216, 230, 0.3)",
+    "quadrant2": "rgba(144, 238, 144, 0.3)",
+    "quadrant3": "rgba(255, 255, 153, 0.3)",
+    "quadrant4": "rgba(255, 182, 193, 0.3)",
+    "point": "red",
+    "axes": "black",
+    "gridLines": "lightgray",
+    "referenceLines": "red (dashed)"
+  },
+  "assessmentOpportunities": [
+    "Quiz mode tracks correct vs. total attempts",
+    "Immediate feedback on coordinate plotting accuracy",
+    "Hints provided when answers are incorrect (which coordinate needs adjustment)",
+    "Observable student exploration patterns",
+    "Exit ticket: Successfully plot 3 points in quiz mode"
+  ],
+  "accessibility": {
+    "screenReader": "Includes describe() function for screen reader support",
+    "keyboardNavigation": "Input fields support keyboard entry",
+    "colorBlindSafe": "Uses high contrast colors and multiple visual cues beyond color",
+    "textSize": "Large 16-32px text for classroom visibility"
+  },
+  "pedagogicalApproach": [
+    "Constructivist learning through exploration",
+    "Immediate visual feedback",
+    "Multiple representations (numeric, visual, geometric)",
+    "Scaffolded complexity (simple to complex)",
+    "Gamification through quiz mode"
+  ],
+  "commonMisconceptions": [
+    {
+      "misconception": "Swapping x and y coordinates",
+      "remedy": "Color-coded display always shows x first; mnemonic 'x before y in alphabet'"
+    },
+    {
+      "misconception": "Difficulty with negative coordinates",
+      "remedy": "Quadrant shading visually shows negative regions; incremental practice"
+    },
+    {
+      "misconception": "Points on axes belong to quadrants",
+      "remedy": "Clear 'On x-axis' or 'On y-axis' messages; discussion of quadrant definitions"
+    }
+  ],
+  "extensionActivities": [
+    "Plot points to create geometric shapes",
+    "Explore reflections across axes",
+    "Calculate distances between points",
+    "Identify patterns in coordinate sequences"
+  ],
+  "technologyRequirements": {
+    "browser": "Modern browser (Chrome, Firefox, Safari, Edge)",
+    "javascript": "Enabled",
+    "internetConnection": "Required for p5.js CDN",
+    "devices": "Desktop, laptop, tablet (700px width minimum recommended)"
+  },
+  "fileStructure": {
+    "mainHTML": "main.html",
+    "javascript": "coordinate-plane-explorer.js",
+    "documentation": "index.md",
+    "metadata": "metadata.json",
+    "screenshot": "coordinate-plane-explorer.png (to be created)"
+  },
+  "keywords": [
+    "coordinate plane",
+    "Cartesian coordinates",
+    "quadrants",
+    "ordered pairs",
+    "graphing",
+    "x-axis",
+    "y-axis",
+    "origin",
+    "plotting points",
+    "negative numbers",
+    "spatial reasoning",
+    "middle school math",
+    "algebra",
+    "geometry"
+  ],
+  "relatedConcepts": [
+    "Number line",
+    "Integer operations",
+    "Linear equations",
+    "Graphing functions",
+    "Distance formula",
+    "Slope",
+    "Transformations"
+  ],
+  "cognitiveLoadConsiderations": {
+    "intrinsic": "Coordinate system with four quadrants and signed numbers",
+    "extraneous": "Minimized through clean interface and optional visual aids",
+    "germane": "Focused on coordinate relationships and spatial reasoning"
+  },
+  "differentiationStrategies": [
+    "Quadrant shading can be toggled for visual learners",
+    "Grid lines assist students who need more structure",
+    "Reference lines show explicit connections to axes",
+    "Quiz mode provides practice with immediate feedback",
+    "Random point generator offers unlimited practice opportunities"
+  ]
+}

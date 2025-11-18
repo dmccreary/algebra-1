@@ -1,0 +1,151 @@
+{
+  "chapter": "Solving Linear Equations",
+  "chapter_number": 6,
+  "chapter_file": "docs/chapters/06-solving-linear-equations/index.md",
+  "quiz_file": "docs/chapters/06-solving-linear-equations/quiz.md",
+  "generated_date": "2025-11-17",
+  "total_questions": 10,
+  "content_readiness_score": 92,
+  "overall_quality_score": 89,
+  "questions": [
+    {
+      "id": "ch6-q001",
+      "number": 1,
+      "question_text": "What is the first step in solving the equation 3x + 7 = 22?",
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Two-Step Equations",
+      "source_link": "index.md#two-step-equations",
+      "distractor_quality": 0.88,
+      "explanation_word_count": 76
+    },
+    {
+      "id": "ch6-q002",
+      "number": 2,
+      "question_text": "Which operation must you perform to solve x/4 = -6?",
+      "correct_answer": "D",
+      "bloom_level": "Apply",
+      "difficulty": "easy",
+      "concept_tested": "One-Step Equations",
+      "source_link": "index.md#multiplication-and-division-equations",
+      "distractor_quality": 0.86,
+      "explanation_word_count": 62
+    },
+    {
+      "id": "ch6-q003",
+      "number": 3,
+      "question_text": "When solving -5x + 3 = 18, what is the value of x?",
+      "correct_answer": "C",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Two-Step Equations",
+      "source_link": "index.md#two-step-equations",
+      "distractor_quality": 0.89,
+      "explanation_word_count": 58
+    },
+    {
+      "id": "ch6-q004",
+      "number": 4,
+      "question_text": "What type of solution does the equation 2(x + 3) = 2x + 6 have?",
+      "correct_answer": "D",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concept_tested": "Identity Equation",
+      "source_link": "index.md#identity-equations",
+      "distractor_quality": 0.90,
+      "explanation_word_count": 68
+    },
+    {
+      "id": "ch6-q005",
+      "number": 5,
+      "question_text": "To solve the equation with fractions x/3 + x/4 = 7, what is the best first step?",
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Equations with Fractions",
+      "source_link": "index.md#equations-with-fractions",
+      "distractor_quality": 0.87,
+      "explanation_word_count": 85
+    },
+    {
+      "id": "ch6-q006",
+      "number": 6,
+      "question_text": "Solve for w in the perimeter formula P = 2l + 2w. Which is correct?",
+      "correct_answer": "A",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Literal Equations / Formula Manipulation",
+      "source_link": "index.md#literal-equations-and-solving-for-a-variable",
+      "distractor_quality": 0.88,
+      "explanation_word_count": 70
+    },
+    {
+      "id": "ch6-q007",
+      "number": 7,
+      "question_text": "When solving 5x - 7 = 2x + 8, what should you do after collecting variable terms on one side?",
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Variables on Both Sides",
+      "source_link": "index.md#equations-with-variables-on-both-sides",
+      "distractor_quality": 0.85,
+      "explanation_word_count": 82
+    },
+    {
+      "id": "ch6-q008",
+      "number": 8,
+      "question_text": "What happens when you solve x + 5 = x - 2?",
+      "correct_answer": "C",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concept_tested": "Contradiction",
+      "source_link": "index.md#contradictions",
+      "distractor_quality": 0.91,
+      "explanation_word_count": 73
+    },
+    {
+      "id": "ch6-q009",
+      "number": 9,
+      "question_text": "To solve 0.5x + 1.2 = 3.7, what power of 10 should you multiply by to clear decimals?",
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Equations with Decimals",
+      "source_link": "index.md#equations-with-decimals",
+      "distractor_quality": 0.86,
+      "explanation_word_count": 79
+    },
+    {
+      "id": "ch6-q010",
+      "number": 10,
+      "question_text": "The sum of three consecutive integers is 72. If n represents the first integer, which equation models this situation?",
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "hard",
+      "concept_tested": "Applications of Linear Equations",
+      "source_link": "index.md#applications-of-linear-equations",
+      "distractor_quality": 0.89,
+      "explanation_word_count": 92
+    }
+  ],
+  "answer_distribution": {
+    "A": 1,
+    "B": 4,
+    "C": 4,
+    "D": 1
+  },
+  "bloom_distribution": {
+    "Remember": 0,
+    "Understand": 4,
+    "Apply": 4,
+    "Analyze": 2,
+    "Evaluate": 0,
+    "Create": 0
+  },
+  "concept_coverage": {
+    "total_concepts": 16,
+    "tested_concepts": 10,
+    "coverage_percentage": 63
+  }
+}

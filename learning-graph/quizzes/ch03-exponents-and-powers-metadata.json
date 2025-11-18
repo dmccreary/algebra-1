@@ -1,0 +1,150 @@
+{
+  "chapter": "Chapter 3: Exponents and Powers",
+  "chapter_file": "docs/chapters/03-exponents-and-powers/index.md",
+  "quiz_file": "docs/chapters/03-exponents-and-powers/quiz.md",
+  "generated_date": "2025-11-17",
+  "total_questions": 10,
+  "content_readiness_score": 95,
+  "overall_quality_score": 88,
+  "questions": [
+    {
+      "id": "ch3-q001",
+      "number": 1,
+      "question_text": "What is the value of any non-zero number raised to the power of zero?",
+      "correct_answer": "B",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Zero Exponent",
+      "source_link": "index.md#zero-exponent-the-special-case",
+      "distractor_quality": 0.90,
+      "explanation_word_count": 72
+    },
+    {
+      "id": "ch3-q002",
+      "number": 2,
+      "question_text": "Which expression correctly represents the negative exponent rule?",
+      "correct_answer": "B",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Negative Exponents",
+      "source_link": "index.md#negative-exponents-reciprocals-in-disguise",
+      "distractor_quality": 0.85,
+      "explanation_word_count": 68
+    },
+    {
+      "id": "ch3-q003",
+      "number": 3,
+      "question_text": "When multiplying x⁵ · x³, what is the simplified result?",
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Product Rule for Exponents",
+      "source_link": "index.md#product-rule-for-exponents",
+      "distractor_quality": 0.88,
+      "explanation_word_count": 62
+    },
+    {
+      "id": "ch3-q004",
+      "number": 4,
+      "question_text": "A scientist measures a bacteria sample at 0.0000047 meters. How would this be written in scientific notation?",
+      "correct_answer": "A",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Scientific Notation",
+      "source_link": "index.md#converting-to-scientific-notation",
+      "distractor_quality": 0.92,
+      "explanation_word_count": 75
+    },
+    {
+      "id": "ch3-q005",
+      "number": 5,
+      "question_text": "Simplify the expression (x²)⁵.",
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Power Rule for Exponents",
+      "source_link": "index.md#power-rule-for-exponents",
+      "distractor_quality": 0.87,
+      "explanation_word_count": 69
+    },
+    {
+      "id": "ch3-q006",
+      "number": 6,
+      "question_text": "What does the expression √49 equal?",
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Square Root",
+      "source_link": "index.md#square-root",
+      "distractor_quality": 0.83,
+      "explanation_word_count": 82
+    },
+    {
+      "id": "ch3-q007",
+      "number": 7,
+      "question_text": "Simplify y⁷/y³.",
+      "correct_answer": "A",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Quotient Rule for Exponents",
+      "source_link": "index.md#quotient-rule-for-exponents",
+      "distractor_quality": 0.86,
+      "explanation_word_count": 64
+    },
+    {
+      "id": "ch3-q008",
+      "number": 8,
+      "question_text": "Which of the following expressions is NOT a polynomial?",
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Polynomial",
+      "source_link": "index.md#what-is-a-polynomial",
+      "distractor_quality": 0.89,
+      "explanation_word_count": 67
+    },
+    {
+      "id": "ch3-q009",
+      "number": 9,
+      "question_text": "To simplify √72, you would first factor it as 36 × 2. What is the reasoning behind choosing these factors?",
+      "correct_answer": "B",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Simplifying Radicals",
+      "source_link": "index.md#simplifying-radicals",
+      "distractor_quality": 0.91,
+      "explanation_word_count": 77
+    },
+    {
+      "id": "ch3-q010",
+      "number": 10,
+      "question_text": "If you multiply (3 × 10⁴) · (2 × 10⁵), what is the result in scientific notation?",
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Scientific Notation",
+      "source_link": "index.md#operations-with-scientific-notation",
+      "distractor_quality": 0.85,
+      "explanation_word_count": 71
+    }
+  ],
+  "answer_distribution": {
+    "A": 1,
+    "B": 7,
+    "C": 1,
+    "D": 0
+  },
+  "bloom_distribution": {
+    "Remember": 2,
+    "Understand": 3,
+    "Apply": 4,
+    "Analyze": 1,
+    "Evaluate": 0,
+    "Create": 0
+  },
+  "concept_coverage": {
+    "total_concepts": 15,
+    "tested_concepts": 10,
+    "coverage_percentage": 67
+  }
+}

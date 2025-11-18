@@ -1,0 +1,150 @@
+{
+  "chapter": "Chapter 4: Polynomial Expressions",
+  "chapter_file": "docs/chapters/04-polynomial-expressions/index.md",
+  "quiz_file": "docs/chapters/04-polynomial-expressions/quiz.md",
+  "generated_date": "2025-11-17",
+  "total_questions": 10,
+  "content_readiness_score": 90,
+  "overall_quality_score": 89,
+  "questions": [
+    {
+      "id": "ch4-q001",
+      "number": 1,
+      "question_text": "What is the degree of the polynomial 5x³ - 2x² + 7x - 1?",
+      "correct_answer": "C",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Degree of Polynomial",
+      "source_link": "index.md#degree-of-a-polynomial",
+      "distractor_quality": 0.88,
+      "explanation_word_count": 78
+    },
+    {
+      "id": "ch4-q002",
+      "number": 2,
+      "question_text": "Which polynomial is written in standard form?",
+      "correct_answer": "B",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Standard Form of Polynomial",
+      "source_link": "index.md#standard-form-of-a-polynomial",
+      "distractor_quality": 0.90,
+      "explanation_word_count": 65
+    },
+    {
+      "id": "ch4-q003",
+      "number": 3,
+      "question_text": "Add the polynomials: (3x² + 5x - 2) + (2x² - 3x + 7)",
+      "correct_answer": "A",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Adding Polynomials",
+      "source_link": "index.md#adding-polynomials",
+      "distractor_quality": 0.86,
+      "explanation_word_count": 72
+    },
+    {
+      "id": "ch4-q004",
+      "number": 4,
+      "question_text": "What is the result of (5x² - 3x + 4) - (2x² + x - 6)?",
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Subtracting Polynomials",
+      "source_link": "index.md#subtracting-polynomials",
+      "distractor_quality": 0.87,
+      "explanation_word_count": 81
+    },
+    {
+      "id": "ch4-q005",
+      "number": 5,
+      "question_text": "Using the FOIL method, multiply (x + 4)(x + 5).",
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "FOIL Method",
+      "source_link": "index.md#the-foil-method",
+      "distractor_quality": 0.85,
+      "explanation_word_count": 77
+    },
+    {
+      "id": "ch4-q006",
+      "number": 6,
+      "question_text": "Simplify 3x(2x² - 5x + 4).",
+      "correct_answer": "A",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Multiplying Polynomials",
+      "source_link": "index.md#multiplying-polynomials",
+      "distractor_quality": 0.88,
+      "explanation_word_count": 75
+    },
+    {
+      "id": "ch4-q007",
+      "number": 7,
+      "question_text": "Which expression represents the difference of squares pattern?",
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Difference of Squares",
+      "source_link": "index.md#difference-of-squares",
+      "distractor_quality": 0.89,
+      "explanation_word_count": 70
+    },
+    {
+      "id": "ch4-q008",
+      "number": 8,
+      "question_text": "Expand (x + 3)² using the perfect square trinomial pattern.",
+      "correct_answer": "C",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Perfect Square Trinomial",
+      "source_link": "index.md#perfect-square-trinomials",
+      "distractor_quality": 0.84,
+      "explanation_word_count": 68
+    },
+    {
+      "id": "ch4-q009",
+      "number": 9,
+      "question_text": "What is the greatest common factor (GCF) of 6x³ + 9x² - 12x?",
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Greatest Common Factor",
+      "source_link": "index.md#greatest-common-factor-gcf",
+      "distractor_quality": 0.87,
+      "explanation_word_count": 71
+    },
+    {
+      "id": "ch4-q010",
+      "number": 10,
+      "question_text": "A rectangle has length (2x + 3) and width (x - 1). Which expression represents the perimeter?",
+      "correct_answer": "B",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Perimeter Problems",
+      "source_link": "index.md#perimeter-problems",
+      "distractor_quality": 0.90,
+      "explanation_word_count": 74
+    }
+  ],
+  "answer_distribution": {
+    "A": 2,
+    "B": 6,
+    "C": 4,
+    "D": 0
+  },
+  "bloom_distribution": {
+    "Remember": 2,
+    "Understand": 2,
+    "Apply": 5,
+    "Analyze": 1,
+    "Evaluate": 0,
+    "Create": 0
+  },
+  "concept_coverage": {
+    "total_concepts": 18,
+    "tested_concepts": 10,
+    "coverage_percentage": 56
+  }
+}

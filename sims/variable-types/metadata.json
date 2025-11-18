@@ -1,0 +1,105 @@
+{
+  "$schema": "https://github.com/dmccreary/microsims/blob/main/src/microsim-schema/microsim-schema.json",
+  "title": "Variable Types Interactive Infographic",
+  "creator": "Claude Code with microsim-p5 skill",
+  "subject": ["Mathematics", "Algebra", "Variable Notation"],
+  "description": "An interactive visual guide showing four common types of algebraic variables (position, time, counting, and rate) with real-world examples and expandable content in a 2x2 grid layout.",
+  "date": "2025-11-17",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY 4.0",
+  "gradeLevel": "6-10",
+  "subjectArea": "Mathematics",
+  "topic": "Algebraic Variables and Notation",
+  "learningObjectives": [
+    "Identify four main categories of variables used in algebra (position, time, counting, rate)",
+    "Explain the typical usage context for each variable type",
+    "Recognize conventional variable naming patterns in mathematical problems",
+    "Apply appropriate variable choices when setting up equations"
+  ],
+  "bloomsTaxonomyLevels": ["Remember", "Understand", "Apply"],
+  "duration": "10-15 minutes",
+  "prerequisites": [
+    "Basic understanding of variables in algebra",
+    "Familiarity with simple algebraic expressions",
+    "Experience with basic word problems"
+  ],
+  "framework": "p5.js",
+  "canvasDimensions": "800×700 (initial, width-responsive)",
+  "responsive": "Width-responsive",
+  "dependencies": ["p5.js 1.11.10 CDN"],
+  "accessibility": {
+    "screenReaderSupport": true,
+    "keyboardNavigation": false,
+    "colorblindSafe": true,
+    "highContrast": true
+  },
+  "controls": [
+    {
+      "type": "hover",
+      "name": "Card Hover",
+      "description": "Hover over any of the four category cards to see expanded descriptions",
+      "purpose": "Provides detailed context about variable usage"
+    },
+    {
+      "type": "click",
+      "name": "Card Click",
+      "description": "Click on any card to toggle expanded view with additional examples",
+      "purpose": "Reveals 2-3 more real-world examples for each variable type"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "Category Colors",
+      "type": "fixed",
+      "description": "Blue for position, green for time, orange for counting, purple for rate variables"
+    },
+    {
+      "name": "Expanded State",
+      "type": "boolean",
+      "default": false,
+      "description": "Tracks whether each card is showing additional examples"
+    }
+  ],
+  "simulationModel": {
+    "modelType": "Interactive Infographic",
+    "variables": [
+      "Position variables (x, y, z)",
+      "Time variable (t)",
+      "Counting variable (n)",
+      "Rate variables (r, m)"
+    ],
+    "equations": [
+      "2x + 5 = 13",
+      "d = 55t",
+      "C = 12n",
+      "I = Prt"
+    ],
+    "assumptions": [
+      "Variables are presented in their most common conventional usage",
+      "Examples are simplified for educational clarity",
+      "Categories represent common patterns but are not exhaustive"
+    ],
+    "limitations": [
+      "Does not cover all possible variable types in mathematics",
+      "Context-specific usage may vary",
+      "Some variables can serve multiple purposes depending on context"
+    ]
+  },
+  "educationalContext": {
+    "instructionalStrategies": [
+      "Visual organization with color coding",
+      "Progressive disclosure (hover then click)",
+      "Concrete examples for abstract concepts",
+      "Pattern recognition through categorization"
+    ],
+    "assessmentOpportunities": [
+      "Variable type identification",
+      "Context-appropriate variable selection",
+      "Creation of original examples",
+      "Recognition of mathematical conventions"
+    ]
+  },
+  "tags": ["algebra", "variables", "notation", "infographic", "interactive", "categorization", "mathematical-conventions"]
+}

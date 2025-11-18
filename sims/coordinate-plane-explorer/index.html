@@ -1,0 +1,1650 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="An interactive MicroSim that helps students understand the coordinate plane structure, including quadrants, axes, origin, and point location through hands-on exploration and quiz mode.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/algebra-1/sims/coordinate-plane-explorer/">
+      
+      
+        <link rel="prev" href="../variable-types/">
+      
+      
+        <link rel="next" href="../../prompts/">
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+    
+    
+      
+        <title>Coordinate Plane Explorer - Algebra I</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2afb09e1.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-M17M3PRFHJ"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-M17M3PRFHJ",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-M17M3PRFHJ",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Coordinate Plane Explorer - Algebra I" >
+      
+        <meta  property="og:description"  content="An interactive MicroSim that helps students understand the coordinate plane structure, including quadrants, axes, origin, and point location through hands-on exploration and quiz mode." >
+      
+        <meta property="og:image" content="https://dmccreary.github.io/algebra-1/sims/coordinate-plane-explorer/coordinate-plane-explorer.png">
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://dmccreary.github.io/algebra-1/sims/coordinate-plane-explorer/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Coordinate Plane Explorer - Algebra I" >
+      
+        <meta  name="twitter:description"  content="An interactive MicroSim that helps students understand the coordinate plane structure, including quadrants, axes, origin, and point location through hands-on exploration and quiz mode." >
+      
+        <meta name="twitter:image" content="https://dmccreary.github.io/algebra-1/sims/coordinate-plane-explorer/coordinate-plane-explorer.png">
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#coordinate-plane-explorer" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Algebra I" class="md-header__button md-logo" aria-label="Algebra I" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Algebra I
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Coordinate Plane Explorer
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/algebra-1" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Algebra I" class="md-nav__button md-logo" aria-label="Algebra I" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    Algebra I
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/algebra-1" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Course Description
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../chapters/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Chapters
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../learning-graph/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Learning Graph
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    MicroSims
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            MicroSims
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../graph-viewer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Learning Graph Viewer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../algebra-concept-viewer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Algebra Concept Viewer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../high-school-courses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    High School Courses Graph
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../expression-explorer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Expression Explorer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../integer-ops-number-line/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Integer Operations Number Line
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../number-system-venn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Number System Venn Diagram
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prime-factorization-tree/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Prime Factorization Tree
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../variable-types/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Variable Types
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Coordinate Plane Explorer
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Coordinate Plane Explorer
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#embedding-this-microsim" class="md-nav__link">
+    <span class="md-ellipsis">
+      Embedding This MicroSim
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      Description
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Description">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Features
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Objectives
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lesson Plan
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lesson Plan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction-5-minutes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction (5 minutes)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guided-exploration-10-minutes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Guided Exploration (10 minutes)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#independent-practice-10-minutes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Independent Practice (10 minutes)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assessment-5-minutes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assessment (5 minutes)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extension-activities" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extension Activities
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-student-misconceptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Common Student Misconceptions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technical Notes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#educational-standards-alignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Educational Standards Alignment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metadata
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#author-license" class="md-nav__link">
+    <span class="md-ellipsis">
+      Author &amp; License
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../prompts/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Prompts
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equation-render-test/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Equation Rendering Test
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-we-built-this-site/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How We Built This Site
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    License
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    References
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contact
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#embedding-this-microsim" class="md-nav__link">
+    <span class="md-ellipsis">
+      Embedding This MicroSim
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      Description
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Description">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Features
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Objectives
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lesson Plan
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lesson Plan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction-5-minutes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction (5 minutes)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guided-exploration-10-minutes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Guided Exploration (10 minutes)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#independent-practice-10-minutes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Independent Practice (10 minutes)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assessment-5-minutes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assessment (5 minutes)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extension-activities" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extension Activities
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-student-misconceptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Common Student Misconceptions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technical Notes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#educational-standards-alignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Educational Standards Alignment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metadata
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#author-license" class="md-nav__link">
+    <span class="md-ellipsis">
+      Author &amp; License
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/dmccreary/algebra-1/blob/master/docs/sims/coordinate-plane-explorer/index.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="coordinate-plane-explorer">Coordinate Plane Explorer</h1>
+<iframe src="main.html" height="722px" width="100%" scrolling="no"></iframe>
+
+<p><a class="md-button md-button--primary" href="main.html">Run the Coordinate Plane Explorer MicroSim Fullscreen</a></p>
+<h2 id="embedding-this-microsim">Embedding This MicroSim</h2>
+<p>You can include this MicroSim on your website using the following <code>iframe</code>:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://dmccreary.github.io/algebra-1/sims/coordinate-plane-explorer/main.html&quot;</span> <span class="na">height</span><span class="o">=</span><span class="s">&quot;702px&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;100%&quot;</span> <span class="na">scrolling</span><span class="o">=</span><span class="s">&quot;no&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>
+</code></pre></div></td></tr></table></div>
+<h2 id="description">Description</h2>
+<p>The <strong>Coordinate Plane Explorer</strong> is an interactive educational simulation designed to help students master the fundamentals of the coordinate plane. This hands-on learning tool allows students to explore how points are located using x and y coordinates, understand the four quadrants, and develop spatial reasoning skills essential for algebra and geometry.</p>
+<h3 id="key-features">Key Features</h3>
+<p><strong>Interactive Point Manipulation</strong>
+- Drag a red point anywhere on the coordinate plane
+- Watch coordinates update in real-time
+- See immediate visual feedback with reference lines</p>
+<p><strong>Visual Learning Aids</strong>
+- Color-coded quadrants (I: blue, II: green, III: yellow, IV: pink)
+- Bold axis lines distinguishing x and y axes
+- Grid lines for precise positioning
+- Origin clearly marked at (0, 0)
+- Dotted reference lines showing distance from axes</p>
+<p><strong>Multiple Input Methods</strong>
+- Drag the point directly with your mouse
+- Enter specific x and y coordinates in input fields
+- Generate random points for exploration
+- Smooth animations when plotting new points</p>
+<p><strong>Intelligent Feedback</strong>
+- Real-time coordinate display with color coding:
+  - Green for positive values
+  - Red for negative values
+  - Black for zero
+- Automatic quadrant identification
+- Quadrant rules shown (e.g., "Q1: x &gt; 0, y &gt; 0")</p>
+<p><strong>Quiz Mode</strong>
+- Interactive challenges to plot specific points
+- Immediate feedback on accuracy
+- Hints when answers are incorrect (which coordinate needs adjustment)
+- Score tracking to monitor progress
+- Builds muscle memory for coordinate plotting</p>
+<p><strong>Customizable Display</strong>
+- Toggle quadrant shading on/off
+- Show/hide grid lines
+- Enable/disable reference lines from point to axes
+- Adapt the visualization to your learning needs</p>
+<h2 id="learning-objectives">Learning Objectives</h2>
+<p>After using this MicroSim, students will be able to:</p>
+<ol>
+<li><strong>Understand Coordinate Structure</strong> (Remember/Understand - Bloom's Taxonomy)</li>
+<li>Identify the x-axis and y-axis</li>
+<li>Locate the origin point (0, 0)</li>
+<li>
+<p>Recognize how coordinates are written as ordered pairs (x, y)</p>
+</li>
+<li>
+<p><strong>Master Quadrant System</strong> (Understand/Apply)</p>
+</li>
+<li>Name all four quadrants using Roman numerals (I, II, III, IV)</li>
+<li>Determine which quadrant contains a given point</li>
+<li>Understand the sign rules for each quadrant</li>
+<li>
+<p>Recognize points on axes as not belonging to any quadrant</p>
+</li>
+<li>
+<p><strong>Plot Points Accurately</strong> (Apply/Analyze)</p>
+</li>
+<li>Convert ordered pairs to visual locations</li>
+<li>Use both positive and negative coordinates</li>
+<li>Understand that x represents horizontal distance from the origin</li>
+<li>
+<p>Understand that y represents vertical distance from the origin</p>
+</li>
+<li>
+<p><strong>Develop Spatial Reasoning</strong> (Analyze/Evaluate)</p>
+</li>
+<li>Visualize distance relationships on the plane</li>
+<li>Predict coordinate values from visual positions</li>
+<li>Compare locations of different points</li>
+</ol>
+<h2 id="lesson-plan">Lesson Plan</h2>
+<h3 id="introduction-5-minutes">Introduction (5 minutes)</h3>
+<ol>
+<li>Open the MicroSim and demonstrate the basic interface</li>
+<li>Point out the origin, axes, and quadrant labels</li>
+<li>Show how to drag the point and observe coordinate changes</li>
+<li>Emphasize the ordered pair notation: (x, y) where x comes first</li>
+</ol>
+<h3 id="guided-exploration-10-minutes">Guided Exploration (10 minutes)</h3>
+<p><strong>Activity 1: Understanding the Axes</strong>
+- Have students drag the point along the x-axis (where y = 0)
+- Observe how only the x-coordinate changes
+- Repeat for the y-axis (where x = 0)
+- Discussion: What makes a point lie on an axis?</p>
+<p><strong>Activity 2: Exploring Quadrants</strong>
+- Enable quadrant shading
+- Drag the point into each quadrant
+- Record the signs of x and y coordinates in each quadrant:
+  - Quadrant I: x positive, y positive
+  - Quadrant II: x negative, y positive
+  - Quadrant III: x negative, y negative
+  - Quadrant IV: x positive, y negative</p>
+<p><strong>Activity 3: Plotting Practice</strong>
+- Use the "Random Point" button to generate coordinates
+- Try to predict which quadrant before looking
+- Verify by observing the coordinate display</p>
+<h3 id="independent-practice-10-minutes">Independent Practice (10 minutes)</h3>
+<p><strong>Challenge Activities:</strong>
+1. <strong>Quadrant Hunt</strong>: Plot these points and identify their quadrants:
+   - (5, 3) → Quadrant I
+   - (-4, 7) → Quadrant II
+   - (-6, -2) → Quadrant III
+   - (8, -5) → Quadrant IV
+   - (0, 4) → On y-axis
+   - (3, 0) → On x-axis</p>
+<ol>
+<li><strong>Distance Estimation</strong>:</li>
+<li>Plot (3, 4) and observe the reference lines</li>
+<li>How far is this point from the x-axis? (4 units)</li>
+<li>
+<p>How far from the y-axis? (3 units)</p>
+</li>
+<li>
+<p><strong>Quiz Mode Practice</strong>:</p>
+</li>
+<li>Click "Quiz Mode" button</li>
+<li>Read the target coordinates</li>
+<li>Drag the point to that location</li>
+<li>Click "Check Answer" for feedback</li>
+<li>Aim for 5 correct answers in a row</li>
+</ol>
+<h3 id="assessment-5-minutes">Assessment (5 minutes)</h3>
+<p><strong>Formative Assessment Questions:</strong>
+1. What are the coordinates of the origin? <em>Answer: (0, 0)</em>
+2. In which quadrant is the point (-3, 5)? <em>Answer: Quadrant II</em>
+3. If a point has coordinates (4, -2), is the x-coordinate positive or negative? <em>Answer: Positive</em>
+4. Which axis does the point (0, -7) lie on? <em>Answer: y-axis</em>
+5. What do the reference lines show? <em>Answer: Distance from each axis</em></p>
+<p><strong>Exit Ticket:</strong>
+Have students use Quiz Mode to successfully plot 3 points correctly, demonstrating mastery of coordinate plotting.</p>
+<h3 id="extension-activities">Extension Activities</h3>
+<p><strong>For Advanced Students:</strong>
+1. <strong>Coordinate Patterns</strong>: Plot points that form shapes (squares, triangles, letters)
+2. <strong>Reflection Challenge</strong>: If a point is at (3, 4), where would its reflection be:
+   - Across the x-axis? (3, -4)
+   - Across the y-axis? (-3, 4)
+   - Across both axes? (-3, -4)
+3. <strong>Distance Exploration</strong>: Compare the distance from origin for points in different quadrants</p>
+<p><strong>For Struggling Students:</strong>
+1. Start with quadrant shading enabled
+2. Focus on one quadrant at a time
+3. Practice only with positive coordinates first (Quadrant I)
+4. Use grid lines to count squares for accurate plotting
+5. Disable reference lines initially to reduce visual complexity</p>
+<h2 id="common-student-misconceptions">Common Student Misconceptions</h2>
+<ol>
+<li><strong>Coordinate Order Confusion</strong>: Students often swap x and y coordinates</li>
+<li><em>Remedy</em>: Use the mnemonic "x comes before y, just like in the alphabet"</li>
+<li>
+<p>Watch the color-coded display: x is always shown first</p>
+</li>
+<li>
+<p><strong>Negative Number Placement</strong>: Difficulty with negative coordinates</p>
+</li>
+<li><em>Remedy</em>: Use quadrant shading to see which areas have negative values</li>
+<li>
+<p>Practice moving from positive to negative along one axis at a time</p>
+</li>
+<li>
+<p><strong>Axis Classification</strong>: Thinking points on axes belong to quadrants</p>
+</li>
+<li><em>Remedy</em>: Observe the "On x-axis" or "On y-axis" messages</li>
+<li>Discuss why (0, 5) doesn't fit any quadrant definition</li>
+</ol>
+<h2 id="technical-notes">Technical Notes</h2>
+<ul>
+<li><strong>Browser Compatibility</strong>: Works in all modern browsers (Chrome, Firefox, Safari, Edge)</li>
+<li><strong>Responsive Design</strong>: Fixed 700×700px canvas optimized for coordinate plane viewing</li>
+<li><strong>Accessibility</strong>: Includes ARIA labels and keyboard-friendly controls</li>
+<li><strong>Framework</strong>: Built with p5.js 1.11.10</li>
+<li><strong>Testing</strong>: Paste the JavaScript code directly into <a href="https://editor.p5js.org/">p5.js Web Editor</a> for testing</li>
+</ul>
+<h2 id="educational-standards-alignment">Educational Standards Alignment</h2>
+<p>This MicroSim supports the following Common Core State Standards:</p>
+<ul>
+<li><strong>6.NS.C.6</strong>: Understand a rational number as a point on the number line; extend number line diagrams to represent points in the plane with coordinates</li>
+<li><strong>6.NS.C.8</strong>: Solve real-world and mathematical problems by graphing points in all four quadrants of the coordinate plane</li>
+<li><strong>6.G.A.3</strong>: Draw polygons in the coordinate plane given coordinates for the vertices</li>
+</ul>
+<h2 id="metadata">Metadata</h2>
+<ul>
+<li><strong>Grade Level</strong>: 6-8 (Middle School)</li>
+<li><strong>Subject</strong>: Mathematics - Algebra, Geometry</li>
+<li><strong>Topic</strong>: Coordinate Plane, Cartesian Coordinates</li>
+<li><strong>Duration</strong>: 15-20 minutes</li>
+<li><strong>Prerequisites</strong>: Understanding of positive and negative numbers, basic number line concepts</li>
+<li><strong>Bloom's Taxonomy Levels</strong>: Remember, Understand, Apply, Analyze</li>
+<li><strong>Learning Modality</strong>: Visual, Kinesthetic (interactive manipulation)</li>
+</ul>
+<h2 id="author-license">Author &amp; License</h2>
+<ul>
+<li><strong>Created</strong>: 2025</li>
+<li><strong>Framework</strong>: p5.js 1.11.10</li>
+<li><strong>License</strong>: MIT License (free for educational use)</li>
+<li><strong>Maintenance</strong>: Part of the Algebra-1 MicroSims collection</li>
+</ul>
+<hr />
+<p><em>Note: Remember to create a screenshot named <code>coordinate-plane-explorer.png</code> and place it in this directory for social media previews.</em></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../variable-types/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Variable Types">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Variable Types
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../prompts/" class="md-footer__link md-footer__link--next" aria-label="Next: List of Prompts">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                List of Prompts
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer", "content.action.edit"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="../../js/extra.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
