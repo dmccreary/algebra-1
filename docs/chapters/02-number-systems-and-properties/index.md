@@ -61,6 +61,7 @@ Integers appear everywhere in daily life:
 
 [Run the Integer Operations MicroSim Fullscreen](../../sims/integer-ops-number-line/main.html){ .md-button .md-button--primary }
 
+#### Diagram: Integer Operations on the Number Line
 
 <details markdown="1">
     <summary>Integer Operations on the Number Line</summary>
@@ -127,6 +128,8 @@ Common forms of rational numbers:
 | Mixed numbers | $2\frac{1}{3}$, $-5\frac{2}{7}$ | Practical measurements |
 
 A key property of rational numbers: When you divide the numerator by the denominator, you get either a terminating decimal (like $\frac{1}{4} = 0.25$) or a repeating decimal (like $\frac{1}{3} = 0.\overline{3}$).
+
+#### Diagram: Rational Number Classification Interactive
 
 <details markdown="1">
     <summary>Rational Number Classification Interactive</summary>
@@ -197,6 +200,8 @@ Here's a Venn diagram that shows how the number systems nest within each other:
 <iframe src="../../sims/number-system-venn/main.html" height="800px" scrolling="no"></iframe>
 
 [Run the Number Systems Hierarchy Diagram MicroSim Fullscreen](../../sims/number-system-venn/main.html){ .md-button .md-button--primary }
+
+#### Diagram: Number Systems Hierarchy Diagram
 
 <details markdown="1">
     <summary>Number Systems Hierarchy Diagram</summary>
@@ -360,6 +365,8 @@ Example: $3(4 + 5) = 3 \times 4 + 3 \times 5$
 
 The distributive property is one of the most powerful tools in algebra. You'll use it constantly to expand expressions, factor polynomials, and solve equations.
 
+#### Diagram: Distributive Property Visual Model
+
 <details markdown="1">
     <summary>Distributive Property Visual Model</summary>
     Type: microsim
@@ -491,6 +498,8 @@ Here's a quick reference for all the properties:
 | **Inverse** | $a + (-a) = 0$ | $a \times \frac{1}{a} = 1$ (if $a \neq 0$) |
 | **Distributive** | (connects multiplication and addition) | $a(b + c) = ab + ac$ |
 
+#### Diagram: Properties Practice Interactive Game
+
 <details markdown="1">
     <summary>Properties Practice Interactive Game</summary>
     Type: microsim
@@ -619,6 +628,8 @@ Key properties of absolute value:
 - $|ab| = |a||b|$ (absolute value of a product)
 - $|\frac{a}{b}| = \frac{|a|}{|b|}$ when $b \neq 0$
 
+#### Diagram: Absolute Value Interactive Number Line
+
 <details markdown="1">
     <summary>Absolute Value Interactive Number Line</summary>
     Type: microsim
@@ -706,6 +717,8 @@ Points on the axes themselves are not in any quadrant:
 - Points on the x-axis: $(x, 0)$
 - Points on the y-axis: $(0, y)$
 - The origin: $(0, 0)$
+
+#### Diagram: Coordinate Plane Interactive Plotter
 
 <details markdown="1">
     <summary>Coordinate Plane Interactive Plotter</summary>

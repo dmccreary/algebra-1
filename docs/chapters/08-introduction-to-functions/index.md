@@ -54,6 +54,8 @@ A **function** is a special type of relation where each input (called the domain
 - The first relation above IS a function (each $x$-value appears only once)
 - The second relation IS NOT a function ($x = 1$ is paired with both 1 and 2)
 
+#### Diagram: Relation vs. Function Comparison Diagram
+
 <details markdown="1">
     <summary>Relation vs. Function Comparison Diagram</summary>
     Type: diagram
@@ -90,6 +92,8 @@ A **function** is a special type of relation where each input (called the domain
 One of the most useful tools for determining whether a graph represents a function is the **vertical line test**. This simple visual test states: if you can draw a vertical line anywhere on the graph that intersects the curve at more than one point, then the graph does not represent a function.
 
 Why does this work? Remember that a function requires each input ($x$-value) to have exactly one output ($y$-value). A vertical line represents a single $x$-value. If that vertical line crosses the graph twice, it means that single $x$-value has two different $y$-values, violating the definition of a function.
+
+#### Diagram: Vertical Line Test Interactive MicroSim
 
 <details markdown="1">
     <summary>Vertical Line Test Interactive MicroSim</summary>
@@ -203,6 +207,8 @@ We can also evaluate functions with algebraic expressions as inputs:
 - **Evaluate $f(x+1)$:**
   $f(x+1) = (x+1)^2 - 3(x+1) + 2 = x^2 + 2x + 1 - 3x - 3 + 2 = x^2 - x$
 
+#### Diagram: Function Evaluation Practice MicroSim
+
 <details markdown="1">
     <summary>Function Evaluation Practice MicroSim</summary>
     Type: microsim
@@ -308,6 +314,8 @@ For example:
 - $f(x) = x^2$ has domain: all real numbers and range: $[0, \infty)$ (outputs are never negative)
 - $f(x) = \sqrt{x}$ has domain: $[0, \infty)$ and range: $[0, \infty)$
 - $f(x) = |x|$ has domain: all real numbers and range: $[0, \infty)$
+
+#### Diagram: Domain and Range Interactive Visualizer
 
 <details markdown="1">
     <summary>Domain and Range Interactive Visualizer</summary>
@@ -441,6 +449,8 @@ For our example:
 - $f(-3) = -3 + 2 = -1$ (using first piece since $-3 < 0$)
 - $f(0) = 0^2 = 0$ (using second piece since $0 \geq 0$)
 - $f(2) = 2^2 = 4$ (using second piece since $2 \geq 0$)
+
+#### Diagram: Piecewise Function Interactive Grapher
 
 <details markdown="1">
     <summary>Piecewise Function Interactive Grapher</summary>
@@ -583,6 +593,8 @@ Here are the key parent functions you should know:
 | Square Root | $f(x) = \sqrt{x}$ | Half of a sideways parabola | $[0, \infty)$ | $[0, \infty)$ |
 | Cubic | $f(x) = x^3$ | S-shaped curve through origin | All real numbers | All real numbers |
 | Reciprocal | $f(x) = \frac{1}{x}$ | Two curved branches (hyperbola) | $x \neq 0$ | $y \neq 0$ |
+
+#### Diagram: Parent Functions Reference Gallery
 
 <details markdown="1">
     <summary>Parent Functions Reference Gallery</summary>
@@ -729,6 +741,8 @@ Understanding transformations lets you graph complex functions quickly by starti
 - $g(x) = -x^2$ reflects the parabola $f(x) = x^2$ across the $x$-axis (opens downward instead of upward)
 - $g(x) = |-x|$ reflects the absolute value function across the $y$-axis (but it looks the same due to symmetry!)
 - $g(x) = -|x|$ reflects the absolute value function across the $x$-axis (creates an upside-down V)
+
+#### Diagram: Function Transformations Interactive Explorer
 
 <details markdown="1">
     <summary>Function Transformations Interactive Explorer</summary>
@@ -918,6 +932,8 @@ Functions are not just abstract mathematical concepts—they model countless rea
 - Tax calculations: Piecewise function with tax brackets
 
 Understanding functions empowers you to model these situations mathematically, make predictions, and solve practical problems.
+
+#### Diagram: Real-World Function Modeling Interactive Scenarios
 
 <details markdown="1">
     <summary>Real-World Function Modeling Interactive Scenarios</summary>

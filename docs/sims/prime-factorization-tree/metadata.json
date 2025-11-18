@@ -1,0 +1,134 @@
+{
+  "title": "Prime Factorization Tree Builder",
+  "description": "Interactive tool for building factor trees to find prime factorization of composite numbers through step-by-step visual construction.",
+  "subject": "Mathematics",
+  "topic": "Number Theory, Prime Factorization",
+  "gradeLevel": "6-9",
+  "learningObjectives": [
+    "Build factor trees to decompose composite numbers into prime factors",
+    "Identify and distinguish between prime and composite numbers",
+    "Understand that prime factorization is unique for each number (Fundamental Theorem of Arithmetic)",
+    "Apply divisibility rules to find factors efficiently",
+    "Express numbers in prime factorization form using exponential notation"
+  ],
+  "bloomLevels": [
+    "Remember: Recall prime numbers and divisibility rules",
+    "Understand: Explain the relationship between factors and prime factorization",
+    "Apply: Use divisibility rules to factor numbers systematically",
+    "Analyze: Compare different factorization paths leading to same result",
+    "Evaluate: Verify completeness and correctness of factorization",
+    "Create: Build complete factor trees for any composite number"
+  ],
+  "prerequisites": [
+    "Understanding of multiplication",
+    "Knowledge of factors and multiples",
+    "Familiarity with prime and composite numbers",
+    "Basic division skills"
+  ],
+  "duration": "10-15 minutes",
+  "difficulty": "Medium",
+  "interactionType": "Interactive tree construction",
+  "technology": "vis-network, JavaScript, HTML5",
+  "library": "vis-network",
+  "version": "1.0",
+  "dateCreated": "2025-11-17",
+  "dateModified": "2025-11-17",
+  "author": "Claude (Anthropic AI)",
+  "license": "MIT",
+  "language": "en",
+  "keywords": [
+    "prime factorization",
+    "factor tree",
+    "prime numbers",
+    "composite numbers",
+    "number theory",
+    "divisibility",
+    "factoring",
+    "tree diagram",
+    "fundamental theorem of arithmetic"
+  ],
+  "relatedConcepts": [
+    "Prime Numbers",
+    "Composite Numbers",
+    "Factors",
+    "Multiples",
+    "Greatest Common Factor (GCF)",
+    "Least Common Multiple (LCM)",
+    "Exponents",
+    "Divisibility Rules"
+  ],
+  "controls": {
+    "numberInput": "Enter a number between 4 and 200 to factor",
+    "startNewProblem": "Begin factoring the entered number",
+    "difficulty": "Choose difficulty level (Easy: 4-50, Medium: 50-100, Hard: 100-200)",
+    "randomNumber": "Generate a random composite number at selected difficulty",
+    "giveHint": "Highlight a composite number and suggest divisibility rule",
+    "showAnswer": "Display the complete factorization tree with all prime factors",
+    "clickNode": "Click on blue (composite) nodes to enter two factors",
+    "factor1": "Enter first factor (must be >1)",
+    "factor2": "Enter second factor (must be >1)",
+    "submitFactors": "Validate and add factors to the tree"
+  },
+  "visualElements": {
+    "greenNodes": "Prime numbers (cannot be factored further)",
+    "blueNodes": "Composite numbers (click to factor)",
+    "grayNodes": "Already factored parent numbers",
+    "edges": "Lines connecting parent numbers to their factors",
+    "primeList": "Reference list of prime numbers up to 47",
+    "divisibilityRules": "Quick reference for divisibility by 2, 3, and 5"
+  },
+  "features": [
+    "Hierarchical tree visualization",
+    "Interactive node clicking for factorization",
+    "Real-time validation of factors",
+    "Color-coded nodes by number type",
+    "Shake animation for incorrect factors",
+    "Celebration animation on completion",
+    "Prime number reference list",
+    "Divisibility rules reminder",
+    "Hint system with divisibility suggestions",
+    "Show answer feature for complete factorization",
+    "Adjustable difficulty levels",
+    "Random number generation",
+    "Prime factorization in exponential form"
+  ],
+  "pedagogicalApproach": [
+    "Visual learning through tree structures",
+    "Interactive discovery and exploration",
+    "Immediate feedback on student input",
+    "Progressive difficulty levels",
+    "Self-paced learning",
+    "Multiple entry points (input, random, difficulty)",
+    "Scaffolding through hints and reference materials"
+  ],
+  "assessmentOpportunities": [
+    "Predict prime factorization before building tree",
+    "Explain why different trees yield same factorization",
+    "Factor numbers with varying complexity",
+    "Identify patterns in factorizations",
+    "Apply divisibility rules efficiently",
+    "Compare factorization strategies"
+  ],
+  "commonMisconceptions": [
+    "Using 1 as a factor (prevented by validation)",
+    "Stopping factorization before reaching primes (visual feedback)",
+    "Entering incorrect factors (shake animation feedback)",
+    "Confusion about prime vs composite (color coding)"
+  ],
+  "extensions": [
+    "Compare different factorization paths for same number",
+    "Find GCF and LCM using prime factorizations",
+    "Explore perfect squares and their symmetric trees",
+    "Investigate powers of primes",
+    "Apply to finding square roots of perfect squares"
+  ],
+  "technicalDetails": {
+    "framework": "vis-network",
+    "layout": "hierarchical (top-down)",
+    "interactions": "click, hover, select",
+    "animations": "shake on error, celebration on completion",
+    "validation": "real-time factor verification",
+    "algorithms": "prime checking, recursive factorization",
+    "dataStructure": "tree represented as nodes and edges"
+  }
+}

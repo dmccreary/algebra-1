@@ -92,6 +92,8 @@ The following are common conventions for variable names:
 
 You can use any letter as a variable, but these conventions help communicate meaning clearly.
 
+#### Diagram: Variable Types Interactive Infographic
+
 <details markdown="1">
     <summary>Variable Types Interactive Infographic</summary>
     Type: infographic
@@ -204,6 +206,8 @@ How many terms are in each expression?
 Understanding terms helps you organize expressions and perform operations correctly.
 <iframe src="../../sims/expression-explorer/main.html" height="400px" scrolling="no"></iframe>
 [Run the Expression Explorer Fullscreen](../../sims/expression-explorer/main.html){ .md-button .md-button--primary }
+
+#### Diagram: Expression Explorer MicroSim
 
 <details markdown="1">
     <summary>Expression Explorer MicroSim</summary>
@@ -373,6 +377,8 @@ Following PEMDAS:
 3. Addition and Subtraction (left to right): $2 + 36 = 38$, then $38 - 5 = 33$
 
 **Answer: 33**
+
+#### Diagram: Order of Operations Challenge MicroSim
 
 <details markdown="1">
     <summary>Order of Operations Challenge MicroSim</summary>
@@ -605,6 +611,8 @@ Simplify: $4x + 3y - 2x + 5y - 1$
 **Final answer**:
 $2x + 8y - 1$
 
+#### Diagram: Like Terms Matching Game MicroSim
+
 <details markdown="1">
     <summary>Like Terms Matching Game MicroSim</summary>
     Type: microsim
@@ -790,6 +798,8 @@ $x(x + 7) = x^2 + 7x$
 
 Both skills are important and complement each other.
 
+#### Diagram: Distributive Property Visualizer MicroSim
+
 <details markdown="1">
     <summary>Distributive Property Visualizer MicroSim</summary>
     Type: microsim
@@ -961,6 +971,8 @@ Prime factorization helps you:
 - Simplify fractions
 - Factor algebraic expressions
 - Solve certain equations
+
+#### Diagram: Prime Factorization Tree Builder MicroSim
 
 <details markdown="1">
     <summary>Prime Factorization Tree Builder MicroSim</summary>

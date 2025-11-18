@@ -64,6 +64,8 @@ These two axes divide the plane into four regions called **quadrants**, numbered
 - **Quadrant III:** Lower left (both $x$ and $y$ are negative)
 - **Quadrant IV:** Lower right ($x$ is positive, $y$ is negative)
 
+#### Diagram: Interactive Coordinate Plane Explorer
+
 <details markdown="1">
     <summary>Interactive Coordinate Plane Explorer</summary>
     Type: microsim
@@ -220,6 +222,8 @@ $x = 3$
 X-intercept: $(3, 0)$
 
 With these two intercepts, you can easily graph the line by plotting these points and drawing a straight line through them.
+
+#### Diagram: Intercepts and Graphing Interactive Practice
 
 <details markdown="1">
     <summary>Intercepts and Graphing Interactive Practice</summary>
@@ -391,6 +395,8 @@ Lines can have four different types of slope, each with distinct characteristics
 - Equation form: $x = a$ (constant)
 - Example: $x = -3$ has undefined slope
 - Note: Vertical lines are NOT functions!
+
+#### Diagram: Slope Visualizer and Calculator
 
 <details markdown="1">
     <summary>Slope Visualizer and Calculator</summary>
@@ -605,6 +611,8 @@ You can convert between these three forms using algebraic manipulation:
 | Standard | Slope-intercept | Solve for $y$ |
 | Slope-intercept | Point-slope | Use any point on the line with the slope |
 
+#### Diagram: Linear Equation Forms Converter and Grapher
+
 <details markdown="1">
     <summary>Linear Equation Forms Converter and Grapher</summary>
     Type: microsim
@@ -788,6 +796,8 @@ A **vertical line** runs straight up and down—it's parallel to the y-axis. All
 | Is it a function? | YES | NO |
 | X-intercept | None (unless $b=0$) | $(a, 0)$ |
 | Y-intercept | $(0, b)$ | None (unless $a=0$) |
+
+#### Diagram: Special Lines Explorer: Horizontal and Vertical
 
 <details markdown="1">
     <summary>Special Lines Explorer: Horizontal and Vertical</summary>
@@ -994,6 +1004,8 @@ This method works for any linear equation and is especially useful when other me
 | 2   | $2(2) - 3 = 1$ | $(2, 1)$ |
 
 Plot these four points and draw the line through them.
+
+#### Diagram: Interactive Line Graphing Practice
 
 <details markdown="1">
     <summary>Interactive Line Graphing Practice</summary>
@@ -1226,6 +1238,8 @@ If you're given a graph of a line:
 1. **Identify the y-intercept** $(0, b)$ by seeing where the line crosses the y-axis
 2. **Calculate the slope** by choosing two clear points and using the slope formula, or by counting rise over run
 3. **Write the equation** in slope-intercept form: $y = mx + b$
+
+#### Diagram: Write Equation of a Line Practice Scenarios
 
 <details markdown="1">
     <summary>Write Equation of a Line Practice Scenarios</summary>

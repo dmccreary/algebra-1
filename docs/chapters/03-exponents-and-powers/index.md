@@ -124,6 +124,8 @@ $\frac{1}{b^{-n}} = b^n$
 
 Example: $\frac{1}{2^{-4}} = 2^4 = 16$
 
+#### Diagram: Exponent Types Interactive Explorer
+
 <details markdown="1">
     <summary>Exponent Types Interactive Explorer</summary>
     Type: microsim
@@ -325,6 +327,8 @@ Example: $\left(\frac{x}{3}\right)^2 = \frac{x^2}{3^2} = \frac{x^2}{9}$
 | **Zero Exponent** | $b^0 = 1$ (if $b \neq 0$) | $15^0 = 1$ |
 | **Negative Exponent** | $b^{-n} = \frac{1}{b^n}$ | $2^{-3} = \frac{1}{8}$ |
 
+#### Diagram: Exponent Laws Practice Game
+
 <details markdown="1">
     <summary>Exponent Laws Practice Game</summary>
     Type: microsim
@@ -482,6 +486,8 @@ Example: $(3 \times 10^4) \cdot (2 \times 10^5) = 6 \times 10^9$
 $\frac{a \times 10^m}{b \times 10^n} = \frac{a}{b} \times 10^{m-n}$
 
 Example: $\frac{8 \times 10^7}{2 \times 10^3} = 4 \times 10^4$
+
+#### Diagram: Scientific Notation Converter and Calculator
 
 <details markdown="1">
     <summary>Scientific Notation Converter and Calculator</summary>
@@ -696,6 +702,8 @@ The same principle applies, but look for perfect cube factors:
 - Factor: $54 = 27 \times 2 = 3^3 \times 2$
 - Simplify: $\sqrt[3]{54} = 3\sqrt[3]{2}$
 
+#### Diagram: Radical Simplification Interactive Tool
+
 <details markdown="1">
     <summary>Radical Simplification Interactive Tool</summary>
     Type: microsim
@@ -840,6 +848,8 @@ Trinomials are especially important when factoring quadratic expressions, which 
 | **Binomial** | 2 | $x + 1$, $3x^2 - 5$ |
 | **Trinomial** | 3 | $x^2 + 2x + 1$ |
 | **Polynomial** | 1 or more | Any of the above |
+
+#### Diagram: Polynomial Classification Game
 
 <details markdown="1">
     <summary>Polynomial Classification Game</summary>

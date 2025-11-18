@@ -1,0 +1,150 @@
+{
+  "chapter": "Chapter 5: Factoring Polynomials",
+  "chapter_file": "docs/chapters/05-factoring-polynomials/index.md",
+  "quiz_file": "docs/chapters/05-factoring-polynomials/quiz.md",
+  "generated_date": "2025-11-17",
+  "total_questions": 10,
+  "content_readiness_score": 100,
+  "overall_quality_score": 92,
+  "questions": [
+    {
+      "id": "ch5-q001",
+      "number": 1,
+      "question_text": "What is the greatest common factor (GCF) of the polynomial 12x³ + 18x²?",
+      "correct_answer": "C",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Factoring by GCF",
+      "source_link": "index.md#finding-the-gcf",
+      "distractor_quality": 0.90,
+      "explanation_word_count": 69
+    },
+    {
+      "id": "ch5-q002",
+      "number": 2,
+      "question_text": "Factor the trinomial x² + 7x + 12.",
+      "correct_answer": "C",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Factoring Trinomials",
+      "source_link": "index.md#factoring-trinomials",
+      "distractor_quality": 0.88,
+      "explanation_word_count": 68
+    },
+    {
+      "id": "ch5-q003",
+      "number": 3,
+      "question_text": "Which expression demonstrates the difference of squares pattern?",
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Factoring Difference of Squares",
+      "source_link": "index.md#difference-of-squares",
+      "distractor_quality": 0.91,
+      "explanation_word_count": 64
+    },
+    {
+      "id": "ch5-q004",
+      "number": 4,
+      "question_text": "Factor x² - 25 completely.",
+      "correct_answer": "D",
+      "bloom_level": "Apply",
+      "difficulty": "easy",
+      "concept_tested": "Factoring Difference of Squares",
+      "source_link": "index.md#difference-of-squares",
+      "distractor_quality": 0.86,
+      "explanation_word_count": 75
+    },
+    {
+      "id": "ch5-q005",
+      "number": 5,
+      "question_text": "Which trinomial is a perfect square?",
+      "correct_answer": "A",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Factoring Perfect Squares",
+      "source_link": "index.md#perfect-square-trinomials",
+      "distractor_quality": 0.89,
+      "explanation_word_count": 82
+    },
+    {
+      "id": "ch5-q006",
+      "number": 6,
+      "question_text": "Factor ax + ay + bx + by by grouping.",
+      "correct_answer": "D",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Factoring by Grouping",
+      "source_link": "index.md#factoring-by-grouping",
+      "distractor_quality": 0.87,
+      "explanation_word_count": 70
+    },
+    {
+      "id": "ch5-q007",
+      "number": 7,
+      "question_text": "Solve the equation x² + 5x + 6 = 0 by factoring.",
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Solving by Factoring",
+      "source_link": "index.md#solving-equations-by-factoring",
+      "distractor_quality": 0.85,
+      "explanation_word_count": 73
+    },
+    {
+      "id": "ch5-q008",
+      "number": 8,
+      "question_text": "What does the zero product property state?",
+      "correct_answer": "C",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Zero Product Property",
+      "source_link": "index.md#the-zero-product-property",
+      "distractor_quality": 0.92,
+      "explanation_word_count": 71
+    },
+    {
+      "id": "ch5-q009",
+      "number": 9,
+      "question_text": "Factor 2x³ - 50x completely.",
+      "correct_answer": "B",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Factoring Completely",
+      "source_link": "index.md#factoring-completely",
+      "distractor_quality": 0.90,
+      "explanation_word_count": 76
+    },
+    {
+      "id": "ch5-q010",
+      "number": 10,
+      "question_text": "When factoring the trinomial 3x² + 11x + 6 using the AC method, what two numbers multiply to AC and add to b?",
+      "correct_answer": "D",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Factoring Trinomials",
+      "source_link": "index.md#factoring-ax2--bx--c-when-a--1",
+      "distractor_quality": 0.84,
+      "explanation_word_count": 78
+    }
+  ],
+  "answer_distribution": {
+    "A": 1,
+    "B": 2,
+    "C": 4,
+    "D": 3
+  },
+  "bloom_distribution": {
+    "Remember": 1,
+    "Understand": 3,
+    "Apply": 5,
+    "Analyze": 1,
+    "Evaluate": 0,
+    "Create": 0
+  },
+  "concept_coverage": {
+    "total_concepts": 15,
+    "tested_concepts": 8,
+    "coverage_percentage": 53
+  }
+}

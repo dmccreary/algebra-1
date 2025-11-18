@@ -11,19 +11,45 @@ nav:
   - Course Description: course-description.md
   - Chapters:
       - Overview: chapters/index.md
-      - Chapter 1 - Foundations of Algebra: chapters/01-foundations-of-algebra/index.md
-      - Chapter 2 - Number Systems and Properties: chapters/02-number-systems-and-properties/index.md
-      - Chapter 3 - Exponents and Powers: chapters/03-exponents-and-powers/index.md
-      - Chapter 4 - Polynomial Expressions: chapters/04-polynomial-expressions/index.md
-      - Chapter 5 - Factoring Polynomials: chapters/05-factoring-polynomials/index.md
-      - Chapter 6 - Solving Linear Equations: chapters/06-solving-linear-equations/index.md
-      - Chapter 7 - Linear Inequalities and Absolute Value: chapters/07-linear-inequalities-and-absolute-value/index.md
-      - Chapter 8 - Introduction to Functions: chapters/08-introduction-to-functions/index.md
-      - Chapter 9 - Graphing and Linear Functions: chapters/09-graphing-and-linear-functions/index.md
-      - Chapter 10 - Systems of Equations and Inequalities: chapters/10-systems-of-equations-and-inequalities/index.md
-      - Chapter 11 - Quadratic Functions and Equations: chapters/11-quadratic-functions-and-equations/index.md
-      - Chapter 12 - Exponential Functions: chapters/12-exponential-functions/index.md
-      - Chapter 13 - Data Analysis and Real-World Applications: chapters/13-data-analysis-and-real-world-applications/index.md
+      - 1. Foundations of Algebra:
+          - Content: chapters/01-foundations-of-algebra/index.md
+          - Quiz: chapters/01-foundations-of-algebra/quiz.md
+      - 2. Number Systems and Properties:
+          - Content: chapters/02-number-systems-and-properties/index.md
+          - Quiz: chapters/02-number-systems-and-properties/quiz.md
+      - 3. Exponents and Powers:
+          - Content: chapters/03-exponents-and-powers/index.md
+          - Quiz: chapters/03-exponents-and-powers/quiz.md
+      - 4. Polynomial Expressions:
+          - Content: chapters/04-polynomial-expressions/index.md
+          - Quiz: chapters/04-polynomial-expressions/quiz.md
+      - 5. Factoring Polynomials:
+          - Content: chapters/05-factoring-polynomials/index.md
+          - Quiz: chapters/05-factoring-polynomials/quiz.md
+      - 6. Solving Linear Equations:
+          - Content: chapters/06-solving-linear-equations/index.md
+          - Quiz: chapters/06-solving-linear-equations/quiz.md
+      - 7. Linear Inequalities and Absolute Value:
+          - Content: chapters/07-linear-inequalities-and-absolute-value/index.md
+          - Quiz: chapters/07-linear-inequalities-and-absolute-value/quiz.md
+      - 8. Introduction to Functions:
+          - Content: chapters/08-introduction-to-functions/index.md
+          - Quiz: chapters/08-introduction-to-functions/quiz.md
+      - 9. Graphing and Linear Functions:
+          - Content: chapters/09-graphing-and-linear-functions/index.md
+          - Quiz: chapters/09-graphing-and-linear-functions/quiz.md
+      - 10. Systems of Equations and Inequalities:
+          - Content: chapters/10-systems-of-equations-and-inequalities/index.md
+          - Quiz: chapters/10-systems-of-equations-and-inequalities/quiz.md
+      - 11. Quadratic Functions and Equations:
+          - Content: chapters/11-quadratic-functions-and-equations/index.md
+          - Quiz: chapters/11-quadratic-functions-and-equations/quiz.md
+      - 12. Exponential Functions:
+          - Content: chapters/12-exponential-functions/index.md
+          - Quiz: chapters/12-exponential-functions/quiz.md
+      - 13. Data Analysis and Real-World Applications:
+          - Content: chapters/13-data-analysis-and-real-world-applications/index.md
+          - Quiz: chapters/13-data-analysis-and-real-world-applications/quiz.md
   
   - Learning Graph:
       - Introduction: learning-graph/index.md
@@ -33,6 +59,7 @@ nav:
       - Concept Taxonomy: learning-graph/concept-taxonomy.md
       - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
       - Glossary Quality Report: learning-graph/glossary-quality-report.md
+      - Quiz Generation Report: learning-graph/quiz-generation-report.md
   
   - MicroSims:
       - List of MicroSims: sims/index.md
@@ -42,6 +69,9 @@ nav:
       - Expression Explorer: sims/expression-explorer/index.md
       - Integer Operations Number Line: sims/integer-ops-number-line/index.md
       - Number System Venn Diagram: sims/number-system-venn/index.md
+      - Prime Factorization Tree: sims/prime-factorization-tree/index.md
+      - Variable Types: sims/variable-types/index.md
+      - Coordinate Plane Explorer: sims/coordinate-plane-explorer/index.md
 
   - Prompts:
     - List of Prompts: prompts/index.md
@@ -52,6 +82,7 @@ nav:
     - Generate Content Ch 8-13: prompts/ch-08-to-13.md
   
   - Glossary: glossary.md
+  - FAQs: faq.md
   - Equation Rendering Test: equation-render-test.md
   - How We Built This Site: how-we-built-this-site.md
   - License: license.md

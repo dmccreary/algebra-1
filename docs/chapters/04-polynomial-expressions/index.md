@@ -86,6 +86,8 @@ Examples:
 | 4 | Quartic | $2x^4 - 3x + 1$ |
 | 5 | Quintic | $x^5 - x^3 + 2$ |
 
+#### Diagram: Polynomial Classification Interactive Tool
+
 <details markdown="1">
     <summary>Polynomial Classification Interactive Tool</summary>
     Type: microsim
@@ -225,6 +227,8 @@ Example: $(x + 4)(x + 5)$
 - Last: $4 \cdot 5 = 20$
 
 Result: $x^2 + 5x + 4x + 20 = x^2 + 9x + 20$
+
+#### Diagram: FOIL Method Interactive Visualizer
 
 <details markdown="1">
     <summary>FOIL Method Interactive Visualizer</summary>
@@ -402,6 +406,8 @@ Examples:
 
 - $x^3 + 8 = (x + 2)(x^2 - 2x + 4)$
 - $x^3 - 27 = (x - 3)(x^2 + 3x + 9)$
+
+#### Diagram: Special Products and Factoring Matcher
 
 <details markdown="1">
     <summary>Special Products and Factoring Matcher</summary>
