@@ -152,12 +152,23 @@ function draw() {
 
   pop();
 
-  // Draw title
-  fill('black');
+  // Draw title with white background box
   textSize(32);
+  let titleText = 'Coordinate Plane Explorer';
+  let titleWidth = textWidth(titleText);
+  let titlePadding = 15;
+
+  // Draw white box behind title
+  fill('white');
+  stroke('silver');
+  strokeWeight(1);
+  rect(width / 2 - titleWidth / 2 - titlePadding, 8, titleWidth + titlePadding * 2, 40, 5);
+
+  // Draw title text
+  fill('black');
   textAlign(CENTER, TOP);
   noStroke();
-  text('Coordinate Plane Explorer', width / 2, 10);
+  text(titleText, width / 2, 10);
 
   // Display point information
   textSize(18);
