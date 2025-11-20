@@ -1,0 +1,12 @@
+{
+  "name": "Number Systems Diagram",
+  "type": "diagram",
+  "version": "1.0.0",
+  "description": "Shows the nesting of number systems with clickable drill-down to sections in the Markdown page.",
+  "files": [
+    "index.md",
+    "main.html",
+    "style.css",
+    "script.js"
+  ]
+}

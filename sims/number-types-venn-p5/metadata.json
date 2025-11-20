@@ -1,0 +1,73 @@
+{
+  "title": "Number Types Venn Diagram",
+  "subject": "Mathematics",
+  "description": "An interactive Venn diagram that visualizes the hierarchical relationships between different types of numbers including Natural, Whole, Integers, Rational, Irrational, and Real numbers. Students can hover over regions to learn about each number type and see examples.",
+  "creator": "Claude (Anthropic)",
+  "publisher": "Educational MicroSims",
+  "date": "2025-11-11",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "identifier": "number-types-venn",
+  "language": "en-US",
+  "audience": "Middle School (6-8), High School (9-12)",
+  "educationLevel": "Grades 6-12",
+  "learningResourceType": "Simulation",
+  "interactivityType": "Active",
+  "typicalLearningTime": "PT10M",
+  "rights": "Open Educational Resource",
+  "keywords": [
+    "mathematics",
+    "number theory",
+    "number types",
+    "sets",
+    "venn diagram",
+    "natural numbers",
+    "whole numbers",
+    "integers",
+    "rational numbers",
+    "irrational numbers",
+    "real numbers",
+    "number classification",
+    "interactive visualization"
+  ],
+  "learningObjectives": [
+    "Identify the hierarchical relationship between different number types",
+    "Understand that each inner set is a subset of the outer sets",
+    "Classify numbers into their appropriate categories",
+    "Recognize examples of each number type",
+    "Distinguish between rational and irrational numbers"
+  ],
+  "prerequisites": [
+    "Basic understanding of positive and negative numbers",
+    "Familiarity with fractions and decimals",
+    "Introduction to number operations"
+  ],
+  "controls": [
+    {
+      "name": "Show Labels",
+      "type": "checkbox",
+      "default": true,
+      "description": "Toggle visibility of number type labels"
+    },
+    {
+      "name": "Show Examples",
+      "type": "checkbox",
+      "default": true,
+      "description": "Toggle visibility of example numbers"
+    },
+    {
+      "name": "Hover Tooltips",
+      "type": "hover",
+      "description": "Hover over any region to see a detailed explanation of that number type"
+    }
+  ],
+  "technicalDetails": {
+    "canvasWidth": 800,
+    "drawHeight": 600,
+    "controlHeight": 100,
+    "totalHeight": 700,
+    "responsive": true,
+    "framework": "p5.js",
+    "version": "1.0.0"
+  }
+}
