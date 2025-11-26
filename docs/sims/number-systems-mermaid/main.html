@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Number Systems Diagram</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      securityLevel: 'loose',
+      theme: 'default'
+    });
+  </script>
+</head>
+<body>
+  <div class="diagram-wrapper">
+  <div class="mermaid">
+  graph TD
+    A[Natural Numbers] --> B[Integers]
+    B --> C[Rational Numbers]
+    C --> D[Real Numbers]
+
+    click A "./#natural" "View details about Natural Numbers" _top
+    click B "./#integers" "View details about Integers" _top
+    click C "./#rational" "View details about Rational Numbers" _top
+    click D "./#real" "View details about Real Numbers" _top
+  </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

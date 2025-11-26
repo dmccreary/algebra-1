@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0.5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: white;
+}
+
+.diagram-wrapper {
+  width: 100%;
+  overflow: auto;
+}
+
+.mermaid {
+  margin: 0 auto;
+  min-height: 360px;
+}
