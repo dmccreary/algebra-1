@@ -1,0 +1,45 @@
+{
+  "title": "Polynomial Classification Game",
+  "description": "An interactive p5.js MicroSim where students classify algebraic expressions as monomials, binomials, trinomials, or non-polynomials through a gamified quiz format with progressive difficulty levels.",
+  "creator": "Claude AI",
+  "created": "2025-12-04",
+  "modified": "2025-12-04",
+  "subject": "Algebra",
+  "keywords": [
+    "polynomials",
+    "monomials",
+    "binomials",
+    "trinomials",
+    "algebraic expressions",
+    "classification",
+    "quiz",
+    "game",
+    "exponents",
+    "terms"
+  ],
+  "language": "en",
+  "format": "text/html",
+  "type": "InteractiveResource",
+  "educationalLevel": "Algebra 1",
+  "learningResourceType": "MicroSim",
+  "interactivityType": "active",
+  "bloomsLevel": "Application",
+  "uiComplexity": "medium",
+  "dependencies": {
+    "p5.js": "1.11.3",
+    "katex": "0.16.9"
+  },
+  "features": [
+    "Progressive difficulty levels",
+    "Term visualization",
+    "Hint system",
+    "Streak multiplier",
+    "Challenge mode with timer",
+    "Keyboard shortcuts",
+    "Score tracking"
+  ],
+  "accessibility": {
+    "screenReaderSupport": true,
+    "keyboardNavigation": true
+  }
+}
