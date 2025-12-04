@@ -130,9 +130,9 @@ function initializeNumberSystems() {
         name: "Imaginary Numbers",
         symbol: "𝕀",
         color: color(255, 160, 122, 200), // Light salmon
-        x: centerX + 305 * scale,
+        x: centerX + 310 * scale,
         y: centerY,
-        w: 55 * scale,
+        w: 50 * scale,
         h: 96 * scale,
         description: "Multiples of i, where i = √(-1). Pure imaginary numbers have no real part.",
         examples: "i, 2i, -5i, √(-4) = 2i"
@@ -235,11 +235,11 @@ function draw() {
         if (sys.name === "Natural Numbers") {
             labelY = sys.y;
         } else if (sys.name === "Whole Numbers") {
-            labelY = sys.y - sys.h + 20;
+            labelY = sys.y - sys.h + 15;
         } else if (sys.name === "Integers") {
-            labelY = sys.y - sys.h + 15;
+            labelY = sys.y - sys.h + 11;
         } else if (sys.name === "Rational Numbers") {
-            labelY = sys.y - sys.h + 15;
+            labelY = sys.y - sys.h + 11;
         } else if (sys.name === "Irrational Numbers") {
             labelY = sys.y;
         } else if (sys.name === "Real Numbers") {
@@ -247,7 +247,7 @@ function draw() {
         } else if (sys.name === "Imaginary Numbers") {
             labelY = sys.y;
         } else if (sys.name === "Complex Numbers") {
-            labelY = sys.y - sys.h + 15;
+            labelY = sys.y - sys.h + 12;
         }
 
         text(sys.symbol, labelX, labelY);
