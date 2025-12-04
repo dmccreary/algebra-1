@@ -1,0 +1,399 @@
+{
+  "title": "Polynomial Classification Game",
+  "description": "Identify and classify algebraic expressions as monomials, binomials, trinomials, or non-polynomials",
+  "config": {
+    "pointsCorrect": 10,
+    "pointsWithHint": 7,
+    "hintCost": 3,
+    "streakThreshold": 5,
+    "streakMultiplier": 2
+  },
+  "categories": [
+    {
+      "id": "monomial",
+      "label": "Monomial",
+      "description": "1 term",
+      "color": "#4CAF50"
+    },
+    {
+      "id": "binomial",
+      "label": "Binomial",
+      "description": "2 terms",
+      "color": "#2196F3"
+    },
+    {
+      "id": "trinomial",
+      "label": "Trinomial",
+      "description": "3 terms",
+      "color": "#9C27B0"
+    },
+    {
+      "id": "not-polynomial",
+      "label": "Not a Polynomial",
+      "description": "Invalid exponents",
+      "color": "#FF5722"
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Clear Examples",
+      "description": "Simple polynomials with obvious term counts"
+    },
+    {
+      "level": 2,
+      "name": "Coefficients & Exponents",
+      "description": "More complex coefficients and higher powers"
+    },
+    {
+      "level": 3,
+      "name": "Tricky Cases",
+      "description": "Watch out for negative and fractional exponents!"
+    },
+    {
+      "level": 4,
+      "name": "Multiple Variables",
+      "description": "Polynomials with more than one variable"
+    }
+  ],
+  "expressions": [
+    {
+      "id": 1,
+      "level": 1,
+      "latex": "5x",
+      "correctAnswer": "monomial",
+      "terms": ["5x"],
+      "explanation": "This expression has only ONE term: 5x. A single term makes it a monomial (mono = one).",
+      "hint": "Count the number of parts separated by + or - signs."
+    },
+    {
+      "id": 2,
+      "level": 1,
+      "latex": "x + 3",
+      "correctAnswer": "binomial",
+      "terms": ["x", "3"],
+      "explanation": "This expression has TWO terms: x and 3. Two terms make it a binomial (bi = two).",
+      "hint": "Look for the + sign that separates the terms."
+    },
+    {
+      "id": 3,
+      "level": 1,
+      "latex": "x^2 + 2x + 1",
+      "correctAnswer": "trinomial",
+      "terms": ["x^2", "2x", "1"],
+      "explanation": "This expression has THREE terms: x², 2x, and 1. Three terms make it a trinomial (tri = three).",
+      "hint": "Count each part separated by + or - signs."
+    },
+    {
+      "id": 4,
+      "level": 1,
+      "latex": "7",
+      "correctAnswer": "monomial",
+      "terms": ["7"],
+      "explanation": "A constant like 7 is still a single term, making it a monomial. (Think of it as 7x⁰)",
+      "hint": "Even a single number counts as one term."
+    },
+    {
+      "id": 5,
+      "level": 1,
+      "latex": "x^2 - 4",
+      "correctAnswer": "binomial",
+      "terms": ["x^2", "-4"],
+      "explanation": "This has TWO terms: x² and -4. The subtraction creates two separate terms, making it a binomial.",
+      "hint": "Subtraction also separates terms, just like addition."
+    },
+    {
+      "id": 6,
+      "level": 1,
+      "latex": "3x + 2y - 5",
+      "correctAnswer": "trinomial",
+      "terms": ["3x", "2y", "-5"],
+      "explanation": "This has THREE terms: 3x, 2y, and -5. Three terms make it a trinomial.",
+      "hint": "Count each part separated by + or - signs."
+    },
+    {
+      "id": 7,
+      "level": 1,
+      "latex": "x^3",
+      "correctAnswer": "monomial",
+      "terms": ["x^3"],
+      "explanation": "Even with a high exponent, x³ is still just ONE term, making it a monomial.",
+      "hint": "The exponent doesn't add more terms."
+    },
+    {
+      "id": 8,
+      "level": 1,
+      "latex": "2x - 7",
+      "correctAnswer": "binomial",
+      "terms": ["2x", "-7"],
+      "explanation": "This has TWO terms: 2x and -7. Two terms make it a binomial.",
+      "hint": "Subtraction separates terms just like addition."
+    },
+    {
+      "id": 9,
+      "level": 2,
+      "latex": "-3x^2",
+      "correctAnswer": "monomial",
+      "terms": ["-3x^2"],
+      "explanation": "Despite the negative coefficient, this is still ONE term: -3x². A single term means it's a monomial.",
+      "hint": "The negative sign is part of the coefficient, not a subtraction operation."
+    },
+    {
+      "id": 10,
+      "level": 2,
+      "latex": "4x^3 - 7x",
+      "correctAnswer": "binomial",
+      "terms": ["4x^3", "-7x"],
+      "explanation": "This has TWO terms: 4x³ and -7x. Two terms make it a binomial.",
+      "hint": "Count the terms separated by the subtraction."
+    },
+    {
+      "id": 11,
+      "level": 2,
+      "latex": "2a^2 + 5a - 3",
+      "correctAnswer": "trinomial",
+      "terms": ["2a^2", "5a", "-3"],
+      "explanation": "This has THREE terms: 2a², 5a, and -3. Three terms make it a trinomial.",
+      "hint": "Variables other than x work the same way!"
+    },
+    {
+      "id": 12,
+      "level": 2,
+      "latex": "\\frac{1}{2}x^4",
+      "correctAnswer": "monomial",
+      "terms": ["\\frac{1}{2}x^4"],
+      "explanation": "This is ONE term with a fractional coefficient (½). It's still a monomial because there's only one term.",
+      "hint": "Fractional coefficients are allowed in polynomials."
+    },
+    {
+      "id": 13,
+      "level": 2,
+      "latex": "-5x^2 + 3x - 8",
+      "correctAnswer": "trinomial",
+      "terms": ["-5x^2", "3x", "-8"],
+      "explanation": "This has THREE terms: -5x², 3x, and -8. Three terms make it a trinomial.",
+      "hint": "Count each separate part."
+    },
+    {
+      "id": 14,
+      "level": 2,
+      "latex": "x^5 + x^3",
+      "correctAnswer": "binomial",
+      "terms": ["x^5", "x^3"],
+      "explanation": "This has TWO terms: x⁵ and x³. Two terms make it a binomial.",
+      "hint": "Each power of x that's added is a separate term."
+    },
+    {
+      "id": 15,
+      "level": 2,
+      "latex": "9y^4",
+      "correctAnswer": "monomial",
+      "terms": ["9y^4"],
+      "explanation": "This is ONE term: 9y⁴. A single term makes it a monomial.",
+      "hint": "Any variable with a coefficient is still just one term."
+    },
+    {
+      "id": 16,
+      "level": 2,
+      "latex": "x^2 - 2x + x - 2",
+      "correctAnswer": "trinomial",
+      "terms": ["x^2", "-x", "-2"],
+      "explanation": "Wait! -2x + x simplifies to -x. So after combining like terms, we have x² - x - 2, which has THREE terms.",
+      "hint": "Remember to combine like terms first!"
+    },
+    {
+      "id": 17,
+      "level": 3,
+      "latex": "\\frac{1}{x} + 2",
+      "correctAnswer": "not-polynomial",
+      "terms": ["\\frac{1}{x}", "2"],
+      "explanation": "This is NOT a polynomial! The term 1/x equals x⁻¹, which has a negative exponent. Polynomials can only have non-negative integer exponents.",
+      "hint": "Rewrite 1/x as x⁻¹. Are negative exponents allowed in polynomials?"
+    },
+    {
+      "id": 18,
+      "level": 3,
+      "latex": "\\sqrt{x} + 5",
+      "correctAnswer": "not-polynomial",
+      "terms": ["\\sqrt{x}", "5"],
+      "explanation": "This is NOT a polynomial! The term √x equals x^(1/2), which has a fractional exponent. Polynomials require non-negative INTEGER exponents.",
+      "hint": "Rewrite √x as x^(1/2). Are fractional exponents allowed?"
+    },
+    {
+      "id": 19,
+      "level": 3,
+      "latex": "x^0",
+      "correctAnswer": "monomial",
+      "terms": ["x^0"],
+      "explanation": "This IS a polynomial! x⁰ = 1, which is a constant. Zero is a valid non-negative integer exponent, so this is a monomial.",
+      "hint": "What does x⁰ equal? Is 0 a valid exponent for polynomials?"
+    },
+    {
+      "id": 20,
+      "level": 3,
+      "latex": "x^{-2} + x",
+      "correctAnswer": "not-polynomial",
+      "terms": ["x^{-2}", "x"],
+      "explanation": "This is NOT a polynomial! The term x⁻² has a negative exponent. Polynomials must have non-negative integer exponents only.",
+      "hint": "Check if all exponents are non-negative integers."
+    },
+    {
+      "id": 21,
+      "level": 3,
+      "latex": "3x^{2.5}",
+      "correctAnswer": "not-polynomial",
+      "terms": ["3x^{2.5}"],
+      "explanation": "This is NOT a polynomial! The exponent 2.5 is not an integer. Polynomial exponents must be non-negative INTEGERS (0, 1, 2, 3, ...).",
+      "hint": "Is 2.5 an integer?"
+    },
+    {
+      "id": 22,
+      "level": 3,
+      "latex": "\\frac{x^2 + 3x}{2}",
+      "correctAnswer": "binomial",
+      "terms": ["\\frac{1}{2}x^2", "\\frac{3}{2}x"],
+      "explanation": "This IS a polynomial! Dividing by a constant (2) is fine. This equals ½x² + (3/2)x, which has two terms - a binomial!",
+      "hint": "Dividing by a constant is allowed. What if you distribute the division?"
+    },
+    {
+      "id": 23,
+      "level": 3,
+      "latex": "x^3 + \\frac{1}{x^2}",
+      "correctAnswer": "not-polynomial",
+      "terms": ["x^3", "\\frac{1}{x^2}"],
+      "explanation": "This is NOT a polynomial! While x³ is fine, 1/x² = x⁻² has a negative exponent. ALL terms must have valid exponents.",
+      "hint": "Check each term separately. What is 1/x² as a power of x?"
+    },
+    {
+      "id": 24,
+      "level": 3,
+      "latex": "\\pi x^2 + ex",
+      "correctAnswer": "binomial",
+      "terms": ["\\pi x^2", "ex"],
+      "explanation": "This IS a polynomial! The coefficients π and e are just irrational numbers - that's perfectly fine. Two terms make it a binomial.",
+      "hint": "Irrational coefficients are allowed. Count the terms."
+    },
+    {
+      "id": 25,
+      "level": 4,
+      "latex": "3xy",
+      "correctAnswer": "monomial",
+      "terms": ["3xy"],
+      "explanation": "This is ONE term with two variables. Even with multiple variables, it's still a monomial because there's only one term.",
+      "hint": "Multiple variables in ONE term still make it a single term."
+    },
+    {
+      "id": 26,
+      "level": 4,
+      "latex": "x^2y + xy^2",
+      "correctAnswer": "binomial",
+      "terms": ["x^2y", "xy^2"],
+      "explanation": "This has TWO terms: x²y and xy². Two terms make it a binomial, regardless of how many variables are in each term.",
+      "hint": "Count the terms separated by + or - signs."
+    },
+    {
+      "id": 27,
+      "level": 4,
+      "latex": "a^2 + 2ab + b^2",
+      "correctAnswer": "trinomial",
+      "terms": ["a^2", "2ab", "b^2"],
+      "explanation": "This has THREE terms: a², 2ab, and b². This is actually (a + b)² expanded! Three terms make it a trinomial.",
+      "hint": "Count each part. This is a famous pattern!"
+    },
+    {
+      "id": 28,
+      "level": 4,
+      "latex": "x^2y^2z^2",
+      "correctAnswer": "monomial",
+      "terms": ["x^2y^2z^2"],
+      "explanation": "Even with THREE variables, this is still ONE term. A single term with any number of variables is still a monomial.",
+      "hint": "How many separate parts are added or subtracted?"
+    },
+    {
+      "id": 29,
+      "level": 4,
+      "latex": "xy + xz + yz",
+      "correctAnswer": "trinomial",
+      "terms": ["xy", "xz", "yz"],
+      "explanation": "This has THREE terms: xy, xz, and yz. Three terms make it a trinomial.",
+      "hint": "Count the parts separated by + signs."
+    },
+    {
+      "id": 30,
+      "level": 4,
+      "latex": "\\frac{x}{y} + 1",
+      "correctAnswer": "not-polynomial",
+      "terms": ["\\frac{x}{y}", "1"],
+      "explanation": "This is NOT a polynomial! The term x/y equals xy⁻¹, which has y with a negative exponent. Variables must have non-negative integer exponents.",
+      "hint": "What happens when you divide by a variable?"
+    },
+    {
+      "id": 31,
+      "level": 4,
+      "latex": "a^3 - b^3",
+      "correctAnswer": "binomial",
+      "terms": ["a^3", "-b^3"],
+      "explanation": "This has TWO terms: a³ and -b³. This is the 'difference of cubes' pattern! Two terms make it a binomial.",
+      "hint": "Count the terms. This is a special factoring pattern."
+    },
+    {
+      "id": 32,
+      "level": 4,
+      "latex": "2x^2y - 3xy^2 + 5xy",
+      "correctAnswer": "trinomial",
+      "terms": ["2x^2y", "-3xy^2", "5xy"],
+      "explanation": "This has THREE terms with mixed variables: 2x²y, -3xy², and 5xy. Three terms make it a trinomial.",
+      "hint": "Count each separate term with its coefficient."
+    }
+  ],
+  "encouragingMessages": {
+    "correct": [
+      "Excellent classification!",
+      "You've got it!",
+      "Perfect!",
+      "Well done!",
+      "That's right!",
+      "Great job counting those terms!"
+    ],
+    "incorrect": [
+      "Not quite - check the term count!",
+      "Close! Remember to check exponents too.",
+      "Good try! This one is tricky.",
+      "Learning from mistakes builds understanding!",
+      "Almost! Let's see why..."
+    ]
+  },
+  "endScreen": {
+    "tipsTitle": "Polynomial Classification Tips:",
+    "tips": [
+      "Count terms by looking for + and - signs that separate parts",
+      "A negative in front of a term is part of the coefficient, not a separator",
+      "Polynomials can ONLY have non-negative integer exponents (0, 1, 2, 3, ...)",
+      "Watch out for hidden negative exponents: 1/x = x⁻¹",
+      "Fractional exponents like √x = x^(1/2) are NOT allowed in polynomials",
+      "Multiple variables in ONE term still make it a single term"
+    ],
+    "performanceMessages": {
+      "excellent": {
+        "threshold": 90,
+        "message": "Polynomial Master!",
+        "subMessage": "You classify expressions like a pro!"
+      },
+      "good": {
+        "threshold": 70,
+        "message": "Great Progress!",
+        "subMessage": "You understand polynomial structure well."
+      },
+      "fair": {
+        "threshold": 50,
+        "message": "Getting There!",
+        "subMessage": "Keep practicing term counting and exponent checking."
+      },
+      "needsWork": {
+        "threshold": 0,
+        "message": "Keep Learning!",
+        "subMessage": "Focus on counting terms and checking exponent rules."
+      }
+    }
+  }
+}

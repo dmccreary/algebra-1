@@ -60,6 +60,12 @@ nav:
       - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
       - Glossary Quality Report: learning-graph/glossary-quality-report.md
       - Quiz Generation Report: learning-graph/quiz-generation-report.md
+      - learning-graph/book-metrics.md
+      - learning-graph/chapter-metrics.md
+      - learning-graph/diagram-table.md
+      - learning-graph/diagram-details.md
+      - learning-graph/faq-coverage-gaps.md
+      - learning-graph/faq-quality-report.md
   
   - MicroSims:
       - List of MicroSims: sims/index.md
@@ -73,6 +79,7 @@ nav:
       - Variable Types: sims/variable-types/index.md
       - Coordinate Plane Explorer: sims/coordinate-plane-explorer/index.md
       - Number Systems P5: sims/number-systems-p5/index.md
+      - Polynomial Classifier: sims/polynomial-classifier/index.md
 
   - Prompts:
     - List of Prompts: prompts/index.md
