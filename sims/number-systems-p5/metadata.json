@@ -1,0 +1,81 @@
+{
+    "title": "Number Systems Venn Diagram",
+    "description": "An interactive Venn diagram showing the hierarchical relationships between number systems from Natural Numbers to Complex Numbers with hover-based information display.",
+    "creator": "Dan McCreary",
+    "subject": ["Mathematics", "Algebra", "Number Theory"],
+    "date": "2025-12-04",
+    "type": "Interactive Simulation",
+    "format": "text/html",
+    "language": "en",
+    "rights": "CC BY-NC-SA 4.0",
+    "gradeLevel": "6-12",
+    "subjectArea": "Mathematics",
+    "topic": "Number Systems",
+    "learningObjectives": [
+        "Identify and define each type of number system",
+        "Explain the subset relationships between number systems",
+        "Classify given numbers into their appropriate number systems",
+        "Distinguish between rational and irrational numbers",
+        "Understand how complex numbers extend the real number system"
+    ],
+    "bloomsTaxonomy": ["Remember", "Understand", "Apply", "Analyze"],
+    "duration": "10-15 minutes",
+    "prerequisites": ["Basic understanding of fractions", "Familiarity with negative numbers"],
+    "framework": "p5.js",
+    "canvasDimensions": "670 x 410",
+    "responsive": true,
+    "dependencies": ["p5.js 1.11.10"],
+    "accessibility": {
+        "screenReaderSupport": true,
+        "keyboardNavigation": false,
+        "colorblindSafe": true
+    },
+    "controls": [
+        {
+            "type": "hover",
+            "description": "Hover over any region to display information about that number system including its symbol, description, and examples"
+        }
+    ],
+    "numberSystems": [
+        {
+            "name": "Natural Numbers",
+            "symbol": "ℕ",
+            "description": "Counting numbers starting from 1"
+        },
+        {
+            "name": "Whole Numbers",
+            "symbol": "W",
+            "description": "Natural numbers plus zero"
+        },
+        {
+            "name": "Integers",
+            "symbol": "ℤ",
+            "description": "Whole numbers and their negatives"
+        },
+        {
+            "name": "Rational Numbers",
+            "symbol": "ℚ",
+            "description": "Numbers expressible as fractions p/q"
+        },
+        {
+            "name": "Irrational Numbers",
+            "symbol": "I",
+            "description": "Real numbers that cannot be expressed as fractions"
+        },
+        {
+            "name": "Real Numbers",
+            "symbol": "ℝ",
+            "description": "All points on the number line"
+        },
+        {
+            "name": "Imaginary Numbers",
+            "symbol": "𝕀",
+            "description": "Multiples of i where i = √(-1)"
+        },
+        {
+            "name": "Complex Numbers",
+            "symbol": "ℂ",
+            "description": "Numbers of the form a + bi"
+        }
+    ]
+}
