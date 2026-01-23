@@ -8,5 +8,18 @@
     "main.html",
     "style.css",
     "script.js"
+  ],
+  "visualizationType": [
+    "diagram",
+    "interactive-demo"
+  ],
+  "learningObjectives": [
+    "Understand the key concepts of this concept",
+    "Explore this concept through interactive visualization",
+    "Apply knowledge of this concept to solve problems"
+  ],
+  "bloomsTaxonomy": [
+    "Understand",
+    "Apply"
   ]
 }

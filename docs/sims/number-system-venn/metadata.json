@@ -24,5 +24,24 @@
   "bloom_taxonomy": "Understand",
   "version": "1.0",
   "library": "venn.js 0.2.20",
-  "dependencies": ["d3.js 7.9.0", "venn.js 0.2.20"]
+  "dependencies": [
+    "d3.js 7.9.0",
+    "venn.js 0.2.20"
+  ],
+  "visualizationType": [
+    "data-visualization",
+    "diagram",
+    "interactive-demo"
+  ],
+  "learningObjectives": [
+    "Understand the key concepts of number systems hierarchy diagram",
+    "Explore number systems hierarchy diagram through interactive visualization",
+    "Apply knowledge of number systems hierarchy diagram to solve problems"
+  ],
+  "bloomsTaxonomy": [
+    "Remember",
+    "Understand",
+    "Apply",
+    "Create"
+  ]
 }

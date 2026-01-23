@@ -2,7 +2,11 @@
   "$schema": "https://github.com/dmccreary/microsims/blob/main/src/microsim-schema/microsim-schema.json",
   "title": "Variable Types Interactive Infographic",
   "creator": "Claude Code with microsim-p5 skill",
-  "subject": ["Mathematics", "Algebra", "Variable Notation"],
+  "subject": [
+    "Mathematics",
+    "Algebra",
+    "Variable Notation"
+  ],
   "description": "An interactive visual guide showing four common types of algebraic variables (position, time, counting, and rate) with real-world examples and expandable content in a 2x2 grid layout.",
   "date": "2025-11-17",
   "type": "Interactive Simulation",
@@ -18,7 +22,11 @@
     "Recognize conventional variable naming patterns in mathematical problems",
     "Apply appropriate variable choices when setting up equations"
   ],
-  "bloomsTaxonomyLevels": ["Remember", "Understand", "Apply"],
+  "bloomsTaxonomyLevels": [
+    "Remember",
+    "Understand",
+    "Apply"
+  ],
   "duration": "10-15 minutes",
   "prerequisites": [
     "Basic understanding of variables in algebra",
@@ -26,9 +34,11 @@
     "Experience with basic word problems"
   ],
   "framework": "p5.js",
-  "canvasDimensions": "800×700 (initial, width-responsive)",
+  "canvasDimensions": "800\u00d7700 (initial, width-responsive)",
   "responsive": "Width-responsive",
-  "dependencies": ["p5.js 1.11.10 CDN"],
+  "dependencies": [
+    "p5.js 1.11.10 CDN"
+  ],
   "accessibility": {
     "screenReaderSupport": true,
     "keyboardNavigation": false,
@@ -101,5 +111,32 @@
       "Recognition of mathematical conventions"
     ]
   },
-  "tags": ["algebra", "variables", "notation", "infographic", "interactive", "categorization", "mathematical-conventions"]
+  "tags": [
+    "algebra",
+    "variables",
+    "notation",
+    "infographic",
+    "interactive",
+    "categorization",
+    "mathematical-conventions"
+  ],
+  "visualizationType": [
+    "3d-model",
+    "animation",
+    "data-visualization",
+    "graph",
+    "interactive-demo",
+    "map",
+    "network",
+    "simulation",
+    "timeline"
+  ],
+  "bloomsTaxonomy": [
+    "Remember",
+    "Understand",
+    "Apply",
+    "Analyze",
+    "Evaluate",
+    "Create"
+  ]
 }

@@ -69,5 +69,18 @@
     "responsive": true,
     "framework": "p5.js",
     "version": "1.0.0"
-  }
+  },
+  "visualizationType": [
+    "diagram",
+    "interactive-demo",
+    "simulation"
+  ],
+  "bloomsTaxonomy": [
+    "Remember",
+    "Understand",
+    "Apply",
+    "Analyze",
+    "Evaluate",
+    "Create"
+  ]
 }

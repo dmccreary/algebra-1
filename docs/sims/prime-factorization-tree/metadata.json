@@ -130,5 +130,21 @@
     "validation": "real-time factor verification",
     "algorithms": "prime checking, recursive factorization",
     "dataStructure": "tree represented as nodes and edges"
-  }
+  },
+  "visualizationType": [
+    "animation",
+    "diagram",
+    "interactive-demo",
+    "network",
+    "simulation",
+    "timeline"
+  ],
+  "bloomsTaxonomy": [
+    "Remember",
+    "Understand",
+    "Apply",
+    "Analyze",
+    "Evaluate",
+    "Create"
+  ]
 }
