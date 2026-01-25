@@ -21,5 +21,23 @@
   "bloomsTaxonomy": [
     "Understand",
     "Apply"
-  ]
+  ],
+  "pedagogical": {
+    "pattern": "exploration",
+    "bloomAlignment": [
+      "understand",
+      "apply"
+    ],
+    "bloomVerbs": [
+      "explain",
+      "illustrate"
+    ],
+    "pacing": "self-paced",
+    "supportsPrediction": false,
+    "dataVisibility": "high",
+    "feedbackType": [
+      "none"
+    ],
+    "interactionStyle": "observe"
+  }
 }

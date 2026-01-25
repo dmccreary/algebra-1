@@ -138,5 +138,29 @@
     "Analyze",
     "Evaluate",
     "Create"
-  ]
+  ],
+  "pedagogical": {
+    "pattern": "worked-example",
+    "bloomAlignment": [
+      "understand",
+      "apply",
+      "analyze"
+    ],
+    "bloomVerbs": [
+      "classify",
+      "describe",
+      "explain",
+      "interpret",
+      "apply"
+    ],
+    "pacing": "self-paced",
+    "supportsPrediction": false,
+    "dataVisibility": "high",
+    "feedbackType": [
+      "immediate",
+      "delayed",
+      "explanatory"
+    ],
+    "interactionStyle": "respond"
+  }
 }

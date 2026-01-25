@@ -43,5 +43,28 @@
     "Understand",
     "Apply",
     "Create"
-  ]
+  ],
+  "pedagogical": {
+    "pattern": "worked-example",
+    "bloomAlignment": [
+      "understand",
+      "apply",
+      "analyze"
+    ],
+    "bloomVerbs": [
+      "summarize",
+      "apply",
+      "illustrate",
+      "use",
+      "differentiate"
+    ],
+    "pacing": "self-paced",
+    "supportsPrediction": false,
+    "dataVisibility": "medium",
+    "feedbackType": [
+      "immediate",
+      "explanatory"
+    ],
+    "interactionStyle": "respond"
+  }
 }

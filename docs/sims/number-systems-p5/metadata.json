@@ -97,5 +97,27 @@
     "diagram",
     "interactive-demo",
     "network"
-  ]
+  ],
+  "pedagogical": {
+    "pattern": "worked-example",
+    "bloomAlignment": [
+      "understand",
+      "apply",
+      "analyze"
+    ],
+    "bloomVerbs": [
+      "classify",
+      "describe",
+      "explain",
+      "calculate",
+      "illustrate"
+    ],
+    "pacing": "self-paced",
+    "supportsPrediction": false,
+    "dataVisibility": "high",
+    "feedbackType": [
+      "explanatory"
+    ],
+    "interactionStyle": "respond"
+  }
 }

@@ -304,5 +304,28 @@
     "Understand",
     "Apply",
     "Create"
-  ]
+  ],
+  "pedagogical": {
+    "pattern": "demonstration",
+    "bloomAlignment": [
+      "understand",
+      "apply",
+      "create"
+    ],
+    "bloomVerbs": [
+      "describe",
+      "calculate",
+      "illustrate",
+      "use",
+      "construct"
+    ],
+    "pacing": "self-paced",
+    "supportsPrediction": false,
+    "dataVisibility": "high",
+    "feedbackType": [
+      "immediate",
+      "corrective"
+    ],
+    "interactionStyle": "construct"
+  }
 }
