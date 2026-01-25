@@ -55,8 +55,14 @@
         "y": 4
       },
       "range": {
-        "x": [-10, 10],
-        "y": [-10, 10]
+        "x": [
+          -10,
+          10
+        ],
+        "y": [
+          -10,
+          10
+        ]
       }
     },
     {
@@ -64,14 +70,20 @@
       "label": "Enter x",
       "description": "Input field to enter the x-coordinate directly",
       "initial": 3,
-      "range": [-10, 10]
+      "range": [
+        -10,
+        10
+      ]
     },
     {
       "type": "input",
       "label": "Enter y",
       "description": "Input field to enter the y-coordinate directly",
       "initial": 4,
-      "range": [-10, 10]
+      "range": [
+        -10,
+        10
+      ]
     },
     {
       "type": "button",
@@ -242,5 +254,39 @@
     "Reference lines show explicit connections to axes",
     "Quiz mode provides practice with immediate feedback",
     "Random point generator offers unlimited practice opportunities"
-  ]
+  ],
+  "visualizationType": [
+    "animation",
+    "diagram",
+    "graph",
+    "interactive-demo",
+    "map",
+    "network",
+    "simulation"
+  ],
+  "pedagogical": {
+    "pattern": "assessment",
+    "bloomAlignment": [
+      "understand",
+      "apply",
+      "analyze"
+    ],
+    "bloomVerbs": [
+      "classify",
+      "compare",
+      "describe",
+      "apply",
+      "demonstrate"
+    ],
+    "pacing": "self-paced",
+    "supportsPrediction": true,
+    "dataVisibility": "high",
+    "feedbackType": [
+      "immediate",
+      "delayed",
+      "corrective",
+      "explanatory"
+    ],
+    "interactionStyle": "construct"
+  }
 }
