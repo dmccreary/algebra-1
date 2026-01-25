@@ -62,11 +62,6 @@
         "Visualize integer subtraction as movement to the left on a number line.",
         "Interpret a cumulative arithmetic expression such as 0 + 3 - 2 + 4 = 5."
       ],
-      "bloomsTaxonomy": [
-        "Remember",
-        "Understand",
-        "Apply"
-      ],
       "prerequisites": [
         "Understanding of positive and negative numbers",
         "Basic familiarity with number lines"
@@ -138,7 +133,7 @@
           "id": "addButtons",
           "type": "button",
           "label": "Add Buttons",
-          "description": "Adds positive integers (1\u20135) to the current position",
+          "description": "Adds positive integers (1–5) to the current position",
           "properties": {
             "text": "Add n",
             "style": "success"
@@ -148,7 +143,7 @@
           "id": "subButtons",
           "type": "button",
           "label": "Subtract Buttons",
-          "description": "Subtracts positive integers (1\u20135) from the current position",
+          "description": "Subtracts positive integers (1–5) from the current position",
           "properties": {
             "text": "Subtract n",
             "style": "danger"
@@ -193,7 +188,7 @@
         "type": "mathematical",
         "description": "Integer arithmetic model representing cumulative addition and subtraction operations visualized as movements along a number line.",
         "equations": [
-          "position = start + \u03a3(operations)"
+          "position = start + Σ(operations)"
         ],
         "assumptions": [
           "Each operation changes the position by an integer step between -5 and +5.",
@@ -286,6 +281,13 @@
       "extensions": [
         "Add sliders for variable step sizes",
         "Include random problem generator for practice"
+      ]
+    },
+    "pedagogical": {
+      "bloomsTaxonomy": [
+        "Remember",
+        "Understand",
+        "Apply"
       ]
     }
   },
