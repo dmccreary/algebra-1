@@ -2,8 +2,16 @@
   "microsim": {
     "dublinCore": {
       "title": "Integer Operations on the Number Line",
-      "creator": ["Dan McCreary", "ChatGPT (GPT-5)"],
-      "subject": ["Mathematics", "Integers", "Number Line", "Arithmetic"],
+      "creator": [
+        "Dan McCreary",
+        "ChatGPT (GPT-5)"
+      ],
+      "subject": [
+        "Mathematics",
+        "Integers",
+        "Number Line",
+        "Arithmetic"
+      ],
       "description": "An interactive p5.js simulation that visualizes integer addition and subtraction as movements on a horizontal number line. Users can click buttons to add or subtract values from -10 to +10, observing animated arrows and a cumulative equation.",
       "date": "2025-11-11T00:00:00Z",
       "type": "Interactive Simulation",
@@ -21,31 +29,55 @@
         "integer operations",
         "animation"
       ],
-      "visualizationType": ["animation", "simulation", "interactive-demo"],
+      "visualizationType": [
+        "animation",
+        "simulation",
+        "interactive-demo"
+      ],
       "interactionLevel": "high",
       "complexity": 3,
-      "applicationDomains": ["education", "training", "exploration"]
+      "applicationDomains": [
+        "education",
+        "training",
+        "exploration"
+      ]
     },
     "educational": {
-      "gradeLevel": ["4", "5", "6", "7"],
-      "subjectArea": ["Mathematics"],
-      "topic": ["Integer Operations", "Addition and Subtraction", "Number Line"],
+      "gradeLevel": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "subjectArea": [
+        "Mathematics"
+      ],
+      "topic": [
+        "Integer Operations",
+        "Addition and Subtraction",
+        "Number Line"
+      ],
       "learningObjectives": [
         "Visualize integer addition as movement to the right on a number line.",
         "Visualize integer subtraction as movement to the left on a number line.",
         "Interpret a cumulative arithmetic expression such as 0 + 3 - 2 + 4 = 5."
       ],
-      "bloomsTaxonomy": ["Remember", "Understand", "Apply"],
       "prerequisites": [
         "Understanding of positive and negative numbers",
         "Basic familiarity with number lines"
       ],
       "duration": {
         "typical": 10,
-        "range": { "min": 5, "max": 15 }
+        "range": {
+          "min": 5,
+          "max": 15
+        }
       },
       "difficulty": "Beginner",
-      "learningTheory": ["constructivism", "experiential"]
+      "learningTheory": [
+        "constructivism",
+        "experiential"
+      ]
     },
     "technical": {
       "framework": "p5.js",
@@ -59,14 +91,25 @@
         "drawHeight": 300,
         "controlHeight": 100
       },
-      "dependencies": ["https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"],
-      "browserCompatibility": ["Chrome", "Firefox", "Safari", "Edge"],
+      "dependencies": [
+        "https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"
+      ],
+      "browserCompatibility": [
+        "Chrome",
+        "Firefox",
+        "Safari",
+        "Edge"
+      ],
       "performance": {
         "targetFrameRate": 60,
         "memoryUsage": "low",
         "computationalComplexity": "O(1)",
         "loadTime": 300,
-        "optimizations": ["NoLoop when idle", "Efficient arrow drawing", "Responsive resizing"]
+        "optimizations": [
+          "NoLoop when idle",
+          "Efficient arrow drawing",
+          "Responsive resizing"
+        ]
       },
       "accessibility": {
         "screenReader": true,
@@ -122,7 +165,11 @@
           "type": "graph",
           "description": "Horizontal number line from -10 to +10 with labeled tick marks",
           "interactive": true,
-          "updateTriggers": ["addButtons", "subButtons", "resetButton"]
+          "updateTriggers": [
+            "addButtons",
+            "subButtons",
+            "resetButton"
+          ]
         },
         {
           "type": "animation",
@@ -140,12 +187,17 @@
       "model": {
         "type": "mathematical",
         "description": "Integer arithmetic model representing cumulative addition and subtraction operations visualized as movements along a number line.",
-        "equations": ["position = start + Σ(operations)"],
+        "equations": [
+          "position = start + Σ(operations)"
+        ],
         "assumptions": [
           "Each operation changes the position by an integer step between -5 and +5.",
           "Position range is clamped between -10 and +10."
         ],
-        "limitations": ["Only supports integer values", "Fixed range from -10 to +10"]
+        "limitations": [
+          "Only supports integer values",
+          "Fixed range from -10 to +10"
+        ]
       },
       "variables": [
         {
@@ -153,14 +205,20 @@
           "type": "output",
           "description": "Current integer value on the number line",
           "dataType": "integer",
-          "range": { "min": -10, "max": 10 }
+          "range": {
+            "min": -10,
+            "max": 10
+          }
         },
         {
           "name": "targetPosition",
           "type": "intermediate",
           "description": "Position after the current operation",
           "dataType": "integer",
-          "range": { "min": -10, "max": 10 }
+          "range": {
+            "min": -10,
+            "max": 10
+          }
         },
         {
           "name": "equationParts",
@@ -177,7 +235,12 @@
           "description": "User clicked an Add or Subtract button",
           "category": "interaction",
           "importance": "important",
-          "data": ["operationType", "operationValue", "currentPosition", "timestamp"],
+          "data": [
+            "operationType",
+            "operationValue",
+            "currentPosition",
+            "timestamp"
+          ],
           "xAPIverb": "experienced"
         },
         {
@@ -185,13 +248,19 @@
           "description": "User clicked the Reset button",
           "category": "interaction",
           "importance": "moderate",
-          "data": ["currentPosition"],
+          "data": [
+            "currentPosition"
+          ],
           "xAPIverb": "reset"
         }
       ]
     },
     "usage": {
-      "recommendedUsage": ["guided-practice", "demonstration", "exploration"],
+      "recommendedUsage": [
+        "guided-practice",
+        "demonstration",
+        "exploration"
+      ],
       "instructionalStrategies": [
         "Predict-Test-Observe",
         "Guided Discovery",
@@ -213,6 +282,52 @@
         "Add sliders for variable step sizes",
         "Include random problem generator for practice"
       ]
+    },
+    "pedagogical": {
+      "bloomsTaxonomy": [
+        "Remember",
+        "Understand",
+        "Apply"
+      ]
     }
+  },
+  "visualizationType": [
+    "animation",
+    "graph",
+    "map",
+    "simulation"
+  ],
+  "learningObjectives": [
+    "Understand the key concepts of this concept",
+    "Explore this concept through interactive visualization",
+    "Apply knowledge of this concept to solve problems"
+  ],
+  "bloomsTaxonomy": [
+    "Understand",
+    "Apply",
+    "Create"
+  ],
+  "pedagogical": {
+    "pattern": "demonstration",
+    "bloomAlignment": [
+      "understand",
+      "apply",
+      "create"
+    ],
+    "bloomVerbs": [
+      "describe",
+      "calculate",
+      "illustrate",
+      "use",
+      "construct"
+    ],
+    "pacing": "self-paced",
+    "supportsPrediction": false,
+    "dataVisibility": "high",
+    "feedbackType": [
+      "immediate",
+      "corrective"
+    ],
+    "interactionStyle": "construct"
   }
 }

@@ -130,5 +130,45 @@
     "validation": "real-time factor verification",
     "algorithms": "prime checking, recursive factorization",
     "dataStructure": "tree represented as nodes and edges"
+  },
+  "visualizationType": [
+    "animation",
+    "diagram",
+    "interactive-demo",
+    "network",
+    "simulation",
+    "timeline"
+  ],
+  "bloomsTaxonomy": [
+    "Remember",
+    "Understand",
+    "Apply",
+    "Analyze",
+    "Evaluate",
+    "Create"
+  ],
+  "pedagogical": {
+    "pattern": "demonstration",
+    "bloomAlignment": [
+      "understand",
+      "apply",
+      "analyze"
+    ],
+    "bloomVerbs": [
+      "compare",
+      "explain",
+      "apply",
+      "calculate",
+      "demonstrate"
+    ],
+    "pacing": "self-paced",
+    "supportsPrediction": true,
+    "dataVisibility": "high",
+    "feedbackType": [
+      "immediate",
+      "corrective",
+      "explanatory"
+    ],
+    "interactionStyle": "respond"
   }
 }

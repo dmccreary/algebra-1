@@ -59,7 +59,11 @@
     {
       "type": "dropdown",
       "name": "Complexity Level",
-      "options": ["Simple", "Medium", "Complex"],
+      "options": [
+        "Simple",
+        "Medium",
+        "Complex"
+      ],
       "default": "Simple",
       "description": "Controls the complexity of generated expressions: Simple (2-3 terms), Medium (3-5 terms with exponents), Complex (4-6 terms with exponents)"
     },
@@ -92,7 +96,11 @@
     {
       "name": "Complexity",
       "type": "categorical",
-      "values": ["Simple", "Medium", "Complex"],
+      "values": [
+        "Simple",
+        "Medium",
+        "Complex"
+      ],
       "default": "Simple",
       "description": "Determines the number of terms, use of exponents, and coefficient ranges"
     }
@@ -144,5 +152,34 @@
     "Real-time visual feedback",
     "Interactive identification of parts",
     "Analysis panel showing expression structure"
-  ]
+  ],
+  "visualizationType": [
+    "interactive-demo",
+    "map",
+    "simulation"
+  ],
+  "pedagogical": {
+    "pattern": "assessment",
+    "bloomAlignment": [
+      "understand",
+      "apply",
+      "analyze"
+    ],
+    "bloomVerbs": [
+      "classify",
+      "describe",
+      "explain",
+      "apply",
+      "calculate"
+    ],
+    "pacing": "self-paced",
+    "supportsPrediction": true,
+    "dataVisibility": "high",
+    "feedbackType": [
+      "immediate",
+      "corrective",
+      "explanatory"
+    ],
+    "interactionStyle": "respond"
+  }
 }
