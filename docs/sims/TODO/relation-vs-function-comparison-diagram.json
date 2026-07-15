@@ -1,0 +1,15 @@
+{
+  "sim_id": "relation-vs-function-comparison-diagram",
+  "diagram_name": "Relation vs. Function Comparison Diagram",
+  "chapter_number": 8,
+  "chapter_title": "Introduction To Functions",
+  "chapter_dir": "08-introduction-to-functions",
+  "chapter_rel_dir": "chapters/08-introduction-to-functions",
+  "library": null,
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-07-15",
+  "specification": "Type: diagram\n\n    Purpose: Visually distinguish between relations that are functions and relations that are not functions\n\n    Layout: Two side-by-side diagrams using mapping notation (arrows from domain to range)\n\n    Left diagram - \"This IS a Function\":\n    - Domain set (left): {1, 2, 3, 4}\n    - Range set (right): {2, 4, 6, 8}\n    - Arrows: 1→2, 2→4, 3→6, 4→8\n    - Each domain element has exactly one arrow\n    - Label: \"Each input has exactly ONE output\"\n    - Color: Green border\n\n    Right diagram - \"This is NOT a Function\":\n    - Domain set (left): {1, 2, 3}\n    - Range set (right): {1, 2, 3, 5}\n    - Arrows: 1→1, 1→2, 2→3, 3→5\n    - Note that element 1 has two arrows\n    - Label: \"Input 1 has TWO outputs!\"\n    - Color: Red border\n    - Highlight the problematic element 1 with a red circle\n\n    Visual style: Clean mapping diagram with oval shapes for sets\n    Color scheme: Green for valid function, red for invalid\n\n    Implementation: SVG or HTML/CSS diagram"
+}

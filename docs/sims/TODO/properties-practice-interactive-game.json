@@ -1,0 +1,15 @@
+{
+  "sim_id": "properties-practice-interactive-game",
+  "diagram_name": "Properties Practice Interactive Game",
+  "chapter_number": 2,
+  "chapter_title": "Number Systems And Properties",
+  "chapter_dir": "02-number-systems-and-properties",
+  "chapter_rel_dir": "chapters/02-number-systems-and-properties",
+  "library": null,
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-07-15",
+  "specification": "Type: microsim\n\n    Learning objective: Identify and apply mathematical properties in various equations and expressions\n\n    Canvas layout (900x600px):\n    - Main area (900x450): Game interface\n    - Bottom area (900x150): Feedback and controls\n\n    Visual elements:\n    - Question display showing an equation or expression\n    - Multiple choice buttons for property identification\n    - Score display\n    - Lives/attempts remaining (3 hearts)\n    - Level indicator\n    - Visual feedback (confetti for correct, shake for incorrect)\n\n    Game mechanics:\n    - Present an equation demonstrating a property\n    - Student identifies which property is shown\n    - Immediate feedback with explanation\n    - Progressive difficulty (starts with simple, adds complexity)\n    - Point system: +10 for correct first try, +5 for second try\n    - Lose a life for wrong answer (but get explanation)\n\n    Sample questions by difficulty:\n\n    Level 1 (Direct application):\n    - \"Which property: 3 + 7 = 7 + 3?\" → Commutative (Addition)\n    - \"Which property: 5 × 1 = 5?\" → Identity (Multiplication)\n\n    Level 2 (With variables):\n    - \"Which property: x + 0 = x?\" → Identity (Addition)\n    - \"Which property: 2(x + 3) = 2x + 6?\" → Distributive\n\n    Level 3 (Recognition in context):\n    - \"Which property justifies: (2 × 3) × 4 = 2 × (3 × 4)?\" → Associative (Multiplication)\n    - \"Which property: y + (-y) = 0?\" → Inverse (Addition)\n\n    Interactive controls:\n    - Five buttons for property choices:\n      1. Commutative\n      2. Associative\n      3. Distributive\n      4. Identity\n      5. Inverse\n    - \"Hint\" button (costs 2 points)\n    - \"Next Question\" button\n    - \"Reset Game\" button\n\n    Default parameters:\n    - Starting level: 1\n    - Questions per level: 5\n    - Lives: 3\n    - Score: 0\n\n    Behavior:\n    - When answer selected, show if correct with color coding\n    - If correct: green highlight, show brief explanation, add points\n    - If incorrect: red highlight, show correct answer and explanation, lose a life\n    - Progress bar shows questions completed in current level\n    - Level up after completing 5 questions correctly\n    - Game over when all lives lost (but can restart)\n\n    Feedback examples:\n    - Correct: \"✓ Correct! This is the Commutative Property of Addition. Order doesn't matter!\"\n    - Incorrect: \"✗ Not quite. This is the Identity Property—adding 0 doesn't change the value.\"\n\n    Implementation: p5.js with button interactions, JSON data for questions, animation library for visual feedback"
+}

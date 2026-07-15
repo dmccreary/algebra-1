@@ -1,0 +1,15 @@
+{
+  "sim_id": "absolute-value-interactive-number-line",
+  "diagram_name": "Absolute Value Interactive Number Line",
+  "chapter_number": 2,
+  "chapter_title": "Number Systems And Properties",
+  "chapter_dir": "02-number-systems-and-properties",
+  "chapter_rel_dir": "chapters/02-number-systems-and-properties",
+  "library": null,
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-07-15",
+  "specification": "Type: microsim\n\n    Learning objective: Understand absolute value as distance from zero using an interactive number line with dynamic measurement\n\n    Canvas layout (800x400px):\n    - Top area (800x300): Number line visualization\n    - Bottom area (800x100): Controls and information\n\n    Visual elements:\n    - Horizontal number line from -10 to +10\n    - Movable point (draggable circle) on the number line\n    - Visual distance indicator: colored line segment from 0 to the point\n    - Distance value displayed above the line segment\n    - Equation displayed: |x| = [distance value]\n    - Color coding: negative positions (red), positive positions (blue), zero (green)\n\n    Interactive controls:\n    - Slider: Position on number line (-10 to +10, step 0.5)\n    - Input box: Enter a number directly\n    - Draggable point: Click and drag along number line\n    - Button: \"Show multiple values\" (displays several points simultaneously)\n    - Checkbox: \"Show mirror image\" (shows both a and -a)\n\n    Default parameters:\n    - Initial position: -5\n    - Show mirror image: false\n\n    Behavior:\n    - As point moves, distance line animates to follow\n    - Distance value updates in real-time\n    - Equation updates: |x| = [distance]\n    - When \"Show mirror image\" is checked:\n      - Display both points (e.g., 5 and -5)\n      - Show both have same absolute value\n      - Highlight symmetry around zero\n    - Color of distance line changes: red for negative x, blue for positive x\n    - Distance line always shows as positive length\n\n    Visual features:\n    - Measurement ticks along distance line\n    - Zero point highlighted with larger marker\n    - Grid background for easy counting\n    - Smooth animations using lerp()\n\n    Learning reinforcements:\n    - Display: \"Distance from 0 to [x] is [|x|]\"\n    - Display: \"Note: Distance is always positive!\"\n    - When at mirror positions: \"Notice: |a| = |-a|\"\n\n    Implementation: p5.js with mouse interaction for dragging, smooth animations, clear typography"
+}

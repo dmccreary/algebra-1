@@ -1,0 +1,15 @@
+{
+  "sim_id": "polynomial-classification-interactive-tool",
+  "diagram_name": "Polynomial Classification Interactive Tool",
+  "chapter_number": 4,
+  "chapter_title": "Polynomial Expressions",
+  "chapter_dir": "04-polynomial-expressions",
+  "chapter_rel_dir": "chapters/04-polynomial-expressions",
+  "library": null,
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-07-15",
+  "specification": "Type: microsim\n\n    Learning objective: Practice identifying degree, leading coefficient, and standard form of polynomials\n\n    Canvas layout (900x600px):\n    - Top area (900x200): Polynomial display and analysis\n    - Middle area (900x250): Interactive workspace\n    - Bottom area (900x150): Feedback and controls\n\n    Visual elements:\n    - Large polynomial display (e.g., \"$3x^2 + 5x^4 - 2x + 7$\")\n    - Terms highlighted individually with different colors\n    - Degree indicator with visual representation\n    - Leading coefficient highlighted\n    - Standard form comparison display\n    - Drag-and-drop term reordering interface\n\n    Interactive features:\n    - Random polynomial generator\n    - Drag terms to rearrange into standard form\n    - Click to identify highest degree term\n    - Input fields for: degree, leading coefficient\n    - Button: \"Check answers\"\n    - Button: \"Show standard form\"\n    - Difficulty selector (simple/medium/complex)\n\n    Default parameters:\n    - Difficulty: medium\n    - Number of terms: 3-5\n\n    Behavior:\n    - Display polynomial in random order\n    - Student drags terms to rearrange\n    - Snap terms into standard form order\n    - Highlight degree of each term\n    - When \"Check\" clicked:\n      - Verify standard form arrangement\n      - Confirm degree and leading coefficient\n      - Provide immediate feedback\n\n    Visual features:\n    - Color-coded exponents\n    - Animated rearrangement\n    - Degree visualization (stacked blocks)\n    - Celebration for correct answers\n\n    Implementation: p5.js with drag-and-drop, validation, animation"
+}

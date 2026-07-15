@@ -1,0 +1,15 @@
+{
+  "sim_id": "number-systems-hierarchy-diagram",
+  "diagram_name": "Number Systems Hierarchy Diagram",
+  "chapter_number": 2,
+  "chapter_title": "Number Systems And Properties",
+  "chapter_dir": "02-number-systems-and-properties",
+  "chapter_rel_dir": "chapters/02-number-systems-and-properties",
+  "library": null,
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-07-15",
+  "specification": "Type: diagram\n\n    Purpose: Show how different number systems are nested within each other, from natural numbers to real numbers\n\n    Components to show:\n    - Concentric rectangles or ovals representing each number system\n    - Innermost: Natural Numbers (N) - {1, 2, 3, ...}\n    - Second layer: Whole Numbers (W) - {0, 1, 2, 3, ...}\n    - Third layer: Integers (Z) - {..., -2, -1, 0, 1, 2, ...}\n    - Fourth layer: Rational Numbers (Q) - all fractions p/q\n    - Outermost: Real Numbers (R) - all numbers on the number line\n    - Separate region within Real but outside Rational: Irrational Numbers (I)\n\n    Connections:\n    - Arrows showing \"is a subset of\" relationships (⊂)\n    - Labels: N ⊂ W ⊂ Z ⊂ Q ⊂ R\n\n    Example elements in each region:\n    - Natural numbers: 1, 2, 3, 15\n    - Whole numbers only: 0\n    - Integers only: -5, -12\n    - Rational numbers only: 1/2, 0.75, -2/3\n    - Irrational numbers: π, √2, e\n\n    Style: Venn diagram style with nested regions, each with a different pastel color\n    - Natural: light yellow\n    - Whole: light green\n    - Integers: light blue\n    - Rational: light purple\n    - Real: light gray background\n    - Irrational: orange accent (separate region)\n\n    Labels:\n    - Clear text labels for each number system\n    - Mathematical notation for each set (N, W, Z, Q, R, I)\n    - \"⊂\" symbols between layers\n    - Examples of numbers in each category\n\n    Color scheme: Progressive shading from warm (inner) to cool (outer) colors\n\n    Implementation: SVG or canvas-based diagram with clear layering"
+}

@@ -1,0 +1,15 @@
+{
+  "sim_id": "foil-method-interactive-visualizer",
+  "diagram_name": "FOIL Method Interactive Visualizer",
+  "chapter_number": 4,
+  "chapter_title": "Polynomial Expressions",
+  "chapter_dir": "04-polynomial-expressions",
+  "chapter_rel_dir": "chapters/04-polynomial-expressions",
+  "library": null,
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-07-15",
+  "specification": "Type: microsim\n\n    Learning objective: Master the FOIL method through visual representation and practice\n\n    Canvas layout (800x600px):\n    - Top area (800x300): Visual FOIL diagram\n    - Bottom area (800x300): Practice problems and feedback\n\n    Visual elements:\n    - Two binomials displayed: $(a + b)(c + d)$\n    - Four curved arrows showing F, O, I, L connections\n    - Color-coded terms:\n      - First: blue\n      - Outer: green\n      - Inner: orange\n      - Last: red\n    - Product boxes showing each multiplication\n    - Final simplified result\n\n    Interactive controls:\n    - Input: coefficients and constants for both binomials\n    - Button: \"Show FOIL process\"\n    - Checkbox: \"Animate step-by-step\"\n    - Practice mode: random binomials to multiply\n    - Input fields for student answer\n    - Button: \"Check answer\"\n\n    Default parameters:\n    - First binomial: (x + 3)\n    - Second binomial: (x + 5)\n\n    Behavior:\n    - Display two binomials with clear formatting\n    - When \"Show FOIL\" clicked:\n      - Animate First multiplication (blue arrow)\n      - Animate Outer multiplication (green arrow)\n      - Animate Inner multiplication (orange arrow)\n      - Animate Last multiplication (red arrow)\n      - Show combining like terms\n    - In practice mode:\n      - Generate random binomials\n      - Student enters F, O, I, L products separately\n      - Then enters final simplified form\n      - Immediate feedback with color coding\n\n    Visual features:\n    - Curved arrows connecting terms\n    - Box algebra representation\n    - Terms sliding together during combining\n    - Color persistence from FOIL to final answer\n\n    Implementation: p5.js with animation, color coding, input validation"
+}

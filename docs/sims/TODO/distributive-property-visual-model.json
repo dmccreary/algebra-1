@@ -1,0 +1,15 @@
+{
+  "sim_id": "distributive-property-visual-model",
+  "diagram_name": "Distributive Property Visual Model",
+  "chapter_number": 2,
+  "chapter_title": "Number Systems And Properties",
+  "chapter_dir": "02-number-systems-and-properties",
+  "chapter_rel_dir": "chapters/02-number-systems-and-properties",
+  "library": null,
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-07-15",
+  "specification": "Type: microsim\n\n    Learning objective: Visualize the distributive property using area models (rectangles) to show why a(b + c) = ab + ac\n\n    Canvas layout (800x500px):\n    - Top area (800x350): Drawing area showing rectangular area model\n    - Bottom area (800x150): Control panel\n\n    Visual elements:\n    - Large rectangle divided into two sections\n    - Left rectangle: width = b, height = a, area = ab (colored light blue)\n    - Right rectangle: width = c, height = a, area = ac (colored light green)\n    - Combined rectangle: width = (b + c), height = a, area = a(b + c)\n    - Grid lines showing unit squares\n    - Labels on all dimensions\n    - Area calculations displayed for each section\n\n    Interactive controls:\n    - Slider: Value of a (1-10)\n    - Slider: Value of b (1-10)\n    - Slider: Value of c (1-10)\n    - Display: Equation showing a(b + c) = ab + ac with current values\n    - Display: \"Left side = [value], Right side = [value], Equal? ✓\"\n    - Checkbox: \"Show unit grid\"\n    - Checkbox: \"Show calculations\"\n\n    Default parameters:\n    - a = 3\n    - b = 4\n    - c = 5\n    - Show unit grid: true\n\n    Behavior:\n    - When sliders move, rectangle dimensions update smoothly\n    - Area of each section recalculates\n    - Both sides of equation update to show they're equal\n    - Unit grid helps students count squares to verify\n    - Color coding helps distinguish ab from ac\n    - Total area shown both as a(b+c) and as ab + ac\n\n    Additional features:\n    - Button: \"Show me a different property\" (cycles through numerical examples)\n    - Animation: Can animate the \"splitting\" of the rectangle\n\n    Implementation: p5.js with clear grid rendering and dynamic text labels"
+}
