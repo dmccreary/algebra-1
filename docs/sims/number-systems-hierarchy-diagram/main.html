@@ -3,131 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- microsim-scaffold-stub -->
-    <title>Number Systems Hierarchy Diagram</title>
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Number Systems Hierarchy Diagram using p5.js</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
-        }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
+        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <script src="number-systems-hierarchy-diagram.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>Number Systems Hierarchy Diagram</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> number-systems-hierarchy-diagram</p>
-            <p><strong>Library:</strong> TBD</p>
-            <p><strong>Bloom Level:</strong> TBD</p>
-            <p><strong>Learning Objective:</strong> TBD</p>
-        </div>
-    </div>
-
-    <!--
-    SPECIFICATION (from chapter index.md):
-
-    Type: diagram
-    
-        Purpose: Show how different number systems are nested within each other, from natural numbers to real numbers
-    
-        Components to show:
-        - Concentric rectangles or ovals representing each number system
-        - Innermost: Natural Numbers (N) - {1, 2, 3, ...}
-        - Second layer: Whole Numbers (W) - {0, 1, 2, 3, ...}
-        - Third layer: Integers (Z) - {..., -2, -1, 0, 1, 2, ...}
-        - Fourth layer: Rational Numbers (Q) - all fractions p/q
-        - Outermost: Real Numbers (R) - all numbers on the number line
-        - Separate region within Real but outside Rational: Irrational Numbers (I)
-    
-        Connections:
-        - Arrows showing "is a subset of" relationships (⊂)
-        - Labels: N ⊂ W ⊂ Z ⊂ Q ⊂ R
-    
-        Example elements in each region:
-        - Natural numbers: 1, 2, 3, 15
-        - Whole numbers only: 0
-        - Integers only: -5, -12
-        - Rational numbers only: 1/2, 0.75, -2/3
-        - Irrational numbers: π, √2, e
-    
-        Style: Venn diagram style with nested regions, each with a different pastel color
-        - Natural: light yellow
-        - Whole: light green
-        - Integers: light blue
-        - Rational: light purple
-        - Real: light gray background
-        - Irrational: orange accent (separate region)
-    
-        Labels:
-        - Clear text labels for each number system
-        - Mathematical notation for each set (N, W, Z, Q, R, I)
-        - "⊂" symbols between layers
-        - Examples of numbers in each category
-    
-        Color scheme: Progressive shading from warm (inner) to cool (outer) colors
-    
-        Implementation: SVG or canvas-based diagram with clear layering
-    -->
+    <main></main>
+    <br/>
+    <a href=".">Back to Lesson Plan</a>
 </body>
 </html>

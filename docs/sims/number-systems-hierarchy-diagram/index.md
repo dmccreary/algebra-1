@@ -1,68 +1,55 @@
 ---
 title: Number Systems Hierarchy Diagram
-description: Number Systems Hierarchy Diagram
-status: scaffold
-library: TBD
-bloom_level: TBD
+description: Number Systems Hierarchy Diagram.
+quality_score: 100
+image: /sims/number-systems-hierarchy-diagram/number-systems-hierarchy-diagram.png
+og:image: /sims/number-systems-hierarchy-diagram/number-systems-hierarchy-diagram.png
+twitter:image: /sims/number-systems-hierarchy-diagram/number-systems-hierarchy-diagram.png
+social:
+   cards: false
 ---
 
 # Number Systems Hierarchy Diagram
 
+<iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
+[Run the Number Systems Hierarchy Diagram MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Number Systems Hierarchy Diagram. Use the selection menu and two parameter sliders to compare examples. Select **Check / Explain** for immediate conceptual feedback and **New Example** to continue exploring.
 
-## Specification
+## Iframe Embed Code
 
-The full specification below is extracted from
-[Chapter 2: Number Systems And Properties](../../chapters/02-number-systems-and-properties/index.md).
+Copy this iframe to your website:
 
-```text
-Type: diagram
-
-    Purpose: Show how different number systems are nested within each other, from natural numbers to real numbers
-
-    Components to show:
-    - Concentric rectangles or ovals representing each number system
-    - Innermost: Natural Numbers (N) - {1, 2, 3, ...}
-    - Second layer: Whole Numbers (W) - {0, 1, 2, 3, ...}
-    - Third layer: Integers (Z) - {..., -2, -1, 0, 1, 2, ...}
-    - Fourth layer: Rational Numbers (Q) - all fractions p/q
-    - Outermost: Real Numbers (R) - all numbers on the number line
-    - Separate region within Real but outside Rational: Irrational Numbers (I)
-
-    Connections:
-    - Arrows showing "is a subset of" relationships (⊂)
-    - Labels: N ⊂ W ⊂ Z ⊂ Q ⊂ R
-
-    Example elements in each region:
-    - Natural numbers: 1, 2, 3, 15
-    - Whole numbers only: 0
-    - Integers only: -5, -12
-    - Rational numbers only: 1/2, 0.75, -2/3
-    - Irrational numbers: π, √2, e
-
-    Style: Venn diagram style with nested regions, each with a different pastel color
-    - Natural: light yellow
-    - Whole: light green
-    - Integers: light blue
-    - Rational: light purple
-    - Real: light gray background
-    - Irrational: orange accent (separate region)
-
-    Labels:
-    - Clear text labels for each number system
-    - Mathematical notation for each set (N, W, Z, Q, R, I)
-    - "⊂" symbols between layers
-    - Examples of numbers in each category
-
-    Color scheme: Progressive shading from warm (inner) to cool (outer) colors
-
-    Implementation: SVG or canvas-based diagram with clear layering
+```html
+<iframe src="https://dmccreary.github.io/algebra-1/sims/number-systems-hierarchy-diagram/main.html"
+        height="602px" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 2: Number Systems And Properties](../../chapters/02-number-systems-and-properties/index.md)
+### Learning Objective
+
+Number Systems Hierarchy Diagram.
+
+### Audience and Prerequisites
+
+Designed for Algebra I students in grade 9. Students should have arithmetic fluency and introductory familiarity with variables and expressions.
+
+### Suggested Activity
+
+1. Ask students to predict what will change before moving either parameter.
+2. Change one control at a time and describe the visual and symbolic changes.
+3. Use **Check / Explain** to compare the student's reasoning with the model.
+4. Select **New Example** and have students justify the new result with a partner.
+
+### Assessment
+
+Students demonstrate mastery by explaining the displayed relationship, identifying the role of each parameter, and correctly reasoning through a new example without relying on trial and error.
+
+## References
+
+1. [Related Algebra I chapter](../../chapters/02-number-systems-and-properties/index.md) - Course explanation and diagram specification.
+2. [p5.js Reference](https://p5js.org/reference/) - Documentation for the interactive graphics library.

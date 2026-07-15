@@ -1,4 +1,5 @@
 // Distributive Property Visualizer MicroSim
+// CANVAS_HEIGHT: 760
 // Demonstrates distributive property using synchronized area models and algebraic steps
 
 // Canvas dimensions - REQUIRED structure

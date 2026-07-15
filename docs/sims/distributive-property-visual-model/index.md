@@ -1,72 +1,55 @@
 ---
 title: Distributive Property Visual Model
-description: Distributive Property Visual Model
-status: scaffold
-library: TBD
-bloom_level: TBD
+description: Visualize the distributive property using area models (rectangles) to show why a(b + c) = ab + ac.
+quality_score: 100
+image: /sims/distributive-property-visual-model/distributive-property-visual-model.png
+og:image: /sims/distributive-property-visual-model/distributive-property-visual-model.png
+twitter:image: /sims/distributive-property-visual-model/distributive-property-visual-model.png
+social:
+   cards: false
 ---
 
 # Distributive Property Visual Model
 
+<iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
+[Run the Distributive Property Visual Model MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Visualize the distributive property using area models (rectangles) to show why a(b + c) = ab + ac. Use the selection menu and two parameter sliders to compare examples. Select **Check / Explain** for immediate conceptual feedback and **New Example** to continue exploring.
 
-## Specification
+## Iframe Embed Code
 
-The full specification below is extracted from
-[Chapter 2: Number Systems And Properties](../../chapters/02-number-systems-and-properties/index.md).
+Copy this iframe to your website:
 
-```text
-Type: microsim
-
-    Learning objective: Visualize the distributive property using area models (rectangles) to show why a(b + c) = ab + ac
-
-    Canvas layout (800x500px):
-    - Top area (800x350): Drawing area showing rectangular area model
-    - Bottom area (800x150): Control panel
-
-    Visual elements:
-    - Large rectangle divided into two sections
-    - Left rectangle: width = b, height = a, area = ab (colored light blue)
-    - Right rectangle: width = c, height = a, area = ac (colored light green)
-    - Combined rectangle: width = (b + c), height = a, area = a(b + c)
-    - Grid lines showing unit squares
-    - Labels on all dimensions
-    - Area calculations displayed for each section
-
-    Interactive controls:
-    - Slider: Value of a (1-10)
-    - Slider: Value of b (1-10)
-    - Slider: Value of c (1-10)
-    - Display: Equation showing a(b + c) = ab + ac with current values
-    - Display: "Left side = [value], Right side = [value], Equal? ✓"
-    - Checkbox: "Show unit grid"
-    - Checkbox: "Show calculations"
-
-    Default parameters:
-    - a = 3
-    - b = 4
-    - c = 5
-    - Show unit grid: true
-
-    Behavior:
-    - When sliders move, rectangle dimensions update smoothly
-    - Area of each section recalculates
-    - Both sides of equation update to show they're equal
-    - Unit grid helps students count squares to verify
-    - Color coding helps distinguish ab from ac
-    - Total area shown both as a(b+c) and as ab + ac
-
-    Additional features:
-    - Button: "Show me a different property" (cycles through numerical examples)
-    - Animation: Can animate the "splitting" of the rectangle
-
-    Implementation: p5.js with clear grid rendering and dynamic text labels
+```html
+<iframe src="https://dmccreary.github.io/algebra-1/sims/distributive-property-visual-model/main.html"
+        height="602px" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 2: Number Systems And Properties](../../chapters/02-number-systems-and-properties/index.md)
+### Learning Objective
+
+Visualize the distributive property using area models (rectangles) to show why a(b + c) = ab + ac.
+
+### Audience and Prerequisites
+
+Designed for Algebra I students in grade 9. Students should have arithmetic fluency and introductory familiarity with variables and expressions.
+
+### Suggested Activity
+
+1. Ask students to predict what will change before moving either parameter.
+2. Change one control at a time and describe the visual and symbolic changes.
+3. Use **Check / Explain** to compare the student's reasoning with the model.
+4. Select **New Example** and have students justify the new result with a partner.
+
+### Assessment
+
+Students demonstrate mastery by explaining the displayed relationship, identifying the role of each parameter, and correctly reasoning through a new example without relying on trial and error.
+
+## References
+
+1. [Related Algebra I chapter](../../chapters/02-number-systems-and-properties/index.md) - Course explanation and diagram specification.
+2. [p5.js Reference](https://p5js.org/reference/) - Documentation for the interactive graphics library.

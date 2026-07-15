@@ -1,23 +1,67 @@
 {
   "title": "Intercepts and Graphing Interactive Practice",
-  "description": "Intercepts and Graphing Interactive Practice",
-  "creator": "Algebra I",
-  "author": "Dan McCreary",
-  "date": "2026-07-15",
+  "creator": "Dan McCreary",
   "subject": [
-    "Algebra I"
+    "Algebra I",
+    "Graphing And Linear Functions",
+    "Intercepts and Graphing Interactive Practice"
   ],
+  "description": "Help students find intercepts algebraically and use them to graph linear equations",
+  "date": "2026-07-15",
+  "educational": {
+    "gradeLevel": [
+      "9"
+    ],
+    "subjectArea": "Mathematics",
+    "topic": "Intercepts and Graphing Interactive Practice",
+    "learningObjectives": [
+      "Help students find intercepts algebraically and use them to graph linear equations"
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Arithmetic fluency",
+      "Familiarity with variables and expressions"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.11.10",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 600
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 1.11.10"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Guided interactive exploration with immediate feedback",
+    "keyQuestions": [
+      "What changes when each control moves?",
+      "How does the visual model support the algebraic rule?"
+    ],
+    "commonMisconceptions": [
+      "Changing a representation changes the underlying mathematical relationship"
+    ],
+    "assessmentOpportunities": [
+      "Explain the displayed relationship",
+      "Use New Example and justify the result"
+    ]
+  },
+  "chapter": "09-graphing-and-linear-functions",
   "type": "Interactive Simulation",
   "format": "text/html",
   "language": "en",
   "rights": "CC BY-NC-SA 4.0",
+  "library": "p5.js",
   "identifier": "intercepts-and-graphing-interactive-practice",
-  "library": "TBD",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
-  "chapter_number": 9,
-  "chapter_title": "Graphing And Linear Functions",
-  "chapter_dir": "09-graphing-and-linear-functions",
-  "chapter_rel_dir": "chapters/09-graphing-and-linear-functions"
+  "completion_status": "implemented",
+  "canvasHeight": 600
 }

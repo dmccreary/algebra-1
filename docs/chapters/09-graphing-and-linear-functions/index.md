@@ -66,6 +66,10 @@ These two axes divide the plane into four regions called **quadrants**, numbered
 
 #### Diagram: Interactive Coordinate Plane Explorer
 
+
+<iframe src="../../sims/interactive-coordinate-plane-explorer/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Interactive Coordinate Plane Explorer Fullscreen](../../sims/interactive-coordinate-plane-explorer/main.html)
+
 <details markdown="1">
     <summary>Interactive Coordinate Plane Explorer</summary>
     Type: microsim
@@ -224,6 +228,10 @@ X-intercept: $(3, 0)$
 With these two intercepts, you can easily graph the line by plotting these points and drawing a straight line through them.
 
 #### Diagram: Intercepts and Graphing Interactive Practice
+
+
+<iframe src="../../sims/intercepts-and-graphing-interactive-practice/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Intercepts and Graphing Interactive Practice Fullscreen](../../sims/intercepts-and-graphing-interactive-practice/main.html)
 
 <details markdown="1">
     <summary>Intercepts and Graphing Interactive Practice</summary>
@@ -397,6 +405,10 @@ Lines can have four different types of slope, each with distinct characteristics
 - Note: Vertical lines are NOT functions!
 
 #### Diagram: Slope Visualizer and Calculator
+
+
+<iframe src="../../sims/slope-visualizer-and-calculator/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Slope Visualizer and Calculator Fullscreen](../../sims/slope-visualizer-and-calculator/main.html)
 
 <details markdown="1">
     <summary>Slope Visualizer and Calculator</summary>
@@ -613,6 +625,10 @@ You can convert between these three forms using algebraic manipulation:
 
 #### Diagram: Linear Equation Forms Converter and Grapher
 
+
+<iframe src="../../sims/linear-equation-forms-converter-and-grapher/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Linear Equation Forms Converter and Grapher Fullscreen](../../sims/linear-equation-forms-converter-and-grapher/main.html)
+
 <details markdown="1">
     <summary>Linear Equation Forms Converter and Grapher</summary>
     Type: microsim
@@ -798,6 +814,10 @@ A **vertical line** runs straight up and down—it's parallel to the y-axis. All
 | Y-intercept | $(0, b)$ | None (unless $a=0$) |
 
 #### Diagram: Special Lines Explorer: Horizontal and Vertical
+
+
+<iframe src="../../sims/special-lines-explorer-horizontal-and-vertical/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Special Lines Explorer: Horizontal and Vertical Fullscreen](../../sims/special-lines-explorer-horizontal-and-vertical/main.html)
 
 <details markdown="1">
     <summary>Special Lines Explorer: Horizontal and Vertical</summary>
@@ -1006,6 +1026,10 @@ This method works for any linear equation and is especially useful when other me
 Plot these four points and draw the line through them.
 
 #### Diagram: Interactive Line Graphing Practice
+
+
+<iframe src="../../sims/interactive-line-graphing-practice/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Interactive Line Graphing Practice Fullscreen](../../sims/interactive-line-graphing-practice/main.html)
 
 <details markdown="1">
     <summary>Interactive Line Graphing Practice</summary>
@@ -1240,6 +1264,10 @@ If you're given a graph of a line:
 3. **Write the equation** in slope-intercept form: $y = mx + b$
 
 #### Diagram: Write Equation of a Line Practice Scenarios
+
+
+<iframe src="../../sims/write-equation-of-a-line-practice-scenarios/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Write Equation of a Line Practice Scenarios Fullscreen](../../sims/write-equation-of-a-line-practice-scenarios/main.html)
 
 <details markdown="1">
     <summary>Write Equation of a Line Practice Scenarios</summary>

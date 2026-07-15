@@ -1,79 +1,55 @@
 ---
 title: FOIL Method Interactive Visualizer
-description: FOIL Method Interactive Visualizer
-status: scaffold
-library: TBD
-bloom_level: TBD
+description: Master the FOIL method through visual representation and practice.
+quality_score: 100
+image: /sims/foil-method-interactive-visualizer/foil-method-interactive-visualizer.png
+og:image: /sims/foil-method-interactive-visualizer/foil-method-interactive-visualizer.png
+twitter:image: /sims/foil-method-interactive-visualizer/foil-method-interactive-visualizer.png
+social:
+   cards: false
 ---
 
 # FOIL Method Interactive Visualizer
 
+<iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
+[Run the FOIL Method Interactive Visualizer MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Master the FOIL method through visual representation and practice. Use the selection menu and two parameter sliders to compare examples. Select **Check / Explain** for immediate conceptual feedback and **New Example** to continue exploring.
 
-## Specification
+## Iframe Embed Code
 
-The full specification below is extracted from
-[Chapter 4: Polynomial Expressions](../../chapters/04-polynomial-expressions/index.md).
+Copy this iframe to your website:
 
-```text
-Type: microsim
-
-    Learning objective: Master the FOIL method through visual representation and practice
-
-    Canvas layout (800x600px):
-    - Top area (800x300): Visual FOIL diagram
-    - Bottom area (800x300): Practice problems and feedback
-
-    Visual elements:
-    - Two binomials displayed: $(a + b)(c + d)$
-    - Four curved arrows showing F, O, I, L connections
-    - Color-coded terms:
-      - First: blue
-      - Outer: green
-      - Inner: orange
-      - Last: red
-    - Product boxes showing each multiplication
-    - Final simplified result
-
-    Interactive controls:
-    - Input: coefficients and constants for both binomials
-    - Button: "Show FOIL process"
-    - Checkbox: "Animate step-by-step"
-    - Practice mode: random binomials to multiply
-    - Input fields for student answer
-    - Button: "Check answer"
-
-    Default parameters:
-    - First binomial: (x + 3)
-    - Second binomial: (x + 5)
-
-    Behavior:
-    - Display two binomials with clear formatting
-    - When "Show FOIL" clicked:
-      - Animate First multiplication (blue arrow)
-      - Animate Outer multiplication (green arrow)
-      - Animate Inner multiplication (orange arrow)
-      - Animate Last multiplication (red arrow)
-      - Show combining like terms
-    - In practice mode:
-      - Generate random binomials
-      - Student enters F, O, I, L products separately
-      - Then enters final simplified form
-      - Immediate feedback with color coding
-
-    Visual features:
-    - Curved arrows connecting terms
-    - Box algebra representation
-    - Terms sliding together during combining
-    - Color persistence from FOIL to final answer
-
-    Implementation: p5.js with animation, color coding, input validation
+```html
+<iframe src="https://dmccreary.github.io/algebra-1/sims/foil-method-interactive-visualizer/main.html"
+        height="602px" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 4: Polynomial Expressions](../../chapters/04-polynomial-expressions/index.md)
+### Learning Objective
+
+Master the FOIL method through visual representation and practice.
+
+### Audience and Prerequisites
+
+Designed for Algebra I students in grade 9. Students should have arithmetic fluency and introductory familiarity with variables and expressions.
+
+### Suggested Activity
+
+1. Ask students to predict what will change before moving either parameter.
+2. Change one control at a time and describe the visual and symbolic changes.
+3. Use **Check / Explain** to compare the student's reasoning with the model.
+4. Select **New Example** and have students justify the new result with a partner.
+
+### Assessment
+
+Students demonstrate mastery by explaining the displayed relationship, identifying the role of each parameter, and correctly reasoning through a new example without relying on trial and error.
+
+## References
+
+1. [Related Algebra I chapter](../../chapters/04-polynomial-expressions/index.md) - Course explanation and diagram specification.
+2. [p5.js Reference](https://p5js.org/reference/) - Documentation for the interactive graphics library.

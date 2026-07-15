@@ -206,10 +206,14 @@ How many terms are in each expression?
 - $15$ has 1 term (called a monomial)
 
 Understanding terms helps you organize expressions and perform operations correctly.
-<iframe src="../../sims/expression-explorer/main.html" height="400px" scrolling="no"></iframe>
+<iframe src="../../sims/expression-explorer/main.html" height="392px" scrolling="no"></iframe>
 [Run the Expression Explorer Fullscreen](../../sims/expression-explorer/main.html){ .md-button .md-button--primary }
 
 #### Diagram: Expression Explorer MicroSim
+
+
+<iframe src="../../sims/expression-explorer-microsim/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Expression Explorer MicroSim Fullscreen](../../sims/expression-explorer-microsim/main.html)
 
 <details markdown="1">
     <summary>Expression Explorer MicroSim</summary>
@@ -383,6 +387,10 @@ Following PEMDAS:
 **Answer: 33**
 
 #### Diagram: Order of Operations Challenge MicroSim
+
+
+<iframe src="../../sims/order-of-operations-challenge-microsim/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Order of Operations Challenge MicroSim Fullscreen](../../sims/order-of-operations-challenge-microsim/main.html)
 
 <details markdown="1">
     <summary>Order of Operations Challenge MicroSim</summary>
@@ -619,6 +627,10 @@ $2x + 8y - 1$
 
 #### Diagram: Like Terms Matching Game MicroSim
 
+
+<iframe src="../../sims/like-terms-matching-game-microsim/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Like Terms Matching Game MicroSim Fullscreen](../../sims/like-terms-matching-game-microsim/main.html)
+
 <details markdown="1">
 <summary>Like Terms Matching Game MicroSim</summary>
 Type: microsim
@@ -808,6 +820,10 @@ Both skills are important and complement each other.
 
 #### Diagram: Distributive Property Visualizer MicroSim
 
+
+<iframe src="../../sims/distributive-property-visualizer-microsim/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Distributive Property Visualizer MicroSim Fullscreen](../../sims/distributive-property-visualizer-microsim/main.html)
+
 <details markdown="1">
     <summary>Distributive Property Visualizer MicroSim</summary>
 Type: microsim
@@ -983,6 +999,10 @@ Prime factorization helps you:
 - Solve certain equations
 
 #### Diagram: Prime Factorization Tree Builder MicroSim
+
+
+<iframe src="../../sims/prime-factorization-tree-builder-microsim/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Prime Factorization Tree Builder MicroSim Fullscreen](../../sims/prime-factorization-tree-builder-microsim/main.html)
 
 <details markdown="1">
     <summary>Prime Factorization Tree Builder MicroSim</summary>

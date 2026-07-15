@@ -1,4 +1,5 @@
 // Variable Types Interactive Infographic MicroSim
+// CANVAS_HEIGHT: 700
 // Canvas dimensions - REQUIRED structure
 let canvasWidth = 800;              // Initial width (responsive)
 let drawHeight = 600;                // Drawing/simulation area height

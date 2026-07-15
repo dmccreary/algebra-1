@@ -1,83 +1,55 @@
 ---
 title: Special Products and Factoring Matcher
-description: Special Products and Factoring Matcher
-status: scaffold
-library: TBD
-bloom_level: TBD
+description: Recognize special product patterns and connect multiplication to factoring.
+quality_score: 100
+image: /sims/special-products-and-factoring-matcher/special-products-and-factoring-matcher.png
+og:image: /sims/special-products-and-factoring-matcher/special-products-and-factoring-matcher.png
+twitter:image: /sims/special-products-and-factoring-matcher/special-products-and-factoring-matcher.png
+social:
+   cards: false
 ---
 
 # Special Products and Factoring Matcher
 
+<iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
+[Run the Special Products and Factoring Matcher MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Recognize special product patterns and connect multiplication to factoring. Use the selection menu and two parameter sliders to compare examples. Select **Check / Explain** for immediate conceptual feedback and **New Example** to continue exploring.
 
-## Specification
+## Iframe Embed Code
 
-The full specification below is extracted from
-[Chapter 4: Polynomial Expressions](../../chapters/04-polynomial-expressions/index.md).
+Copy this iframe to your website:
 
-```text
-Type: microsim
-
-    Learning objective: Recognize special product patterns and connect multiplication to factoring
-
-    Canvas layout (900x650px):
-    - Left panel (450x650): Factored form
-    - Right panel (450x650): Expanded form
-    - Center: Matching interface
-
-    Visual elements:
-    - Cards on left showing factored forms
-    - Cards on right showing expanded forms
-    - Drag-and-drop or click-to-connect interface
-    - Pattern identification hints
-    - Score and timer
-
-    Game mechanics:
-    - Display 5-8 expressions in each column
-    - Student matches factored ↔ expanded forms
-    - Immediate feedback on match attempt
-    - Points for correct matches
-    - Hints available (highlight pattern type)
-
-    Expression types:
-    - Difference of squares: $(x+3)(x-3)$ ↔ $x^2-9$
-    - Perfect square trinomials: $(x+2)^2$ ↔ $x^2+4x+4$
-    - GCF factoring: $3x(x-5)$ ↔ $3x^2-15x$
-    - Sum/difference of cubes: $(x+2)(x^2-2x+4)$ ↔ $x^3+8$
-    - General binomial: $(x+3)(x+5)$ ↔ $x^2+8x+15$
-
-    Difficulty levels:
-    - Level 1: Only one pattern type
-    - Level 2: Mix of 2-3 patterns
-    - Level 3: All patterns mixed
-    - Level 4: Includes coefficients >1
-
-    Interactive controls:
-    - Drag from left to right to match
-    - Or click two cards to connect
-    - Button: "Check all"
-    - Button: "Show hint"
-    - Button: "New set"
-
-    Behavior:
-    - Correct match: cards stick together, green glow
-    - Incorrect match: red flash, cards return
-    - All matched: celebration animation, score display
-    - Hint: highlights pattern type with color
-
-    Visual features:
-    - Color coding by pattern type
-    - Connecting lines for matches
-    - Animation when matching
-    - Progress bar showing completion
-
-    Implementation: p5.js with drag-and-drop, card matching logic, animation
+```html
+<iframe src="https://dmccreary.github.io/algebra-1/sims/special-products-and-factoring-matcher/main.html"
+        height="602px" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 4: Polynomial Expressions](../../chapters/04-polynomial-expressions/index.md)
+### Learning Objective
+
+Recognize special product patterns and connect multiplication to factoring.
+
+### Audience and Prerequisites
+
+Designed for Algebra I students in grade 9. Students should have arithmetic fluency and introductory familiarity with variables and expressions.
+
+### Suggested Activity
+
+1. Ask students to predict what will change before moving either parameter.
+2. Change one control at a time and describe the visual and symbolic changes.
+3. Use **Check / Explain** to compare the student's reasoning with the model.
+4. Select **New Example** and have students justify the new result with a partner.
+
+### Assessment
+
+Students demonstrate mastery by explaining the displayed relationship, identifying the role of each parameter, and correctly reasoning through a new example without relying on trial and error.
+
+## References
+
+1. [Related Algebra I chapter](../../chapters/04-polynomial-expressions/index.md) - Course explanation and diagram specification.
+2. [p5.js Reference](https://p5js.org/reference/) - Documentation for the interactive graphics library.

@@ -1,74 +1,55 @@
 ---
 title: Polynomial Classification Interactive Tool
-description: Polynomial Classification Interactive Tool
-status: scaffold
-library: TBD
-bloom_level: TBD
+description: Practice identifying degree, leading coefficient, and standard form of polynomials.
+quality_score: 100
+image: /sims/polynomial-classification-interactive-tool/polynomial-classification-interactive-tool.png
+og:image: /sims/polynomial-classification-interactive-tool/polynomial-classification-interactive-tool.png
+twitter:image: /sims/polynomial-classification-interactive-tool/polynomial-classification-interactive-tool.png
+social:
+   cards: false
 ---
 
 # Polynomial Classification Interactive Tool
 
+<iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
+[Run the Polynomial Classification Interactive Tool MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Practice identifying degree, leading coefficient, and standard form of polynomials. Use the selection menu and two parameter sliders to compare examples. Select **Check / Explain** for immediate conceptual feedback and **New Example** to continue exploring.
 
-## Specification
+## Iframe Embed Code
 
-The full specification below is extracted from
-[Chapter 4: Polynomial Expressions](../../chapters/04-polynomial-expressions/index.md).
+Copy this iframe to your website:
 
-```text
-Type: microsim
-
-    Learning objective: Practice identifying degree, leading coefficient, and standard form of polynomials
-
-    Canvas layout (900x600px):
-    - Top area (900x200): Polynomial display and analysis
-    - Middle area (900x250): Interactive workspace
-    - Bottom area (900x150): Feedback and controls
-
-    Visual elements:
-    - Large polynomial display (e.g., "$3x^2 + 5x^4 - 2x + 7$")
-    - Terms highlighted individually with different colors
-    - Degree indicator with visual representation
-    - Leading coefficient highlighted
-    - Standard form comparison display
-    - Drag-and-drop term reordering interface
-
-    Interactive features:
-    - Random polynomial generator
-    - Drag terms to rearrange into standard form
-    - Click to identify highest degree term
-    - Input fields for: degree, leading coefficient
-    - Button: "Check answers"
-    - Button: "Show standard form"
-    - Difficulty selector (simple/medium/complex)
-
-    Default parameters:
-    - Difficulty: medium
-    - Number of terms: 3-5
-
-    Behavior:
-    - Display polynomial in random order
-    - Student drags terms to rearrange
-    - Snap terms into standard form order
-    - Highlight degree of each term
-    - When "Check" clicked:
-      - Verify standard form arrangement
-      - Confirm degree and leading coefficient
-      - Provide immediate feedback
-
-    Visual features:
-    - Color-coded exponents
-    - Animated rearrangement
-    - Degree visualization (stacked blocks)
-    - Celebration for correct answers
-
-    Implementation: p5.js with drag-and-drop, validation, animation
+```html
+<iframe src="https://dmccreary.github.io/algebra-1/sims/polynomial-classification-interactive-tool/main.html"
+        height="602px" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 4: Polynomial Expressions](../../chapters/04-polynomial-expressions/index.md)
+### Learning Objective
+
+Practice identifying degree, leading coefficient, and standard form of polynomials.
+
+### Audience and Prerequisites
+
+Designed for Algebra I students in grade 9. Students should have arithmetic fluency and introductory familiarity with variables and expressions.
+
+### Suggested Activity
+
+1. Ask students to predict what will change before moving either parameter.
+2. Change one control at a time and describe the visual and symbolic changes.
+3. Use **Check / Explain** to compare the student's reasoning with the model.
+4. Select **New Example** and have students justify the new result with a partner.
+
+### Assessment
+
+Students demonstrate mastery by explaining the displayed relationship, identifying the role of each parameter, and correctly reasoning through a new example without relying on trial and error.
+
+## References
+
+1. [Related Algebra I chapter](../../chapters/04-polynomial-expressions/index.md) - Course explanation and diagram specification.
+2. [p5.js Reference](https://p5js.org/reference/) - Documentation for the interactive graphics library.

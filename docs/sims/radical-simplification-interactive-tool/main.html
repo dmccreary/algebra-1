@@ -3,165 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- microsim-scaffold-stub -->
-    <title>Radical Simplification Interactive Tool</title>
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Radical Simplification Interactive Tool using p5.js</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
-        }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
+        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <script src="radical-simplification-interactive-tool.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>Radical Simplification Interactive Tool</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> radical-simplification-interactive-tool</p>
-            <p><strong>Library:</strong> TBD</p>
-            <p><strong>Bloom Level:</strong> TBD</p>
-            <p><strong>Learning Objective:</strong> TBD</p>
-        </div>
-    </div>
-
-    <!--
-    SPECIFICATION (from chapter index.md):
-
-    Type: microsim
-    
-        Learning objective: Learn to simplify radical expressions by identifying and extracting perfect square or perfect cube factors
-    
-        Canvas layout (850x700px):
-        - Top area (850x150): Problem and input
-        - Middle area (850x400): Visual factorization workspace
-        - Bottom area (850x150): Answer check and feedback
-    
-        Visual elements:
-        - Problem display: "Simplify: $\sqrt{72}$"
-        - Factor tree visualization showing prime factorization
-        - Perfect square/cube highlighting
-        - Drag-and-drop interface for grouping factors
-        - Visual representation of "moving factors outside"
-        - Step-by-step solution display
-        - Answer input area
-    
-        Interactive controls:
-        - Dropdown: Choose radical type (square root, cube root)
-        - Input or random generator: Number to simplify
-        - Button: "Show factor tree"
-        - Draggable factor tiles for grouping
-        - Input: Simplified answer (e.g., "6√2")
-        - Button: "Check answer"
-        - Button: "Show solution"
-        - Button: "New problem"
-    
-        Default parameters:
-        - Radical type: Square root
-        - Number: 72
-    
-        Behavior (Factor tree):
-        - Display number at top
-        - Branch into factors
-        - Continue until all prime factors shown
-        - Highlight pairs (for square roots) or triplets (for cube roots)
-        - Use color to group factors:
-          - Red: first perfect square/cube
-          - Blue: second perfect square/cube
-          - Gray: leftover factors
-    
-        Behavior (Grouping):
-        - Student drags factor tiles into groups
-        - Snap to position when grouped correctly
-        - Automatically compute √(group) when complete
-        - Show factors "jumping outside" the radical
-        - Animate simplification process
-    
-        Behavior (Answer check):
-        - Accept answers in form "a√b" or "a∛b"
-        - Validate correctness
-        - If correct: green checkmark, celebration
-        - If incorrect: show where answer differs, offer hint
-        - "Show solution" provides full step-by-step
-    
-        Problem types:
-        - Square roots: √8, √12, √18, √20, √45, √50, √72, √98, √128, √200
-        - Cube roots: ∛16, ∛54, ∛128, ∛250
-        - Variables: √(x⁴), √(18a²b³)
-    
-        Visual features:
-        - Factor tree with branching animation
-        - Color-coded perfect squares/cubes
-        - Drag-and-drop grouping interface
-        - Visual "extraction" of factors from radical
-        - Clear typography for mathematical notation
-    
-        Learning reinforcements:
-        - Display: "Look for pairs of identical factors (for square roots)"
-        - Display: "Look for triplets of identical factors (for cube roots)"
-        - Hint system: "Try factoring 72 = 36 × 2"
-        - Progress tracker showing mastery
-    
-        Implementation: p5.js with drag-and-drop, animation, math expression parsing, and validation
-    -->
+    <main></main>
+    <br/>
+    <a href=".">Back to Lesson Plan</a>
 </body>
 </html>

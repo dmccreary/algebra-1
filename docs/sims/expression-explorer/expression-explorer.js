@@ -1,4 +1,5 @@
 // Expression Parts Explorer MicroSim
+// CANVAS_HEIGHT: 390
 // Helps students identify coefficients, variables, constants, and terms in algebraic expressions
 
 // Canvas dimensions

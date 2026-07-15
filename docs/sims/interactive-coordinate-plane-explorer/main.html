@@ -3,153 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- microsim-scaffold-stub -->
-    <title>Interactive Coordinate Plane Explorer</title>
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Interactive Coordinate Plane Explorer using p5.js</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
-        }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
+        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <script src="interactive-coordinate-plane-explorer.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>Interactive Coordinate Plane Explorer</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> interactive-coordinate-plane-explorer</p>
-            <p><strong>Library:</strong> TBD</p>
-            <p><strong>Bloom Level:</strong> TBD</p>
-            <p><strong>Learning Objective:</strong> TBD</p>
-        </div>
-    </div>
-
-    <!--
-    SPECIFICATION (from chapter index.md):
-
-    Type: microsim
-    
-        Learning objective: Help students understand the structure of the coordinate plane, including quadrants, axes, origin, and point location
-    
-        Canvas layout (700x700px):
-        - Main coordinate grid (650x650): Centered coordinate plane
-        - Control panel (650x50): Bottom panel with controls
-    
-        Visual elements in main area:
-        - Coordinate grid from -10 to 10 on both axes
-        - Bold axes lines for x-axis and y-axis (different color from grid)
-        - Origin marked with large dot and label "(0, 0)"
-        - Quadrants labeled with Roman numerals I, II, III, IV
-        - Each quadrant shaded with different subtle color:
-          - Quadrant I: light blue
-          - Quadrant II: light green
-          - Quadrant III: light yellow
-          - Quadrant IV: light pink
-        - Moveable point that user can drag anywhere on the plane
-        - Current point coordinates displayed prominently
-        - Dotted lines from point to both axes showing x and y values
-    
-        Interactive controls:
-        - Display: "Point coordinates: (x, y)"
-        - Display: "Quadrant: [I, II, III, IV, or on axis]"
-        - Display: "x-coordinate: [value]" with color-coded bar
-        - Display: "y-coordinate: [value]" with color-coded bar
-        - Input fields: "Enter x:" and "Enter y:" with "Plot" button
-        - Button: "Random point" (generates random coordinates)
-        - Button: "Quiz mode" (challenges user to plot given point)
-        - Checkbox: "Show quadrant shading"
-        - Checkbox: "Show grid lines"
-        - Checkbox: "Show reference lines from point"
-    
-        Default parameters:
-        - Point at (3, 4)
-        - All visual aids enabled
-        - Grid from -10 to 10
-    
-        Behavior:
-        - User can drag point anywhere on coordinate plane
-        - As point moves, coordinates update in real-time
-        - Quadrant identification updates automatically
-        - Reference lines show distance from axes
-        - When user enters coordinates, point jumps to that location with smooth animation
-        - Quiz mode presents coordinate like "(−3, 5)" and checks if user plots correctly
-        - Color code coordinates: positive = green, negative = red, zero = black
-        - Hover over quadrant labels shows rules: "Q1: x > 0, y > 0"
-    
-        Quiz mode specifics:
-        - Display target coordinates: "Plot the point (−2, 3)"
-        - User drags point to location
-        - When user clicks "Check answer":
-          - If within 0.5 units: "Correct!" (green)
-          - Otherwise: "Try again" with hint about which coordinate is wrong
-        - Track score: "X out of Y correct"
-    
-        Implementation notes:
-        - Use p5.js for rendering
-        - Implement smooth dragging with mousePressed, mouseDragged, mouseReleased
-        - Map pixel coordinates to mathematical coordinates
-        - Use lerp for smooth point animations
-        - Implement collision detection for "Check answer" in quiz mode
-    -->
+    <main></main>
+    <br/>
+    <a href=".">Back to Lesson Plan</a>
 </body>
 </html>

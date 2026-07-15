@@ -1,102 +1,55 @@
 ---
 title: Radical Simplification Interactive Tool
-description: Radical Simplification Interactive Tool
-status: scaffold
-library: TBD
-bloom_level: TBD
+description: Learn to simplify radical expressions by identifying and extracting perfect square or perfect cube factors.
+quality_score: 100
+image: /sims/radical-simplification-interactive-tool/radical-simplification-interactive-tool.png
+og:image: /sims/radical-simplification-interactive-tool/radical-simplification-interactive-tool.png
+twitter:image: /sims/radical-simplification-interactive-tool/radical-simplification-interactive-tool.png
+social:
+   cards: false
 ---
 
 # Radical Simplification Interactive Tool
 
+<iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
+[Run the Radical Simplification Interactive Tool MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Learn to simplify radical expressions by identifying and extracting perfect square or perfect cube factors. Use the selection menu and two parameter sliders to compare examples. Select **Check / Explain** for immediate conceptual feedback and **New Example** to continue exploring.
 
-## Specification
+## Iframe Embed Code
 
-The full specification below is extracted from
-[Chapter 3: Exponents And Powers](../../chapters/03-exponents-and-powers/index.md).
+Copy this iframe to your website:
 
-```text
-Type: microsim
-
-    Learning objective: Learn to simplify radical expressions by identifying and extracting perfect square or perfect cube factors
-
-    Canvas layout (850x700px):
-    - Top area (850x150): Problem and input
-    - Middle area (850x400): Visual factorization workspace
-    - Bottom area (850x150): Answer check and feedback
-
-    Visual elements:
-    - Problem display: "Simplify: $\sqrt{72}$"
-    - Factor tree visualization showing prime factorization
-    - Perfect square/cube highlighting
-    - Drag-and-drop interface for grouping factors
-    - Visual representation of "moving factors outside"
-    - Step-by-step solution display
-    - Answer input area
-
-    Interactive controls:
-    - Dropdown: Choose radical type (square root, cube root)
-    - Input or random generator: Number to simplify
-    - Button: "Show factor tree"
-    - Draggable factor tiles for grouping
-    - Input: Simplified answer (e.g., "6√2")
-    - Button: "Check answer"
-    - Button: "Show solution"
-    - Button: "New problem"
-
-    Default parameters:
-    - Radical type: Square root
-    - Number: 72
-
-    Behavior (Factor tree):
-    - Display number at top
-    - Branch into factors
-    - Continue until all prime factors shown
-    - Highlight pairs (for square roots) or triplets (for cube roots)
-    - Use color to group factors:
-      - Red: first perfect square/cube
-      - Blue: second perfect square/cube
-      - Gray: leftover factors
-
-    Behavior (Grouping):
-    - Student drags factor tiles into groups
-    - Snap to position when grouped correctly
-    - Automatically compute √(group) when complete
-    - Show factors "jumping outside" the radical
-    - Animate simplification process
-
-    Behavior (Answer check):
-    - Accept answers in form "a√b" or "a∛b"
-    - Validate correctness
-    - If correct: green checkmark, celebration
-    - If incorrect: show where answer differs, offer hint
-    - "Show solution" provides full step-by-step
-
-    Problem types:
-    - Square roots: √8, √12, √18, √20, √45, √50, √72, √98, √128, √200
-    - Cube roots: ∛16, ∛54, ∛128, ∛250
-    - Variables: √(x⁴), √(18a²b³)
-
-    Visual features:
-    - Factor tree with branching animation
-    - Color-coded perfect squares/cubes
-    - Drag-and-drop grouping interface
-    - Visual "extraction" of factors from radical
-    - Clear typography for mathematical notation
-
-    Learning reinforcements:
-    - Display: "Look for pairs of identical factors (for square roots)"
-    - Display: "Look for triplets of identical factors (for cube roots)"
-    - Hint system: "Try factoring 72 = 36 × 2"
-    - Progress tracker showing mastery
-
-    Implementation: p5.js with drag-and-drop, animation, math expression parsing, and validation
+```html
+<iframe src="https://dmccreary.github.io/algebra-1/sims/radical-simplification-interactive-tool/main.html"
+        height="602px" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 3: Exponents And Powers](../../chapters/03-exponents-and-powers/index.md)
+### Learning Objective
+
+Learn to simplify radical expressions by identifying and extracting perfect square or perfect cube factors.
+
+### Audience and Prerequisites
+
+Designed for Algebra I students in grade 9. Students should have arithmetic fluency and introductory familiarity with variables and expressions.
+
+### Suggested Activity
+
+1. Ask students to predict what will change before moving either parameter.
+2. Change one control at a time and describe the visual and symbolic changes.
+3. Use **Check / Explain** to compare the student's reasoning with the model.
+4. Select **New Example** and have students justify the new result with a partner.
+
+### Assessment
+
+Students demonstrate mastery by explaining the displayed relationship, identifying the role of each parameter, and correctly reasoning through a new example without relying on trial and error.
+
+## References
+
+1. [Related Algebra I chapter](../../chapters/03-exponents-and-powers/index.md) - Course explanation and diagram specification.
+2. [p5.js Reference](https://p5js.org/reference/) - Documentation for the interactive graphics library.

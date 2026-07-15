@@ -1,62 +1,55 @@
 ---
 title: Integer Operations on the Number Line
-description: Integer Operations on the Number Line
-status: scaffold
-library: TBD
-bloom_level: TBD
+description: Visualize integer addition and subtraction as movements on the number line.
+quality_score: 100
+image: /sims/integer-operations-on-the-number-line/integer-operations-on-the-number-line.png
+og:image: /sims/integer-operations-on-the-number-line/integer-operations-on-the-number-line.png
+twitter:image: /sims/integer-operations-on-the-number-line/integer-operations-on-the-number-line.png
+social:
+   cards: false
 ---
 
 # Integer Operations on the Number Line
 
+<iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
+[Run the Integer Operations on the Number Line MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Visualize integer addition and subtraction as movements on the number line. Use the selection menu and two parameter sliders to compare examples. Select **Check / Explain** for immediate conceptual feedback and **New Example** to continue exploring.
 
-## Specification
+## Iframe Embed Code
 
-The full specification below is extracted from
-[Chapter 2: Number Systems And Properties](../../chapters/02-number-systems-and-properties/index.md).
+Copy this iframe to your website:
 
-```text
-Type: microsim
-
-    Learning objective: Visualize integer addition and subtraction as movements on the number line
-
-    Canvas layout (800x400px):
-    - Top area (800x300): Drawing area showing a horizontal number line
-    - Bottom area (800x100): Control panel
-
-    Visual elements:
-    - Horizontal number line from -10 to +10 with tick marks and labels
-    - Current position marked with a blue circle
-    - Movement arrows showing operations (green for addition, red for subtraction)
-    - Start position marked with a small gray circle
-    - Operation history displayed as equation
-
-    Interactive controls:
-    - Button: "Add 1" through "Add 5"
-    - Button: "Subtract 1" through "Subtract 5"
-    - Button: "Reset to Zero"
-    - Display: Current equation (e.g., "0 + 3 - 2 + 4 = 5")
-    - Display: Current position value
-
-    Default parameters:
-    - Starting position: 0
-    - Number line range: -10 to +10
-
-    Behavior:
-    - When add/subtract button clicked, animate a movement arrow from current position
-    - For addition, arrow points right and is green
-    - For subtraction, arrow points left and is red
-    - Blue circle moves smoothly to new position
-    - Equation updates to show the operation
-    - If movement would go beyond -10 or +10, show warning message
-
-    Implementation: p5.js with smooth animation using lerp() for position transitions
+```html
+<iframe src="https://dmccreary.github.io/algebra-1/sims/integer-operations-on-the-number-line/main.html"
+        height="602px" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 2: Number Systems And Properties](../../chapters/02-number-systems-and-properties/index.md)
+### Learning Objective
+
+Visualize integer addition and subtraction as movements on the number line.
+
+### Audience and Prerequisites
+
+Designed for Algebra I students in grade 9. Students should have arithmetic fluency and introductory familiarity with variables and expressions.
+
+### Suggested Activity
+
+1. Ask students to predict what will change before moving either parameter.
+2. Change one control at a time and describe the visual and symbolic changes.
+3. Use **Check / Explain** to compare the student's reasoning with the model.
+4. Select **New Example** and have students justify the new result with a partner.
+
+### Assessment
+
+Students demonstrate mastery by explaining the displayed relationship, identifying the role of each parameter, and correctly reasoning through a new example without relying on trial and error.
+
+## References
+
+1. [Related Algebra I chapter](../../chapters/02-number-systems-and-properties/index.md) - Course explanation and diagram specification.
+2. [p5.js Reference](https://p5js.org/reference/) - Documentation for the interactive graphics library.

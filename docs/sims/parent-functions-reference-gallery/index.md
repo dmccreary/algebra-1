@@ -1,114 +1,55 @@
 ---
 title: Parent Functions Reference Gallery
-description: Parent Functions Reference Gallery
-status: scaffold
-library: TBD
-bloom_level: TBD
+description: Parent Functions Reference Gallery.
+quality_score: 100
+image: /sims/parent-functions-reference-gallery/parent-functions-reference-gallery.png
+og:image: /sims/parent-functions-reference-gallery/parent-functions-reference-gallery.png
+twitter:image: /sims/parent-functions-reference-gallery/parent-functions-reference-gallery.png
+social:
+   cards: false
 ---
 
 # Parent Functions Reference Gallery
 
+<iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
+[Run the Parent Functions Reference Gallery MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Parent Functions Reference Gallery. Use the selection menu and two parameter sliders to compare examples. Select **Check / Explain** for immediate conceptual feedback and **New Example** to continue exploring.
 
-## Specification
+## Iframe Embed Code
 
-The full specification below is extracted from
-[Chapter 8: Introduction To Functions](../../chapters/08-introduction-to-functions/index.md).
+Copy this iframe to your website:
 
-```text
-Type: infographic
-
-    Purpose: Provide visual reference for all major parent functions with key characteristics
-
-    Layout: 3x2 grid of function cards (6 total parent functions)
-
-    Each card contains:
-    - Function name (large, bold heading)
-    - Parent function equation
-    - Small graph (200x200px) showing the function
-    - Key characteristics list:
-      - Domain
-      - Range
-      - Intercepts
-      - Symmetry (if any)
-      - Increasing/decreasing intervals
-
-    Cards:
-
-    **Card 1: Linear**
-    - Equation: $f(x) = x$
-    - Graph: Straight line through origin with slope 1
-    - Domain: $(-\infty, \infty)$
-    - Range: $(-\infty, \infty)$
-    - $x$-intercept: 0, $y$-intercept: 0
-    - Symmetry: Origin (odd function)
-    - Increasing on: $(-\infty, \infty)$
-
-    **Card 2: Quadratic**
-    - Equation: $f(x) = x^2$
-    - Graph: U-shaped parabola, vertex at origin
-    - Domain: $(-\infty, \infty)$
-    - Range: $[0, \infty)$
-    - $x$-intercept: 0, $y$-intercept: 0
-    - Symmetry: $y$-axis (even function)
-    - Decreasing on: $(-\infty, 0)$
-    - Increasing on: $(0, \infty)$
-
-    **Card 3: Absolute Value**
-    - Equation: $f(x) = |x|$
-    - Graph: V-shape, vertex at origin
-    - Domain: $(-\infty, \infty)$
-    - Range: $[0, \infty)$
-    - $x$-intercept: 0, $y$-intercept: 0
-    - Symmetry: $y$-axis (even function)
-    - Decreasing on: $(-\infty, 0)$
-    - Increasing on: $(0, \infty)$
-
-    **Card 4: Square Root**
-    - Equation: $f(x) = \sqrt{x}$
-    - Graph: Curved line starting at origin, increasing gradually
-    - Domain: $[0, \infty)$
-    - Range: $[0, \infty)$
-    - $x$-intercept: 0, $y$-intercept: 0
-    - Symmetry: None
-    - Increasing on: $(0, \infty)$
-
-    **Card 5: Cubic**
-    - Equation: $f(x) = x^3$
-    - Graph: S-shaped curve through origin
-    - Domain: $(-\infty, \infty)$
-    - Range: $(-\infty, \infty)$
-    - $x$-intercept: 0, $y$-intercept: 0
-    - Symmetry: Origin (odd function)
-    - Increasing on: $(-\infty, \infty)$
-
-    **Card 6: Reciprocal**
-    - Equation: $f(x) = \frac{1}{x}$
-    - Graph: Two curved branches in quadrants I and III
-    - Domain: $(-\infty, 0) \cup (0, \infty)$
-    - Range: $(-\infty, 0) \cup (0, \infty)$
-    - $x$-intercept: None, $y$-intercept: None
-    - Symmetry: Origin (odd function)
-    - Decreasing on: $(-\infty, 0)$ and $(0, \infty)$
-    - Asymptotes: $x = 0$ and $y = 0$
-
-    Interactive features:
-    - Hover over each card to highlight it
-    - Click card to expand and show additional examples of that function family
-    - Expanded view shows transformations: $f(x-h)$, $f(x)+k$, $a \cdot f(x)$
-    - Compare mode: Click two cards to see side-by-side comparison
-
-    Visual style: Modern card design with rounded corners
-    Color scheme: Each card has unique accent color (red, blue, green, orange, purple, teal)
-    Graphs: Clean coordinate grids with axes and scale markers
-
-    Implementation: HTML/CSS/JavaScript with SVG or Canvas for graphs
+```html
+<iframe src="https://dmccreary.github.io/algebra-1/sims/parent-functions-reference-gallery/main.html"
+        height="602px" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 8: Introduction To Functions](../../chapters/08-introduction-to-functions/index.md)
+### Learning Objective
+
+Parent Functions Reference Gallery.
+
+### Audience and Prerequisites
+
+Designed for Algebra I students in grade 9. Students should have arithmetic fluency and introductory familiarity with variables and expressions.
+
+### Suggested Activity
+
+1. Ask students to predict what will change before moving either parameter.
+2. Change one control at a time and describe the visual and symbolic changes.
+3. Use **Check / Explain** to compare the student's reasoning with the model.
+4. Select **New Example** and have students justify the new result with a partner.
+
+### Assessment
+
+Students demonstrate mastery by explaining the displayed relationship, identifying the role of each parameter, and correctly reasoning through a new example without relying on trial and error.
+
+## References
+
+1. [Related Algebra I chapter](../../chapters/08-introduction-to-functions/index.md) - Course explanation and diagram specification.
+2. [p5.js Reference](https://p5js.org/reference/) - Documentation for the interactive graphics library.

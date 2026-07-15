@@ -1,90 +1,55 @@
 ---
 title: Interactive Coordinate Plane Explorer
-description: Interactive Coordinate Plane Explorer
-status: scaffold
-library: TBD
-bloom_level: TBD
+description: Help students understand the structure of the coordinate plane, including quadrants, axes, origin, and point location.
+quality_score: 100
+image: /sims/interactive-coordinate-plane-explorer/interactive-coordinate-plane-explorer.png
+og:image: /sims/interactive-coordinate-plane-explorer/interactive-coordinate-plane-explorer.png
+twitter:image: /sims/interactive-coordinate-plane-explorer/interactive-coordinate-plane-explorer.png
+social:
+   cards: false
 ---
 
 # Interactive Coordinate Plane Explorer
 
+<iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
+[Run the Interactive Coordinate Plane Explorer MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Help students understand the structure of the coordinate plane, including quadrants, axes, origin, and point location. Use the selection menu and two parameter sliders to compare examples. Select **Check / Explain** for immediate conceptual feedback and **New Example** to continue exploring.
 
-## Specification
+## Iframe Embed Code
 
-The full specification below is extracted from
-[Chapter 9: Graphing And Linear Functions](../../chapters/09-graphing-and-linear-functions/index.md).
+Copy this iframe to your website:
 
-```text
-Type: microsim
-
-    Learning objective: Help students understand the structure of the coordinate plane, including quadrants, axes, origin, and point location
-
-    Canvas layout (700x700px):
-    - Main coordinate grid (650x650): Centered coordinate plane
-    - Control panel (650x50): Bottom panel with controls
-
-    Visual elements in main area:
-    - Coordinate grid from -10 to 10 on both axes
-    - Bold axes lines for x-axis and y-axis (different color from grid)
-    - Origin marked with large dot and label "(0, 0)"
-    - Quadrants labeled with Roman numerals I, II, III, IV
-    - Each quadrant shaded with different subtle color:
-      - Quadrant I: light blue
-      - Quadrant II: light green
-      - Quadrant III: light yellow
-      - Quadrant IV: light pink
-    - Moveable point that user can drag anywhere on the plane
-    - Current point coordinates displayed prominently
-    - Dotted lines from point to both axes showing x and y values
-
-    Interactive controls:
-    - Display: "Point coordinates: (x, y)"
-    - Display: "Quadrant: [I, II, III, IV, or on axis]"
-    - Display: "x-coordinate: [value]" with color-coded bar
-    - Display: "y-coordinate: [value]" with color-coded bar
-    - Input fields: "Enter x:" and "Enter y:" with "Plot" button
-    - Button: "Random point" (generates random coordinates)
-    - Button: "Quiz mode" (challenges user to plot given point)
-    - Checkbox: "Show quadrant shading"
-    - Checkbox: "Show grid lines"
-    - Checkbox: "Show reference lines from point"
-
-    Default parameters:
-    - Point at (3, 4)
-    - All visual aids enabled
-    - Grid from -10 to 10
-
-    Behavior:
-    - User can drag point anywhere on coordinate plane
-    - As point moves, coordinates update in real-time
-    - Quadrant identification updates automatically
-    - Reference lines show distance from axes
-    - When user enters coordinates, point jumps to that location with smooth animation
-    - Quiz mode presents coordinate like "(−3, 5)" and checks if user plots correctly
-    - Color code coordinates: positive = green, negative = red, zero = black
-    - Hover over quadrant labels shows rules: "Q1: x > 0, y > 0"
-
-    Quiz mode specifics:
-    - Display target coordinates: "Plot the point (−2, 3)"
-    - User drags point to location
-    - When user clicks "Check answer":
-      - If within 0.5 units: "Correct!" (green)
-      - Otherwise: "Try again" with hint about which coordinate is wrong
-    - Track score: "X out of Y correct"
-
-    Implementation notes:
-    - Use p5.js for rendering
-    - Implement smooth dragging with mousePressed, mouseDragged, mouseReleased
-    - Map pixel coordinates to mathematical coordinates
-    - Use lerp for smooth point animations
-    - Implement collision detection for "Check answer" in quiz mode
+```html
+<iframe src="https://dmccreary.github.io/algebra-1/sims/interactive-coordinate-plane-explorer/main.html"
+        height="602px" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 9: Graphing And Linear Functions](../../chapters/09-graphing-and-linear-functions/index.md)
+### Learning Objective
+
+Help students understand the structure of the coordinate plane, including quadrants, axes, origin, and point location.
+
+### Audience and Prerequisites
+
+Designed for Algebra I students in grade 9. Students should have arithmetic fluency and introductory familiarity with variables and expressions.
+
+### Suggested Activity
+
+1. Ask students to predict what will change before moving either parameter.
+2. Change one control at a time and describe the visual and symbolic changes.
+3. Use **Check / Explain** to compare the student's reasoning with the model.
+4. Select **New Example** and have students justify the new result with a partner.
+
+### Assessment
+
+Students demonstrate mastery by explaining the displayed relationship, identifying the role of each parameter, and correctly reasoning through a new example without relying on trial and error.
+
+## References
+
+1. [Related Algebra I chapter](../../chapters/09-graphing-and-linear-functions/index.md) - Course explanation and diagram specification.
+2. [p5.js Reference](https://p5js.org/reference/) - Documentation for the interactive graphics library.

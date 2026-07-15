@@ -1,95 +1,55 @@
 ---
 title: Properties Practice Interactive Game
-description: Properties Practice Interactive Game
-status: scaffold
-library: TBD
-bloom_level: TBD
+description: Identify and apply mathematical properties in various equations and expressions.
+quality_score: 100
+image: /sims/properties-practice-interactive-game/properties-practice-interactive-game.png
+og:image: /sims/properties-practice-interactive-game/properties-practice-interactive-game.png
+twitter:image: /sims/properties-practice-interactive-game/properties-practice-interactive-game.png
+social:
+   cards: false
 ---
 
 # Properties Practice Interactive Game
 
+<iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
+[Run the Properties Practice Interactive Game MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Identify and apply mathematical properties in various equations and expressions. Use the selection menu and two parameter sliders to compare examples. Select **Check / Explain** for immediate conceptual feedback and **New Example** to continue exploring.
 
-## Specification
+## Iframe Embed Code
 
-The full specification below is extracted from
-[Chapter 2: Number Systems And Properties](../../chapters/02-number-systems-and-properties/index.md).
+Copy this iframe to your website:
 
-```text
-Type: microsim
-
-    Learning objective: Identify and apply mathematical properties in various equations and expressions
-
-    Canvas layout (900x600px):
-    - Main area (900x450): Game interface
-    - Bottom area (900x150): Feedback and controls
-
-    Visual elements:
-    - Question display showing an equation or expression
-    - Multiple choice buttons for property identification
-    - Score display
-    - Lives/attempts remaining (3 hearts)
-    - Level indicator
-    - Visual feedback (confetti for correct, shake for incorrect)
-
-    Game mechanics:
-    - Present an equation demonstrating a property
-    - Student identifies which property is shown
-    - Immediate feedback with explanation
-    - Progressive difficulty (starts with simple, adds complexity)
-    - Point system: +10 for correct first try, +5 for second try
-    - Lose a life for wrong answer (but get explanation)
-
-    Sample questions by difficulty:
-
-    Level 1 (Direct application):
-    - "Which property: 3 + 7 = 7 + 3?" → Commutative (Addition)
-    - "Which property: 5 × 1 = 5?" → Identity (Multiplication)
-
-    Level 2 (With variables):
-    - "Which property: x + 0 = x?" → Identity (Addition)
-    - "Which property: 2(x + 3) = 2x + 6?" → Distributive
-
-    Level 3 (Recognition in context):
-    - "Which property justifies: (2 × 3) × 4 = 2 × (3 × 4)?" → Associative (Multiplication)
-    - "Which property: y + (-y) = 0?" → Inverse (Addition)
-
-    Interactive controls:
-    - Five buttons for property choices:
-      1. Commutative
-      2. Associative
-      3. Distributive
-      4. Identity
-      5. Inverse
-    - "Hint" button (costs 2 points)
-    - "Next Question" button
-    - "Reset Game" button
-
-    Default parameters:
-    - Starting level: 1
-    - Questions per level: 5
-    - Lives: 3
-    - Score: 0
-
-    Behavior:
-    - When answer selected, show if correct with color coding
-    - If correct: green highlight, show brief explanation, add points
-    - If incorrect: red highlight, show correct answer and explanation, lose a life
-    - Progress bar shows questions completed in current level
-    - Level up after completing 5 questions correctly
-    - Game over when all lives lost (but can restart)
-
-    Feedback examples:
-    - Correct: "✓ Correct! This is the Commutative Property of Addition. Order doesn't matter!"
-    - Incorrect: "✗ Not quite. This is the Identity Property—adding 0 doesn't change the value."
-
-    Implementation: p5.js with button interactions, JSON data for questions, animation library for visual feedback
+```html
+<iframe src="https://dmccreary.github.io/algebra-1/sims/properties-practice-interactive-game/main.html"
+        height="602px" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 2: Number Systems And Properties](../../chapters/02-number-systems-and-properties/index.md)
+### Learning Objective
+
+Identify and apply mathematical properties in various equations and expressions.
+
+### Audience and Prerequisites
+
+Designed for Algebra I students in grade 9. Students should have arithmetic fluency and introductory familiarity with variables and expressions.
+
+### Suggested Activity
+
+1. Ask students to predict what will change before moving either parameter.
+2. Change one control at a time and describe the visual and symbolic changes.
+3. Use **Check / Explain** to compare the student's reasoning with the model.
+4. Select **New Example** and have students justify the new result with a partner.
+
+### Assessment
+
+Students demonstrate mastery by explaining the displayed relationship, identifying the role of each parameter, and correctly reasoning through a new example without relying on trial and error.
+
+## References
+
+1. [Related Algebra I chapter](../../chapters/02-number-systems-and-properties/index.md) - Course explanation and diagram specification.
+2. [p5.js Reference](https://p5js.org/reference/) - Documentation for the interactive graphics library.

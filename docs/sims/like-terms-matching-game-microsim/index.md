@@ -1,119 +1,55 @@
 ---
 title: Like Terms Matching Game MicroSim
-description: Help students practice identifying and combining like terms through an interactive matching and simplification game
-status: scaffold
-library: TBD
-bloom_level: TBD
+description: Help students practice identifying and combining like terms through an interactive matching and simplification game.
+quality_score: 100
+image: /sims/like-terms-matching-game-microsim/like-terms-matching-game-microsim.png
+og:image: /sims/like-terms-matching-game-microsim/like-terms-matching-game-microsim.png
+twitter:image: /sims/like-terms-matching-game-microsim/like-terms-matching-game-microsim.png
+social:
+   cards: false
 ---
 
 # Like Terms Matching Game MicroSim
 
+<iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
+[Run the Like Terms Matching Game MicroSim MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Help students practice identifying and combining like terms through an interactive matching and simplification game. Use the selection menu and two parameter sliders to compare examples. Select **Check / Explain** for immediate conceptual feedback and **New Example** to continue exploring.
 
-## Specification
+## Iframe Embed Code
 
-The full specification below is extracted from
-[Chapter 1: Foundations Of Algebra](../../chapters/01-foundations-of-algebra/index.md).
+Copy this iframe to your website:
 
-```text
-Type: microsim
-
-Learning objective: Help students practice identifying and combining like terms through an interactive matching and simplification game
-
-Canvas layout (1000x700px):
-- Top section (1000x100): Instructions and score display
-- Main area (1000x500): Two-column matching interface or expression simplification area
-- Bottom section (1000x100): Feedback area and controls
-
-Game modes (selectable):
-1. **Matching Mode**: Drag-and-drop matching of like terms
-2. **Simplification Mode**: Combine like terms in expressions
-3. **Challenge Mode**: Timed expression simplification
-
-Visual elements for Matching Mode:
-- Left column: 8-10 terms in boxes (e.g., $3x$, $5y$, $-2x$, $7$, $4y$, $x^2$, $-8$, $2x^2$)
-- Right column: Empty "buckets" labeled "x terms", "y terms", "x² terms", "constants"
-- Terms can be dragged to appropriate buckets
-- Correct matches turn green, incorrect turn red with shake animation
-- Connecting lines show which terms can combine
-
-Visual elements for Simplification Mode:
-- Display an unsimplified expression: $4x + 3 - 2x + 5 + x - 1$
-- Color-code like terms with matching highlight colors
-- Show work area where terms can be grouped
-- Input field for final simplified answer
-- Step-by-step verification available
-
-Interactive controls:
-- Dropdown: "Game Mode" (Matching, Simplification, Challenge)
-- Dropdown: "Difficulty" (Easy, Medium, Hard)
-- Button: "New Problem"
-- Button: "Show Hint" (highlights one set of like terms)
-- Button: "Check Answer"
-- Button: "Show Solution"
-- Timer display (for Challenge Mode)
-- Score and accuracy tracker
-
-Default parameters:
-- Mode: Matching
-- Difficulty: Easy
-- Time limit (Challenge): 60 seconds
-
-Difficulty levels:
-- Easy: 2 variables (x, y), constants, 6-8 terms total
-- Medium: 3 variables, exponents ($x^2$), 8-12 terms, some negative coefficients
-- Hard: 4+ variables, various exponents, 10-15 terms, negative coefficients, fractions
-
-Behavior - Matching Mode:
-- User drags terms to buckets
-- Immediate feedback on correct/incorrect placement
-- Once all terms correctly sorted, show combined results
-- Visual animation of coefficient addition
-- Confetti or celebration on completion
-
-Behavior - Simplification Mode:
-- Display expression with terms in random order
-- User can click terms to highlight/group them
-- Color coding shows which terms are like terms
-- Input simplified expression
-- System checks coefficient addition and final form
-- Provide specific feedback on errors
-
-Behavior - Challenge Mode:
-- Present 5 expressions to simplify within time limit
-- Increasing difficulty with each correct answer
-- Point multiplier for speed
-- Streak bonuses for consecutive correct answers
-- Leaderboard showing personal best
-
-Visual styling:
-- Draggable terms: Cards with shadows and hover effects
-- Like terms: Matching background colors (blue, green, orange, purple)
-- Correct answers: Green glow animation
-- Incorrect answers: Red shake animation
-- Clean, modern interface with clear typography
-
-Feedback messages:
-- Correct: "Great job! $5x + 2x = 7x$"
-- Incorrect: "Not quite. Remember, $x$ and $x^2$ are not like terms."
-- Hint: "Look for terms with the same variable and exponent."
-- Completion: "Excellent! You simplified the expression correctly!"
-
-Implementation notes:
-- Use p5.js for rendering and interaction
-- Implement drag-and-drop with mouse/touch support
-- Generate random expressions with controlled complexity
-- Parse expressions and identify like terms programmatically
-- Store terms as objects with coefficient, variable, and exponent properties
-- Track timing, accuracy, and completion metrics
-
-**MicroSim Recommendation:** Use **microsim-p5** (Score: 96/100). This sophisticated educational game requires drag-and-drop interaction, multiple game modes, color-coded term matching, animations (shake, glow, confetti), and complex state management. P5.js provides full control over drag-and-drop mechanics, animation effects, term parsing, and game state.
+```html
+<iframe src="https://dmccreary.github.io/algebra-1/sims/like-terms-matching-game-microsim/main.html"
+        height="602px" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 1: Foundations Of Algebra](../../chapters/01-foundations-of-algebra/index.md)
+### Learning Objective
+
+Help students practice identifying and combining like terms through an interactive matching and simplification game.
+
+### Audience and Prerequisites
+
+Designed for Algebra I students in grade 9. Students should have arithmetic fluency and introductory familiarity with variables and expressions.
+
+### Suggested Activity
+
+1. Ask students to predict what will change before moving either parameter.
+2. Change one control at a time and describe the visual and symbolic changes.
+3. Use **Check / Explain** to compare the student's reasoning with the model.
+4. Select **New Example** and have students justify the new result with a partner.
+
+### Assessment
+
+Students demonstrate mastery by explaining the displayed relationship, identifying the role of each parameter, and correctly reasoning through a new example without relying on trial and error.
+
+## References
+
+1. [Related Algebra I chapter](../../chapters/01-foundations-of-algebra/index.md) - Course explanation and diagram specification.
+2. [p5.js Reference](https://p5js.org/reference/) - Documentation for the interactive graphics library.

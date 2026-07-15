@@ -10,7 +10,7 @@ social:
 
 # Expression Parts Explorer
 
-<iframe src="main.html" height="400px" scrolling="no"></iframe>
+<iframe src="main.html" height="392px" scrolling="no"></iframe>
 
 [Run the Expression Parts Explorer MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>
@@ -42,7 +42,7 @@ Students can:
 You can include this MicroSim on your website using the following `iframe`:
 
 ```html
-<iframe src="https://dmccreary.github.io/algebra-1/sims/expression-explorer/main.html" height="400px" scrolling="no"></iframe>
+<iframe src="https://dmccreary.github.io/algebra-1/sims/expression-explorer/main.html" height="392px" scrolling="no"></iframe>
 ```
 
 ## Lesson Plan

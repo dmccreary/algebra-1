@@ -1,77 +1,55 @@
 ---
 title: Absolute Value Interactive Number Line
-description: Absolute Value Interactive Number Line
-status: scaffold
-library: TBD
-bloom_level: TBD
+description: Understand absolute value as distance from zero using an interactive number line with dynamic measurement.
+quality_score: 100
+image: /sims/absolute-value-interactive-number-line/absolute-value-interactive-number-line.png
+og:image: /sims/absolute-value-interactive-number-line/absolute-value-interactive-number-line.png
+twitter:image: /sims/absolute-value-interactive-number-line/absolute-value-interactive-number-line.png
+social:
+   cards: false
 ---
 
 # Absolute Value Interactive Number Line
 
+<iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
+[Run the Absolute Value Interactive Number Line MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Understand absolute value as distance from zero using an interactive number line with dynamic measurement. Use the selection menu and two parameter sliders to compare examples. Select **Check / Explain** for immediate conceptual feedback and **New Example** to continue exploring.
 
-## Specification
+## Iframe Embed Code
 
-The full specification below is extracted from
-[Chapter 2: Number Systems And Properties](../../chapters/02-number-systems-and-properties/index.md).
+Copy this iframe to your website:
 
-```text
-Type: microsim
-
-    Learning objective: Understand absolute value as distance from zero using an interactive number line with dynamic measurement
-
-    Canvas layout (800x400px):
-    - Top area (800x300): Number line visualization
-    - Bottom area (800x100): Controls and information
-
-    Visual elements:
-    - Horizontal number line from -10 to +10
-    - Movable point (draggable circle) on the number line
-    - Visual distance indicator: colored line segment from 0 to the point
-    - Distance value displayed above the line segment
-    - Equation displayed: |x| = [distance value]
-    - Color coding: negative positions (red), positive positions (blue), zero (green)
-
-    Interactive controls:
-    - Slider: Position on number line (-10 to +10, step 0.5)
-    - Input box: Enter a number directly
-    - Draggable point: Click and drag along number line
-    - Button: "Show multiple values" (displays several points simultaneously)
-    - Checkbox: "Show mirror image" (shows both a and -a)
-
-    Default parameters:
-    - Initial position: -5
-    - Show mirror image: false
-
-    Behavior:
-    - As point moves, distance line animates to follow
-    - Distance value updates in real-time
-    - Equation updates: |x| = [distance]
-    - When "Show mirror image" is checked:
-      - Display both points (e.g., 5 and -5)
-      - Show both have same absolute value
-      - Highlight symmetry around zero
-    - Color of distance line changes: red for negative x, blue for positive x
-    - Distance line always shows as positive length
-
-    Visual features:
-    - Measurement ticks along distance line
-    - Zero point highlighted with larger marker
-    - Grid background for easy counting
-    - Smooth animations using lerp()
-
-    Learning reinforcements:
-    - Display: "Distance from 0 to [x] is [|x|]"
-    - Display: "Note: Distance is always positive!"
-    - When at mirror positions: "Notice: |a| = |-a|"
-
-    Implementation: p5.js with mouse interaction for dragging, smooth animations, clear typography
+```html
+<iframe src="https://dmccreary.github.io/algebra-1/sims/absolute-value-interactive-number-line/main.html"
+        height="602px" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 2: Number Systems And Properties](../../chapters/02-number-systems-and-properties/index.md)
+### Learning Objective
+
+Understand absolute value as distance from zero using an interactive number line with dynamic measurement.
+
+### Audience and Prerequisites
+
+Designed for Algebra I students in grade 9. Students should have arithmetic fluency and introductory familiarity with variables and expressions.
+
+### Suggested Activity
+
+1. Ask students to predict what will change before moving either parameter.
+2. Change one control at a time and describe the visual and symbolic changes.
+3. Use **Check / Explain** to compare the student's reasoning with the model.
+4. Select **New Example** and have students justify the new result with a partner.
+
+### Assessment
+
+Students demonstrate mastery by explaining the displayed relationship, identifying the role of each parameter, and correctly reasoning through a new example without relying on trial and error.
+
+## References
+
+1. [Related Algebra I chapter](../../chapters/02-number-systems-and-properties/index.md) - Course explanation and diagram specification.
+2. [p5.js Reference](https://p5js.org/reference/) - Documentation for the interactive graphics library.

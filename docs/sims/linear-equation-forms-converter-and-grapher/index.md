@@ -1,151 +1,55 @@
 ---
 title: Linear Equation Forms Converter and Grapher
-description: Linear Equation Forms Converter and Grapher
-status: scaffold
-library: TBD
-bloom_level: TBD
+description: Help students convert between different forms of linear equations and understand when each form is most useful.
+quality_score: 100
+image: /sims/linear-equation-forms-converter-and-grapher/linear-equation-forms-converter-and-grapher.png
+og:image: /sims/linear-equation-forms-converter-and-grapher/linear-equation-forms-converter-and-grapher.png
+twitter:image: /sims/linear-equation-forms-converter-and-grapher/linear-equation-forms-converter-and-grapher.png
+social:
+   cards: false
 ---
 
 # Linear Equation Forms Converter and Grapher
 
+<iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
+[Run the Linear Equation Forms Converter and Grapher MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Help students convert between different forms of linear equations and understand when each form is most useful. Use the selection menu and two parameter sliders to compare examples. Select **Check / Explain** for immediate conceptual feedback and **New Example** to continue exploring.
 
-## Specification
+## Iframe Embed Code
 
-The full specification below is extracted from
-[Chapter 9: Graphing And Linear Functions](../../chapters/09-graphing-and-linear-functions/index.md).
+Copy this iframe to your website:
 
-```text
-Type: microsim
-
-    Learning objective: Help students convert between different forms of linear equations and understand when each form is most useful
-
-    Canvas layout (1000x750px):
-    - Top (1000x550): Three panels side by side (330px each) showing the three forms
-    - Middle (1000x50): Conversion controls
-    - Bottom left (500x150): Coordinate graph
-    - Bottom right (500x150): Information and interpretation panel
-
-    Three form panels (top row):
-
-    **Panel 1: Slope-Intercept Form**
-    - Header: "Slope-Intercept Form"
-    - Display: "$y = mx + b$"
-    - Input fields: "$y =$ [m input] $x +$ [b input]"
-    - Or: "Slope $m =$ [input]" and "Y-intercept $b =$ [input]"
-    - Display current values: "Slope = [value]", "Y-intercept = (0, [value])"
-    - Button: "Set as primary"
-    - Visual indicator when this is the primary form (highlighted border)
-
-    **Panel 2: Point-Slope Form**
-    - Header: "Point-Slope Form"
-    - Display: "$y - y_1 = m(x - x_1)$"
-    - Input fields: "$y -$ [y₁ input] $= $ [m input] $(x -$ [x₁ input] $)$"
-    - Or: "Point: (" [x₁ input] "," [y₁ input] ") and Slope: " [m input]
-    - Display current values: "Point = ([x₁], [y₁])", "Slope = [m]"
-    - Button: "Set as primary"
-    - Visual indicator when this is the primary form
-
-    **Panel 3: Standard Form**
-    - Header: "Standard Form"
-    - Display: "$Ax + By = C$"
-    - Input fields: [A input] "$x +$" [B input] "$y =$" [C input]
-    - Display current values: "A = [value]", "B = [value]", "C = [value]"
-    - Button: "Set as primary"
-    - Note displayed: "A, B, C should be integers; A ≥ 0"
-    - Visual indicator when this is the primary form
-
-    Conversion controls (middle section):
-    - Dropdown: "Start with form:" [Slope-Intercept / Point-Slope / Standard]
-    - Button: "Convert to all forms" (shows step-by-step conversion)
-    - Button: "New random equation"
-    - Display: "Conversion steps shown below ↓"
-
-    Graph area (bottom left):
-    - Small coordinate grid (-10 to 10)
-    - Line plotted based on current equation
-    - Intercepts marked
-    - Slope triangle shown
-    - Key point from point-slope form marked (if applicable)
-
-    Information panel (bottom right):
-    - "Current line characteristics:"
-    - "Slope: [value] → [interpretation: rising/falling/horizontal/vertical]"
-    - "X-intercept: ([value], 0)"
-    - "Y-intercept: (0, [value])"
-    - "Passes through: ([x₁], [y₁])" (from point-slope)
-    - "When to use each form:" [shows context-sensitive advice]
-
-    Default parameters:
-    - Primary form: Slope-intercept
-    - Equation: $y = 2x + 3$
-    - Corresponding forms auto-calculated
-
-    Behavior:
-
-    **When user enters values in any form:**
-    - Equation updates
-    - Graph updates in real-time
-    - Other two forms auto-calculate and display
-    - Information panel updates
-
-    **When "Convert to all forms" is clicked:**
-    - Show step-by-step conversion animation
-    - Display algebraic steps for each conversion
-    - Highlight the algebra being performed at each step
-    - Sequence:
-      1. Show starting form (highlighted)
-      2. Show first conversion step
-      3. Show result in second form (highlighted)
-      4. Show conversion to third form
-      5. Show final result (highlighted)
-
-    **When "New random equation" is clicked:**
-    - Generate random linear equation
-    - Display in currently selected primary form
-    - Auto-calculate other forms
-    - Update graph
-
-    **Conversion step displays:**
-
-    Example: Slope-intercept to Standard
-
-    Starting: $y = 2x + 3$
-    Step 1: Subtract $2x$ from both sides: $-2x + y = 3$
-    Step 2: Multiply by $-1$ to make A positive: $2x - y = -3$
-    Result (Standard form): $2x - y = -3$
-
-    Example: Point-slope to Slope-intercept
-
-    Starting: $y - 5 = 2(x - 3)$
-    Step 1: Distribute: $y - 5 = 2x - 6$
-    Step 2: Add 5 to both sides: $y = 2x - 1$
-    Result (Slope-intercept): $y = 2x - 1$
-
-    Special features:
-    - Quiz mode: Show equation in one form, ask student to convert to another form
-    - Validation: Check that standard form uses integers and A ≥ 0
-    - Highlighting: When user hovers over a form, corresponding parts highlight on graph
-      - Hover over slope → slope triangle highlights
-      - Hover over y-intercept → y-intercept point highlights
-      - Hover over point in point-slope → that point highlights on graph
-    - Comparison mode: Display two different equations and compare slopes, intercepts
-
-    Implementation notes:
-    - Use p5.js for graph rendering
-    - Implement algebraic conversion algorithms for all form pairs
-    - Validate inputs to ensure equations are valid
-    - Use MathJax or KaTeX for equation rendering
-    - Store internal representation as slope-intercept, convert as needed
-    - Handle special cases: vertical lines (cannot be in slope-intercept), horizontal lines
-    - Display fractions in lowest terms when possible
-    - Provide undo/redo functionality for equation changes
+```html
+<iframe src="https://dmccreary.github.io/algebra-1/sims/linear-equation-forms-converter-and-grapher/main.html"
+        height="602px" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 9: Graphing And Linear Functions](../../chapters/09-graphing-and-linear-functions/index.md)
+### Learning Objective
+
+Help students convert between different forms of linear equations and understand when each form is most useful.
+
+### Audience and Prerequisites
+
+Designed for Algebra I students in grade 9. Students should have arithmetic fluency and introductory familiarity with variables and expressions.
+
+### Suggested Activity
+
+1. Ask students to predict what will change before moving either parameter.
+2. Change one control at a time and describe the visual and symbolic changes.
+3. Use **Check / Explain** to compare the student's reasoning with the model.
+4. Select **New Example** and have students justify the new result with a partner.
+
+### Assessment
+
+Students demonstrate mastery by explaining the displayed relationship, identifying the role of each parameter, and correctly reasoning through a new example without relying on trial and error.
+
+## References
+
+1. [Related Algebra I chapter](../../chapters/09-graphing-and-linear-functions/index.md) - Course explanation and diagram specification.
+2. [p5.js Reference](https://p5js.org/reference/) - Documentation for the interactive graphics library.

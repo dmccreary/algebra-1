@@ -1,4 +1,5 @@
 // Polynomial Classification Game
+// CANVAS_HEIGHT: 600
 // A p5.js interactive quiz for classifying algebraic expressions
 
 let data;

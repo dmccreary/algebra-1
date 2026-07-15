@@ -57,11 +57,15 @@ Integers appear everywhere in daily life:
 - Elevation (200 feet above sea level, 50 feet below sea level)
 - Sports scores and point differences
 
-<iframe src="../../sims/integer-ops-number-line/main.html" height="245px" scrolling="no"></iframe>
+<iframe src="../../sims/integer-ops-number-line/main.html" height="247px" scrolling="no"></iframe>
 
 [Run the Integer Operations MicroSim Fullscreen](../../sims/integer-ops-number-line/main.html){ .md-button .md-button--primary }
 
 #### Diagram: Integer Operations on the Number Line
+
+
+<iframe src="../../sims/integer-operations-on-the-number-line/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Integer Operations on the Number Line Fullscreen](../../sims/integer-operations-on-the-number-line/main.html)
 
 <details markdown="1">
     <summary>Integer Operations on the Number Line</summary>
@@ -202,6 +206,10 @@ Here's a Venn diagram that shows how the number systems nest within each other:
 [Run the Number Systems Hierarchy Diagram MicroSim Fullscreen](../../sims/number-system-venn/main.html){ .md-button .md-button--primary }
 
 #### Diagram: Number Systems Hierarchy Diagram
+
+
+<iframe src="../../sims/number-systems-hierarchy-diagram/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Number Systems Hierarchy Diagram Fullscreen](../../sims/number-systems-hierarchy-diagram/main.html)
 
 <details markdown="1">
     <summary>Number Systems Hierarchy Diagram</summary>
@@ -367,6 +375,10 @@ The distributive property is one of the most powerful tools in algebra. You'll u
 
 #### Diagram: Distributive Property Visual Model
 
+
+<iframe src="../../sims/distributive-property-visual-model/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Distributive Property Visual Model Fullscreen](../../sims/distributive-property-visual-model/main.html)
+
 <details markdown="1">
     <summary>Distributive Property Visual Model</summary>
     Type: microsim
@@ -500,6 +512,10 @@ Here's a quick reference for all the properties:
 
 #### Diagram: Properties Practice Interactive Game
 
+
+<iframe src="../../sims/properties-practice-interactive-game/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Properties Practice Interactive Game Fullscreen](../../sims/properties-practice-interactive-game/main.html)
+
 <details markdown="1">
     <summary>Properties Practice Interactive Game</summary>
     Type: microsim
@@ -630,6 +646,10 @@ Key properties of absolute value:
 
 #### Diagram: Absolute Value Interactive Number Line
 
+
+<iframe src="../../sims/absolute-value-interactive-number-line/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Absolute Value Interactive Number Line Fullscreen](../../sims/absolute-value-interactive-number-line/main.html)
+
 <details markdown="1">
     <summary>Absolute Value Interactive Number Line</summary>
     Type: microsim
@@ -719,6 +739,10 @@ Points on the axes themselves are not in any quadrant:
 - The origin: $(0, 0)$
 
 #### Diagram: Coordinate Plane Interactive Plotter
+
+
+<iframe src="../../sims/coordinate-plane-interactive-plotter/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Coordinate Plane Interactive Plotter Fullscreen](../../sims/coordinate-plane-interactive-plotter/main.html)
 
 <details markdown="1">
     <summary>Coordinate Plane Interactive Plotter</summary>

@@ -1,114 +1,55 @@
 ---
 title: Polynomial Classification Game
-description: Polynomial Classification Game
-status: scaffold
-library: TBD
-bloom_level: TBD
+description: Identify and classify algebraic expressions as monomials, binomials, trinomials, or non-polynomials.
+quality_score: 100
+image: /sims/polynomial-classification-game/polynomial-classification-game.png
+og:image: /sims/polynomial-classification-game/polynomial-classification-game.png
+twitter:image: /sims/polynomial-classification-game/polynomial-classification-game.png
+social:
+   cards: false
 ---
 
 # Polynomial Classification Game
 
+<iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
+[Run the Polynomial Classification Game MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Identify and classify algebraic expressions as monomials, binomials, trinomials, or non-polynomials. Use the selection menu and two parameter sliders to compare examples. Select **Check / Explain** for immediate conceptual feedback and **New Example** to continue exploring.
 
-## Specification
+## Iframe Embed Code
 
-The full specification below is extracted from
-[Chapter 3: Exponents And Powers](../../chapters/03-exponents-and-powers/index.md).
+Copy this iframe to your website:
 
-```text
-Type: microsim
-
-    Learning objective: Identify and classify algebraic expressions as monomials, binomials, trinomials, or non-polynomials
-
-    Canvas layout (900x600px):
-    - Top area (900x150): Expression display and question
-    - Middle area (900x300): Classification buttons and workspace
-    - Bottom area (900x150): Feedback and score
-
-    Visual elements:
-    - Large expression display (e.g., "$3x^2 + 5x - 7$")
-    - Visual breakdown showing terms separated
-    - Four classification buttons
-    - Score and streak display
-    - Timer (optional challenge mode)
-    - Level indicator
-
-    Game mechanics:
-    - Show an algebraic expression
-    - Student classifies it by clicking appropriate button
-    - Immediate feedback with explanation
-    - Progressive difficulty (starts simple, adds complexity)
-    - Point system: +10 points per correct answer
-    - Streak multiplier (×2 after 5 correct in a row)
-
-    Classification buttons:
-    1. "Monomial (1 term)"
-    2. "Binomial (2 terms)"
-    3. "Trinomial (3 terms)"
-    4. "Not a polynomial"
-
-    Expression types by level:
-
-    Level 1 - Clear examples:
-    - $5x$ → Monomial
-    - $x + 3$ → Binomial
-    - $x^2 + 2x + 1$ → Trinomial
-
-    Level 2 - With coefficients and exponents:
-    - $-3x^2$ → Monomial
-    - $4x^3 - 7x$ → Binomial
-    - $2a^2 + 5a - 3$ → Trinomial
-
-    Level 3 - Tricky cases:
-    - $\frac{1}{x} + 2$ → Not a polynomial (negative exponent)
-    - $\sqrt{x} + 5$ → Not a polynomial (rational exponent)
-    - $x^0$ → Monomial (equals 1)
-
-    Level 4 - Multiple variables:
-    - $3xy$ → Monomial
-    - $x^2y + xy^2$ → Binomial
-    - $a^2 + 2ab + b^2$ → Trinomial
-
-    Interactive controls:
-    - Four classification buttons
-    - "Show terms" button (highlights each term)
-    - "Hint" button (costs 3 points)
-    - "Next expression" (after answering)
-    - "Challenge mode" toggle (adds timer)
-
-    Default parameters:
-    - Level: 1
-    - Score: 0
-    - Challenge mode: off
-
-    Behavior:
-    - When "Show terms" clicked:
-      - Visually separate terms with color coding
-      - Count and display number of terms
-      - Check for polynomial requirements (non-negative integer exponents)
-    - When classification selected:
-      - If correct: Green flash, explanation, award points
-      - If incorrect: Red flash, show correct answer with why
-    - Hint: "Count the terms. Check if all exponents are non-negative integers."
-
-    Feedback examples:
-    - Correct: "✓ Right! This has 2 terms, making it a binomial."
-    - Incorrect: "✗ Not quite. $\frac{1}{x}$ is the same as $x^{-1}$ (negative exponent), so this is NOT a polynomial."
-    - Term breakdown: "$3x^2 + 5x - 7$ has THREE terms: $3x^2$, $5x$, and $-7$"
-
-    Visual features:
-    - Term highlighting with different colors
-    - Animated separation of terms
-    - Exponent checking visualizer
-    - Achievement badges (Perfect Classifier, Speed Demon)
-
-    Implementation: p5.js with button interactions, expression parsing, animation effects, persistent scoring
+```html
+<iframe src="https://dmccreary.github.io/algebra-1/sims/polynomial-classification-game/main.html"
+        height="602px" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 3: Exponents And Powers](../../chapters/03-exponents-and-powers/index.md)
+### Learning Objective
+
+Identify and classify algebraic expressions as monomials, binomials, trinomials, or non-polynomials.
+
+### Audience and Prerequisites
+
+Designed for Algebra I students in grade 9. Students should have arithmetic fluency and introductory familiarity with variables and expressions.
+
+### Suggested Activity
+
+1. Ask students to predict what will change before moving either parameter.
+2. Change one control at a time and describe the visual and symbolic changes.
+3. Use **Check / Explain** to compare the student's reasoning with the model.
+4. Select **New Example** and have students justify the new result with a partner.
+
+### Assessment
+
+Students demonstrate mastery by explaining the displayed relationship, identifying the role of each parameter, and correctly reasoning through a new example without relying on trial and error.
+
+## References
+
+1. [Related Algebra I chapter](../../chapters/03-exponents-and-powers/index.md) - Course explanation and diagram specification.
+2. [p5.js Reference](https://p5js.org/reference/) - Documentation for the interactive graphics library.

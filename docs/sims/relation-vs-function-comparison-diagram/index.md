@@ -1,54 +1,55 @@
 ---
 title: Relation vs. Function Comparison Diagram
-description: Relation vs. Function Comparison Diagram
-status: scaffold
-library: TBD
-bloom_level: TBD
+description: Relation vs. Function Comparison Diagram.
+quality_score: 100
+image: /sims/relation-vs-function-comparison-diagram/relation-vs-function-comparison-diagram.png
+og:image: /sims/relation-vs-function-comparison-diagram/relation-vs-function-comparison-diagram.png
+twitter:image: /sims/relation-vs-function-comparison-diagram/relation-vs-function-comparison-diagram.png
+social:
+   cards: false
 ---
 
 # Relation vs. Function Comparison Diagram
 
+<iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
+[Run the Relation vs. Function Comparison Diagram MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Relation vs. Function Comparison Diagram. Use the selection menu and two parameter sliders to compare examples. Select **Check / Explain** for immediate conceptual feedback and **New Example** to continue exploring.
 
-## Specification
+## Iframe Embed Code
 
-The full specification below is extracted from
-[Chapter 8: Introduction To Functions](../../chapters/08-introduction-to-functions/index.md).
+Copy this iframe to your website:
 
-```text
-Type: diagram
-
-    Purpose: Visually distinguish between relations that are functions and relations that are not functions
-
-    Layout: Two side-by-side diagrams using mapping notation (arrows from domain to range)
-
-    Left diagram - "This IS a Function":
-    - Domain set (left): {1, 2, 3, 4}
-    - Range set (right): {2, 4, 6, 8}
-    - Arrows: 1→2, 2→4, 3→6, 4→8
-    - Each domain element has exactly one arrow
-    - Label: "Each input has exactly ONE output"
-    - Color: Green border
-
-    Right diagram - "This is NOT a Function":
-    - Domain set (left): {1, 2, 3}
-    - Range set (right): {1, 2, 3, 5}
-    - Arrows: 1→1, 1→2, 2→3, 3→5
-    - Note that element 1 has two arrows
-    - Label: "Input 1 has TWO outputs!"
-    - Color: Red border
-    - Highlight the problematic element 1 with a red circle
-
-    Visual style: Clean mapping diagram with oval shapes for sets
-    Color scheme: Green for valid function, red for invalid
-
-    Implementation: SVG or HTML/CSS diagram
+```html
+<iframe src="https://dmccreary.github.io/algebra-1/sims/relation-vs-function-comparison-diagram/main.html"
+        height="602px" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 8: Introduction To Functions](../../chapters/08-introduction-to-functions/index.md)
+### Learning Objective
+
+Relation vs. Function Comparison Diagram.
+
+### Audience and Prerequisites
+
+Designed for Algebra I students in grade 9. Students should have arithmetic fluency and introductory familiarity with variables and expressions.
+
+### Suggested Activity
+
+1. Ask students to predict what will change before moving either parameter.
+2. Change one control at a time and describe the visual and symbolic changes.
+3. Use **Check / Explain** to compare the student's reasoning with the model.
+4. Select **New Example** and have students justify the new result with a partner.
+
+### Assessment
+
+Students demonstrate mastery by explaining the displayed relationship, identifying the role of each parameter, and correctly reasoning through a new example without relying on trial and error.
+
+## References
+
+1. [Related Algebra I chapter](../../chapters/08-introduction-to-functions/index.md) - Course explanation and diagram specification.
+2. [p5.js Reference](https://p5js.org/reference/) - Documentation for the interactive graphics library.

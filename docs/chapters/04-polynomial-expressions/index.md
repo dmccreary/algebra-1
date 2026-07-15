@@ -88,6 +88,10 @@ Examples:
 
 #### Diagram: Polynomial Classification Interactive Tool
 
+
+<iframe src="../../sims/polynomial-classification-interactive-tool/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Polynomial Classification Interactive Tool Fullscreen](../../sims/polynomial-classification-interactive-tool/main.html)
+
 <details markdown="1">
     <summary>Polynomial Classification Interactive Tool</summary>
     Type: microsim
@@ -229,6 +233,10 @@ Example: $(x + 4)(x + 5)$
 Result: $x^2 + 5x + 4x + 20 = x^2 + 9x + 20$
 
 #### Diagram: FOIL Method Interactive Visualizer
+
+
+<iframe src="../../sims/foil-method-interactive-visualizer/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run FOIL Method Interactive Visualizer Fullscreen](../../sims/foil-method-interactive-visualizer/main.html)
 
 <details markdown="1">
     <summary>FOIL Method Interactive Visualizer</summary>
@@ -408,6 +416,10 @@ Examples:
 - $x^3 - 27 = (x - 3)(x^2 + 3x + 9)$
 
 #### Diagram: Special Products and Factoring Matcher
+
+
+<iframe src="../../sims/special-products-and-factoring-matcher/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Special Products and Factoring Matcher Fullscreen](../../sims/special-products-and-factoring-matcher/main.html)
 
 <details markdown="1">
     <summary>Special Products and Factoring Matcher</summary>

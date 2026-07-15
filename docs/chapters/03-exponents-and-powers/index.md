@@ -126,6 +126,10 @@ Example: $\frac{1}{2^{-4}} = 2^4 = 16$
 
 #### Diagram: Exponent Types Interactive Explorer
 
+
+<iframe src="../../sims/exponent-types-interactive-explorer/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Exponent Types Interactive Explorer Fullscreen](../../sims/exponent-types-interactive-explorer/main.html)
+
 <details markdown="1">
     <summary>Exponent Types Interactive Explorer</summary>
     Type: microsim
@@ -329,6 +333,10 @@ Example: $\left(\frac{x}{3}\right)^2 = \frac{x^2}{3^2} = \frac{x^2}{9}$
 
 #### Diagram: Exponent Laws Practice Game
 
+
+<iframe src="../../sims/exponent-laws-practice-game/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Exponent Laws Practice Game Fullscreen](../../sims/exponent-laws-practice-game/main.html)
+
 <details markdown="1">
     <summary>Exponent Laws Practice Game</summary>
     Type: microsim
@@ -488,6 +496,10 @@ $\frac{a \times 10^m}{b \times 10^n} = \frac{a}{b} \times 10^{m-n}$
 Example: $\frac{8 \times 10^7}{2 \times 10^3} = 4 \times 10^4$
 
 #### Diagram: Scientific Notation Converter and Calculator
+
+
+<iframe src="../../sims/scientific-notation-converter-and-calculator/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Scientific Notation Converter and Calculator Fullscreen](../../sims/scientific-notation-converter-and-calculator/main.html)
 
 <details markdown="1">
     <summary>Scientific Notation Converter and Calculator</summary>
@@ -704,6 +716,10 @@ The same principle applies, but look for perfect cube factors:
 
 #### Diagram: Radical Simplification Interactive Tool
 
+
+<iframe src="../../sims/radical-simplification-interactive-tool/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Radical Simplification Interactive Tool Fullscreen](../../sims/radical-simplification-interactive-tool/main.html)
+
 <details markdown="1">
     <summary>Radical Simplification Interactive Tool</summary>
     Type: microsim
@@ -850,6 +866,10 @@ Trinomials are especially important when factoring quadratic expressions, which 
 | **Polynomial** | 1 or more | Any of the above |
 
 #### Diagram: Polynomial Classification Game
+
+
+<iframe src="../../sims/polynomial-classification-game/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Polynomial Classification Game Fullscreen](../../sims/polynomial-classification-game/main.html)
 
 <details markdown="1">
     <summary>Polynomial Classification Game</summary>

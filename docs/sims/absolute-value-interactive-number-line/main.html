@@ -3,140 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- microsim-scaffold-stub -->
-    <title>Absolute Value Interactive Number Line</title>
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Absolute Value Interactive Number Line using p5.js</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
-        }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
+        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <script src="absolute-value-interactive-number-line.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>Absolute Value Interactive Number Line</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> absolute-value-interactive-number-line</p>
-            <p><strong>Library:</strong> TBD</p>
-            <p><strong>Bloom Level:</strong> TBD</p>
-            <p><strong>Learning Objective:</strong> TBD</p>
-        </div>
-    </div>
-
-    <!--
-    SPECIFICATION (from chapter index.md):
-
-    Type: microsim
-    
-        Learning objective: Understand absolute value as distance from zero using an interactive number line with dynamic measurement
-    
-        Canvas layout (800x400px):
-        - Top area (800x300): Number line visualization
-        - Bottom area (800x100): Controls and information
-    
-        Visual elements:
-        - Horizontal number line from -10 to +10
-        - Movable point (draggable circle) on the number line
-        - Visual distance indicator: colored line segment from 0 to the point
-        - Distance value displayed above the line segment
-        - Equation displayed: |x| = [distance value]
-        - Color coding: negative positions (red), positive positions (blue), zero (green)
-    
-        Interactive controls:
-        - Slider: Position on number line (-10 to +10, step 0.5)
-        - Input box: Enter a number directly
-        - Draggable point: Click and drag along number line
-        - Button: "Show multiple values" (displays several points simultaneously)
-        - Checkbox: "Show mirror image" (shows both a and -a)
-    
-        Default parameters:
-        - Initial position: -5
-        - Show mirror image: false
-    
-        Behavior:
-        - As point moves, distance line animates to follow
-        - Distance value updates in real-time
-        - Equation updates: |x| = [distance]
-        - When "Show mirror image" is checked:
-          - Display both points (e.g., 5 and -5)
-          - Show both have same absolute value
-          - Highlight symmetry around zero
-        - Color of distance line changes: red for negative x, blue for positive x
-        - Distance line always shows as positive length
-    
-        Visual features:
-        - Measurement ticks along distance line
-        - Zero point highlighted with larger marker
-        - Grid background for easy counting
-        - Smooth animations using lerp()
-    
-        Learning reinforcements:
-        - Display: "Distance from 0 to [x] is [|x|]"
-        - Display: "Note: Distance is always positive!"
-        - When at mirror positions: "Notice: |a| = |-a|"
-    
-        Implementation: p5.js with mouse interaction for dragging, smooth animations, clear typography
-    -->
+    <main></main>
+    <br/>
+    <a href=".">Back to Lesson Plan</a>
 </body>
 </html>

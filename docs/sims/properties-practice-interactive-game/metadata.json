@@ -1,23 +1,67 @@
 {
   "title": "Properties Practice Interactive Game",
-  "description": "Properties Practice Interactive Game",
-  "creator": "Algebra I",
-  "author": "Dan McCreary",
-  "date": "2026-07-15",
+  "creator": "Dan McCreary",
   "subject": [
-    "Algebra I"
+    "Algebra I",
+    "Number Systems And Properties",
+    "Properties Practice Interactive Game"
   ],
+  "description": "Identify and apply mathematical properties in various equations and expressions",
+  "date": "2026-07-15",
+  "educational": {
+    "gradeLevel": [
+      "9"
+    ],
+    "subjectArea": "Mathematics",
+    "topic": "Properties Practice Interactive Game",
+    "learningObjectives": [
+      "Identify and apply mathematical properties in various equations and expressions"
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Arithmetic fluency",
+      "Familiarity with variables and expressions"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.11.10",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 600
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 1.11.10"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Guided interactive exploration with immediate feedback",
+    "keyQuestions": [
+      "What changes when each control moves?",
+      "How does the visual model support the algebraic rule?"
+    ],
+    "commonMisconceptions": [
+      "Changing a representation changes the underlying mathematical relationship"
+    ],
+    "assessmentOpportunities": [
+      "Explain the displayed relationship",
+      "Use New Example and justify the result"
+    ]
+  },
+  "chapter": "02-number-systems-and-properties",
   "type": "Interactive Simulation",
   "format": "text/html",
   "language": "en",
   "rights": "CC BY-NC-SA 4.0",
+  "library": "p5.js",
   "identifier": "properties-practice-interactive-game",
-  "library": "TBD",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
-  "chapter_number": 2,
-  "chapter_title": "Number Systems And Properties",
-  "chapter_dir": "02-number-systems-and-properties",
-  "chapter_rel_dir": "chapters/02-number-systems-and-properties"
+  "completion_status": "implemented",
+  "canvasHeight": 600
 }

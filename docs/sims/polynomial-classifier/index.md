@@ -1,6 +1,6 @@
 # Polynomial Classification Game
 
-<iframe src="main.html" width="920" height="620" scrolling="no" style="overflow: hidden; border: 2px solid silver; border-radius: 12px;"></iframe>
+<iframe src="main.html" width="920" height="602px" scrolling="no" style="overflow: hidden; border: 2px solid silver; border-radius: 12px;"></iframe>
 
 ## About This MicroSim
 

@@ -1,124 +1,55 @@
 ---
 title: Distributive Property Visualizer MicroSim
-description: Visualize the distributive property using area models and step-by-step algebraic expansion
-status: scaffold
-library: TBD
-bloom_level: TBD
+description: Visualize the distributive property using area models and step-by-step algebraic expansion.
+quality_score: 100
+image: /sims/distributive-property-visualizer-microsim/distributive-property-visualizer-microsim.png
+og:image: /sims/distributive-property-visualizer-microsim/distributive-property-visualizer-microsim.png
+twitter:image: /sims/distributive-property-visualizer-microsim/distributive-property-visualizer-microsim.png
+social:
+   cards: false
 ---
 
 # Distributive Property Visualizer MicroSim
 
+<iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
+[Run the Distributive Property Visualizer MicroSim MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Visualize the distributive property using area models and step-by-step algebraic expansion. Use the selection menu and two parameter sliders to compare examples. Select **Check / Explain** for immediate conceptual feedback and **New Example** to continue exploring.
 
-## Specification
+## Iframe Embed Code
 
-The full specification below is extracted from
-[Chapter 1: Foundations Of Algebra](../../chapters/01-foundations-of-algebra/index.md).
+Copy this iframe to your website:
 
-```text
-Type: microsim
-
-Learning objective: Visualize the distributive property using area models and step-by-step algebraic expansion
-
-Canvas layout (900x700px):
-- Top (900x100): Problem display and mode selector
-- Left side (450x500): Visual area model representation
-- Right side (450x500): Algebraic step-by-step solution
-- Bottom (900x100): Controls and input area
-
-Visual elements - Area Model:
-- Rectangle divided into sections representing multiplication
-- For $3(x + 5)$:
-  - Vertical side labeled "3"
-  - Horizontal side divided into two sections: "x" and "5"
-  - Rectangle divided showing two areas: "3x" and "15"
-- Color coding: Variable areas in blue, constant areas in orange
-- Dimensions labeled clearly
-- Areas labeled with expressions
-
-Visual elements - Algebraic:
-- Step-by-step expansion shown with arrows
-- Original expression at top
-- Intermediate step showing distribution
-- Final expanded form at bottom
-- Color coding matching area model
-
-Interactive controls:
-- Input: "Factor outside parentheses" (e.g., 3, -2, x)
-- Input: "First term inside" (e.g., x, 2y, 3)
-- Input: "Second term inside" (e.g., 5, -2, x)
-- Button: "Generate Random Problem"
-- Dropdown: "Problem Type" (Numeric, Single Variable, Two Variables)
-- Slider: "Animation Speed" (slow to fast)
-- Button: "Show Next Step" (step through expansion)
-- Button: "Animate Full Solution"
-- Checkbox: "Show Area Model"
-
-Default parameters:
-- Problem: $3(x + 5)$
-- Problem Type: Single Variable
-- Animation Speed: Medium
-- Show Area Model: Checked
-
-Problem types:
-- Numeric: $4(3 + 2)$ → area model with numbers only
-- Single Variable: $3(x + 5)$, $-2(y - 4)$ → one variable
-- Two Variables: $2(3x + 4y)$, $x(x + 7)$ → multiple variables or exponents
-
-Behavior - Area Model:
-- Draw rectangle with animated dimensions
-- Divide rectangle according to terms
-- Fill each section with color and label
-- Animate the "sweeping" of distributed factor across terms
-- Show area calculations for each section
-- Highlight how areas add to total
-
-Behavior - Algebraic Steps:
-- Display original expression: $3(x + 5)$
-- Show distribution arrows: $3 \times x$ and $3 \times 5$
-- Animate each multiplication
-- Display intermediate: $3x + 15$
-- Highlight final answer
-
-Behavior - Animation:
-- Sync visual and algebraic representations
-- Pulse/glow effect on current operation
-- Smooth transitions between steps
-- Option to pause/play at any point
-
-Special cases to demonstrate:
-- Positive factor: $3(x + 2) = 3x + 6$
-- Negative factor: $-2(x + 5) = -2x - 10$
-- Subtraction inside: $4(x - 3) = 4x - 12$
-- Variable factor: $x(x + 4) = x^2 + 4x$
-
-Practice mode:
-- Show problem and area model
-- Student fills in blanks for expanded form
-- Immediate feedback on each term
-- Visual confirmation in area model
-
-Visual styling:
-- Clean geometric area models with clear labels
-- Color-coded sections (blue for variables, orange for constants)
-- Large, readable algebraic notation
-- Animated arrows showing distribution
-- Grid background for area model
-
-Implementation notes:
-- Use p5.js for rendering
-- Draw dynamic rectangles based on expression complexity
-- Parse input expressions to generate appropriate models
-- Implement smooth animations with easing
-- Support negative values with special visual treatment (different colors/patterns)
-
-**MicroSim Recommendation:** Use **microsim-p5** (Score: 97/100). This specification requires synchronized visual (area model rectangles) and algebraic (step-by-step equations) representations with animations showing the distribution process. P5.js excels at creating custom geometric visualizations with precise control over rectangle dimensions, labels, color coding, and animation timing.
+```html
+<iframe src="https://dmccreary.github.io/algebra-1/sims/distributive-property-visualizer-microsim/main.html"
+        height="602px" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 1: Foundations Of Algebra](../../chapters/01-foundations-of-algebra/index.md)
+### Learning Objective
+
+Visualize the distributive property using area models and step-by-step algebraic expansion.
+
+### Audience and Prerequisites
+
+Designed for Algebra I students in grade 9. Students should have arithmetic fluency and introductory familiarity with variables and expressions.
+
+### Suggested Activity
+
+1. Ask students to predict what will change before moving either parameter.
+2. Change one control at a time and describe the visual and symbolic changes.
+3. Use **Check / Explain** to compare the student's reasoning with the model.
+4. Select **New Example** and have students justify the new result with a partner.
+
+### Assessment
+
+Students demonstrate mastery by explaining the displayed relationship, identifying the role of each parameter, and correctly reasoning through a new example without relying on trial and error.
+
+## References
+
+1. [Related Algebra I chapter](../../chapters/01-foundations-of-algebra/index.md) - Course explanation and diagram specification.
+2. [p5.js Reference](https://p5js.org/reference/) - Documentation for the interactive graphics library.

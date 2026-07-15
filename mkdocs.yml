@@ -69,19 +69,57 @@ nav:
       - learning-graph/faq-quality-report.md
   
   - MicroSims:
-      - List of MicroSims: sims/index.md
-      - Learning Graph Viewer: sims/graph-viewer/index.md
-      - Algebra Concept Viewer: sims/algebra-concept-viewer/index.md
-      - High School Courses Graph: sims/high-school-courses/index.md
-      - Expression Explorer: sims/expression-explorer/index.md
-      - Integer Operations Number Line: sims/integer-ops-number-line/index.md
-      - Number System Venn Diagram: sims/number-system-venn/index.md
-      - Prime Factorization Tree: sims/prime-factorization-tree/index.md
-      - Variable Types: sims/variable-types/index.md
-      - Coordinate Plane Explorer: sims/coordinate-plane-explorer/index.md
-      - Number Systems P5: sims/number-systems-p5/index.md
-      - Polynomial Classifier: sims/polynomial-classifier/index.md
-      - Distributive Property Visualizer: sims/distributive-property/index.md
+    - List of MicroSims: sims/index.md
+    - Absolute Value Interactive Number Line: sims/absolute-value-interactive-number-line/index.md
+    - Algebra Concept Viewer: sims/algebra-concept-viewer/index.md
+    - Coordinate Plane Explorer: sims/coordinate-plane-explorer/index.md
+    - Coordinate Plane Interactive Plotter: sims/coordinate-plane-interactive-plotter/index.md
+    - Distributive Property Visual Model: sims/distributive-property-visual-model/index.md
+    - Distributive Property Visualizer: sims/distributive-property/index.md
+    - Distributive Property Visualizer MicroSim: sims/distributive-property-visualizer-microsim/index.md
+    - Domain and Range Interactive Visualizer: sims/domain-and-range-interactive-visualizer/index.md
+    - Exponent Laws Practice Game: sims/exponent-laws-practice-game/index.md
+    - Exponent Types Interactive Explorer: sims/exponent-types-interactive-explorer/index.md
+    - Expression Explorer MicroSim: sims/expression-explorer-microsim/index.md
+    - Expression Parts Explorer: sims/expression-explorer/index.md
+    - FOIL Method Interactive Visualizer: sims/foil-method-interactive-visualizer/index.md
+    - Function Evaluation Practice MicroSim: sims/function-evaluation-practice-microsim/index.md
+    - Function Transformations Interactive Explorer: sims/function-transformations-interactive-explorer/index.md
+    - High School Courses Dependency Graph: sims/high-school-courses/index.md
+    - Integer Operations on the Number Line: sims/integer-operations-on-the-number-line/index.md
+    - Integer Operations on the Number Line: sims/integer-ops-number-line/index.md
+    - Interactive Coordinate Plane Explorer: sims/interactive-coordinate-plane-explorer/index.md
+    - Interactive Line Graphing Practice: sims/interactive-line-graphing-practice/index.md
+    - Intercepts and Graphing Interactive Practice: sims/intercepts-and-graphing-interactive-practice/index.md
+    - Learning Graph Viewer: sims/graph-viewer/index.md
+    - Like Terms Matching Game MicroSim: sims/like-terms-matching-game-microsim/index.md
+    - Linear Equation Forms Converter and Grapher: sims/linear-equation-forms-converter-and-grapher/index.md
+    - Number Systems Diagram: sims/number-systems-mermaid/index.md
+    - Number Systems Hierarchy Diagram: sims/number-system-venn/index.md
+    - Number Systems Hierarchy Diagram: sims/number-systems-hierarchy-diagram/index.md
+    - Number Systems Venn Diagram: sims/number-systems-p5/index.md
+    - Number Types Venn Diagram: sims/number-types-venn-p5/index.md
+    - Order of Operations Challenge MicroSim: sims/order-of-operations-challenge-microsim/index.md
+    - Parent Functions Reference Gallery: sims/parent-functions-reference-gallery/index.md
+    - Piecewise Function Interactive Grapher: sims/piecewise-function-interactive-grapher/index.md
+    - Polynomial Classification Game: sims/polynomial-classification-game/index.md
+    - Polynomial Classification Game: sims/polynomial-classifier/index.md
+    - Polynomial Classification Interactive Tool: sims/polynomial-classification-interactive-tool/index.md
+    - Prime Factorization Tree Builder: sims/prime-factorization-tree/index.md
+    - Prime Factorization Tree Builder MicroSim: sims/prime-factorization-tree-builder-microsim/index.md
+    - Properties Practice Interactive Game: sims/properties-practice-interactive-game/index.md
+    - Radical Simplification Interactive Tool: sims/radical-simplification-interactive-tool/index.md
+    - Real-World Function Modeling Interactive Scenarios: sims/real-world-function-modeling-interactive-scenarios/index.md
+    - Relation vs. Function Comparison Diagram: sims/relation-vs-function-comparison-diagram/index.md
+    - Scientific Notation Converter and Calculator: sims/scientific-notation-converter-and-calculator/index.md
+    - Slope Visualizer and Calculator: sims/slope-visualizer-and-calculator/index.md
+    - "Special Lines Explorer: Horizontal and Vertical": sims/special-lines-explorer-horizontal-and-vertical/index.md
+    - Special Products and Factoring Matcher: sims/special-products-and-factoring-matcher/index.md
+    - Variable Types Interactive Infographic: sims/variable-types/index.md
+    - Vertical Line Test Interactive MicroSim: sims/vertical-line-test-interactive-microsim/index.md
+    - Write Equation of a Line Practice Scenarios: sims/write-equation-of-a-line-practice-scenarios/index.md
+
+
 
   - Prompts:
     - List of Prompts: prompts/index.md

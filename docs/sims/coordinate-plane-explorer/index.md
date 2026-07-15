@@ -19,7 +19,7 @@ social:
 You can include this MicroSim on your website using the following `iframe`:
 
 ```html
-<iframe src="https://dmccreary.github.io/algebra-1/sims/coordinate-plane-explorer/main.html" height="702px" width="100%" scrolling="no"></iframe>
+<iframe src="https://dmccreary.github.io/algebra-1/sims/coordinate-plane-explorer/main.html" height="722px" width="100%" scrolling="no"></iframe>
 ```
 
 ## Description

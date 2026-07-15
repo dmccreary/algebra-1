@@ -1,23 +1,67 @@
 {
   "title": "Function Evaluation Practice MicroSim",
-  "description": "Function Evaluation Practice MicroSim",
-  "creator": "Algebra I",
-  "author": "Dan McCreary",
-  "date": "2026-07-15",
+  "creator": "Dan McCreary",
   "subject": [
-    "Algebra I"
+    "Algebra I",
+    "Introduction To Functions",
+    "Function Evaluation Practice MicroSim"
   ],
+  "description": "Provide interactive practice for evaluating functions at different input values",
+  "date": "2026-07-15",
+  "educational": {
+    "gradeLevel": [
+      "9"
+    ],
+    "subjectArea": "Mathematics",
+    "topic": "Function Evaluation Practice MicroSim",
+    "learningObjectives": [
+      "Provide interactive practice for evaluating functions at different input values"
+    ],
+    "bloomsTaxonomy": "Evaluate",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Arithmetic fluency",
+      "Familiarity with variables and expressions"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.11.10",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 600
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 1.11.10"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Guided interactive exploration with immediate feedback",
+    "keyQuestions": [
+      "What changes when each control moves?",
+      "How does the visual model support the algebraic rule?"
+    ],
+    "commonMisconceptions": [
+      "Changing a representation changes the underlying mathematical relationship"
+    ],
+    "assessmentOpportunities": [
+      "Explain the displayed relationship",
+      "Use New Example and justify the result"
+    ]
+  },
+  "chapter": "08-introduction-to-functions",
   "type": "Interactive Simulation",
   "format": "text/html",
   "language": "en",
   "rights": "CC BY-NC-SA 4.0",
+  "library": "p5.js",
   "identifier": "function-evaluation-practice-microsim",
-  "library": "TBD",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
-  "chapter_number": 8,
-  "chapter_title": "Introduction To Functions",
-  "chapter_dir": "08-introduction-to-functions",
-  "chapter_rel_dir": "chapters/08-introduction-to-functions"
+  "completion_status": "implemented",
+  "canvasHeight": 600
 }

@@ -1,111 +1,55 @@
 ---
 title: Exponent Laws Practice Game
-description: Exponent Laws Practice Game
-status: scaffold
-library: TBD
-bloom_level: TBD
+description: Apply the laws of exponents to simplify expressions through interactive practice.
+quality_score: 100
+image: /sims/exponent-laws-practice-game/exponent-laws-practice-game.png
+og:image: /sims/exponent-laws-practice-game/exponent-laws-practice-game.png
+twitter:image: /sims/exponent-laws-practice-game/exponent-laws-practice-game.png
+social:
+   cards: false
 ---
 
 # Exponent Laws Practice Game
 
+<iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
+[Run the Exponent Laws Practice Game MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Apply the laws of exponents to simplify expressions through interactive practice. Use the selection menu and two parameter sliders to compare examples. Select **Check / Explain** for immediate conceptual feedback and **New Example** to continue exploring.
 
-## Specification
+## Iframe Embed Code
 
-The full specification below is extracted from
-[Chapter 3: Exponents And Powers](../../chapters/03-exponents-and-powers/index.md).
+Copy this iframe to your website:
 
-```text
-Type: microsim
-
-    Learning objective: Apply the laws of exponents to simplify expressions through interactive practice
-
-    Canvas layout (1000x700px):
-    - Top area (1000x100): Score, level, and timer
-    - Middle area (1000x400): Problem display and workspace
-    - Bottom area (1000x200): Answer choices and feedback
-
-    Visual elements:
-    - Large problem display (e.g., "$x^5 \cdot x^3 = ?$")
-    - Visual aid showing which rule applies (highlighted)
-    - Multiple choice answer buttons (4 options)
-    - Score counter and streak tracker
-    - Level indicator (1-5, increasing difficulty)
-    - Visual feedback (green checkmark, red X)
-    - Progress bar showing questions completed
-
-    Game mechanics:
-    - Present expression to simplify
-    - Student selects correct simplified form
-    - Immediate feedback with explanation
-    - Progressive difficulty across 5 levels
-    - Earn points: +15 for correct, -5 for incorrect
-    - Maintain streak bonus (×2 points after 3 correct in a row)
-    - Timer: 30 seconds per question (optional pressure mode)
-
-    Problem types by level:
-
-    Level 1 - Single rule application:
-    - $x^3 \cdot x^2 = ?$ → Product Rule
-    - $\frac{y^5}{y^2} = ?$ → Quotient Rule
-    - $(a^2)^3 = ?$ → Power Rule
-
-    Level 2 - Zero and negative exponents:
-    - $b^0 \cdot b^3 = ?$
-    - $x^{-2} \cdot x^5 = ?$
-    - $(y^{-1})^3 = ?$
-
-    Level 3 - Combined rules:
-    - $\frac{x^3 \cdot x^5}{x^2} = ?$
-    - $(2a^3)^2 = ?$
-    - $\left(\frac{m^4}{m^2}\right)^3 = ?$
-
-    Level 4 - Complex expressions:
-    - $\frac{(x^2)^3 \cdot x^{-1}}{x^4} = ?$
-    - $(3x^2y)^3 = ?$
-
-    Level 5 - Challenge mode:
-    - $\frac{(2a^{-2}b^3)^2}{(ab)^{-1}} = ?$
-
-    Interactive controls:
-    - Four answer buttons (A, B, C, D)
-    - "Show hint" button (costs 5 points)
-    - "Skip question" button (no penalty, but breaks streak)
-    - "Next level" button (appears after completing 5 questions)
-    - "Restart game" button
-
-    Default parameters:
-    - Level: 1
-    - Score: 0
-    - Streak: 0
-    - Timer mode: off
-
-    Behavior:
-    - When answer selected:
-      - If correct: Green flash, show explanation, add points, increment streak
-      - If incorrect: Red flash, show correct answer with step-by-step work, subtract points, reset streak
-    - "Show hint": Displays which rule(s) to apply
-    - Level progression: Automatic after 5 correct answers
-    - Visual celebrations for milestones (10 streak, 100 points, etc.)
-
-    Feedback examples:
-    - Correct: "✓ Perfect! Product Rule: add the exponents. $x^{5+3} = x^8$"
-    - Incorrect: "✗ Not quite. Remember the Quotient Rule: subtract exponents. $\frac{y^7}{y^2} = y^{7-2} = y^5$"
-    - Hint: "Hint: You have multiplication with the same base. Use the Product Rule!"
-
-    Visual features:
-    - Rule cards that highlight when relevant
-    - Animated step-by-step solutions
-    - Progress tracking across levels
-    - Achievement badges (speed demon, perfectionist, comeback kid)
-
-    Implementation: p5.js with button interactions, JSON question bank, animation effects, persistent score tracking
+```html
+<iframe src="https://dmccreary.github.io/algebra-1/sims/exponent-laws-practice-game/main.html"
+        height="602px" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 3: Exponents And Powers](../../chapters/03-exponents-and-powers/index.md)
+### Learning Objective
+
+Apply the laws of exponents to simplify expressions through interactive practice.
+
+### Audience and Prerequisites
+
+Designed for Algebra I students in grade 9. Students should have arithmetic fluency and introductory familiarity with variables and expressions.
+
+### Suggested Activity
+
+1. Ask students to predict what will change before moving either parameter.
+2. Change one control at a time and describe the visual and symbolic changes.
+3. Use **Check / Explain** to compare the student's reasoning with the model.
+4. Select **New Example** and have students justify the new result with a partner.
+
+### Assessment
+
+Students demonstrate mastery by explaining the displayed relationship, identifying the role of each parameter, and correctly reasoning through a new example without relying on trial and error.
+
+## References
+
+1. [Related Algebra I chapter](../../chapters/03-exponents-and-powers/index.md) - Course explanation and diagram specification.
+2. [p5.js Reference](https://p5js.org/reference/) - Documentation for the interactive graphics library.

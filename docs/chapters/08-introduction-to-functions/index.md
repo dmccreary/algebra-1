@@ -56,6 +56,10 @@ A **function** is a special type of relation where each input (called the domain
 
 #### Diagram: Relation vs. Function Comparison Diagram
 
+
+<iframe src="../../sims/relation-vs-function-comparison-diagram/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Relation vs. Function Comparison Diagram Fullscreen](../../sims/relation-vs-function-comparison-diagram/main.html)
+
 <details markdown="1">
     <summary>Relation vs. Function Comparison Diagram</summary>
     Type: diagram
@@ -94,6 +98,10 @@ One of the most useful tools for determining whether a graph represents a functi
 Why does this work? Remember that a function requires each input ($x$-value) to have exactly one output ($y$-value). A vertical line represents a single $x$-value. If that vertical line crosses the graph twice, it means that single $x$-value has two different $y$-values, violating the definition of a function.
 
 #### Diagram: Vertical Line Test Interactive MicroSim
+
+
+<iframe src="../../sims/vertical-line-test-interactive-microsim/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Vertical Line Test Interactive MicroSim Fullscreen](../../sims/vertical-line-test-interactive-microsim/main.html)
 
 <details markdown="1">
     <summary>Vertical Line Test Interactive MicroSim</summary>
@@ -209,6 +217,10 @@ We can also evaluate functions with algebraic expressions as inputs:
 
 #### Diagram: Function Evaluation Practice MicroSim
 
+
+<iframe src="../../sims/function-evaluation-practice-microsim/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Function Evaluation Practice MicroSim Fullscreen](../../sims/function-evaluation-practice-microsim/main.html)
+
 <details markdown="1">
     <summary>Function Evaluation Practice MicroSim</summary>
     Type: microsim
@@ -316,6 +328,10 @@ For example:
 - $f(x) = |x|$ has domain: all real numbers and range: $[0, \infty)$
 
 #### Diagram: Domain and Range Interactive Visualizer
+
+
+<iframe src="../../sims/domain-and-range-interactive-visualizer/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Domain and Range Interactive Visualizer Fullscreen](../../sims/domain-and-range-interactive-visualizer/main.html)
 
 <details markdown="1">
     <summary>Domain and Range Interactive Visualizer</summary>
@@ -451,6 +467,10 @@ For our example:
 - $f(2) = 2^2 = 4$ (using second piece since $2 \geq 0$)
 
 #### Diagram: Piecewise Function Interactive Grapher
+
+
+<iframe src="../../sims/piecewise-function-interactive-grapher/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Piecewise Function Interactive Grapher Fullscreen](../../sims/piecewise-function-interactive-grapher/main.html)
 
 <details markdown="1">
     <summary>Piecewise Function Interactive Grapher</summary>
@@ -595,6 +615,10 @@ Here are the key parent functions you should know:
 | Reciprocal | $f(x) = \frac{1}{x}$ | Two curved branches (hyperbola) | $x \neq 0$ | $y \neq 0$ |
 
 #### Diagram: Parent Functions Reference Gallery
+
+
+<iframe src="../../sims/parent-functions-reference-gallery/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Parent Functions Reference Gallery Fullscreen](../../sims/parent-functions-reference-gallery/main.html)
 
 <details markdown="1">
     <summary>Parent Functions Reference Gallery</summary>
@@ -743,6 +767,10 @@ Understanding transformations lets you graph complex functions quickly by starti
 - $g(x) = -|x|$ reflects the absolute value function across the $x$-axis (creates an upside-down V)
 
 #### Diagram: Function Transformations Interactive Explorer
+
+
+<iframe src="../../sims/function-transformations-interactive-explorer/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Function Transformations Interactive Explorer Fullscreen](../../sims/function-transformations-interactive-explorer/main.html)
 
 <details markdown="1">
     <summary>Function Transformations Interactive Explorer</summary>
@@ -934,6 +962,10 @@ Functions are not just abstract mathematical concepts—they model countless rea
 Understanding functions empowers you to model these situations mathematically, make predictions, and solve practical problems.
 
 #### Diagram: Real-World Function Modeling Interactive Scenarios
+
+
+<iframe src="../../sims/real-world-function-modeling-interactive-scenarios/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Real-World Function Modeling Interactive Scenarios Fullscreen](../../sims/real-world-function-modeling-interactive-scenarios/main.html)
 
 <details markdown="1">
     <summary>Real-World Function Modeling Interactive Scenarios</summary>

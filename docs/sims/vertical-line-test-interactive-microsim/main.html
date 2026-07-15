@@ -3,136 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- microsim-scaffold-stub -->
-    <title>Vertical Line Test Interactive MicroSim</title>
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Vertical Line Test Interactive MicroSim using p5.js</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
-        }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
+        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <script src="vertical-line-test-interactive-microsim.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>Vertical Line Test Interactive MicroSim</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> vertical-line-test-interactive-microsim</p>
-            <p><strong>Library:</strong> TBD</p>
-            <p><strong>Bloom Level:</strong> TBD</p>
-            <p><strong>Learning Objective:</strong> TBD</p>
-        </div>
-    </div>
-
-    <!--
-    SPECIFICATION (from chapter index.md):
-
-    Type: microsim
-    
-        Learning objective: Help students understand and apply the vertical line test to determine if a graph represents a function
-    
-        Canvas layout (800x500px):
-        - Main drawing area (650x500): Graph with coordinate plane
-        - Control panel (150x500): Interactive controls on right side
-    
-        Visual elements in main area:
-        - Coordinate grid with x-axis from -5 to 5 and y-axis from -5 to 5
-        - Pre-loaded graph (user-selectable from dropdown)
-        - Moveable vertical line (dashed red) that user can drag horizontally
-        - Intersection points highlighted as yellow circles when vertical line crosses graph
-        - Result text at bottom: "This IS a function" (green) or "This is NOT a function" (red)
-    
-        Interactive controls:
-        - Dropdown: "Select Graph"
-          Options:
-          1. "Linear function: y = 2x + 1"
-          2. "Parabola: y = x²"
-          3. "Circle: x² + y² = 9" (NOT a function)
-          4. "Absolute value: y = |x|"
-          5. "Sideways parabola: x = y²" (NOT a function)
-          6. "Piecewise function"
-        - Slider: "Move vertical line" (-5 to 5)
-        - Button: "Auto-scan" (animates vertical line sweeping across graph)
-        - Display: "Intersection count: X points"
-        - Checkbox: "Show all intersections" (highlights all intersection points at current x-value)
-    
-        Default parameters:
-        - Selected graph: Linear function
-        - Vertical line position: x = 0
-        - Auto-scan speed: 30 frames per second
-    
-        Behavior:
-        - As user drags vertical line, count intersections in real-time
-        - Highlight intersection points with yellow circles
-        - If any position has >1 intersection, display "NOT a function" in red
-        - If all positions have ≤1 intersection, display "IS a function" in green
-        - Auto-scan mode sweeps line from left to right, pausing briefly when multiple intersections found
-    
-        Implementation notes:
-        - Use p5.js for rendering
-        - Define each graph as a mathematical function or parametric curve
-        - Calculate intersections by checking y-values at current x-position
-        - For circle and sideways parabola, show multiple y-values for same x
-    -->
+    <main></main>
+    <br/>
+    <a href=".">Back to Lesson Plan</a>
 </body>
 </html>

@@ -1,104 +1,55 @@
 ---
 title: Domain and Range Interactive Visualizer
-description: Domain and Range Interactive Visualizer
-status: scaffold
-library: TBD
-bloom_level: TBD
+description: Help students visualize domain and range for various function types and understand restrictions.
+quality_score: 100
+image: /sims/domain-and-range-interactive-visualizer/domain-and-range-interactive-visualizer.png
+og:image: /sims/domain-and-range-interactive-visualizer/domain-and-range-interactive-visualizer.png
+twitter:image: /sims/domain-and-range-interactive-visualizer/domain-and-range-interactive-visualizer.png
+social:
+   cards: false
 ---
 
 # Domain and Range Interactive Visualizer
 
+<iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
+[Run the Domain and Range Interactive Visualizer MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Help students visualize domain and range for various function types and understand restrictions. Use the selection menu and two parameter sliders to compare examples. Select **Check / Explain** for immediate conceptual feedback and **New Example** to continue exploring.
 
-## Specification
+## Iframe Embed Code
 
-The full specification below is extracted from
-[Chapter 8: Introduction To Functions](../../chapters/08-introduction-to-functions/index.md).
+Copy this iframe to your website:
 
-```text
-Type: microsim
-
-    Learning objective: Help students visualize domain and range for various function types and understand restrictions
-
-    Canvas layout (900x600px):
-    - Left side (600x600): Coordinate grid with graph
-    - Right side (300x600): Control panel and information
-
-    Visual elements in main area:
-    - Coordinate plane with adjustable viewing window
-    - Function graph plotted in blue
-    - Domain highlighted on x-axis with thick line (green if all reals, orange if restricted)
-    - Range highlighted on y-axis with thick line (green if all reals, orange if restricted)
-    - Restriction points marked with open circles (excluded) or closed dots (included)
-    - Asymptotes shown as dashed red lines when applicable
-
-    Interactive controls:
-    - Dropdown: "Select function type"
-      Options:
-      1. Linear: $f(x) = mx + b$
-      2. Quadratic: $f(x) = ax^2 + bx + c$
-      3. Absolute value: $f(x) = a|x - h| + k$
-      4. Square root: $f(x) = \sqrt{ax + b}$
-      5. Reciprocal: $f(x) = \frac{a}{x - h} + k$
-      6. Rational: $f(x) = \frac{ax + b}{cx + d}$
-      7. Custom (enter your own)
-
-    - Sliders for function parameters (vary based on selected type):
-      - For linear: $m$ (slope), $b$ (intercept)
-      - For quadratic: $a$, $b$, $c$
-      - For others: relevant parameters
-
-    - Display: "Domain: " (in both set notation and interval notation)
-    - Display: "Range: " (in both set notation and interval notation)
-    - Display: "Restrictions explained: " (text explaining why domain/range are limited)
-
-    - Checkbox: "Show domain on x-axis"
-    - Checkbox: "Show range on y-axis"
-    - Checkbox: "Show asymptotes"
-    - Checkbox: "Highlight restrictions"
-
-    - Button: "Random function" (generates random coefficients)
-    - Button: "Reset view"
-
-    Default parameters:
-    - Function type: Quadratic
-    - Function: $f(x) = x^2$
-    - Viewing window: $x \in [-10, 10]$, $y \in [-10, 10]$
-    - All checkboxes: checked
-
-    Behavior:
-    - When user changes function type or parameters, immediately:
-      - Replot the graph
-      - Calculate and display domain
-      - Calculate and display range
-      - Update highlighting on axes
-      - Show restriction explanations
-    - Hovering over highlighted domain shows tooltip: "Valid inputs"
-    - Hovering over highlighted range shows tooltip: "Possible outputs"
-    - Hovering over restriction points shows reason (e.g., "Division by zero")
-    - Users can zoom in/out with mouse wheel
-    - Users can pan by dragging graph
-
-    Domain/Range calculation logic:
-    - For rational functions: exclude x-values making denominator zero
-    - For square root functions: require radicand ≥ 0
-    - For each function type, calculate range by analyzing:
-      - Vertex (for parabolas)
-      - Asymptotic behavior (for rational)
-      - Starting point (for square root)
-
-    Implementation notes:
-    - Use p5.js for rendering
-    - Use mathematical interval class to represent domain/range
-    - Plot functions using parametric approach with sufficient sampling
-    - Detect asymptotes by looking for discontinuities
-    - Color code: green = unrestricted, orange = restricted, red = excluded
+```html
+<iframe src="https://dmccreary.github.io/algebra-1/sims/domain-and-range-interactive-visualizer/main.html"
+        height="602px" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 8: Introduction To Functions](../../chapters/08-introduction-to-functions/index.md)
+### Learning Objective
+
+Help students visualize domain and range for various function types and understand restrictions.
+
+### Audience and Prerequisites
+
+Designed for Algebra I students in grade 9. Students should have arithmetic fluency and introductory familiarity with variables and expressions.
+
+### Suggested Activity
+
+1. Ask students to predict what will change before moving either parameter.
+2. Change one control at a time and describe the visual and symbolic changes.
+3. Use **Check / Explain** to compare the student's reasoning with the model.
+4. Select **New Example** and have students justify the new result with a partner.
+
+### Assessment
+
+Students demonstrate mastery by explaining the displayed relationship, identifying the role of each parameter, and correctly reasoning through a new example without relying on trial and error.
+
+## References
+
+1. [Related Algebra I chapter](../../chapters/08-introduction-to-functions/index.md) - Course explanation and diagram specification.
+2. [p5.js Reference](https://p5js.org/reference/) - Documentation for the interactive graphics library.
