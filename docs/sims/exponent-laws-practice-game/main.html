@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- microsim-scaffold-stub -->
+    <title>Exponent Laws Practice Game</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
+        }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Exponent Laws Practice Game</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
+        </div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> exponent-laws-practice-game</p>
+            <p><strong>Library:</strong> TBD</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> TBD</p>
+        </div>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: microsim
+    
+        Learning objective: Apply the laws of exponents to simplify expressions through interactive practice
+    
+        Canvas layout (1000x700px):
+        - Top area (1000x100): Score, level, and timer
+        - Middle area (1000x400): Problem display and workspace
+        - Bottom area (1000x200): Answer choices and feedback
+    
+        Visual elements:
+        - Large problem display (e.g., "$x^5 \cdot x^3 = ?$")
+        - Visual aid showing which rule applies (highlighted)
+        - Multiple choice answer buttons (4 options)
+        - Score counter and streak tracker
+        - Level indicator (1-5, increasing difficulty)
+        - Visual feedback (green checkmark, red X)
+        - Progress bar showing questions completed
+    
+        Game mechanics:
+        - Present expression to simplify
+        - Student selects correct simplified form
+        - Immediate feedback with explanation
+        - Progressive difficulty across 5 levels
+        - Earn points: +15 for correct, -5 for incorrect
+        - Maintain streak bonus (×2 points after 3 correct in a row)
+        - Timer: 30 seconds per question (optional pressure mode)
+    
+        Problem types by level:
+    
+        Level 1 - Single rule application:
+        - $x^3 \cdot x^2 = ?$ → Product Rule
+        - $\frac{y^5}{y^2} = ?$ → Quotient Rule
+        - $(a^2)^3 = ?$ → Power Rule
+    
+        Level 2 - Zero and negative exponents:
+        - $b^0 \cdot b^3 = ?$
+        - $x^{-2} \cdot x^5 = ?$
+        - $(y^{-1})^3 = ?$
+    
+        Level 3 - Combined rules:
+        - $\frac{x^3 \cdot x^5}{x^2} = ?$
+        - $(2a^3)^2 = ?$
+        - $\left(\frac{m^4}{m^2}\right)^3 = ?$
+    
+        Level 4 - Complex expressions:
+        - $\frac{(x^2)^3 \cdot x^{-1}}{x^4} = ?$
+        - $(3x^2y)^3 = ?$
+    
+        Level 5 - Challenge mode:
+        - $\frac{(2a^{-2}b^3)^2}{(ab)^{-1}} = ?$
+    
+        Interactive controls:
+        - Four answer buttons (A, B, C, D)
+        - "Show hint" button (costs 5 points)
+        - "Skip question" button (no penalty, but breaks streak)
+        - "Next level" button (appears after completing 5 questions)
+        - "Restart game" button
+    
+        Default parameters:
+        - Level: 1
+        - Score: 0
+        - Streak: 0
+        - Timer mode: off
+    
+        Behavior:
+        - When answer selected:
+          - If correct: Green flash, show explanation, add points, increment streak
+          - If incorrect: Red flash, show correct answer with step-by-step work, subtract points, reset streak
+        - "Show hint": Displays which rule(s) to apply
+        - Level progression: Automatic after 5 correct answers
+        - Visual celebrations for milestones (10 streak, 100 points, etc.)
+    
+        Feedback examples:
+        - Correct: "✓ Perfect! Product Rule: add the exponents. $x^{5+3} = x^8$"
+        - Incorrect: "✗ Not quite. Remember the Quotient Rule: subtract exponents. $\frac{y^7}{y^2} = y^{7-2} = y^5$"
+        - Hint: "Hint: You have multiplication with the same base. Use the Product Rule!"
+    
+        Visual features:
+        - Rule cards that highlight when relevant
+        - Animated step-by-step solutions
+        - Progress tracking across levels
+        - Achievement badges (speed demon, perfectionist, comeback kid)
+    
+        Implementation: p5.js with button interactions, JSON question bank, animation effects, persistent score tracking
+    -->
+</body>
+</html>

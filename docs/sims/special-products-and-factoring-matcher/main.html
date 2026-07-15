@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- microsim-scaffold-stub -->
+    <title>Special Products and Factoring Matcher</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
+        }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Special Products and Factoring Matcher</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
+        </div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> special-products-and-factoring-matcher</p>
+            <p><strong>Library:</strong> TBD</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> TBD</p>
+        </div>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: microsim
+    
+        Learning objective: Recognize special product patterns and connect multiplication to factoring
+    
+        Canvas layout (900x650px):
+        - Left panel (450x650): Factored form
+        - Right panel (450x650): Expanded form
+        - Center: Matching interface
+    
+        Visual elements:
+        - Cards on left showing factored forms
+        - Cards on right showing expanded forms
+        - Drag-and-drop or click-to-connect interface
+        - Pattern identification hints
+        - Score and timer
+    
+        Game mechanics:
+        - Display 5-8 expressions in each column
+        - Student matches factored ↔ expanded forms
+        - Immediate feedback on match attempt
+        - Points for correct matches
+        - Hints available (highlight pattern type)
+    
+        Expression types:
+        - Difference of squares: $(x+3)(x-3)$ ↔ $x^2-9$
+        - Perfect square trinomials: $(x+2)^2$ ↔ $x^2+4x+4$
+        - GCF factoring: $3x(x-5)$ ↔ $3x^2-15x$
+        - Sum/difference of cubes: $(x+2)(x^2-2x+4)$ ↔ $x^3+8$
+        - General binomial: $(x+3)(x+5)$ ↔ $x^2+8x+15$
+    
+        Difficulty levels:
+        - Level 1: Only one pattern type
+        - Level 2: Mix of 2-3 patterns
+        - Level 3: All patterns mixed
+        - Level 4: Includes coefficients >1
+    
+        Interactive controls:
+        - Drag from left to right to match
+        - Or click two cards to connect
+        - Button: "Check all"
+        - Button: "Show hint"
+        - Button: "New set"
+    
+        Behavior:
+        - Correct match: cards stick together, green glow
+        - Incorrect match: red flash, cards return
+        - All matched: celebration animation, score display
+        - Hint: highlights pattern type with color
+    
+        Visual features:
+        - Color coding by pattern type
+        - Connecting lines for matches
+        - Animation when matching
+        - Progress bar showing completion
+    
+        Implementation: p5.js with drag-and-drop, card matching logic, animation
+    -->
+</body>
+</html>

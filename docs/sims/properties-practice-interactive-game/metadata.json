@@ -1,0 +1,23 @@
+{
+  "title": "Properties Practice Interactive Game",
+  "description": "Properties Practice Interactive Game",
+  "creator": "Algebra I",
+  "author": "Dan McCreary",
+  "date": "2026-07-15",
+  "subject": [
+    "Algebra I"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "properties-practice-interactive-game",
+  "library": "TBD",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 2,
+  "chapter_title": "Number Systems And Properties",
+  "chapter_dir": "02-number-systems-and-properties",
+  "chapter_rel_dir": "chapters/02-number-systems-and-properties"
+}

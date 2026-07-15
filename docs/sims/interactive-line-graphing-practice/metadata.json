@@ -1,0 +1,23 @@
+{
+  "title": "Interactive Line Graphing Practice",
+  "description": "Interactive Line Graphing Practice",
+  "creator": "Algebra I",
+  "author": "Dan McCreary",
+  "date": "2026-07-15",
+  "subject": [
+    "Algebra I"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "interactive-line-graphing-practice",
+  "library": "TBD",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 9,
+  "chapter_title": "Graphing And Linear Functions",
+  "chapter_dir": "09-graphing-and-linear-functions",
+  "chapter_rel_dir": "chapters/09-graphing-and-linear-functions"
+}

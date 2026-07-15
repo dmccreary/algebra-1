@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- microsim-scaffold-stub -->
+    <title>Expression Explorer MicroSim</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
+        }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Expression Explorer MicroSim</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
+        </div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> expression-explorer-microsim</p>
+            <p><strong>Library:</strong> TBD</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> Help students identify and understand the different parts of an algebraic expression interactively</p>
+        </div>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: MicroSim
+    
+    Learning objective: Help students identify and understand the different parts of an algebraic expression interactively
+    
+    Canvas layout (800x600px):
+    - Top section (800x100): Title and instructions
+    - Left side (600x450): Main visualization area
+    - Right side (200x450): Control panel
+    - Bottom (800x50): Current analysis display
+    
+    Visual elements:
+    - Display a randomly generated algebraic expression in large font
+    - Color-code different parts:
+      - Coefficients in blue
+      - Variables in green
+      - Constants in orange
+      - Operation signs in gray
+    - Highlight current selection with yellow background
+    
+    Interactive controls:
+    - Button: "New Expression" (generates new random expression)
+    - Dropdown: "Expression Complexity" (Simple, Medium, Complex)
+    - Checkbox options to show/hide:
+      - "Show Coefficients"
+      - "Show Variables"
+      - "Show Constants"
+      - "Show Terms"
+    - Button: "Check My Understanding" (quiz mode)
+    
+    Default parameters:
+    - Complexity: Simple
+    - All checkboxes checked
+    - Starting expression: $3x + 5y - 7$
+    
+    Behavior:
+    - User can hover over any part to see its classification
+    - Click on checkboxes to highlight only selected element types
+    - "New Expression" button generates expressions based on complexity:
+      - Simple: 2-3 terms, single variables, small coefficients
+      - Medium: 3-5 terms, may include exponents, larger coefficients
+      - Complex: 4-6 terms, multiple variables, exponents, negative terms
+    - "Check My Understanding" mode: Shows expression without colors, user clicks to identify parts, system provides feedback
+    
+    Display area shows:
+    - Number of terms
+    - List of coefficients found
+    - List of variables found
+    - List of constants found
+    
+    Implementation notes:
+    - Use p5.js for rendering
+    - Store expression as parsed components
+    - Generate random expressions using arrays of coefficients, variables, and operations
+    - Track user interactions for assessment
+    
+    **MicroSim Recommendation:** Use **microsim-p5** (Score: 95/100). This specification requires text parsing, color-coded highlighting, multiple interactive controls, and quiz functionality. P5.js provides complete control over text rendering, color highlighting, dynamic expression generation, and tracking user interactions for assessment.
+    -->
+</body>
+</html>

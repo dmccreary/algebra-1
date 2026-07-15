@@ -1,0 +1,23 @@
+{
+  "title": "Prime Factorization Tree Builder MicroSim",
+  "description": "Practice building factor trees to find prime factorization of composite numbers through interactive tree construction",
+  "creator": "Algebra I",
+  "author": "Dan McCreary",
+  "date": "2026-07-15",
+  "subject": [
+    "Algebra I"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "prime-factorization-tree-builder-microsim",
+  "library": "TBD",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 1,
+  "chapter_title": "Foundations Of Algebra",
+  "chapter_dir": "01-foundations-of-algebra",
+  "chapter_rel_dir": "chapters/01-foundations-of-algebra"
+}

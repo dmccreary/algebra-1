@@ -1,0 +1,23 @@
+{
+  "title": "Like Terms Matching Game MicroSim",
+  "description": "Help students practice identifying and combining like terms through an interactive matching and simplification game",
+  "creator": "Algebra I",
+  "author": "Dan McCreary",
+  "date": "2026-07-15",
+  "subject": [
+    "Algebra I"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "like-terms-matching-game-microsim",
+  "library": "TBD",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 1,
+  "chapter_title": "Foundations Of Algebra",
+  "chapter_dir": "01-foundations-of-algebra",
+  "chapter_rel_dir": "chapters/01-foundations-of-algebra"
+}
