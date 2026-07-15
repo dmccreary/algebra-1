@@ -1,0 +1,126 @@
+/* Learning mascot: Sage the Fox, pedagogical agent for Algebra I */
+:root {
+  --mascot-primary: #f57c00;
+  --mascot-secondary: #1976d2;
+  --mascot-bg: #fff3e0;
+  --mascot-size: 90px;
+}
+
+.md-typeset .admonition.mascot-welcome,
+.md-typeset .admonition.mascot-thinking,
+.md-typeset .admonition.mascot-tip,
+.md-typeset .admonition.mascot-warning,
+.md-typeset .admonition.mascot-celebration,
+.md-typeset .admonition.mascot-encourage,
+.md-typeset .admonition.mascot-neutral,
+.md-typeset details[class*="mascot-"] {
+  font-size: inherit;
+}
+
+.md-typeset .admonition.mascot-welcome,
+.md-typeset details.mascot-welcome {
+  border-color: var(--mascot-primary);
+  background-color: var(--mascot-bg);
+}
+.md-typeset .mascot-welcome > .admonition-title,
+.md-typeset .mascot-welcome > summary {
+  background-color: var(--mascot-primary);
+  color: #fff;
+}
+
+.md-typeset .admonition.mascot-thinking,
+.md-typeset details.mascot-thinking {
+  border-color: var(--mascot-secondary);
+  background-color: #e3f2fd;
+}
+.md-typeset .mascot-thinking > .admonition-title,
+.md-typeset .mascot-thinking > summary {
+  background-color: var(--mascot-secondary);
+  color: #fff;
+}
+
+.md-typeset .admonition.mascot-tip,
+.md-typeset details.mascot-tip {
+  border-color: #00897b;
+  background-color: #e0f2f1;
+}
+.md-typeset .mascot-tip > .admonition-title,
+.md-typeset .mascot-tip > summary {
+  background-color: #00897b;
+  color: #fff;
+}
+
+.md-typeset .admonition.mascot-warning,
+.md-typeset details.mascot-warning {
+  border-color: #c62828;
+  background-color: #ffebee;
+}
+.md-typeset .mascot-warning > .admonition-title,
+.md-typeset .mascot-warning > summary {
+  background-color: #c62828;
+  color: #fff;
+}
+
+.md-typeset .admonition.mascot-encourage,
+.md-typeset details.mascot-encourage {
+  border-color: #0277bd;
+  background-color: #e1f5fe;
+}
+.md-typeset .mascot-encourage > .admonition-title,
+.md-typeset .mascot-encourage > summary {
+  background-color: #0277bd;
+  color: #fff;
+}
+
+.md-typeset .admonition.mascot-celebration,
+.md-typeset details.mascot-celebration {
+  border-color: #4a148c;
+  background-color: #311b4f;
+  color: #f3e5f5;
+}
+.md-typeset .mascot-celebration > .admonition-title,
+.md-typeset .mascot-celebration > summary {
+  background-color: #4a148c;
+  color: #fff;
+}
+
+.md-typeset .admonition.mascot-neutral,
+.md-typeset details.mascot-neutral {
+  border-color: #546e7a;
+  background-color: #eceff1;
+}
+.md-typeset .mascot-neutral > .admonition-title,
+.md-typeset .mascot-neutral > summary {
+  background-color: #546e7a;
+  color: #fff;
+}
+
+.md-typeset [class*="mascot-"] > .admonition-title,
+.md-typeset [class*="mascot-"] > summary {
+  padding-left: .8rem;
+  text-align: left;
+}
+.md-typeset [class*="mascot-"] > .admonition-title::before,
+.md-typeset [class*="mascot-"] > summary::before {
+  display: none;
+}
+
+.mascot-admonition-img {
+  float: left;
+  width: var(--mascot-size);
+  height: var(--mascot-size);
+  margin: 0 .75rem .25rem 0;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.md-typeset .admonition[class*="mascot-"]::after,
+.md-typeset details[class*="mascot-"]::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+@media screen and (max-width: 30rem) {
+  :root { --mascot-size: 72px; }
+}

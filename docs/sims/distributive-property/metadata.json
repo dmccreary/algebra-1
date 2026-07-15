@@ -1,0 +1,145 @@
+{
+  "title": "Distributive Property Visualizer",
+  "creator": "Claude Code with microsim-p5 skill",
+  "subject": "Mathematics - Algebra",
+  "description": "An interactive MicroSim that visualizes the distributive property using synchronized area models and step-by-step algebraic expansion. Students can explore how a(b + c) = ab + ac through color-coded visual representations and animated algebraic steps.",
+  "date": "2025-11-18",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY 4.0",
+  "educationalLevel": "Grades 6-9",
+  "subjectArea": "Mathematics",
+  "topic": "Distributive Property, Algebraic Expressions, Area Models",
+  "learningObjectives": [
+    "Understand the distributive property through visual area models",
+    "Apply the distributive property to numeric and algebraic expressions",
+    "Connect visual (geometric) and symbolic (algebraic) representations",
+    "Recognize that a(b + c) = ab + ac",
+    "Distribute positive and negative factors correctly"
+  ],
+  "bloomsTaxonomyLevels": [
+    "Understand",
+    "Apply",
+    "Analyze"
+  ],
+  "duration": "15-20 minutes",
+  "prerequisites": [
+    "Understanding of multiplication as area",
+    "Basic variable notation",
+    "Addition and multiplication of integers",
+    "Introduction to algebraic expressions"
+  ],
+  "technicalMetadata": {
+    "framework": "p5.js 1.11.10",
+    "canvasDimensions": "900×760 (initial)",
+    "responsive": "Width-responsive",
+    "dependencies": "p5.js CDN",
+    "accessibility": "Screen reader support via describe() function"
+  },
+  "userInterface": {
+    "controls": [
+      {
+        "type": "text-input",
+        "name": "Outside Factor",
+        "description": "Factor to distribute (e.g., 3, -2, x)",
+        "default": "3"
+      },
+      {
+        "type": "text-input",
+        "name": "First Term",
+        "description": "First term inside parentheses (e.g., x, 2y, 3)",
+        "default": "x"
+      },
+      {
+        "type": "text-input",
+        "name": "Second Term",
+        "description": "Second term inside parentheses (e.g., 5, -2, x)",
+        "default": "5"
+      },
+      {
+        "type": "dropdown",
+        "name": "Problem Type",
+        "description": "Select problem difficulty level",
+        "options": ["Numeric", "Single Variable", "Two Variables"],
+        "default": "Single Variable"
+      },
+      {
+        "type": "checkbox",
+        "name": "Show Area Model",
+        "description": "Toggle visual area model display",
+        "default": true
+      },
+      {
+        "type": "slider",
+        "name": "Animation Speed",
+        "description": "Control animation playback speed",
+        "range": "1-10",
+        "default": 5
+      },
+      {
+        "type": "button",
+        "name": "Show Next Step",
+        "description": "Advance one step through the solution"
+      },
+      {
+        "type": "button",
+        "name": "Animate Solution",
+        "description": "Play full animated solution"
+      },
+      {
+        "type": "button",
+        "name": "Random Problem",
+        "description": "Generate a random problem of selected type"
+      }
+    ]
+  },
+  "simulationModel": {
+    "modelType": "Mathematical visualization",
+    "variables": [
+      "outside factor (a)",
+      "first term (b)",
+      "second term (c)",
+      "product ab",
+      "product ac",
+      "current step",
+      "animation progress"
+    ],
+    "equations": [
+      "a(b + c) = ab + ac"
+    ],
+    "assumptions": [
+      "Rectangle area represents multiplication",
+      "Partitioning area demonstrates distribution",
+      "Visual and algebraic representations are equivalent"
+    ],
+    "limitations": [
+      "Limited to two terms inside parentheses",
+      "Negative dimensions require abstract interpretation",
+      "Simplified product display for complex expressions"
+    ]
+  },
+  "assessmentOpportunities": [
+    "Can students explain why both terms must be multiplied?",
+    "Can students predict results before animating?",
+    "Do students understand the connection between area and algebra?",
+    "Can students work problems with negative factors?",
+    "Can students apply to variable expressions?"
+  ],
+  "commonCoreStandards": [
+    "6.EE.A.3 - Apply properties of operations to generate equivalent expressions",
+    "7.EE.A.1 - Apply properties of operations to expand linear expressions",
+    "A-SSE.A.2 - Use structure of expressions to rewrite them"
+  ],
+  "tags": [
+    "distributive property",
+    "area model",
+    "algebraic expressions",
+    "visualization",
+    "multiplication",
+    "algebra",
+    "middle school math",
+    "interactive learning",
+    "animated solution"
+  ]
+}

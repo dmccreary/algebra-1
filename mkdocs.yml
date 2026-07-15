@@ -53,6 +53,7 @@ nav:
   
   - Learning Graph:
       - Introduction: learning-graph/index.md
+      - Mascot Style Guide: learning-graph/mascot-test.md
       - Course Description Assessment: learning-graph/course-description-assessment.md
       - Concept List: learning-graph/concept-list.md
       - Graph Quality Analysis: learning-graph/quality-metrics.md
@@ -80,6 +81,7 @@ nav:
       - Coordinate Plane Explorer: sims/coordinate-plane-explorer/index.md
       - Number Systems P5: sims/number-systems-p5/index.md
       - Polynomial Classifier: sims/polynomial-classifier/index.md
+      - Distributive Property Visualizer: sims/distributive-property/index.md
 
   - Prompts:
     - List of Prompts: prompts/index.md
@@ -135,6 +137,7 @@ markdown_extensions:
       generic: true
 extra_css:
    - css/extra.css
+   - css/mascot.css
 extra_javascript:
     - js/extra.js
     # needed for mathjax to work

@@ -96,42 +96,44 @@ You can use any letter as a variable, but these conventions help communicate mea
 
 <details markdown="1">
     <summary>Variable Types Interactive Infographic</summary>
-    Type: infographic
+Type: infographic
 
-    Purpose: Create an interactive visual guide showing different types of variables and their uses in real-world contexts
+Purpose: Create an interactive visual guide showing different types of variables and their uses in real-world contexts
 
-    Layout: 2x2 grid showing four common variable categories
+Layout: 2x2 grid showing four common variable categories
 
-    Categories:
-    1. Position Variables ($x$, $y$, $z$)
-       - Icon: Coordinate grid with point marked
-       - Hover text: "Used to represent positions, locations, or unknown quantities in equations"
-       - Example shown: "Finding x: $2x + 5 = 13$"
+Categories:
+1. Position Variables ($x$, $y$, $z$)
+    - Icon: Coordinate grid with point marked
+    - Hover text: "Used to represent positions, locations, or unknown quantities in equations"
+    - Example shown: "Finding x: $2x + 5 = 13$"
 
-    2. Time Variables ($t$)
-       - Icon: Clock or timeline
-       - Hover text: "Represents time in motion problems, growth models, and sequences"
-       - Example shown: "Distance after t hours: $d = 55t$"
+2. Time Variables ($t$)
+    - Icon: Clock or timeline
+    - Hover text: "Represents time in motion problems, growth models, and sequences"
+    - Example shown: "Distance after t hours: $d = 55t$"
 
-    3. Counting Variables ($n$)
-       - Icon: Stack of items with counter
-       - Hover text: "Used for discrete quantities like items, steps, or people"
-       - Example shown: "Cost of n pizzas: $C = 12n$"
+3. Counting Variables ($n$)
+    - Icon: Stack of items with counter
+    - Hover text: "Used for discrete quantities like items, steps, or people"
+    - Example shown: "Cost of n pizzas: $C = 12n$"
 
-    4. Rate Variables ($r$, $m$)
-       - Icon: Speedometer or slope indicator
-       - Hover text: "Represents rates of change, speed, or slopes"
-       - Example shown: "Simple interest: $I = Prt$"
+4. Rate Variables ($r$, $m$)
+    - Icon: Speedometer or slope indicator
+    - Hover text: "Represents rates of change, speed, or slopes"
+    - Example shown: "Simple interest: $I = Prt$"
 
-    Interactive elements:
-    - Hover over each category to see expanded description
-    - Click to reveal 2-3 additional real-world examples
-    - Color coding: Blue for position, green for time, orange for counting, purple for rates
+Interactive elements:
+- Hover over each category to see expanded description
+- Click to reveal 2-3 additional real-world examples
+- Color coding: Blue for position, green for time, orange for counting, purple for rates
 
-    Visual style: Modern card-based layout with icons and clear typography
-    Color scheme: Use distinct colors for each category as specified above
+Visual style: Modern card-based layout with icons and clear typography
+Color scheme: Use distinct colors for each category as specified above
 
-    Implementation: HTML/CSS/JavaScript with hover states and click-to-expand functionality
+Implementation: HTML/CSS/JavaScript with hover states and click-to-expand functionality
+
+**MicroSim Recommendation:** Use **microsim-p5** (Score: 92/100). This custom interactive infographic requires 2x2 grid layout, color-coded cards, hover states, and click-to-expand functionality. The p5.js skill excels at creating custom layouts with precise control over positioning, colors, and interactive states.
 </details>
 
 ## Constants: Values That Stay the Same
@@ -211,60 +213,62 @@ Understanding terms helps you organize expressions and perform operations correc
 
 <details markdown="1">
     <summary>Expression Explorer MicroSim</summary>
-    Type: MicroSim
+Type: MicroSim
 
-    Learning objective: Help students identify and understand the different parts of an algebraic expression interactively
+Learning objective: Help students identify and understand the different parts of an algebraic expression interactively
 
-    Canvas layout (800x600px):
-    - Top section (800x100): Title and instructions
-    - Left side (600x450): Main visualization area
-    - Right side (200x450): Control panel
-    - Bottom (800x50): Current analysis display
+Canvas layout (800x600px):
+- Top section (800x100): Title and instructions
+- Left side (600x450): Main visualization area
+- Right side (200x450): Control panel
+- Bottom (800x50): Current analysis display
 
-    Visual elements:
-    - Display a randomly generated algebraic expression in large font
-    - Color-code different parts:
-      - Coefficients in blue
-      - Variables in green
-      - Constants in orange
-      - Operation signs in gray
-    - Highlight current selection with yellow background
+Visual elements:
+- Display a randomly generated algebraic expression in large font
+- Color-code different parts:
+  - Coefficients in blue
+  - Variables in green
+  - Constants in orange
+  - Operation signs in gray
+- Highlight current selection with yellow background
 
-    Interactive controls:
-    - Button: "New Expression" (generates new random expression)
-    - Dropdown: "Expression Complexity" (Simple, Medium, Complex)
-    - Checkbox options to show/hide:
-      - "Show Coefficients"
-      - "Show Variables"
-      - "Show Constants"
-      - "Show Terms"
-    - Button: "Check My Understanding" (quiz mode)
+Interactive controls:
+- Button: "New Expression" (generates new random expression)
+- Dropdown: "Expression Complexity" (Simple, Medium, Complex)
+- Checkbox options to show/hide:
+  - "Show Coefficients"
+  - "Show Variables"
+  - "Show Constants"
+  - "Show Terms"
+- Button: "Check My Understanding" (quiz mode)
 
-    Default parameters:
-    - Complexity: Simple
-    - All checkboxes checked
-    - Starting expression: $3x + 5y - 7$
+Default parameters:
+- Complexity: Simple
+- All checkboxes checked
+- Starting expression: $3x + 5y - 7$
 
-    Behavior:
-    - User can hover over any part to see its classification
-    - Click on checkboxes to highlight only selected element types
-    - "New Expression" button generates expressions based on complexity:
-      - Simple: 2-3 terms, single variables, small coefficients
-      - Medium: 3-5 terms, may include exponents, larger coefficients
-      - Complex: 4-6 terms, multiple variables, exponents, negative terms
-    - "Check My Understanding" mode: Shows expression without colors, user clicks to identify parts, system provides feedback
+Behavior:
+- User can hover over any part to see its classification
+- Click on checkboxes to highlight only selected element types
+- "New Expression" button generates expressions based on complexity:
+  - Simple: 2-3 terms, single variables, small coefficients
+  - Medium: 3-5 terms, may include exponents, larger coefficients
+  - Complex: 4-6 terms, multiple variables, exponents, negative terms
+- "Check My Understanding" mode: Shows expression without colors, user clicks to identify parts, system provides feedback
 
-    Display area shows:
-    - Number of terms
-    - List of coefficients found
-    - List of variables found
-    - List of constants found
+Display area shows:
+- Number of terms
+- List of coefficients found
+- List of variables found
+- List of constants found
 
-    Implementation notes:
-    - Use p5.js for rendering
-    - Store expression as parsed components
-    - Generate random expressions using arrays of coefficients, variables, and operations
-    - Track user interactions for assessment
+Implementation notes:
+- Use p5.js for rendering
+- Store expression as parsed components
+- Generate random expressions using arrays of coefficients, variables, and operations
+- Track user interactions for assessment
+
+**MicroSim Recommendation:** Use **microsim-p5** (Score: 95/100). This specification requires text parsing, color-coded highlighting, multiple interactive controls, and quiz functionality. P5.js provides complete control over text rendering, color highlighting, dynamic expression generation, and tracking user interactions for assessment.
 </details>
 
 ## Expressions: Putting It All Together
@@ -382,75 +386,77 @@ Following PEMDAS:
 
 <details markdown="1">
     <summary>Order of Operations Challenge MicroSim</summary>
-    Type: microsim
+Type: microsim
 
-    Learning objective: Practice applying the order of operations (PEMDAS) through interactive step-by-step problem solving
+Learning objective: Practice applying the order of operations (PEMDAS) through interactive step-by-step problem solving
 
-    Canvas layout (1000x700px):
-    - Top section (1000x150): Problem display area with large expression
-    - Middle section (700x400): Step-by-step work area showing calculation stages
-    - Right side (300x400): PEMDAS reference guide and controls
-    - Bottom (1000x150): Input area and feedback
+Canvas layout (1000x700px):
+- Top section (1000x150): Problem display area with large expression
+- Middle section (700x400): Step-by-step work area showing calculation stages
+- Right side (300x400): PEMDAS reference guide and controls
+- Bottom (1000x150): Input area and feedback
 
-    Visual elements:
-    - Large expression display with color-coded operations
-    - Step-by-step visualization showing transformation at each stage
-    - Animated arrows showing which operation is being performed
-    - Visual PEMDAS reminder chart
-    - Progress indicator showing current step
-    - Score tracker and streak counter
+Visual elements:
+- Large expression display with color-coded operations
+- Step-by-step visualization showing transformation at each stage
+- Animated arrows showing which operation is being performed
+- Visual PEMDAS reminder chart
+- Progress indicator showing current step
+- Score tracker and streak counter
 
-    Interactive controls:
-    - Dropdown: "Difficulty Level" (Easy, Medium, Hard)
-    - Button: "New Problem"
-    - Button: "Show Next Step" (reveals next calculation step)
-    - Button: "Show Answer" (reveals full solution)
-    - Input field: "Your Answer"
-    - Button: "Check Answer"
-    - Checkbox: "Step-by-step mode" (requires identifying next operation)
+Interactive controls:
+- Dropdown: "Difficulty Level" (Easy, Medium, Hard)
+- Button: "New Problem"
+- Button: "Show Next Step" (reveals next calculation step)
+- Button: "Show Answer" (reveals full solution)
+- Input field: "Your Answer"
+- Button: "Check Answer"
+- Checkbox: "Step-by-step mode" (requires identifying next operation)
 
-    Default parameters:
-    - Difficulty: Easy
-    - Step-by-step mode: Off
-    - Starting expression: $5 + 3 \times 2$
+Default parameters:
+- Difficulty: Easy
+- Step-by-step mode: Off
+- Starting expression: $5 + 3 \times 2$
 
-    Difficulty levels:
-    - Easy: 3-4 operations, parentheses, simple exponents (like $2^2$)
-      Example: $10 - 2 \times 3 + 4$
-    - Medium: 4-6 operations, nested parentheses, exponents up to $3^3$
-      Example: $(8 + 2) \times 3 - 4^2 \div 2$
-    - Hard: 6-8 operations, multiple nested parentheses, fractions, negative numbers
-      Example: $3 + 4 \times (2 + 3)^2 \div 5 - 2 \times 3$
+Difficulty levels:
+- Easy: 3-4 operations, parentheses, simple exponents (like $2^2$)
+  Example: $10 - 2 \times 3 + 4$
+- Medium: 4-6 operations, nested parentheses, exponents up to $3^3$
+  Example: $(8 + 2) \times 3 - 4^2 \div 2$
+- Hard: 6-8 operations, multiple nested parentheses, fractions, negative numbers
+  Example: $3 + 4 \times (2 + 3)^2 \div 5 - 2 \times 3$
 
-    Behavior:
-    - Display expression with operations color-coded by PEMDAS level
-    - In step-by-step mode, highlight the next operation to perform
-    - User selects which operation should be done next
-    - System provides immediate feedback (correct/incorrect)
-    - "Show Next Step" reveals and animates the next calculation
-    - Expression simplifies with each step until final answer
-    - Track accuracy and time for each problem
-    - Provide encouraging feedback and explanations for mistakes
+Behavior:
+- Display expression with operations color-coded by PEMDAS level
+- In step-by-step mode, highlight the next operation to perform
+- User selects which operation should be done next
+- System provides immediate feedback (correct/incorrect)
+- "Show Next Step" reveals and animates the next calculation
+- Expression simplifies with each step until final answer
+- Track accuracy and time for each problem
+- Provide encouraging feedback and explanations for mistakes
 
-    Visual styling:
-    - Parentheses: Red highlight
-    - Exponents: Purple highlight
-    - Multiplication/Division: Blue highlight
-    - Addition/Subtraction: Green highlight
-    - Current operation: Yellow animated pulse
+Visual styling:
+- Parentheses: Red highlight
+- Exponents: Purple highlight
+- Multiplication/Division: Blue highlight
+- Addition/Subtraction: Green highlight
+- Current operation: Yellow animated pulse
 
-    PEMDAS reference panel shows:
-    - Acronym with full words
-    - Memory aid: "Please Excuse My Dear Aunt Sally"
-    - Icon for each operation type
-    - Note: "Multiply/Divide left to right, Add/Subtract left to right"
+PEMDAS reference panel shows:
+- Acronym with full words
+- Memory aid: "Please Excuse My Dear Aunt Sally"
+- Icon for each operation type
+- Note: "Multiply/Divide left to right, Add/Subtract left to right"
 
-    Implementation notes:
-    - Use p5.js for rendering
-    - Parse expressions into operation tree
-    - Animate transitions between steps
-    - Store problem bank for each difficulty level
-    - Track student progress and common mistakes
+Implementation notes:
+- Use p5.js for rendering
+- Parse expressions into operation tree
+- Animate transitions between steps
+- Store problem bank for each difficulty level
+- Track student progress and common mistakes
+
+**MicroSim Recommendation:** Use **microsim-p5** (Score: 98/100). This complex educational game requires expression parsing, step-by-step animation, color-coded operation highlighting with animated transitions, input validation, score tracking, and multiple difficulty levels. P5.js provides complete control over the animation pipeline, color coding system, and interactive elements.
 </details>
 
 ## Evaluating Expressions: Finding the Value
@@ -614,97 +620,99 @@ $2x + 8y - 1$
 #### Diagram: Like Terms Matching Game MicroSim
 
 <details markdown="1">
-    <summary>Like Terms Matching Game MicroSim</summary>
-    Type: microsim
+<summary>Like Terms Matching Game MicroSim</summary>
+Type: microsim
 
-    Learning objective: Help students practice identifying and combining like terms through an interactive matching and simplification game
+Learning objective: Help students practice identifying and combining like terms through an interactive matching and simplification game
 
-    Canvas layout (1000x700px):
-    - Top section (1000x100): Instructions and score display
-    - Main area (1000x500): Two-column matching interface or expression simplification area
-    - Bottom section (1000x100): Feedback area and controls
+Canvas layout (1000x700px):
+- Top section (1000x100): Instructions and score display
+- Main area (1000x500): Two-column matching interface or expression simplification area
+- Bottom section (1000x100): Feedback area and controls
 
-    Game modes (selectable):
-    1. **Matching Mode**: Drag-and-drop matching of like terms
-    2. **Simplification Mode**: Combine like terms in expressions
-    3. **Challenge Mode**: Timed expression simplification
+Game modes (selectable):
+1. **Matching Mode**: Drag-and-drop matching of like terms
+2. **Simplification Mode**: Combine like terms in expressions
+3. **Challenge Mode**: Timed expression simplification
 
-    Visual elements for Matching Mode:
-    - Left column: 8-10 terms in boxes (e.g., $3x$, $5y$, $-2x$, $7$, $4y$, $x^2$, $-8$, $2x^2$)
-    - Right column: Empty "buckets" labeled "x terms", "y terms", "x² terms", "constants"
-    - Terms can be dragged to appropriate buckets
-    - Correct matches turn green, incorrect turn red with shake animation
-    - Connecting lines show which terms can combine
+Visual elements for Matching Mode:
+- Left column: 8-10 terms in boxes (e.g., $3x$, $5y$, $-2x$, $7$, $4y$, $x^2$, $-8$, $2x^2$)
+- Right column: Empty "buckets" labeled "x terms", "y terms", "x² terms", "constants"
+- Terms can be dragged to appropriate buckets
+- Correct matches turn green, incorrect turn red with shake animation
+- Connecting lines show which terms can combine
 
-    Visual elements for Simplification Mode:
-    - Display an unsimplified expression: $4x + 3 - 2x + 5 + x - 1$
-    - Color-code like terms with matching highlight colors
-    - Show work area where terms can be grouped
-    - Input field for final simplified answer
-    - Step-by-step verification available
+Visual elements for Simplification Mode:
+- Display an unsimplified expression: $4x + 3 - 2x + 5 + x - 1$
+- Color-code like terms with matching highlight colors
+- Show work area where terms can be grouped
+- Input field for final simplified answer
+- Step-by-step verification available
 
-    Interactive controls:
-    - Dropdown: "Game Mode" (Matching, Simplification, Challenge)
-    - Dropdown: "Difficulty" (Easy, Medium, Hard)
-    - Button: "New Problem"
-    - Button: "Show Hint" (highlights one set of like terms)
-    - Button: "Check Answer"
-    - Button: "Show Solution"
-    - Timer display (for Challenge Mode)
-    - Score and accuracy tracker
+Interactive controls:
+- Dropdown: "Game Mode" (Matching, Simplification, Challenge)
+- Dropdown: "Difficulty" (Easy, Medium, Hard)
+- Button: "New Problem"
+- Button: "Show Hint" (highlights one set of like terms)
+- Button: "Check Answer"
+- Button: "Show Solution"
+- Timer display (for Challenge Mode)
+- Score and accuracy tracker
 
-    Default parameters:
-    - Mode: Matching
-    - Difficulty: Easy
-    - Time limit (Challenge): 60 seconds
+Default parameters:
+- Mode: Matching
+- Difficulty: Easy
+- Time limit (Challenge): 60 seconds
 
-    Difficulty levels:
-    - Easy: 2 variables (x, y), constants, 6-8 terms total
-    - Medium: 3 variables, exponents ($x^2$), 8-12 terms, some negative coefficients
-    - Hard: 4+ variables, various exponents, 10-15 terms, negative coefficients, fractions
+Difficulty levels:
+- Easy: 2 variables (x, y), constants, 6-8 terms total
+- Medium: 3 variables, exponents ($x^2$), 8-12 terms, some negative coefficients
+- Hard: 4+ variables, various exponents, 10-15 terms, negative coefficients, fractions
 
-    Behavior - Matching Mode:
-    - User drags terms to buckets
-    - Immediate feedback on correct/incorrect placement
-    - Once all terms correctly sorted, show combined results
-    - Visual animation of coefficient addition
-    - Confetti or celebration on completion
+Behavior - Matching Mode:
+- User drags terms to buckets
+- Immediate feedback on correct/incorrect placement
+- Once all terms correctly sorted, show combined results
+- Visual animation of coefficient addition
+- Confetti or celebration on completion
 
-    Behavior - Simplification Mode:
-    - Display expression with terms in random order
-    - User can click terms to highlight/group them
-    - Color coding shows which terms are like terms
-    - Input simplified expression
-    - System checks coefficient addition and final form
-    - Provide specific feedback on errors
+Behavior - Simplification Mode:
+- Display expression with terms in random order
+- User can click terms to highlight/group them
+- Color coding shows which terms are like terms
+- Input simplified expression
+- System checks coefficient addition and final form
+- Provide specific feedback on errors
 
-    Behavior - Challenge Mode:
-    - Present 5 expressions to simplify within time limit
-    - Increasing difficulty with each correct answer
-    - Point multiplier for speed
-    - Streak bonuses for consecutive correct answers
-    - Leaderboard showing personal best
+Behavior - Challenge Mode:
+- Present 5 expressions to simplify within time limit
+- Increasing difficulty with each correct answer
+- Point multiplier for speed
+- Streak bonuses for consecutive correct answers
+- Leaderboard showing personal best
 
-    Visual styling:
-    - Draggable terms: Cards with shadows and hover effects
-    - Like terms: Matching background colors (blue, green, orange, purple)
-    - Correct answers: Green glow animation
-    - Incorrect answers: Red shake animation
-    - Clean, modern interface with clear typography
+Visual styling:
+- Draggable terms: Cards with shadows and hover effects
+- Like terms: Matching background colors (blue, green, orange, purple)
+- Correct answers: Green glow animation
+- Incorrect answers: Red shake animation
+- Clean, modern interface with clear typography
 
-    Feedback messages:
-    - Correct: "Great job! $5x + 2x = 7x$"
-    - Incorrect: "Not quite. Remember, $x$ and $x^2$ are not like terms."
-    - Hint: "Look for terms with the same variable and exponent."
-    - Completion: "Excellent! You simplified the expression correctly!"
+Feedback messages:
+- Correct: "Great job! $5x + 2x = 7x$"
+- Incorrect: "Not quite. Remember, $x$ and $x^2$ are not like terms."
+- Hint: "Look for terms with the same variable and exponent."
+- Completion: "Excellent! You simplified the expression correctly!"
 
-    Implementation notes:
-    - Use p5.js for rendering and interaction
-    - Implement drag-and-drop with mouse/touch support
-    - Generate random expressions with controlled complexity
-    - Parse expressions and identify like terms programmatically
-    - Store terms as objects with coefficient, variable, and exponent properties
-    - Track timing, accuracy, and completion metrics
+Implementation notes:
+- Use p5.js for rendering and interaction
+- Implement drag-and-drop with mouse/touch support
+- Generate random expressions with controlled complexity
+- Parse expressions and identify like terms programmatically
+- Store terms as objects with coefficient, variable, and exponent properties
+- Track timing, accuracy, and completion metrics
+
+**MicroSim Recommendation:** Use **microsim-p5** (Score: 96/100). This sophisticated educational game requires drag-and-drop interaction, multiple game modes, color-coded term matching, animations (shake, glow, confetti), and complex state management. P5.js provides full control over drag-and-drop mechanics, animation effects, term parsing, and game state.
 </details>
 
 ## Simplifying Expressions: Making Them Cleaner
@@ -802,101 +810,103 @@ Both skills are important and complement each other.
 
 <details markdown="1">
     <summary>Distributive Property Visualizer MicroSim</summary>
-    Type: microsim
+Type: microsim
 
-    Learning objective: Visualize the distributive property using area models and step-by-step algebraic expansion
+Learning objective: Visualize the distributive property using area models and step-by-step algebraic expansion
 
-    Canvas layout (900x700px):
-    - Top (900x100): Problem display and mode selector
-    - Left side (450x500): Visual area model representation
-    - Right side (450x500): Algebraic step-by-step solution
-    - Bottom (900x100): Controls and input area
+Canvas layout (900x700px):
+- Top (900x100): Problem display and mode selector
+- Left side (450x500): Visual area model representation
+- Right side (450x500): Algebraic step-by-step solution
+- Bottom (900x100): Controls and input area
 
-    Visual elements - Area Model:
-    - Rectangle divided into sections representing multiplication
-    - For $3(x + 5)$:
-      - Vertical side labeled "3"
-      - Horizontal side divided into two sections: "x" and "5"
-      - Rectangle divided showing two areas: "3x" and "15"
-    - Color coding: Variable areas in blue, constant areas in orange
-    - Dimensions labeled clearly
-    - Areas labeled with expressions
+Visual elements - Area Model:
+- Rectangle divided into sections representing multiplication
+- For $3(x + 5)$:
+  - Vertical side labeled "3"
+  - Horizontal side divided into two sections: "x" and "5"
+  - Rectangle divided showing two areas: "3x" and "15"
+- Color coding: Variable areas in blue, constant areas in orange
+- Dimensions labeled clearly
+- Areas labeled with expressions
 
-    Visual elements - Algebraic:
-    - Step-by-step expansion shown with arrows
-    - Original expression at top
-    - Intermediate step showing distribution
-    - Final expanded form at bottom
-    - Color coding matching area model
+Visual elements - Algebraic:
+- Step-by-step expansion shown with arrows
+- Original expression at top
+- Intermediate step showing distribution
+- Final expanded form at bottom
+- Color coding matching area model
 
-    Interactive controls:
-    - Input: "Factor outside parentheses" (e.g., 3, -2, x)
-    - Input: "First term inside" (e.g., x, 2y, 3)
-    - Input: "Second term inside" (e.g., 5, -2, x)
-    - Button: "Generate Random Problem"
-    - Dropdown: "Problem Type" (Numeric, Single Variable, Two Variables)
-    - Slider: "Animation Speed" (slow to fast)
-    - Button: "Show Next Step" (step through expansion)
-    - Button: "Animate Full Solution"
-    - Checkbox: "Show Area Model"
+Interactive controls:
+- Input: "Factor outside parentheses" (e.g., 3, -2, x)
+- Input: "First term inside" (e.g., x, 2y, 3)
+- Input: "Second term inside" (e.g., 5, -2, x)
+- Button: "Generate Random Problem"
+- Dropdown: "Problem Type" (Numeric, Single Variable, Two Variables)
+- Slider: "Animation Speed" (slow to fast)
+- Button: "Show Next Step" (step through expansion)
+- Button: "Animate Full Solution"
+- Checkbox: "Show Area Model"
 
-    Default parameters:
-    - Problem: $3(x + 5)$
-    - Problem Type: Single Variable
-    - Animation Speed: Medium
-    - Show Area Model: Checked
+Default parameters:
+- Problem: $3(x + 5)$
+- Problem Type: Single Variable
+- Animation Speed: Medium
+- Show Area Model: Checked
 
-    Problem types:
-    - Numeric: $4(3 + 2)$ → area model with numbers only
-    - Single Variable: $3(x + 5)$, $-2(y - 4)$ → one variable
-    - Two Variables: $2(3x + 4y)$, $x(x + 7)$ → multiple variables or exponents
+Problem types:
+- Numeric: $4(3 + 2)$ → area model with numbers only
+- Single Variable: $3(x + 5)$, $-2(y - 4)$ → one variable
+- Two Variables: $2(3x + 4y)$, $x(x + 7)$ → multiple variables or exponents
 
-    Behavior - Area Model:
-    - Draw rectangle with animated dimensions
-    - Divide rectangle according to terms
-    - Fill each section with color and label
-    - Animate the "sweeping" of distributed factor across terms
-    - Show area calculations for each section
-    - Highlight how areas add to total
+Behavior - Area Model:
+- Draw rectangle with animated dimensions
+- Divide rectangle according to terms
+- Fill each section with color and label
+- Animate the "sweeping" of distributed factor across terms
+- Show area calculations for each section
+- Highlight how areas add to total
 
-    Behavior - Algebraic Steps:
-    - Display original expression: $3(x + 5)$
-    - Show distribution arrows: $3 \times x$ and $3 \times 5$
-    - Animate each multiplication
-    - Display intermediate: $3x + 15$
-    - Highlight final answer
+Behavior - Algebraic Steps:
+- Display original expression: $3(x + 5)$
+- Show distribution arrows: $3 \times x$ and $3 \times 5$
+- Animate each multiplication
+- Display intermediate: $3x + 15$
+- Highlight final answer
 
-    Behavior - Animation:
-    - Sync visual and algebraic representations
-    - Pulse/glow effect on current operation
-    - Smooth transitions between steps
-    - Option to pause/play at any point
+Behavior - Animation:
+- Sync visual and algebraic representations
+- Pulse/glow effect on current operation
+- Smooth transitions between steps
+- Option to pause/play at any point
 
-    Special cases to demonstrate:
-    - Positive factor: $3(x + 2) = 3x + 6$
-    - Negative factor: $-2(x + 5) = -2x - 10$
-    - Subtraction inside: $4(x - 3) = 4x - 12$
-    - Variable factor: $x(x + 4) = x^2 + 4x$
+Special cases to demonstrate:
+- Positive factor: $3(x + 2) = 3x + 6$
+- Negative factor: $-2(x + 5) = -2x - 10$
+- Subtraction inside: $4(x - 3) = 4x - 12$
+- Variable factor: $x(x + 4) = x^2 + 4x$
 
-    Practice mode:
-    - Show problem and area model
-    - Student fills in blanks for expanded form
-    - Immediate feedback on each term
-    - Visual confirmation in area model
+Practice mode:
+- Show problem and area model
+- Student fills in blanks for expanded form
+- Immediate feedback on each term
+- Visual confirmation in area model
 
-    Visual styling:
-    - Clean geometric area models with clear labels
-    - Color-coded sections (blue for variables, orange for constants)
-    - Large, readable algebraic notation
-    - Animated arrows showing distribution
-    - Grid background for area model
+Visual styling:
+- Clean geometric area models with clear labels
+- Color-coded sections (blue for variables, orange for constants)
+- Large, readable algebraic notation
+- Animated arrows showing distribution
+- Grid background for area model
 
-    Implementation notes:
-    - Use p5.js for rendering
-    - Draw dynamic rectangles based on expression complexity
-    - Parse input expressions to generate appropriate models
-    - Implement smooth animations with easing
-    - Support negative values with special visual treatment (different colors/patterns)
+Implementation notes:
+- Use p5.js for rendering
+- Draw dynamic rectangles based on expression complexity
+- Parse input expressions to generate appropriate models
+- Implement smooth animations with easing
+- Support negative values with special visual treatment (different colors/patterns)
+
+**MicroSim Recommendation:** Use **microsim-p5** (Score: 97/100). This specification requires synchronized visual (area model rectangles) and algebraic (step-by-step equations) representations with animations showing the distribution process. P5.js excels at creating custom geometric visualizations with precise control over rectangle dimensions, labels, color coding, and animation timing.
 </details>
 
 ## Monomials: Single-Term Expressions
@@ -976,107 +986,109 @@ Prime factorization helps you:
 
 <details markdown="1">
     <summary>Prime Factorization Tree Builder MicroSim</summary>
-    Type: microsim
+Type: microsim
 
-    Learning objective: Practice building factor trees to find prime factorization of composite numbers through interactive tree construction
+Learning objective: Practice building factor trees to find prime factorization of composite numbers through interactive tree construction
 
-    Canvas layout (900x700px):
-    - Top (900x100): Number to factor, instructions, and score
-    - Main area (900x500): Interactive factor tree workspace
-    - Bottom (900x100): Controls, prime number reference, and feedback
+Canvas layout (900x700px):
+- Top (900x100): Number to factor, instructions, and score
+- Main area (900x500): Interactive factor tree workspace
+- Bottom (900x100): Controls, prime number reference, and feedback
 
-    Visual elements:
-    - Root node at top showing the number to factor
-    - Branching tree structure growing downward
-    - Circular nodes for each number in factorization
-    - Connecting lines between parent and child nodes
-    - Prime numbers highlighted in gold/green
-    - Composite numbers in blue (can be split further)
-    - Final prime factorization displayed at bottom
+Visual elements:
+- Root node at top showing the number to factor
+- Branching tree structure growing downward
+- Circular nodes for each number in factorization
+- Connecting lines between parent and child nodes
+- Prime numbers highlighted in gold/green
+- Composite numbers in blue (can be split further)
+- Final prime factorization displayed at bottom
 
-    Interactive controls:
-    - Input field: "Enter a number to factor" (range 4-200)
-    - Button: "Start New Problem"
-    - Button: "Random Number"
-    - Dropdown: "Difficulty" (Easy: 4-50, Medium: 50-100, Hard: 100-200)
-    - Button: "Give Hint" (highlights one composite number that can be split)
-    - Button: "Check Tree" (verifies if factorization is complete)
-    - Button: "Show Answer"
-    - Display: Prime number reference list (primes up to 20)
+Interactive controls:
+- Input field: "Enter a number to factor" (range 4-200)
+- Button: "Start New Problem"
+- Button: "Random Number"
+- Dropdown: "Difficulty" (Easy: 4-50, Medium: 50-100, Hard: 100-200)
+- Button: "Give Hint" (highlights one composite number that can be split)
+- Button: "Check Tree" (verifies if factorization is complete)
+- Button: "Show Answer"
+- Display: Prime number reference list (primes up to 20)
 
-    Default parameters:
-    - Number: 24
-    - Difficulty: Easy
-    - Tree partially built or blank (selectable)
+Default parameters:
+- Number: 24
+- Difficulty: Easy
+- Tree partially built or blank (selectable)
 
-    Behavior:
-    - User clicks on a composite number node
-    - Input boxes appear below asking for two factors
-    - User enters two factors that multiply to the number
-    - System checks if factors are correct
-    - If correct: creates two child nodes with those factors
-    - If incorrect: shakes and shows error message
-    - Prime numbers automatically highlighted and cannot be split
-    - When all nodes are prime, tree is complete
+Behavior:
+- User clicks on a composite number node
+- Input boxes appear below asking for two factors
+- User enters two factors that multiply to the number
+- System checks if factors are correct
+- If correct: creates two child nodes with those factors
+- If incorrect: shakes and shows error message
+- Prime numbers automatically highlighted and cannot be split
+- When all nodes are prime, tree is complete
 
-    Visual feedback:
-    - Correct factors: Smooth animation creating child nodes
-    - Incorrect factors: Red shake animation, error message
-    - Prime numbers: Gold border and fill color
-    - Composite numbers: Blue with "click to factor" cursor
-    - Completed tree: Celebration animation
+Visual feedback:
+- Correct factors: Smooth animation creating child nodes
+- Incorrect factors: Red shake animation, error message
+- Prime numbers: Gold border and fill color
+- Composite numbers: Blue with "click to factor" cursor
+- Completed tree: Celebration animation
 
-    Tree visualization:
-    - Hierarchical layout with proper spacing
-    - Nodes arranged to avoid overlap
-    - Animated growth as factors are added
-    - Lines connecting parent to children
-    - Node size based on number magnitude (optional)
+Tree visualization:
+- Hierarchical layout with proper spacing
+- Nodes arranged to avoid overlap
+- Animated growth as factors are added
+- Lines connecting parent to children
+- Node size based on number magnitude (optional)
 
-    Final answer display:
-    - Show prime factorization in exponential form
-    - Example: "$24 = 2^3 \times 3$"
-    - List all prime factors with multiplicity
-    - Option to copy prime factorization
+Final answer display:
+- Show prime factorization in exponential form
+- Example: "$24 = 2^3 \times 3$"
+- List all prime factors with multiplicity
+- Option to copy prime factorization
 
-    Hint system:
-    - Level 1: Highlights one composite number
-    - Level 2: Shows that number is divisible by 2, 3, or 5
-    - Level 3: Shows one factor
-    - Level 4: Shows both factors
+Hint system:
+- Level 1: Highlights one composite number
+- Level 2: Shows that number is divisible by 2, 3, or 5
+- Level 3: Shows one factor
+- Level 4: Shows both factors
 
-    Game modes:
-    1. **Free Build**: User factors any number step by step
-    2. **Guided Mode**: System suggests next number to factor
-    3. **Challenge Mode**: Timed factorization race
-    4. **Quiz Mode**: Factor 5 numbers, track accuracy
+Game modes:
+1. **Free Build**: User factors any number step by step
+2. **Guided Mode**: System suggests next number to factor
+3. **Challenge Mode**: Timed factorization race
+4. **Quiz Mode**: Factor 5 numbers, track accuracy
 
-    Prime reference panel:
-    - List of primes: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47
-    - Divisibility rules reminder:
-      - 2: Even numbers
-      - 3: Sum of digits divisible by 3
-      - 5: Ends in 0 or 5
+Prime reference panel:
+- List of primes: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47
+- Divisibility rules reminder:
+  - 2: Even numbers
+  - 3: Sum of digits divisible by 3
+  - 5: Ends in 0 or 5
 
-    Special features:
-    - Compare different factorization paths (different factor pairs lead to same prime factorization)
-    - Show multiple factor trees for same number side by side
-    - Verify uniqueness of prime factorization
+Special features:
+- Compare different factorization paths (different factor pairs lead to same prime factorization)
+- Show multiple factor trees for same number side by side
+- Verify uniqueness of prime factorization
 
-    Visual styling:
-    - Clean tree diagram with smooth curves
-    - Color-coded by number type (prime vs composite)
-    - Clear, large fonts for readability
-    - Hover effects showing factor possibilities
-    - Celebration effects on completion (confetti, glow)
+Visual styling:
+- Clean tree diagram with smooth curves
+- Color-coded by number type (prime vs composite)
+- Clear, large fonts for readability
+- Hover effects showing factor possibilities
+- Celebration effects on completion (confetti, glow)
 
-    Implementation notes:
-    - Use p5.js for rendering
-    - Calculate tree layout dynamically to prevent overlap
-    - Store tree structure as nested objects
-    - Implement prime checking algorithm
-    - Track student's factorization path
-    - Provide specific feedback on common mistakes (e.g., non-factors, missed primes)
+Implementation notes:
+- Use p5.js for rendering
+- Calculate tree layout dynamically to prevent overlap
+- Store tree structure as nested objects
+- Implement prime checking algorithm
+- Track student's factorization path
+- Provide specific feedback on common mistakes (e.g., non-factors, missed primes)
+
+**MicroSim Recommendation:** Use **microsim-p5** (Score: 94/100). This interactive tree-building simulation requires hierarchical layout, dynamic node creation, user input for factor pairs, validation logic, animated tree growth, and multiple game modes. P5.js provides complete control over tree layout algorithms, node positioning to avoid overlap, animated transitions, and interactive node selection.
 </details>
 
 ## Putting It All Together: Chapter Summary
