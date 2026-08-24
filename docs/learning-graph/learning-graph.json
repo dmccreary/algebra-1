@@ -12,122 +12,86 @@
   "groups": {
     "FOUND": {
       "classifierName": "Foundation Concepts",
-      "color": {
-        "color": "red",
-        "classifierName": "Foundation Concepts"
-      },
+      "color": "red",
       "font": {
-        "color": "black"
+        "color": "white"
       }
     },
     "PROP": {
-      "classifierName": "PROP",
-      "color": {
-        "color": "orange",
-        "classifierName": "Properties and Operations"
-      },
+      "classifierName": "Properties and Operations",
+      "color": "orange",
       "font": {
         "color": "black"
       }
     },
     "NUMS": {
-      "classifierName": "NUMS",
-      "color": {
-        "color": "gold",
-        "classifierName": "Number Systems"
-      },
+      "classifierName": "Number Systems",
+      "color": "gold",
       "font": {
         "color": "black"
       }
     },
     "EXP": {
-      "classifierName": "EXP",
-      "color": {
-        "color": "green",
-        "classifierName": "Exponents and Radicals"
-      },
+      "classifierName": "Exponents and Radicals",
+      "color": "green",
       "font": {
-        "color": "black"
+        "color": "white"
       }
     },
     "POLY": {
-      "classifierName": "POLY",
-      "color": {
-        "color": "cyan",
-        "classifierName": "Polynomials"
-      },
+      "classifierName": "Polynomials",
+      "color": "cyan",
       "font": {
         "color": "black"
       }
     },
     "FACT": {
-      "classifierName": "FACT",
-      "color": {
-        "color": "blue",
-        "classifierName": "Factoring"
-      },
+      "classifierName": "Factoring",
+      "color": "blue",
       "font": {
-        "color": "black"
+        "color": "white"
       }
     },
     "LIN": {
-      "classifierName": "LIN",
-      "color": {
-        "color": "indigo",
-        "classifierName": "Linear Equations and Inequalities"
-      },
+      "classifierName": "Linear Equations and Inequalities",
+      "color": "indigo",
       "font": {
-        "color": "black"
+        "color": "white"
       }
     },
     "FUNC": {
-      "classifierName": "FUNC",
-      "color": {
-        "color": "violet",
-        "classifierName": "Functions and Relations"
-      },
+      "classifierName": "Functions and Relations",
+      "color": "violet",
       "font": {
         "color": "black"
       }
     },
     "GRAPH": {
-      "classifierName": "GRAPH",
-      "color": {
-        "color": "purple",
-        "classifierName": "Graphing and Coordinate Geometry"
-      },
+      "classifierName": "Graphing and Coordinate Geometry",
+      "color": "purple",
       "font": {
-        "color": "black"
+        "color": "white"
       }
     },
     "SYS": {
-      "classifierName": "SYS",
-      "color": {
-        "color": "brown",
-        "classifierName": "Systems"
-      },
+      "classifierName": "Systems",
+      "color": "brown",
       "font": {
-        "color": "black"
+        "color": "white"
       }
     },
     "QUAD": {
-      "classifierName": "QUAD",
-      "color": {
-        "color": "teal",
-        "classifierName": "Quadratic and Exponential Functions"
-      },
+      "classifierName": "Quadratic and Exponential Functions",
+      "color": "teal",
       "font": {
-        "color": "black"
+        "color": "white"
       }
     },
     "DATA": {
-      "classifierName": "DATA",
-      "color": {
-        "color": "olive",
-        "classifierName": "Data Analysis and Applications"
-      },
+      "classifierName": "Data Analysis and Applications",
+      "color": "olive",
       "font": {
-        "color": "black"
+        "color": "white"
       }
     }
   },
@@ -136,1004 +100,1204 @@
       "id": 1,
       "label": "Number",
       "group": "FOUND",
-      "shape": "box"
+      "shape": "box",
+      "cis": 369
     },
     {
       "id": 2,
       "label": "Variable",
       "group": "FOUND",
-      "shape": "box"
+      "shape": "box",
+      "cis": 619
     },
     {
       "id": 3,
       "label": "Constant",
       "group": "FOUND",
-      "shape": "box"
+      "shape": "box",
+      "cis": 238
     },
     {
       "id": 4,
       "label": "Coefficient",
-      "group": "FOUND"
+      "group": "FOUND",
+      "cis": 239
     },
     {
       "id": 5,
       "label": "Term",
-      "group": "FOUND"
+      "group": "FOUND",
+      "cis": 237
     },
     {
       "id": 6,
       "label": "Expression",
-      "group": "FOUND"
+      "group": "FOUND",
+      "cis": 133
     },
     {
       "id": 7,
       "label": "Equation",
-      "group": "FOUND"
+      "group": "FOUND",
+      "cis": 111
     },
     {
       "id": 8,
       "label": "Inequality",
-      "group": "FOUND"
+      "group": "FOUND",
+      "cis": 14
     },
     {
       "id": 9,
       "label": "Order of Operations",
-      "group": "PROP"
+      "group": "PROP",
+      "cis": 7
     },
     {
       "id": 10,
       "label": "Commutative Property",
-      "group": "PROP"
+      "group": "PROP",
+      "cis": 1
     },
     {
       "id": 11,
       "label": "Associative Property",
-      "group": "PROP"
+      "group": "PROP",
+      "cis": 1
     },
     {
       "id": 12,
       "label": "Distributive Property",
-      "group": "PROP"
+      "group": "PROP",
+      "cis": 20
     },
     {
       "id": 13,
       "label": "Identity Property",
-      "group": "PROP"
+      "group": "PROP",
+      "cis": 1
     },
     {
       "id": 14,
       "label": "Inverse Property",
-      "group": "PROP"
+      "group": "PROP",
+      "cis": 7
     },
     {
       "id": 15,
       "label": "Integers",
-      "group": "NUMS"
+      "group": "NUMS",
+      "cis": 103
     },
     {
       "id": 16,
       "label": "Rational Numbers",
-      "group": "NUMS"
+      "group": "NUMS",
+      "cis": 5
     },
     {
       "id": 17,
       "label": "Real Numbers",
-      "group": "NUMS"
+      "group": "NUMS",
+      "cis": 1
     },
     {
       "id": 18,
       "label": "Absolute Value",
-      "group": "NUMS"
+      "group": "NUMS",
+      "cis": 4
     },
     {
       "id": 19,
       "label": "Number Line",
-      "group": "NUMS"
+      "group": "NUMS",
+      "cis": 92
     },
     {
       "id": 20,
       "label": "Coordinate System",
-      "group": "NUMS"
+      "group": "NUMS",
+      "cis": 90
     },
     {
       "id": 21,
       "label": "Exponent",
-      "group": "EXP"
+      "group": "EXP",
+      "cis": 121
     },
     {
       "id": 22,
       "label": "Base",
-      "group": "EXP"
+      "group": "EXP",
+      "cis": 13
     },
     {
       "id": 23,
       "label": "Power",
-      "group": "EXP"
+      "group": "EXP",
+      "cis": 12
     },
     {
       "id": 24,
       "label": "Integer Exponents",
-      "group": "EXP"
+      "group": "EXP",
+      "cis": 4
     },
     {
       "id": 25,
       "label": "Rational Exponents",
-      "group": "EXP"
+      "group": "EXP",
+      "cis": 1
     },
     {
       "id": 26,
       "label": "Negative Exponents",
-      "group": "EXP"
+      "group": "EXP",
+      "cis": 1
     },
     {
       "id": 27,
       "label": "Zero Exponent",
-      "group": "EXP"
+      "group": "EXP",
+      "cis": 1
     },
     {
       "id": 28,
       "label": "Product Rule for Exponents",
-      "group": "EXP"
+      "group": "EXP",
+      "cis": 2
     },
     {
       "id": 29,
       "label": "Quotient Rule for Exponents",
-      "group": "EXP"
+      "group": "EXP",
+      "cis": 1
     },
     {
       "id": 30,
       "label": "Power Rule for Exponents",
-      "group": "EXP"
+      "group": "EXP",
+      "cis": 1
     },
     {
       "id": 31,
       "label": "Scientific Notation",
-      "group": "EXP"
+      "group": "EXP",
+      "cis": 1
     },
     {
       "id": 32,
       "label": "Square Root",
-      "group": "EXP"
+      "group": "EXP",
+      "cis": 4
     },
     {
       "id": 33,
       "label": "Cube Root",
-      "group": "EXP"
+      "group": "EXP",
+      "cis": 3
     },
     {
       "id": 34,
       "label": "Radical Expression",
-      "group": "EXP"
+      "group": "EXP",
+      "cis": 2
     },
     {
       "id": 35,
       "label": "Simplifying Radicals",
-      "group": "EXP"
+      "group": "EXP",
+      "cis": 1
     },
     {
       "id": 36,
       "label": "Evaluating Expressions",
-      "group": "FOUND"
+      "group": "FOUND",
+      "cis": 6
     },
     {
       "id": 37,
       "label": "Substitution",
-      "group": "FOUND"
+      "group": "FOUND",
+      "cis": 3
     },
     {
       "id": 38,
       "label": "Like Terms",
-      "group": "POLY"
+      "group": "POLY",
+      "cis": 7
     },
     {
       "id": 39,
       "label": "Combining Like Terms",
-      "group": "POLY"
+      "group": "POLY",
+      "cis": 6
     },
     {
       "id": 40,
       "label": "Simplifying Expressions",
-      "group": "POLY"
+      "group": "POLY",
+      "cis": 1
     },
     {
       "id": 41,
       "label": "Expanding Expressions",
-      "group": "POLY"
+      "group": "POLY",
+      "cis": 1
     },
     {
       "id": 42,
       "label": "Monomial",
-      "group": "POLY"
+      "group": "POLY",
+      "cis": 76
     },
     {
       "id": 43,
       "label": "Binomial",
-      "group": "POLY"
+      "group": "POLY",
+      "cis": 75
     },
     {
       "id": 44,
       "label": "Trinomial",
-      "group": "POLY"
+      "group": "POLY",
+      "cis": 73
     },
     {
       "id": 45,
       "label": "Polynomial",
-      "group": "POLY"
+      "group": "POLY",
+      "cis": 69
     },
     {
       "id": 46,
       "label": "Degree of Polynomial",
-      "group": "POLY"
+      "group": "POLY",
+      "cis": 3
     },
     {
       "id": 47,
       "label": "Leading Coefficient",
-      "group": "POLY"
+      "group": "POLY",
+      "cis": 1
     },
     {
       "id": 48,
       "label": "Standard Form of Polynomial",
-      "group": "POLY"
+      "group": "POLY",
+      "cis": 2
     },
     {
       "id": 49,
       "label": "Adding Polynomials",
-      "group": "POLY"
+      "group": "POLY",
+      "cis": 1
     },
     {
       "id": 50,
       "label": "Subtracting Polynomials",
-      "group": "POLY"
+      "group": "POLY",
+      "cis": 1
     },
     {
       "id": 51,
       "label": "Multiplying Polynomials",
-      "group": "POLY"
+      "group": "POLY",
+      "cis": 14
     },
     {
       "id": 52,
       "label": "FOIL Method",
-      "group": "POLY"
+      "group": "POLY",
+      "cis": 1
     },
     {
       "id": 53,
       "label": "Special Products",
-      "group": "POLY"
+      "group": "POLY",
+      "cis": 12
     },
     {
       "id": 54,
       "label": "Difference of Squares",
-      "group": "POLY"
+      "group": "POLY",
+      "cis": 3
     },
     {
       "id": 55,
       "label": "Perfect Square Trinomial",
-      "group": "POLY"
+      "group": "POLY",
+      "cis": 8
     },
     {
       "id": 56,
       "label": "Factoring",
-      "group": "FACT"
+      "group": "FACT",
+      "cis": 15
     },
     {
       "id": 57,
       "label": "Greatest Common Factor",
-      "group": "FACT"
+      "group": "FACT",
+      "cis": 3
     },
     {
       "id": 58,
       "label": "Factoring by GCF",
-      "group": "FACT"
+      "group": "FACT",
+      "cis": 2
     },
     {
       "id": 59,
       "label": "Factoring Trinomials",
-      "group": "FACT"
+      "group": "FACT",
+      "cis": 3
     },
     {
       "id": 60,
       "label": "Factoring Difference of Squares",
-      "group": "FACT"
+      "group": "FACT",
+      "cis": 2
     },
     {
       "id": 61,
       "label": "Factoring Perfect Squares",
-      "group": "FACT"
+      "group": "FACT",
+      "cis": 1
     },
     {
       "id": 62,
       "label": "Factoring by Grouping",
-      "group": "FACT"
+      "group": "FACT",
+      "cis": 1
     },
     {
       "id": 63,
       "label": "Prime Factorization",
-      "group": "FACT"
+      "group": "FACT",
+      "cis": 1
     },
     {
       "id": 64,
       "label": "Prime Polynomial",
-      "group": "FACT"
+      "group": "FACT",
+      "cis": 1
     },
     {
       "id": 65,
       "label": "Zero Product Property",
-      "group": "FACT"
+      "group": "FACT",
+      "cis": 2
     },
     {
       "id": 66,
       "label": "Solving by Factoring",
-      "group": "FACT"
+      "group": "FACT",
+      "cis": 1
     },
     {
       "id": 67,
       "label": "Factoring Completely",
-      "group": "FACT"
+      "group": "FACT",
+      "cis": 1
     },
     {
       "id": 68,
       "label": "Sum of Cubes",
-      "group": "FACT"
+      "group": "FACT",
+      "cis": 1
     },
     {
       "id": 69,
       "label": "Difference of Cubes",
-      "group": "FACT"
+      "group": "FACT",
+      "cis": 1
     },
     {
       "id": 70,
       "label": "Factoring Quadratic Form",
-      "group": "FACT"
+      "group": "FACT",
+      "cis": 1
     },
     {
       "id": 71,
       "label": "Solving Equations",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 73
     },
     {
       "id": 72,
       "label": "One-Step Equations",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 6
     },
     {
       "id": 73,
       "label": "Two-Step Equations",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 5
     },
     {
       "id": 74,
       "label": "Multi-Step Equations",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 4
     },
     {
       "id": 75,
       "label": "Variables on Both Sides",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 1
     },
     {
       "id": 76,
       "label": "Equations with Fractions",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 1
     },
     {
       "id": 77,
       "label": "Equations with Decimals",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 1
     },
     {
       "id": 78,
       "label": "Literal Equations",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 3
     },
     {
       "id": 79,
       "label": "Solving for a Variable",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 2
     },
     {
       "id": 80,
       "label": "Formula Manipulation",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 1
     },
     {
       "id": 81,
       "label": "Linear Equation in One Variable",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 55
     },
     {
       "id": 82,
       "label": "Solution Set",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 1
     },
     {
       "id": 83,
       "label": "Identity Equation",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 1
     },
     {
       "id": 84,
       "label": "Contradiction",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 1
     },
     {
       "id": 85,
       "label": "Conditional Equation",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 1
     },
     {
       "id": 86,
       "label": "Checking Solutions",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 1
     },
     {
       "id": 87,
       "label": "Applications of Linear Equations",
-      "group": "DATA"
+      "group": "DATA",
+      "cis": 7
     },
     {
       "id": 88,
       "label": "Consecutive Integers",
-      "group": "DATA"
+      "group": "DATA",
+      "cis": 1
     },
     {
       "id": 89,
       "label": "Perimeter Problems",
-      "group": "DATA"
+      "group": "DATA",
+      "cis": 1
     },
     {
       "id": 90,
       "label": "Distance Rate Time Problems",
-      "group": "DATA"
+      "group": "DATA",
+      "cis": 1
     },
     {
       "id": 91,
       "label": "Inequality",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 13
     },
     {
       "id": 92,
       "label": "Linear Inequality",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 6
     },
     {
       "id": 93,
       "label": "Inequality Symbols",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 1
     },
     {
       "id": 94,
       "label": "Graphing Inequalities",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 1
     },
     {
       "id": 95,
       "label": "Solving Linear Inequalities",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 4
     },
     {
       "id": 96,
       "label": "Compound Inequalities",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 3
     },
     {
       "id": 97,
       "label": "And Inequalities",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 1
     },
     {
       "id": 98,
       "label": "Or Inequalities",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 1
     },
     {
       "id": 99,
       "label": "Absolute Value Equations",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 2
     },
     {
       "id": 100,
       "label": "Absolute Value Inequalities",
-      "group": "LIN"
+      "group": "LIN",
+      "cis": 1
     },
     {
       "id": 101,
       "label": "Relation",
-      "group": "FUNC"
+      "group": "FUNC",
+      "cis": 79
     },
     {
       "id": 102,
       "label": "Function",
-      "group": "FUNC"
+      "group": "FUNC",
+      "cis": 78
     },
     {
       "id": 103,
       "label": "Domain",
-      "group": "FUNC"
+      "group": "FUNC",
+      "cis": 1
     },
     {
       "id": 104,
       "label": "Range",
-      "group": "FUNC"
+      "group": "FUNC",
+      "cis": 1
     },
     {
       "id": 105,
       "label": "Input",
-      "group": "FUNC"
+      "group": "FUNC",
+      "cis": 1
     },
     {
       "id": 106,
       "label": "Output",
-      "group": "FUNC"
+      "group": "FUNC",
+      "cis": 1
     },
     {
       "id": 107,
       "label": "Function Notation",
-      "group": "FUNC"
+      "group": "FUNC",
+      "cis": 2
     },
     {
       "id": 108,
       "label": "Evaluating Functions",
-      "group": "FUNC"
+      "group": "FUNC",
+      "cis": 1
     },
     {
       "id": 109,
       "label": "Independent Variable",
-      "group": "FUNC"
+      "group": "FUNC",
+      "cis": 1
     },
     {
       "id": 110,
       "label": "Dependent Variable",
-      "group": "FUNC"
+      "group": "FUNC",
+      "cis": 1
     },
     {
       "id": 111,
       "label": "Vertical Line Test",
-      "group": "FUNC"
+      "group": "FUNC",
+      "cis": 1
     },
     {
       "id": 112,
       "label": "Discrete Function",
-      "group": "FUNC"
+      "group": "FUNC",
+      "cis": 1
     },
     {
       "id": 113,
       "label": "Continuous Function",
-      "group": "FUNC"
+      "group": "FUNC",
+      "cis": 1
     },
     {
       "id": 114,
       "label": "Piecewise Function",
-      "group": "FUNC"
+      "group": "FUNC",
+      "cis": 2
     },
     {
       "id": 115,
       "label": "Step Function",
-      "group": "FUNC"
+      "group": "FUNC",
+      "cis": 1
     },
     {
       "id": 116,
       "label": "Absolute Value Function",
-      "group": "FUNC"
+      "group": "FUNC",
+      "cis": 1
     },
     {
       "id": 117,
       "label": "Parent Function",
-      "group": "FUNC"
+      "group": "FUNC",
+      "cis": 4
     },
     {
       "id": 118,
       "label": "Function Transformation",
-      "group": "FUNC"
+      "group": "FUNC",
+      "cis": 3
     },
     {
       "id": 119,
       "label": "Translation",
-      "group": "FUNC"
+      "group": "FUNC",
+      "cis": 1
     },
     {
       "id": 120,
       "label": "Reflection",
-      "group": "FUNC"
+      "group": "FUNC",
+      "cis": 1
     },
     {
       "id": 121,
       "label": "Coordinate Plane",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 89
     },
     {
       "id": 122,
       "label": "Ordered Pair",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 42
     },
     {
       "id": 123,
       "label": "X-Coordinate",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 1
     },
     {
       "id": 124,
       "label": "Y-Coordinate",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 1
     },
     {
       "id": 125,
       "label": "Origin",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 1
     },
     {
       "id": 126,
       "label": "Quadrants",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 1
     },
     {
       "id": 127,
       "label": "Plotting Points",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 37
     },
     {
       "id": 128,
       "label": "Linear Function",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 38
     },
     {
       "id": 129,
       "label": "Graph of a Line",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 33
     },
     {
       "id": 130,
       "label": "X-Intercept",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 1
     },
     {
       "id": 131,
       "label": "Y-Intercept",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 2
     },
     {
       "id": 132,
       "label": "Slope",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 13
     },
     {
       "id": 133,
       "label": "Rise",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 1
     },
     {
       "id": 134,
       "label": "Run",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 1
     },
     {
       "id": 135,
       "label": "Rate of Change",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 1
     },
     {
       "id": 136,
       "label": "Slope Formula",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 1
     },
     {
       "id": 137,
       "label": "Positive Slope",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 1
     },
     {
       "id": 138,
       "label": "Negative Slope",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 1
     },
     {
       "id": 139,
       "label": "Zero Slope",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 2
     },
     {
       "id": 140,
       "label": "Undefined Slope",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 2
     },
     {
       "id": 141,
       "label": "Slope-Intercept Form",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 1
     },
     {
       "id": 142,
       "label": "Point-Slope Form",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 1
     },
     {
       "id": 143,
       "label": "Standard Form",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 1
     },
     {
       "id": 144,
       "label": "Horizontal Line",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 1
     },
     {
       "id": 145,
       "label": "Vertical Line",
-      "group": "GRAPH"
+      "group": "GRAPH",
+      "cis": 1
     },
     {
       "id": 146,
       "label": "System of Equations",
-      "group": "SYS"
+      "group": "SYS",
+      "cis": 18
     },
     {
       "id": 147,
       "label": "Solution of a System",
-      "group": "SYS"
+      "group": "SYS",
+      "cis": 1
     },
     {
       "id": 148,
       "label": "Consistent System",
-      "group": "SYS"
+      "group": "SYS",
+      "cis": 3
     },
     {
       "id": 149,
       "label": "Inconsistent System",
-      "group": "SYS"
+      "group": "SYS",
+      "cis": 1
     },
     {
       "id": 150,
       "label": "Independent System",
-      "group": "SYS"
+      "group": "SYS",
+      "cis": 1
     },
     {
       "id": 151,
       "label": "Dependent System",
-      "group": "SYS"
+      "group": "SYS",
+      "cis": 1
     },
     {
       "id": 152,
       "label": "Graphing Method",
-      "group": "SYS"
+      "group": "SYS",
+      "cis": 4
     },
     {
       "id": 153,
       "label": "Substitution Method",
-      "group": "SYS"
+      "group": "SYS",
+      "cis": 1
     },
     {
       "id": 154,
       "label": "Elimination Method",
-      "group": "SYS"
+      "group": "SYS",
+      "cis": 2
     },
     {
       "id": 155,
       "label": "Linear Combination",
-      "group": "SYS"
+      "group": "SYS",
+      "cis": 1
     },
     {
       "id": 156,
       "label": "System of Inequalities",
-      "group": "SYS"
+      "group": "SYS",
+      "cis": 4
     },
     {
       "id": 157,
       "label": "Graphing Systems",
-      "group": "SYS"
+      "group": "SYS",
+      "cis": 3
     },
     {
       "id": 158,
       "label": "Solution Region",
-      "group": "SYS"
+      "group": "SYS",
+      "cis": 1
     },
     {
       "id": 159,
       "label": "Boundary Line",
-      "group": "SYS"
+      "group": "SYS",
+      "cis": 1
     },
     {
       "id": 160,
       "label": "Applications of Systems",
-      "group": "DATA"
+      "group": "DATA",
+      "cis": 1
     },
     {
       "id": 161,
       "label": "Quadratic Function",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 11
     },
     {
       "id": 162,
       "label": "Parabola",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 8
     },
     {
       "id": 163,
       "label": "Vertex",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 4
     },
     {
       "id": 164,
       "label": "Axis of Symmetry",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 1
     },
     {
       "id": 165,
       "label": "Maximum Value",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 1
     },
     {
       "id": 166,
       "label": "Minimum Value",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 1
     },
     {
       "id": 167,
       "label": "Standard Form of Quadratic",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 1
     },
     {
       "id": 168,
       "label": "Vertex Form",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 1
     },
     {
       "id": 169,
       "label": "Graphing Quadratics",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 2
     },
     {
       "id": 170,
       "label": "Quadratic Equation",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 16
     },
     {
       "id": 171,
       "label": "Solving Quadratics by Graphing",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 1
     },
     {
       "id": 172,
       "label": "Solving by Square Roots",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 1
     },
     {
       "id": 173,
       "label": "Completing the Square",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 6
     },
     {
       "id": 174,
       "label": "Quadratic Formula",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 5
     },
     {
       "id": 175,
       "label": "Discriminant",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 4
     },
     {
       "id": 176,
       "label": "Nature of Roots",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 3
     },
     {
       "id": 177,
       "label": "Complex Numbers",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 2
     },
     {
       "id": 178,
       "label": "Imaginary Unit",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 1
     },
     {
       "id": 179,
       "label": "Applications of Quadratics",
-      "group": "DATA"
+      "group": "DATA",
+      "cis": 2
     },
     {
       "id": 180,
       "label": "Projectile Motion",
-      "group": "DATA"
+      "group": "DATA",
+      "cis": 1
     },
     {
       "id": 181,
       "label": "Exponential Function",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 10
     },
     {
       "id": 182,
       "label": "Exponential Growth",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 3
     },
     {
       "id": 183,
       "label": "Exponential Decay",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 2
     },
     {
       "id": 184,
       "label": "Growth Factor",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 1
     },
     {
       "id": 185,
       "label": "Decay Factor",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 1
     },
     {
       "id": 186,
       "label": "Initial Value",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 1
     },
     {
       "id": 187,
       "label": "Compound Interest",
-      "group": "DATA"
+      "group": "DATA",
+      "cis": 1
     },
     {
       "id": 188,
       "label": "Exponential Models",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 1
     },
     {
       "id": 189,
       "label": "Comparing Linear and Exponential",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 1
     },
     {
       "id": 190,
       "label": "Graphing Exponentials",
-      "group": "QUAD"
+      "group": "QUAD",
+      "cis": 1
     },
     {
       "id": 191,
       "label": "Data Set",
-      "group": "DATA"
+      "group": "DATA",
+      "cis": 8
     },
     {
       "id": 192,
       "label": "Scatterplot",
-      "group": "DATA"
+      "group": "DATA",
+      "cis": 7
     },
     {
       "id": 193,
       "label": "Correlation",
-      "group": "DATA"
+      "group": "DATA",
+      "cis": 4
     },
     {
       "id": 194,
       "label": "Positive Correlation",
-      "group": "DATA"
+      "group": "DATA",
+      "cis": 1
     },
     {
       "id": 195,
       "label": "Negative Correlation",
-      "group": "DATA"
+      "group": "DATA",
+      "cis": 1
     },
     {
       "id": 196,
       "label": "No Correlation",
-      "group": "DATA"
+      "group": "DATA",
+      "cis": 1
     },
     {
       "id": 197,
       "label": "Line of Best Fit",
-      "group": "DATA"
+      "group": "DATA",
+      "cis": 2
     },
     {
       "id": 198,
       "label": "Linear Regression",
-      "group": "DATA"
+      "group": "DATA",
+      "cis": 1
     },
     {
       "id": 199,
       "label": "Arithmetic Sequence",
-      "group": "DATA"
+      "group": "DATA",
+      "cis": 2
     },
     {
       "id": 200,
       "label": "Geometric Sequence",
-      "group": "DATA"
+      "group": "DATA",
+      "cis": 1
     }
   ],
   "edges": [
