@@ -1,11 +1,9 @@
 ---
 title: Algebra I
 description: Introduction to Algebra for junior high or high school students with extensive interactive MicroSims.
-image: /img/cover-social-media-preview.png
-og:image: /img/cover-social-media-preview.png
-twitter:image: /img/cover-social-media-preview.png
-social:
-   cards: false
+image: /img/cover.png
+og:image: /img/cover.png
+twitter:image: /img/cover.png
 hide:
     toc
 ---
