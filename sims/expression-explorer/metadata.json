@@ -1,14 +1,18 @@
 {
   "title": "Expression Parts Explorer",
-  "description": "An interactive educational MicroSim that helps students identify and understand the different parts of algebraic expressions including coefficients, variables, constants, and terms through color-coding and interactive exploration.",
-  "subject": "Mathematics - Algebra",
+  "description": "Interactive exploration of algebraic expressions, identifying terms, coefficients, variables, and constants.",
+  "subject": [
+    "Algebra I",
+    "Foundations of Algebra",
+    "Algebraic Expressions"
+  ],
   "topic": "Algebraic Expressions",
-  "creator": "Generated with Claude Code",
-  "date": "2025-11-10",
+  "creator": "Dan McCreary",
+  "date": "2026-10-01",
   "type": "Interactive Simulation",
   "format": "text/html",
   "language": "en",
-  "rights": "CC BY 4.0",
+  "rights": "CC BY-NC-SA 4.0",
   "gradeLevel": "6-8",
   "duration": "15-20 minutes",
   "prerequisites": [
@@ -180,6 +184,54 @@
       "corrective",
       "explanatory"
     ],
-    "interactionStyle": "respond"
+    "interactionStyle": "respond",
+    "teachingStrategy": "Interactive visual modeling with step-by-step exploration and immediate feedback",
+    "keyQuestions": [
+      "What mathematical relationship is illustrated by this model?",
+      "How does changing one variable or parameter influence the outcome?"
+    ],
+    "commonMisconceptions": [
+      "Confusing visual scale or orientation with underlying numeric operations"
+    ],
+    "assessmentOpportunities": [
+      "Explain the displayed relationship in student's own words",
+      "Solve an algebraic problem and confirm result with the interactive model"
+    ]
+  },
+  "library": "p5.js",
+  "identifier": "expression-explorer",
+  "completion_status": "implemented",
+  "canvasHeight": 390,
+  "educational": {
+    "gradeLevel": [
+      "9"
+    ],
+    "subjectArea": "Mathematics",
+    "topic": "Expression Parts Explorer",
+    "learningObjectives": [
+      "Deconstruct algebraic expressions into terms, coefficients, variables, exponents, and constant terms."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Introductory familiarity with variables and algebraic expressions"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.11.10",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 390
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 1.11.10"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
   }
 }

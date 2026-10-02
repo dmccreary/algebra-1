@@ -66,5 +66,13 @@
       "Students explain why the square root of 9 is rational and the square root of 2 is not"
     ]
   },
-  "chapter": "02-number-systems-and-properties"
+  "chapter": "02-number-systems-and-properties",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "library": "p5.js",
+  "identifier": "rational-number-classification-interactive",
+  "completion_status": "implemented",
+  "canvasHeight": 600
 }

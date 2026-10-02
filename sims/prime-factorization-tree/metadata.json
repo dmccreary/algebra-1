@@ -1,7 +1,11 @@
 {
   "title": "Prime Factorization Tree Builder",
-  "description": "Interactive tool for building factor trees to find prime factorization of composite numbers through step-by-step visual construction.",
-  "subject": "Mathematics",
+  "description": "Interactive tree builder decomposing composite numbers into their prime factors step-by-step.",
+  "subject": [
+    "Algebra I",
+    "Foundations of Algebra",
+    "Prime Factorization"
+  ],
   "topic": "Number Theory, Prime Factorization",
   "gradeLevel": "6-9",
   "learningObjectives": [
@@ -29,7 +33,7 @@
   "difficulty": "Medium",
   "interactionType": "Interactive tree construction",
   "technology": "vis-network, JavaScript, HTML5",
-  "library": "vis-network",
+  "library": "p5.js",
   "version": "1.0",
   "dateCreated": "2025-11-17",
   "dateModified": "2025-11-17",
@@ -169,6 +173,58 @@
       "corrective",
       "explanatory"
     ],
-    "interactionStyle": "respond"
+    "interactionStyle": "respond",
+    "teachingStrategy": "Interactive visual modeling with step-by-step exploration and immediate feedback",
+    "keyQuestions": [
+      "What mathematical relationship is illustrated by this model?",
+      "How does changing one variable or parameter influence the outcome?"
+    ],
+    "commonMisconceptions": [
+      "Confusing visual scale or orientation with underlying numeric operations"
+    ],
+    "assessmentOpportunities": [
+      "Explain the displayed relationship in student's own words",
+      "Solve an algebraic problem and confirm result with the interactive model"
+    ]
+  },
+  "creator": "Dan McCreary",
+  "date": "2026-10-01",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "prime-factorization-tree",
+  "completion_status": "implemented",
+  "canvasHeight": 900,
+  "educational": {
+    "gradeLevel": [
+      "9"
+    ],
+    "subjectArea": "Mathematics",
+    "topic": "Prime Factorization Tree Builder",
+    "learningObjectives": [
+      "Construct factor trees to determine prime factorization and express composite numbers in exponential prime factor form."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Introductory familiarity with variables and algebraic expressions"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.11.10",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 900
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 1.11.10"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
   }
 }

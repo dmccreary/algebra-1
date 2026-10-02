@@ -1,7 +1,11 @@
 {
   "title": "Coordinate Plane Explorer",
-  "description": "An interactive MicroSim that helps students understand the coordinate plane structure, including quadrants, axes, origin, and point location through hands-on exploration and quiz mode.",
-  "subject": "Mathematics",
+  "description": "Interactive tool for exploring points, axes, coordinates, and the four quadrants of the Cartesian coordinate system.",
+  "subject": [
+    "Algebra I",
+    "Graphing and Linear Functions",
+    "Coordinate Plane"
+  ],
   "topic": "Coordinate Plane and Cartesian Coordinates",
   "gradeLevel": "6-8",
   "targetAge": "11-14",
@@ -287,6 +291,57 @@
       "corrective",
       "explanatory"
     ],
-    "interactionStyle": "construct"
+    "interactionStyle": "construct",
+    "teachingStrategy": "Interactive visual modeling with step-by-step exploration and immediate feedback",
+    "keyQuestions": [
+      "What mathematical relationship is illustrated by this model?",
+      "How does changing one variable or parameter influence the outcome?"
+    ],
+    "commonMisconceptions": [
+      "Confusing visual scale or orientation with underlying numeric operations"
+    ],
+    "assessmentOpportunities": [
+      "Explain the displayed relationship in student's own words",
+      "Solve an algebraic problem and confirm result with the interactive model"
+    ]
+  },
+  "creator": "Dan McCreary",
+  "date": "2026-10-01",
+  "rights": "CC BY-NC-SA 4.0",
+  "library": "p5.js",
+  "identifier": "coordinate-plane-explorer",
+  "completion_status": "implemented",
+  "canvasHeight": 600,
+  "educational": {
+    "gradeLevel": [
+      "9"
+    ],
+    "subjectArea": "Mathematics",
+    "topic": "Coordinate Plane Explorer",
+    "learningObjectives": [
+      "Identify coordinates (x, y), understand axis orientations, and correctly classify points by quadrant."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Introductory familiarity with variables and algebraic expressions"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.11.10",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 600
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 1.11.10"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
   }
 }

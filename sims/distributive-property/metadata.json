@@ -1,13 +1,17 @@
 {
   "title": "Distributive Property Visualizer",
-  "creator": "Claude Code with microsim-p5 skill",
-  "subject": "Mathematics - Algebra",
-  "description": "An interactive MicroSim that visualizes the distributive property using synchronized area models and step-by-step algebraic expansion. Students can explore how a(b + c) = ab + ac through color-coded visual representations and animated algebraic steps.",
-  "date": "2025-11-18",
+  "creator": "Dan McCreary",
+  "subject": [
+    "Algebra I",
+    "Number Systems and Properties",
+    "Distributive Property"
+  ],
+  "description": "Visual area model demonstrating the distributive property of multiplication over addition with algebraic terms.",
+  "date": "2026-10-01",
   "type": "Interactive Simulation",
   "format": "text/html",
   "language": "en",
-  "rights": "CC BY 4.0",
+  "rights": "CC BY-NC-SA 4.0",
   "educationalLevel": "Grades 6-9",
   "subjectArea": "Mathematics",
   "topic": "Distributive Property, Algebraic Expressions, Area Models",
@@ -32,7 +36,7 @@
   ],
   "technicalMetadata": {
     "framework": "p5.js 1.11.10",
-    "canvasDimensions": "900×760 (initial)",
+    "canvasDimensions": "900\u00d7760 (initial)",
     "responsive": "Width-responsive",
     "dependencies": "p5.js CDN",
     "accessibility": "Screen reader support via describe() function"
@@ -61,7 +65,11 @@
         "type": "dropdown",
         "name": "Problem Type",
         "description": "Select problem difficulty level",
-        "options": ["Numeric", "Single Variable", "Two Variables"],
+        "options": [
+          "Numeric",
+          "Single Variable",
+          "Two Variables"
+        ],
         "default": "Single Variable"
       },
       {
@@ -141,5 +149,55 @@
     "middle school math",
     "interactive learning",
     "animated solution"
-  ]
+  ],
+  "library": "p5.js",
+  "identifier": "distributive-property",
+  "completion_status": "implemented",
+  "canvasHeight": 600,
+  "educational": {
+    "gradeLevel": [
+      "9"
+    ],
+    "subjectArea": "Mathematics",
+    "topic": "Distributive Property Visualizer",
+    "learningObjectives": [
+      "Visualize how multiplying a single term across a sum corresponds to partitioning rectangular geometric areas."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Introductory familiarity with variables and algebraic expressions"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.11.10",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 600
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 1.11.10"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive visual modeling with step-by-step exploration and immediate feedback",
+    "keyQuestions": [
+      "What mathematical relationship is illustrated by this model?",
+      "How does changing one variable or parameter influence the outcome?"
+    ],
+    "commonMisconceptions": [
+      "Confusing visual scale or orientation with underlying numeric operations"
+    ],
+    "assessmentOpportunities": [
+      "Explain the displayed relationship in student's own words",
+      "Solve an algebraic problem and confirm result with the interactive model"
+    ]
+  }
 }

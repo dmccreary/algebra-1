@@ -1,13 +1,13 @@
 {
   "title": "Number Systems Venn Diagram",
-  "description": "An interactive Venn diagram showing the hierarchical relationships between number systems from Natural Numbers to Complex Numbers with hover-based information display.",
+  "description": "Interactive p5.js Venn diagram illustrating nested subsets from natural numbers to complex numbers.",
   "creator": "Dan McCreary",
   "subject": [
-    "Mathematics",
-    "Algebra",
-    "Number Theory"
+    "Algebra I",
+    "Number Systems and Properties",
+    "Number Sets"
   ],
-  "date": "2025-12-04",
+  "date": "2026-10-01",
   "type": "Interactive Simulation",
   "format": "text/html",
   "language": "en",
@@ -118,6 +118,54 @@
     "feedbackType": [
       "explanatory"
     ],
-    "interactionStyle": "respond"
+    "interactionStyle": "respond",
+    "teachingStrategy": "Interactive visual modeling with step-by-step exploration and immediate feedback",
+    "keyQuestions": [
+      "What mathematical relationship is illustrated by this model?",
+      "How does changing one variable or parameter influence the outcome?"
+    ],
+    "commonMisconceptions": [
+      "Confusing visual scale or orientation with underlying numeric operations"
+    ],
+    "assessmentOpportunities": [
+      "Explain the displayed relationship in student's own words",
+      "Solve an algebraic problem and confirm result with the interactive model"
+    ]
+  },
+  "library": "p5.js",
+  "identifier": "number-systems-p5",
+  "completion_status": "implemented",
+  "canvasHeight": 412,
+  "educational": {
+    "gradeLevel": [
+      "9"
+    ],
+    "subjectArea": "Mathematics",
+    "topic": "Number Systems Venn Diagram",
+    "learningObjectives": [
+      "Interactively explore set inclusion relationships among mathematical number sets."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Introductory familiarity with variables and algebraic expressions"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.11.10",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 412
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 1.11.10"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
   }
 }

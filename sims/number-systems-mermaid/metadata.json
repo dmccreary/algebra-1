@@ -1,8 +1,8 @@
 {
   "name": "Number Systems Diagram",
-  "type": "diagram",
+  "type": "Interactive Simulation",
   "version": "1.0.0",
-  "description": "Shows the nesting of number systems with clickable drill-down to sections in the Markdown page.",
+  "description": "Interactive Mermaid flowchart diagram mapping the hierarchical classification and properties of real and complex number systems.",
   "files": [
     "index.md",
     "main.html",
@@ -38,6 +38,65 @@
     "feedbackType": [
       "none"
     ],
-    "interactionStyle": "observe"
+    "interactionStyle": "observe",
+    "teachingStrategy": "Interactive visual modeling with step-by-step exploration and immediate feedback",
+    "keyQuestions": [
+      "What mathematical relationship is illustrated by this model?",
+      "How does changing one variable or parameter influence the outcome?"
+    ],
+    "commonMisconceptions": [
+      "Confusing visual scale or orientation with underlying numeric operations"
+    ],
+    "assessmentOpportunities": [
+      "Explain the displayed relationship in student's own words",
+      "Solve an algebraic problem and confirm result with the interactive model"
+    ]
+  },
+  "title": "Number Systems Diagram",
+  "creator": "Dan McCreary",
+  "subject": [
+    "Algebra I",
+    "Number Systems and Properties",
+    "Hierarchy"
+  ],
+  "date": "2026-10-01",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "library": "Mermaid.js",
+  "identifier": "number-systems-mermaid",
+  "completion_status": "implemented",
+  "canvasHeight": 420,
+  "educational": {
+    "gradeLevel": [
+      "9"
+    ],
+    "subjectArea": "Mathematics",
+    "topic": "Number Systems Diagram",
+    "learningObjectives": [
+      "Understand the structural taxonomy of real and complex numbers through a hierarchical node diagram."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Introductory familiarity with variables and algebraic expressions"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "Mermaid.js",
+    "version": "1.0.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 420
+    },
+    "responsive": true,
+    "dependencies": [
+      "Mermaid.js"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
   }
 }
