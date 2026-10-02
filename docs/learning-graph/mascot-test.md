@@ -163,7 +163,7 @@ swatches above still work without it.
   background-size: 16px 16px;
 }
 .mascot-test-swatch.dark { background: #17131f; }
-.mascot-test-swatch img { display: block; width: 100%; height: 12rem; object-fit: contain; }
+.mascot-test-swatch img { display: block; width: auto; max-width: 100%; height: 12rem; object-fit: contain; }
 .mascot-test-result { margin: .7rem 0 0; font-size: .82rem; line-height: 1.45; }
 .mascot-test-result strong { display: inline-block; margin-right: .25rem; }
 </style>
