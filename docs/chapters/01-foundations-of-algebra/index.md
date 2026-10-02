@@ -94,6 +94,10 @@ You can use any letter as a variable, but these conventions help communicate mea
 
 #### Diagram: Variable Types Interactive Infographic
 
+
+<iframe src="../../sims/variable-types/main.html" width="100%" height="702px" scrolling="no"></iframe>
+[Run Variable Types Interactive Infographic Fullscreen](../../sims/variable-types/main.html)
+
 <details markdown="1">
     <summary>Variable Types Interactive Infographic</summary>
 Type: infographic

@@ -135,6 +135,10 @@ A key property of rational numbers: When you divide the numerator by the denomin
 
 #### Diagram: Rational Number Classification Interactive
 
+
+<iframe src="../../sims/rational-number-classification-interactive/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Rational Number Classification Interactive Fullscreen](../../sims/rational-number-classification-interactive/main.html)
+
 <details markdown="1">
     <summary>Rational Number Classification Interactive</summary>
     Type: infographic

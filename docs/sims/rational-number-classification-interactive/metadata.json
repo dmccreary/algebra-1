@@ -1,0 +1,70 @@
+{
+  "title": "Rational Number Classification Interactive",
+  "creator": "Dan McCreary",
+  "subject": [
+    "Algebra I",
+    "Number Systems and Properties",
+    "Rational Number Classification Interactive"
+  ],
+  "description": "Students decide whether each of 16 numbers is rational, write the rational ones as p/q, and see why with a number line, a zoomed view, a fraction bar, and step-by-step explanations.",
+  "date": "2026-10-01",
+  "educational": {
+    "gradeLevel": [
+      "9"
+    ],
+    "subjectArea": "Mathematics",
+    "topic": "Rational Number Classification Interactive",
+    "learningObjectives": [
+      "Classify a number as rational or not rational using the definition p/q with integers p and q, q not 0.",
+      "Express integers, terminating decimals, repeating decimals, and mixed numbers in the form p/q.",
+      "Explain why terminating and repeating decimals are rational and why non-repeating, non-terminating decimals are not.",
+      "Distinguish a rational approximation such as 22/7 from the irrational number it approximates."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Integers and fractions",
+      "Converting a terminating decimal to a fraction",
+      "The definition of a rational number"
+    ],
+    "standards": [
+      "CCSS.MATH.CONTENT.8.NS.A.1"
+    ]
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.11.10",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 600
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 1.11.10"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Classification practice with immediate feedback, a fraction-writing follow-up, and step-through explanations",
+    "keyQuestions": [
+      "Can this number be written as p/q with integers p and q, q not 0?",
+      "Does the decimal end, repeat, or do neither?",
+      "How can a repeating decimal be turned into a fraction?"
+    ],
+    "commonMisconceptions": [
+      "A decimal that goes on forever is never rational",
+      "Every square root is irrational",
+      "22/7 equals pi",
+      "A decimal with a visible pattern must be rational"
+    ],
+    "assessmentOpportunities": [
+      "First-try classification score",
+      "First-try fraction score",
+      "Students explain why the square root of 9 is rational and the square root of 2 is not"
+    ]
+  },
+  "chapter": "02-number-systems-and-properties"
+}
