@@ -132,7 +132,8 @@
    which otherwise stretches tall poses well past --mascot-size. */
 .md-typeset img.mascot-admonition-img {
   float: left;
-  width: var(--mascot-size);
+  width: auto;
+  max-width: var(--mascot-size);
   height: var(--mascot-size);
   margin: 0 .75rem .25rem 0;
   object-fit: contain;
