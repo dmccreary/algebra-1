@@ -1,6 +1,6 @@
 ---
-title: Function Evaluation Practice MicroSim
-description: Provide interactive practice for evaluating functions at different input values.
+title: "Function Evaluation Practice MicroSim"
+description: "Provide interactive practice for evaluating functions at different input values."
 quality_score: 95
 image: /sims/function-evaluation-practice-microsim/function-evaluation-practice-microsim.png
 og:image: /sims/function-evaluation-practice-microsim/function-evaluation-practice-microsim.png

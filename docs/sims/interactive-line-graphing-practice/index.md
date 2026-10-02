@@ -1,6 +1,6 @@
 ---
-title: Interactive Line Graphing Practice
-description: Practice graphing linear equations using all three methods (intercepts, slope-intercept, table of values).
+title: "Interactive Line Graphing Practice"
+description: "Practice graphing linear equations using all three methods (intercepts, slope-intercept, table of values)."
 quality_score: 95
 image: /sims/interactive-line-graphing-practice/interactive-line-graphing-practice.png
 og:image: /sims/interactive-line-graphing-practice/interactive-line-graphing-practice.png

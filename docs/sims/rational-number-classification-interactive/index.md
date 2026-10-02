@@ -1,6 +1,6 @@
 ---
-title: Rational Number Classification Interactive
-description: Decide whether each number is rational, write the rational ones as p/q, and see why with a number line, a zoomed view, a fraction bar, and step-by-step explanations.
+title: "Rational Number Classification Interactive"
+description: "Decide whether each number is rational, write the rational ones as p/q, and see why with a number line, a zoomed view, a fraction bar, and step-by-step explanations."
 quality_score: 95
 image: /sims/rational-number-classification-interactive/rational-number-classification-interactive.png
 og:image: /sims/rational-number-classification-interactive/rational-number-classification-interactive.png

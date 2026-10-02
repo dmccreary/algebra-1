@@ -1,6 +1,6 @@
 ---
-title: Domain and Range Interactive Visualizer
-description: Help students visualize domain and range for various function types and understand restrictions.
+title: "Domain and Range Interactive Visualizer"
+description: "Help students visualize domain and range for various function types and understand restrictions."
 quality_score: 95
 image: /sims/domain-and-range-interactive-visualizer/domain-and-range-interactive-visualizer.png
 og:image: /sims/domain-and-range-interactive-visualizer/domain-and-range-interactive-visualizer.png

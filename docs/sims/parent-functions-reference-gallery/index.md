@@ -1,6 +1,6 @@
 ---
-title: Parent Functions Reference Gallery
-description: Parent Functions Reference Gallery.
+title: "Parent Functions Reference Gallery"
+description: "Parent Functions Reference Gallery."
 quality_score: 95
 image: /sims/parent-functions-reference-gallery/parent-functions-reference-gallery.png
 og:image: /sims/parent-functions-reference-gallery/parent-functions-reference-gallery.png

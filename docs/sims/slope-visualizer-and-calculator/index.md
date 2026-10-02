@@ -1,6 +1,6 @@
 ---
-title: Slope Visualizer and Calculator
-description: Help students visualize slope, understand rise/run, and calculate slope between two points.
+title: "Slope Visualizer and Calculator"
+description: "Help students visualize slope, understand rise/run, and calculate slope between two points."
 quality_score: 95
 image: /sims/slope-visualizer-and-calculator/slope-visualizer-and-calculator.png
 og:image: /sims/slope-visualizer-and-calculator/slope-visualizer-and-calculator.png

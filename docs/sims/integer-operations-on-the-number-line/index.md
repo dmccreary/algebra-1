@@ -1,6 +1,6 @@
 ---
-title: Integer Operations on the Number Line
-description: Visualize integer addition and subtraction as movements on the number line.
+title: "Integer Operations on the Number Line"
+description: "Visualize integer addition and subtraction as movements on the number line."
 quality_score: 95
 image: /sims/integer-operations-on-the-number-line/integer-operations-on-the-number-line.png
 og:image: /sims/integer-operations-on-the-number-line/integer-operations-on-the-number-line.png

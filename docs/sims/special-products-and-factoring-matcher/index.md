@@ -1,6 +1,6 @@
 ---
-title: Special Products and Factoring Matcher
-description: Recognize special product patterns and connect multiplication to factoring.
+title: "Special Products and Factoring Matcher"
+description: "Recognize special product patterns and connect multiplication to factoring."
 quality_score: 95
 image: /sims/special-products-and-factoring-matcher/special-products-and-factoring-matcher.png
 og:image: /sims/special-products-and-factoring-matcher/special-products-and-factoring-matcher.png

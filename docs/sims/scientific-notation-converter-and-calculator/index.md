@@ -1,6 +1,6 @@
 ---
-title: Scientific Notation Converter and Calculator
-description: Practice converting between standard form and scientific notation, and perform operations with numbers in scientific notation.
+title: "Scientific Notation Converter and Calculator"
+description: "Practice converting between standard form and scientific notation, and perform operations with numbers in scientific notation."
 quality_score: 95
 image: /sims/scientific-notation-converter-and-calculator/scientific-notation-converter-and-calculator.png
 og:image: /sims/scientific-notation-converter-and-calculator/scientific-notation-converter-and-calculator.png

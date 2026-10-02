@@ -1,6 +1,6 @@
 ---
-title: Number Systems Hierarchy Diagram
-description: Visual nested Venn diagram illustrating the relationships between natural numbers, whole numbers, integers, rational numbers, and real numbers.
+title: "Number Systems Hierarchy Diagram"
+description: "Visual nested Venn diagram illustrating the relationships between natural numbers, whole numbers, integers, rational numbers, and real numbers."
 quality_score: 100
 image: /sims/number-system-venn/number-system-venn.png
 og:image: /sims/number-system-venn/number-system-venn.png

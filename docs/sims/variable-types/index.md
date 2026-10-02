@@ -1,6 +1,6 @@
 ---
-title: Variable Types Interactive Infographic
-description: Interactive visual guide showing different types of variables and their uses in real-world contexts with a 2x2 grid layout.
+title: "Variable Types Interactive Infographic"
+description: "Interactive visual guide showing different types of variables and their uses in real-world contexts with a 2x2 grid layout."
 quality_score: 100
 image: /sims/variable-types/variable-types.png
 og:image: /sims/variable-types/variable-types.png

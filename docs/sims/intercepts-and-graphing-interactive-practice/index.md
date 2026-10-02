@@ -1,6 +1,6 @@
 ---
-title: Intercepts and Graphing Interactive Practice
-description: Help students find intercepts algebraically and use them to graph linear equations.
+title: "Intercepts and Graphing Interactive Practice"
+description: "Help students find intercepts algebraically and use them to graph linear equations."
 quality_score: 95
 image: /sims/intercepts-and-graphing-interactive-practice/intercepts-and-graphing-interactive-practice.png
 og:image: /sims/intercepts-and-graphing-interactive-practice/intercepts-and-graphing-interactive-practice.png

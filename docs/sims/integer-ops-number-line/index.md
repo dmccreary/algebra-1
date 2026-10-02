@@ -1,6 +1,6 @@
 ---
-title: Integer Operations on the Number Line
-description: Interactive horizontal number line demonstrating integer addition, subtraction, and directional movement from -10 to +10.
+title: "Integer Operations on the Number Line"
+description: "Interactive horizontal number line demonstrating integer addition, subtraction, and directional movement from -10 to +10."
 quality_score: 100
 image: /sims/integer-ops-number-line/integer-ops-number-line.png
 og:image: /sims/integer-ops-number-line/integer-ops-number-line.png

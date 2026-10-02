@@ -1,6 +1,6 @@
 ---
-title: Relation vs. Function Comparison Diagram
-description: Relation vs. Function Comparison Diagram.
+title: "Relation vs. Function Comparison Diagram"
+description: "Relation vs. Function Comparison Diagram."
 quality_score: 95
 image: /sims/relation-vs-function-comparison-diagram/relation-vs-function-comparison-diagram.png
 og:image: /sims/relation-vs-function-comparison-diagram/relation-vs-function-comparison-diagram.png

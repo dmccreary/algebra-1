@@ -1,6 +1,6 @@
 ---
-title: Number Systems Venn Diagram
-description: Interactive p5.js Venn diagram illustrating nested subsets from natural numbers to complex numbers.
+title: "Number Systems Venn Diagram"
+description: "Interactive p5.js Venn diagram illustrating nested subsets from natural numbers to complex numbers."
 quality_score: 100
 image: /sims/number-systems-p5/number-systems-p5.png
 og:image: /sims/number-systems-p5/number-systems-p5.png

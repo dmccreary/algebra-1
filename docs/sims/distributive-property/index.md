@@ -1,6 +1,6 @@
 ---
-title: Distributive Property Visualizer
-description: Visual area model demonstrating the distributive property of multiplication over addition with algebraic terms.
+title: "Distributive Property Visualizer"
+description: "Visual area model demonstrating the distributive property of multiplication over addition with algebraic terms."
 quality_score: 100
 image: /sims/distributive-property/distributive-property.png
 og:image: /sims/distributive-property/distributive-property.png

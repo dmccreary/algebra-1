@@ -1,6 +1,6 @@
 ---
-title: Exponent Laws Practice Game
-description: Apply the laws of exponents to simplify expressions through interactive practice.
+title: "Exponent Laws Practice Game"
+description: "Apply the laws of exponents to simplify expressions through interactive practice."
 quality_score: 95
 image: /sims/exponent-laws-practice-game/exponent-laws-practice-game.png
 og:image: /sims/exponent-laws-practice-game/exponent-laws-practice-game.png

@@ -1,6 +1,6 @@
 ---
-title: Piecewise Function Interactive Grapher
-description: Help students understand piecewise functions by building, visualizing, and evaluating them interactively.
+title: "Piecewise Function Interactive Grapher"
+description: "Help students understand piecewise functions by building, visualizing, and evaluating them interactively."
 quality_score: 95
 image: /sims/piecewise-function-interactive-grapher/piecewise-function-interactive-grapher.png
 og:image: /sims/piecewise-function-interactive-grapher/piecewise-function-interactive-grapher.png

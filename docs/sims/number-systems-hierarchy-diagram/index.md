@@ -1,6 +1,6 @@
 ---
-title: Number Systems Hierarchy Diagram
-description: Number Systems Hierarchy Diagram.
+title: "Number Systems Hierarchy Diagram"
+description: "Number Systems Hierarchy Diagram."
 quality_score: 95
 image: /sims/number-systems-hierarchy-diagram/number-systems-hierarchy-diagram.png
 og:image: /sims/number-systems-hierarchy-diagram/number-systems-hierarchy-diagram.png

@@ -1,6 +1,6 @@
 ---
-title: Real-World Function Modeling Interactive Scenarios
-description: Apply function concepts to model and solve real-world problems across various contexts.
+title: "Real-World Function Modeling Interactive Scenarios"
+description: "Apply function concepts to model and solve real-world problems across various contexts."
 quality_score: 95
 image: /sims/real-world-function-modeling-interactive-scenarios/real-world-function-modeling-interactive-scenarios.png
 og:image: /sims/real-world-function-modeling-interactive-scenarios/real-world-function-modeling-interactive-scenarios.png

@@ -1,6 +1,6 @@
 ---
-title: Function Transformations Interactive Explorer
-description: Help students visualize and understand function transformations by manipulating parameters and seeing real-time graph changes.
+title: "Function Transformations Interactive Explorer"
+description: "Help students visualize and understand function transformations by manipulating parameters and seeing real-time graph changes."
 quality_score: 95
 image: /sims/function-transformations-interactive-explorer/function-transformations-interactive-explorer.png
 og:image: /sims/function-transformations-interactive-explorer/function-transformations-interactive-explorer.png

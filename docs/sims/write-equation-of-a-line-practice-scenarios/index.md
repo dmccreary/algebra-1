@@ -1,6 +1,6 @@
 ---
-title: Write Equation of a Line Practice Scenarios
-description: Practice writing equations of lines given various types of information.
+title: "Write Equation of a Line Practice Scenarios"
+description: "Practice writing equations of lines given various types of information."
 quality_score: 95
 image: /sims/write-equation-of-a-line-practice-scenarios/write-equation-of-a-line-practice-scenarios.png
 og:image: /sims/write-equation-of-a-line-practice-scenarios/write-equation-of-a-line-practice-scenarios.png

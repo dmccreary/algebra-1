@@ -1,6 +1,6 @@
 ---
-title: Properties Practice Interactive Game
-description: Identify and apply mathematical properties in various equations and expressions.
+title: "Properties Practice Interactive Game"
+description: "Identify and apply mathematical properties in various equations and expressions."
 quality_score: 95
 image: /sims/properties-practice-interactive-game/properties-practice-interactive-game.png
 og:image: /sims/properties-practice-interactive-game/properties-practice-interactive-game.png

@@ -1,6 +1,6 @@
 ---
-title: Special Lines Explorer: Horizontal and Vertical
-description: Help students understand horizontal and vertical lines, their equations, slopes, and special properties.
+title: "Special Lines Explorer: Horizontal and Vertical"
+description: "Help students understand horizontal and vertical lines, their equations, slopes, and special properties."
 quality_score: 95
 image: /sims/special-lines-explorer-horizontal-and-vertical/special-lines-explorer-horizontal-and-vertical.png
 og:image: /sims/special-lines-explorer-horizontal-and-vertical/special-lines-explorer-horizontal-and-vertical.png

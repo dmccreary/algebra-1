@@ -1,6 +1,6 @@
 ---
-title: Radical Simplification Interactive Tool
-description: Learn to simplify radical expressions by identifying and extracting perfect square or perfect cube factors.
+title: "Radical Simplification Interactive Tool"
+description: "Learn to simplify radical expressions by identifying and extracting perfect square or perfect cube factors."
 quality_score: 95
 image: /sims/radical-simplification-interactive-tool/radical-simplification-interactive-tool.png
 og:image: /sims/radical-simplification-interactive-tool/radical-simplification-interactive-tool.png

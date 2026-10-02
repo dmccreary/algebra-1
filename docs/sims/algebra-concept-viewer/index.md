@@ -1,6 +1,6 @@
 ---
-title: Algebra Concept Viewer
-description: Interactive network visualization of Algebra I concepts and their prerequisite dependencies using vis-network.
+title: "Algebra Concept Viewer"
+description: "Interactive network visualization of Algebra I concepts and their prerequisite dependencies using vis-network."
 quality_score: 100
 image: /sims/algebra-concept-viewer/algebra-concept-viewer.png
 og:image: /sims/algebra-concept-viewer/algebra-concept-viewer.png

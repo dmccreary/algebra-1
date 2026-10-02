@@ -1,6 +1,6 @@
 ---
-title: Number Systems Diagram
-description: Interactive Mermaid flowchart diagram mapping the hierarchical classification and properties of real and complex number systems.
+title: "Number Systems Diagram"
+description: "Interactive Mermaid flowchart diagram mapping the hierarchical classification and properties of real and complex number systems."
 quality_score: 100
 image: /sims/number-systems-mermaid/number-systems-mermaid.png
 og:image: /sims/number-systems-mermaid/number-systems-mermaid.png

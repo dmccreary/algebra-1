@@ -1,6 +1,6 @@
 ---
-title: Coordinate Plane Interactive Plotter
-description: Practice plotting points on the coordinate plane and identifying quadrants.
+title: "Coordinate Plane Interactive Plotter"
+description: "Practice plotting points on the coordinate plane and identifying quadrants."
 quality_score: 95
 image: /sims/coordinate-plane-interactive-plotter/coordinate-plane-interactive-plotter.png
 og:image: /sims/coordinate-plane-interactive-plotter/coordinate-plane-interactive-plotter.png

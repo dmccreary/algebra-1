@@ -1,6 +1,6 @@
 ---
-title: Polynomial Classification Interactive Tool
-description: Practice identifying degree, leading coefficient, and standard form of polynomials.
+title: "Polynomial Classification Interactive Tool"
+description: "Practice identifying degree, leading coefficient, and standard form of polynomials."
 quality_score: 95
 image: /sims/polynomial-classification-interactive-tool/polynomial-classification-interactive-tool.png
 og:image: /sims/polynomial-classification-interactive-tool/polynomial-classification-interactive-tool.png

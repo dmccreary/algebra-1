@@ -1,6 +1,6 @@
 ---
-title: Number Types Venn Diagram
-description: Interactive p5.js simulation demonstrating classification and set inclusion across rational and irrational numbers.
+title: "Number Types Venn Diagram"
+description: "Interactive p5.js simulation demonstrating classification and set inclusion across rational and irrational numbers."
 quality_score: 100
 image: /sims/number-types-venn-p5/number-types-venn-p5.png
 og:image: /sims/number-types-venn-p5/number-types-venn-p5.png

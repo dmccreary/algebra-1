@@ -1,6 +1,6 @@
 ---
-title: Linear Equation Forms Converter and Grapher
-description: Help students convert between different forms of linear equations and understand when each form is most useful.
+title: "Linear Equation Forms Converter and Grapher"
+description: "Help students convert between different forms of linear equations and understand when each form is most useful."
 quality_score: 95
 image: /sims/linear-equation-forms-converter-and-grapher/linear-equation-forms-converter-and-grapher.png
 og:image: /sims/linear-equation-forms-converter-and-grapher/linear-equation-forms-converter-and-grapher.png

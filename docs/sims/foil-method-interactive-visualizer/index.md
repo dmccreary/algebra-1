@@ -1,6 +1,6 @@
 ---
-title: FOIL Method Interactive Visualizer
-description: Master the FOIL method through visual representation and practice.
+title: "FOIL Method Interactive Visualizer"
+description: "Master the FOIL method through visual representation and practice."
 quality_score: 95
 image: /sims/foil-method-interactive-visualizer/foil-method-interactive-visualizer.png
 og:image: /sims/foil-method-interactive-visualizer/foil-method-interactive-visualizer.png

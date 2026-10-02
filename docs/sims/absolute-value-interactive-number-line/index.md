@@ -1,6 +1,6 @@
 ---
-title: Absolute Value Interactive Number Line
-description: Understand absolute value as distance from zero using an interactive number line with dynamic measurement.
+title: "Absolute Value Interactive Number Line"
+description: "Understand absolute value as distance from zero using an interactive number line with dynamic measurement."
 quality_score: 95
 image: /sims/absolute-value-interactive-number-line/absolute-value-interactive-number-line.png
 og:image: /sims/absolute-value-interactive-number-line/absolute-value-interactive-number-line.png

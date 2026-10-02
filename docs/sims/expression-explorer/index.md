@@ -1,6 +1,6 @@
 ---
-title: Expression Parts Explorer
-description: Interactive exploration of algebraic expressions, identifying terms, coefficients, variables, and constants.
+title: "Expression Parts Explorer"
+description: "Interactive exploration of algebraic expressions, identifying terms, coefficients, variables, and constants."
 quality_score: 100
 image: /sims/expression-explorer/expression-explorer.png
 og:image: /sims/expression-explorer/expression-explorer.png

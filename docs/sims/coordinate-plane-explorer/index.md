@@ -1,6 +1,6 @@
 ---
-title: Coordinate Plane Explorer
-description: Interactive tool for exploring points, axes, coordinates, and the four quadrants of the Cartesian coordinate system.
+title: "Coordinate Plane Explorer"
+description: "Interactive tool for exploring points, axes, coordinates, and the four quadrants of the Cartesian coordinate system."
 quality_score: 100
 image: /sims/coordinate-plane-explorer/coordinate-plane-explorer.png
 og:image: /sims/coordinate-plane-explorer/coordinate-plane-explorer.png

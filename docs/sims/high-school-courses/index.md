@@ -1,6 +1,6 @@
 ---
-title: High School Courses Dependency Graph
-description: Interactive visualization mapping prerequisite relationships between high school mathematics and science courses.
+title: "High School Courses Dependency Graph"
+description: "Interactive visualization mapping prerequisite relationships between high school mathematics and science courses."
 quality_score: 100
 image: /sims/high-school-courses/high-school-courses.png
 og:image: /sims/high-school-courses/high-school-courses.png

@@ -1,6 +1,6 @@
 ---
-title: Prime Factorization Tree Builder
-description: Interactive tree builder decomposing composite numbers into their prime factors step-by-step.
+title: "Prime Factorization Tree Builder"
+description: "Interactive tree builder decomposing composite numbers into their prime factors step-by-step."
 quality_score: 100
 image: /sims/prime-factorization-tree/prime-factorization-tree.png
 og:image: /sims/prime-factorization-tree/prime-factorization-tree.png

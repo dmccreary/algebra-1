@@ -1,6 +1,6 @@
 ---
-title: Distributive Property Visual Model
-description: Visualize the distributive property using area models (rectangles) to show why a(b + c) = ab + ac.
+title: "Distributive Property Visual Model"
+description: "Visualize the distributive property using area models (rectangles) to show why a(b + c) = ab + ac."
 quality_score: 95
 image: /sims/distributive-property-visual-model/distributive-property-visual-model.png
 og:image: /sims/distributive-property-visual-model/distributive-property-visual-model.png

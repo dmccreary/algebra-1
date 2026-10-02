@@ -1,6 +1,6 @@
 ---
-title: Learning Graph Viewer
-description: Interactive visualization of the complete 200-concept Algebra I learning graph with search, zoom, and dependency traversal.
+title: "Learning Graph Viewer"
+description: "Interactive visualization of the complete 200-concept Algebra I learning graph with search, zoom, and dependency traversal."
 quality_score: 100
 image: /sims/graph-viewer/graph-viewer.png
 og:image: /sims/graph-viewer/graph-viewer.png

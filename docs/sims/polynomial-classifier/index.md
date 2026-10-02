@@ -1,6 +1,6 @@
 ---
-title: Polynomial Classification Game
-description: Interactive classification challenge testing student ability to classify algebraic expressions as monomials, binomials, or trinomials.
+title: "Polynomial Classification Game"
+description: "Interactive classification challenge testing student ability to classify algebraic expressions as monomials, binomials, or trinomials."
 quality_score: 100
 image: /sims/polynomial-classifier/polynomial-classifier.png
 og:image: /sims/polynomial-classifier/polynomial-classifier.png

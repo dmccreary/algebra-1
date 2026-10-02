@@ -1,6 +1,6 @@
 ---
-title: Interactive Coordinate Plane Explorer
-description: Help students understand the structure of the coordinate plane, including quadrants, axes, origin, and point location.
+title: "Interactive Coordinate Plane Explorer"
+description: "Help students understand the structure of the coordinate plane, including quadrants, axes, origin, and point location."
 quality_score: 95
 image: /sims/interactive-coordinate-plane-explorer/interactive-coordinate-plane-explorer.png
 og:image: /sims/interactive-coordinate-plane-explorer/interactive-coordinate-plane-explorer.png

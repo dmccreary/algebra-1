@@ -1,6 +1,6 @@
 ---
-title: Polynomial Classification Game
-description: Identify and classify algebraic expressions as monomials, binomials, trinomials, or non-polynomials.
+title: "Polynomial Classification Game"
+description: "Identify and classify algebraic expressions as monomials, binomials, trinomials, or non-polynomials."
 quality_score: 95
 image: /sims/polynomial-classification-game/polynomial-classification-game.png
 og:image: /sims/polynomial-classification-game/polynomial-classification-game.png
