@@ -2209,6 +2209,11 @@
 </ul>
 <hr />
 <h2 id="introduction-to-polynomial-expressions">Introduction to Polynomial Expressions</h2>
+<div class="admonition mascot-welcome">
+<p class="admonition-title">Welcome to Chapter 4!</p>
+<p><img alt="Sage waving welcome" class="mascot-admonition-img" src="../../img/mascot/welcome.png" />
+Welcome to the world of polynomials! Now that you know the laws of exponents, we'll combine variables and powers to model everything from roller coaster paths to geometric shapes. Let's figure this out!</p>
+</div>
 <p>In Chapter 3, you learned that polynomials are algebraic expressions with variables raised to non-negative integer powers. Now it's time to master working with these expressions. Polynomials are everywhere in mathematics—they model trajectories of projectiles, describe areas and volumes, represent economic growth, and form the foundation of calculus.</p>
 <p>This chapter will teach you to manipulate polynomial expressions fluently. You'll learn to add, subtract, and multiply polynomials, discover elegant patterns like the difference of squares, and develop skills that will serve you throughout higher mathematics. Think of polynomials as the building blocks of algebra—once you can work with them confidently, complex problems become manageable puzzles.</p>
 <h2 id="classifying-polynomials">Classifying Polynomials</h2>
@@ -2264,6 +2269,11 @@
 <li>Standard form: <span class="arithmatex">\(3x^4 - 2x^3 + 5x - 7\)</span></li>
 <li>Not standard form: <span class="arithmatex">\(5x - 2x^3 + 3x^4 - 7\)</span> (same polynomial, wrong order)</li>
 </ul>
+<div class="admonition mascot-tip">
+<p class="admonition-title">Lead with the Highest Power</p>
+<p><img alt="Sage giving a tip" class="mascot-admonition-img" src="../../img/mascot/tip.png" />
+Writing polynomials in standard form makes them much easier to compare and simplify! Scan for the term with the highest exponent first, then count your powers down to the constant.</p>
+</div>
 <h3 id="polynomial-names-by-degree">Polynomial Names by Degree</h3>
 <table>
 <thead>
@@ -2434,6 +2444,11 @@ _______________
 <p><span class="arithmatex">\(= (5x^2 - 2x^2) + (-3x - x) + (4 + 6)\)</span></p>
 <p><span class="arithmatex">\(= 3x^2 - 4x + 10\)</span></p>
 <p><strong>Key insight:</strong> Subtracting is the same as adding the opposite. Change the sign of every term in the second polynomial, then add.</p>
+<div class="admonition mascot-warning">
+<p class="admonition-title">Distribute the Minus Sign to Every Term</p>
+<p><img alt="Sage warning about a pitfall" class="mascot-admonition-img" src="../../img/mascot/warning.png" />
+When subtracting polynomials, the negative sign applies to everything in the second set of parentheses! Forgetting to flip the sign on the middle or last term is the single most common mistake.</p>
+</div>
 <h3 id="multiplying-polynomials">Multiplying Polynomials</h3>
 <p>To <strong>multiply polynomials</strong>, use the distributive property to multiply each term in the first polynomial by each term in the second polynomial, then combine like terms.</p>
 <p><strong>Monomial times polynomial:</strong></p>
@@ -2463,6 +2478,11 @@ _______________
 <li>Last: <span class="arithmatex">\(4 \cdot 5 = 20\)</span></li>
 </ul>
 <p>Result: <span class="arithmatex">\(x^2 + 5x + 4x + 20 = x^2 + 9x + 20\)</span></p>
+<div class="admonition mascot-thinking">
+<p class="admonition-title">FOIL Is Just Double Distribution</p>
+<p><img alt="Sage thinking" class="mascot-admonition-img" src="../../img/mascot/thinking.png" />
+FOIL is a handy mnemonic, but beneath the surface it's simply the distributive property! Every single term in the first binomial must shake hands with every term in the second.</p>
+</div>
 <h4 id="diagram-foil-method-interactive-visualizer">Diagram: FOIL Method Interactive Visualizer</h4>
 <iframe src="../../sims/foil-method-interactive-visualizer/main.html" width="100%" height="602px" scrolling="no"></iframe>
 <p><a href="../../sims/foil-method-interactive-visualizer/main.html">Run FOIL Method Interactive Visualizer Fullscreen</a></p>
@@ -2586,6 +2606,11 @@ Implementation: p5.js with animation, color coding, input validation
 <p><strong>Why this works:</strong></p>
 <p><span class="arithmatex">\((a + b)(a - b) = a^2 - ab + ab - b^2 = a^2 - b^2\)</span></p>
 <p>The middle terms cancel!</p>
+<div class="admonition mascot-tip">
+<p class="admonition-title">The Middle Terms Vanish</p>
+<p><img alt="Sage giving a tip" class="mascot-admonition-img" src="../../img/mascot/tip.png" />
+Whenever you multiply conjugate pairs like <span class="arithmatex">\((x + 5)(x - 5)\)</span>, the outer and inner terms <span class="arithmatex">\(+5x\)</span> and <span class="arithmatex">\(-5x\)</span> cancel to zero. You are always left with just the difference of two squares: <span class="arithmatex">\(x^2 - 25\)</span>!</p>
+</div>
 <p>Examples:</p>
 <ul>
 <li><span class="arithmatex">\((x + 5)(x - 5) = x^2 - 25\)</span></li>
@@ -2665,6 +2690,11 @@ Implementation: p5.js with animation, color coding, input validation
 <li>GCF: <span class="arithmatex">\(5ab\)</span></li>
 <li>Result: <span class="arithmatex">\(5ab(3a + 2b)\)</span></li>
 </ul>
+<div class="admonition mascot-encourage">
+<p class="admonition-title">Factoring Is Just Reverse Distribution</p>
+<p><img alt="Sage offering encouragement" class="mascot-admonition-img" src="../../img/mascot/encouraging.png" />
+If pulling out common factors feels backward at first, think of it as un-multiplying! You can always check your work by distributing the GCF back in—if you match the original polynomial, you're right on target.</p>
+</div>
 <h3 id="prime-polynomial">Prime Polynomial</h3>
 <p>A <strong>prime polynomial</strong> cannot be factored using integer coefficients (other than factoring out a constant).</p>
 <p>Examples of prime polynomials:</p>
@@ -2849,6 +2879,11 @@ Implementation: p5.js with drag-and-drop, card matching logic, animation
 <li><strong>Consecutive integers:</strong> <span class="arithmatex">\(n, n+1, n+2, ...\)</span></li>
 <li>Polynomial expressions model perimeter, area, distance, and many other real quantities</li>
 </ul>
+<div class="admonition mascot-celebration">
+<p class="admonition-title">Polynomial Operations Mastered!</p>
+<p><img alt="Sage celebrating" class="mascot-admonition-img" src="../../img/mascot/celebration.png" />
+You can now classify, add, subtract, and multiply polynomials with confidence! In Chapter 5, we'll turn multiplication inside out to master factoring polynomials completely.</p>
+</div>
 <h2 id="references">References</h2>
 <ol>
 <li><a href="https://www.purplemath.com/modules/polymult2.htm">Multiplying Binomials: "foil" (and a warning)</a> - Purplemath - Detailed lesson on the FOIL method for multiplying two binomials with a critical warning that it only works for two-term expressions, plus vertical multiplication as a more generalizable technique for larger polynomials.</li>

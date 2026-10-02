@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="An introductory course to Algebra covering fundamental concepts and skills with many interactive simulations.">
+        <meta name="description" content="Visual and pixel-level transparency and trim-border checks for all seven Sage mascot poses.">
       
       
         <meta name="author" content="Dan McCreary">
@@ -29,7 +29,7 @@
     
     
       
-        <title>Mascot Style Guide - Algebra I</title>
+        <title>Sage Mascot Image Test - Algebra I</title>
       
     
     
@@ -77,16 +77,16 @@
     
   
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Mascot Style Guide - Algebra I" />
-<meta property="og:description" content="An introductory course to Algebra covering fundamental concepts and skills with many interactive simulations." />
+<meta property="og:title" content="Sage Mascot Image Test - Algebra I" />
+<meta property="og:description" content="Visual and pixel-level transparency and trim-border checks for all seven Sage mascot poses." />
 <meta property="og:image" content="https://dmccreary.github.io/algebra-1/assets/images/social/learning-graph/mascot-test.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:url" content="https://dmccreary.github.io/algebra-1/learning-graph/mascot-test/" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="Mascot Style Guide - Algebra I" />
-<meta property="twitter:description" content="An introductory course to Algebra covering fundamental concepts and skills with many interactive simulations." />
+<meta property="twitter:title" content="Sage Mascot Image Test - Algebra I" />
+<meta property="twitter:description" content="Visual and pixel-level transparency and trim-border checks for all seven Sage mascot poses." />
 <meta property="twitter:image" content="https://dmccreary.github.io/algebra-1/assets/images/social/learning-graph/mascot-test.png" />
 </head>
   
@@ -105,7 +105,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#sage-the-fox-mascot-style-guide" class="md-skip">
+        <a href="#sage-mascot-image-test" class="md-skip">
           Skip to content
         </a>
       
@@ -140,7 +140,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Mascot Style Guide
+              Sage Mascot Image Test
             
           </span>
         </div>
@@ -220,6 +220,8 @@
         <div class="md-main__inner md-grid">
           
             
+              
+                
               
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
@@ -496,6 +498,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mascot Style Guide
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -512,6 +532,36 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mascot-admonitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mascot admonitions
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1302,7 +1352,9 @@
             
             
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -1314,6 +1366,25 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mascot-admonitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mascot admonitions
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1324,6 +1395,8 @@
             <div class="md-content" data-md-component="content">
               
                 
+
+  
 
 
 
@@ -1374,6 +1447,8 @@
               <article class="md-content__inner md-typeset">
                 
                   
+  
+
 
 
   
@@ -1385,45 +1460,248 @@
   
 
 
-<h1 id="sage-the-fox-mascot-style-guide">Sage the Fox Mascot Style Guide</h1>
-<p>This page previews every mascot pose and its intended callout style.</p>
+<h1 id="sage-mascot-image-test">Sage Mascot Image Test</h1>
+<p>This page tests every production mascot PNG in two ways:</p>
+<ol>
+<li>Each image is drawn over checkerboard and dark backgrounds so opaque boxes,
+   halos, and edge contamination are easy to spot.</li>
+<li>A browser-side pixel test checks for an RGBA transparency region, transparent
+   corners, and the <strong>4 px content border</strong> produced by
+   <code>trim-padding-from-image.py</code> (using the script's alpha threshold of 10).</li>
+</ol>
+<div id="mascot-test-summary" class="mascot-test-summary" role="status">
+  Running pixel checks…
+</div>
+
+<div class="mascot-test-grid">
+  <article class="mascot-test-card" data-name="Neutral" data-src="../../img/mascot/neutral.png">
+    <h2>Neutral</h2>
+    <div class="mascot-test-swatches">
+      <div class="mascot-test-swatch checker"><img src="../../img/mascot/neutral.png" alt="Sage in a neutral pose on a checkerboard transparency test"></div>
+      <div class="mascot-test-swatch dark"><img src="../../img/mascot/neutral.png" alt="Sage in a neutral pose on a dark transparency test"></div>
+    </div>
+    <p class="mascot-test-result">Waiting for pixel test…</p>
+  </article>
+
+  <article class="mascot-test-card" data-name="Welcome" data-src="../../img/mascot/welcome.png">
+    <h2>Welcome</h2>
+    <div class="mascot-test-swatches">
+      <div class="mascot-test-swatch checker"><img src="../../img/mascot/welcome.png" alt="Sage waving on a checkerboard transparency test"></div>
+      <div class="mascot-test-swatch dark"><img src="../../img/mascot/welcome.png" alt="Sage waving on a dark transparency test"></div>
+    </div>
+    <p class="mascot-test-result">Waiting for pixel test…</p>
+  </article>
+
+  <article class="mascot-test-card" data-name="Thinking" data-src="../../img/mascot/thinking.png">
+    <h2>Thinking</h2>
+    <div class="mascot-test-swatches">
+      <div class="mascot-test-swatch checker"><img src="../../img/mascot/thinking.png" alt="Sage thinking on a checkerboard transparency test"></div>
+      <div class="mascot-test-swatch dark"><img src="../../img/mascot/thinking.png" alt="Sage thinking on a dark transparency test"></div>
+    </div>
+    <p class="mascot-test-result">Waiting for pixel test…</p>
+  </article>
+
+  <article class="mascot-test-card" data-name="Tip" data-src="../../img/mascot/tip.png">
+    <h2>Tip</h2>
+    <div class="mascot-test-swatches">
+      <div class="mascot-test-swatch checker"><img src="../../img/mascot/tip.png" alt="Sage pointing upward on a checkerboard transparency test"></div>
+      <div class="mascot-test-swatch dark"><img src="../../img/mascot/tip.png" alt="Sage pointing upward on a dark transparency test"></div>
+    </div>
+    <p class="mascot-test-result">Waiting for pixel test…</p>
+  </article>
+
+  <article class="mascot-test-card" data-name="Warning" data-src="../../img/mascot/warning.png">
+    <h2>Warning</h2>
+    <div class="mascot-test-swatches">
+      <div class="mascot-test-swatch checker"><img src="../../img/mascot/warning.png" alt="Sage warning the reader on a checkerboard transparency test"></div>
+      <div class="mascot-test-swatch dark"><img src="../../img/mascot/warning.png" alt="Sage warning the reader on a dark transparency test"></div>
+    </div>
+    <p class="mascot-test-result">Waiting for pixel test…</p>
+  </article>
+
+  <article class="mascot-test-card" data-name="Encouraging" data-src="../../img/mascot/encouraging.png">
+    <h2>Encouraging</h2>
+    <div class="mascot-test-swatches">
+      <div class="mascot-test-swatch checker"><img src="../../img/mascot/encouraging.png" alt="Sage giving a thumbs-up on a checkerboard transparency test"></div>
+      <div class="mascot-test-swatch dark"><img src="../../img/mascot/encouraging.png" alt="Sage giving a thumbs-up on a dark transparency test"></div>
+    </div>
+    <p class="mascot-test-result">Waiting for pixel test…</p>
+  </article>
+
+  <article class="mascot-test-card" data-name="Celebration" data-src="../../img/mascot/celebration.png">
+    <h2>Celebration</h2>
+    <div class="mascot-test-swatches">
+      <div class="mascot-test-swatch checker"><img src="../../img/mascot/celebration.png" alt="Sage celebrating on a checkerboard transparency test"></div>
+      <div class="mascot-test-swatch dark"><img src="../../img/mascot/celebration.png" alt="Sage celebrating on a dark transparency test"></div>
+    </div>
+    <p class="mascot-test-result">Waiting for pixel test…</p>
+  </article>
+</div>
+
+<noscript>
+JavaScript is required for the pixel-level checks. The visual transparency
+swatches above still work without it.
+</noscript>
+
+<h2 id="mascot-admonitions">Mascot admonitions</h2>
 <div class="admonition mascot-neutral">
-<p class="admonition-title">A Note from Sage</p>
-<p><img alt="Sage in a neutral pose" class="mascot-admonition-img" src="../../img/mascot/neutral.png" />
-Use this style for a brief general note that does not need a stronger emotional cue.</p>
+<p class="admonition-title">General Note</p>
+<p><img alt="Sage neutral pose" class="mascot-admonition-img" src="../../img/mascot/neutral.png" />
+This is the neutral style, used for general sidebars or introductions.</p>
 </div>
 <div class="admonition mascot-welcome">
 <p class="admonition-title">Welcome!</p>
 <p><img alt="Sage waving welcome" class="mascot-admonition-img" src="../../img/mascot/welcome.png" />
-Let’s figure this out! We will look for patterns, represent them with symbols, and check what our answers mean.</p>
+This is the welcome style, used at chapter openings.</p>
 </div>
 <div class="admonition mascot-thinking">
 <p class="admonition-title">Key Insight</p>
 <p><img alt="Sage thinking" class="mascot-admonition-img" src="../../img/mascot/thinking.png" />
-An equation is balanced. Whatever operation you perform on one side must also happen on the other side.</p>
+This is the thinking style, used for key concepts.</p>
 </div>
 <div class="admonition mascot-tip">
-<p class="admonition-title">Sage’s Tip</p>
+<p class="admonition-title">Helpful Tip</p>
 <p><img alt="Sage giving a tip" class="mascot-admonition-img" src="../../img/mascot/tip.png" />
-Write one algebra step per line. A little extra space makes sign errors much easier to spot.</p>
+This is the tip style, used for hints and advice.</p>
 </div>
 <div class="admonition mascot-warning">
-<p class="admonition-title">Common Mistake</p>
-<p><img alt="Sage warning about a pitfall" class="mascot-admonition-img" src="../../img/mascot/warning.png" />
-A negative sign applies to every term inside the parentheses. Distribute it before combining like terms.</p>
+<p class="admonition-title">Watch Out!</p>
+<p><img alt="Sage warning" class="mascot-admonition-img" src="../../img/mascot/warning.png" />
+This is the warning style, used for common mistakes.</p>
 </div>
 <div class="admonition mascot-encourage">
 <p class="admonition-title">Keep Going!</p>
-<p><img alt="Sage offering encouragement" class="mascot-admonition-img" src="../../img/mascot/encouraging.png" />
-If the first method feels confusing, draw a model or make a table. Changing representations often reveals the pattern.</p>
+<p><img alt="Sage encouraging" class="mascot-admonition-img" src="../../img/mascot/encouraging.png" />
+This is the encouraging style, used for difficult content.</p>
 </div>
 <div class="admonition mascot-celebration">
 <p class="admonition-title">Well Done!</p>
 <p><img alt="Sage celebrating" class="mascot-admonition-img" src="../../img/mascot/celebration.png" />
-You did more than find an answer—you explained why it works and checked it another way.</p>
+This is the celebration style, used for achievements.</p>
 </div>
+<style>
+.mascot-test-summary {
+  margin: 1rem 0;
+  padding: .75rem 1rem;
+  border: 2px solid #546e7a;
+  border-radius: .4rem;
+  font-weight: 700;
+}
+.mascot-test-summary.pass { border-color: #2e7d32; background: #e8f5e9; color: #1b5e20; }
+.mascot-test-summary.fail { border-color: #c62828; background: #ffebee; color: #b71c1c; }
+.mascot-test-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 1rem;
+}
+.mascot-test-card {
+  margin: 0;
+  padding: .8rem;
+  border: 2px solid #90a4ae;
+  border-radius: .5rem;
+}
+.mascot-test-card.pass { border-color: #43a047; }
+.mascot-test-card.fail { border-color: #e53935; }
+.mascot-test-card h2 { margin: 0 0 .6rem; }
+.mascot-test-swatches { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; }
+.mascot-test-swatch {
+  display: grid;
+  place-items: center;
+  min-height: 13rem;
+  padding: .5rem;
+  overflow: hidden;
+  border: 1px solid rgba(127, 127, 127, .5);
+}
+.mascot-test-swatch.checker {
+  background-color: #fff;
+  background-image:
+    linear-gradient(45deg, #cfd8dc 25%, transparent 25%),
+    linear-gradient(-45deg, #cfd8dc 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #cfd8dc 75%),
+    linear-gradient(-45deg, transparent 75%, #cfd8dc 75%);
+  background-position: 0 0, 0 8px, 8px -8px, -8px 0;
+  background-size: 16px 16px;
+}
+.mascot-test-swatch.dark { background: #17131f; }
+.mascot-test-swatch img { display: block; width: 100%; height: 12rem; object-fit: contain; }
+.mascot-test-result { margin: .7rem 0 0; font-size: .82rem; line-height: 1.45; }
+.mascot-test-result strong { display: inline-block; margin-right: .25rem; }
+</style>
 
+<script>
+(() => {
+  const threshold = 10;
+  const expectedBorder = 4;
+  const cards = [...document.querySelectorAll('.mascot-test-card[data-src]')];
+  const summary = document.getElementById('mascot-test-summary');
 
+  function inspect(card) {
+    return new Promise((resolve) => {
+      const image = new Image();
+      image.onload = () => {
+        const canvas = document.createElement('canvas');
+        canvas.width = image.naturalWidth;
+        canvas.height = image.naturalHeight;
+        const context = canvas.getContext('2d', { willReadFrequently: true });
+        context.drawImage(image, 0, 0);
+        const pixels = context.getImageData(0, 0, canvas.width, canvas.height).data;
+        let minX = canvas.width;
+        let minY = canvas.height;
+        let maxX = -1;
+        let maxY = -1;
+        let transparent = 0;
+
+        for (let y = 0; y < canvas.height; y += 1) {
+          for (let x = 0; x < canvas.width; x += 1) {
+            const alpha = pixels[((y * canvas.width + x) * 4) + 3];
+            if (alpha === 0) transparent += 1;
+            if (alpha > threshold) {
+              minX = Math.min(minX, x);
+              minY = Math.min(minY, y);
+              maxX = Math.max(maxX, x);
+              maxY = Math.max(maxY, y);
+            }
+          }
+        }
+
+        const cornerOffsets = [
+          3,
+          ((canvas.width - 1) * 4) + 3,
+          (((canvas.height - 1) * canvas.width) * 4) + 3,
+          ((((canvas.height - 1) * canvas.width) + canvas.width - 1) * 4) + 3
+        ];
+        const cornersTransparent = cornerOffsets.every((offset) => pixels[offset] === 0);
+        const margins = [minX, minY, canvas.width - 1 - maxX, canvas.height - 1 - maxY];
+        const trimPass = maxX >= 0 && margins.every((margin) => margin === expectedBorder);
+        const alphaPass = transparent > 0 && cornersTransparent;
+        const pass = alphaPass && trimPass;
+        const result = card.querySelector('.mascot-test-result');
+
+        card.classList.add(pass ? 'pass' : 'fail');
+        result.innerHTML = `<strong>${pass ? 'PASS' : 'FAIL'}</strong> ` +
+          `${canvas.width}×${canvas.height}px · RGBA transparency: ${alphaPass ? 'pass' : 'fail'} · ` +
+          `content margins L/T/R/B: ${margins.join('/')}px (${trimPass ? 'pass' : 'expected 4/4/4/4'})`;
+        resolve(pass);
+      };
+      image.onerror = () => {
+        card.classList.add('fail');
+        card.querySelector('.mascot-test-result').innerHTML = '<strong>FAIL</strong> Image could not be loaded.';
+        resolve(false);
+      };
+      image.src = card.dataset.src;
+    });
+  }
+
+  Promise.all(cards.map(inspect)).then((results) => {
+    const passed = results.filter(Boolean).length;
+    const allPass = passed === results.length;
+    summary.classList.add(allPass ? 'pass' : 'fail');
+    summary.textContent = allPass
+      ? `PASS — all ${passed} mascot PNGs have transparency and the expected 4 px trim border.`
+      : `FAIL — ${passed} of ${results.length} mascot PNGs passed. Review the failed cards below.`;
+  });
+})();
+</script>
 
 
 
@@ -1432,7 +1710,14 @@ You did more than find an answer—you explained why it works and checked it ano
 
 
   
+  
 
+
+
+  
+
+
+  
 
 
 
@@ -1455,6 +1740,8 @@ You did more than find an answer—you explained why it works and checked it ano
         <footer class="md-footer">
   
     
+      
+        
       
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         

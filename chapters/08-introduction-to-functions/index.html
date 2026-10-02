@@ -2321,6 +2321,11 @@
 </ul>
 <hr />
 <h2 id="what-is-a-function">What is a Function?</h2>
+<div class="admonition mascot-welcome">
+<p class="admonition-title">Welcome to Chapter 8!</p>
+<p><img alt="Sage waving welcome" class="mascot-admonition-img" src="../../img/mascot/welcome.png" />
+Welcome to functions—one of the grandest ideas in all of mathematics! Think of a function as a trustworthy machine where every unique input gives exactly one output. Let's figure this out together!</p>
+</div>
 <p>A function is one of the most fundamental concepts in algebra and all of mathematics. At its core, a function is a special kind of relationship between two sets of numbers where each input value corresponds to exactly one output value. Think of a function like a machine: you put in a number, the machine processes it according to a specific rule, and you get exactly one number out.</p>
 <p>In everyday life, we encounter functions constantly. When you buy items at a store, the total cost is a function of how many items you purchase. When you drive a car at constant speed, the distance traveled is a function of time. When you set your thermostat, the temperature in your room changes as a function of time.</p>
 <h3 id="relations-vs-functions">Relations vs. Functions</h3>
@@ -2499,6 +2504,11 @@ Implementation notes:
 </details>
 <h2 id="function-notation">Function Notation</h2>
 <p>Mathematicians use a special notation to represent functions efficiently. Instead of always writing "let <span class="arithmatex">\(y\)</span> equal some expression in terms of <span class="arithmatex">\(x\)</span>," we use <strong>function notation</strong>.</p>
+<div class="admonition mascot-warning">
+<p class="admonition-title">Parentheses Don't Always Mean Multiply</p>
+<p><img alt="Sage warning" class="mascot-admonition-img" src="../../img/mascot/warning.png" />
+In function notation, <span class="arithmatex">\(f(x)\)</span> means "the function <span class="arithmatex">\(f\)</span> evaluated at input <span class="arithmatex">\(x\)</span>," not <span class="arithmatex">\(f\)</span> times <span class="arithmatex">\(x\)</span>! Treat the name <span class="arithmatex">\(f\)</span> as a label for the machine, never a number to distribute.</p>
+</div>
 <p>The standard form is: <span class="arithmatex">\(f(x)\)</span></p>
 <p>This is read as "f of x" and means "the function <span class="arithmatex">\(f\)</span> evaluated at <span class="arithmatex">\(x\)</span>" or simply "the output when <span class="arithmatex">\(x\)</span> is the input."</p>
 <p>For example, if <span class="arithmatex">\(f(x) = 2x + 3\)</span>, then:</p>
@@ -2714,6 +2724,11 @@ Implementation notes:
 <p>Two of the most important characteristics of any function are its <strong>domain</strong> and <strong>range</strong>.</p>
 <p>The <strong>domain</strong> of a function is the complete set of all possible input values (<span class="arithmatex">\(x\)</span>-values) for which the function is defined. Think of the domain as "what you're allowed to put into the function."</p>
 <p>The <strong>range</strong> of a function is the complete set of all possible output values (<span class="arithmatex">\(y\)</span>-values) that the function can produce. Think of the range as "what you can get out of the function."</p>
+<div class="admonition mascot-thinking">
+<p class="admonition-title">Inputs and Outputs</p>
+<p><img alt="Sage thinking" class="mascot-admonition-img" src="../../img/mascot/thinking.png" />
+Domain is the set of everything that goes in, while range is everything that comes out. When looking for domain restrictions in algebra, keep an eye out for division by zero and square roots of negative numbers!</p>
+</div>
 <h3 id="determining-domain">Determining Domain</h3>
 <p>For many basic functions, the domain is "all real numbers" (written as <span class="arithmatex">\(\mathbb{R}\)</span> or in interval notation as <span class="arithmatex">\((-\infty, \infty)\)</span>). However, some functions have restrictions on their domains:</p>
 <p><strong>Division restrictions:</strong> Functions cannot have zero in the denominator.</p>
@@ -3153,6 +3168,11 @@ x &amp; \text{if } x \geq 0
 <p>Absolute value functions are useful for modeling situations involving distance, error, or deviation from a target value.</p>
 <h2 id="parent-functions">Parent Functions</h2>
 <p>A <strong>parent function</strong> is the simplest form of a family of functions. It's the "basic" version before any transformations are applied. Understanding parent functions helps you quickly recognize and graph related functions.</p>
+<div class="admonition mascot-tip">
+<p class="admonition-title">Learn the Basic Shapes</p>
+<p><img alt="Sage giving a tip" class="mascot-admonition-img" src="../../img/mascot/tip.png" />
+Parent functions are your algebraic templates! Once you memorize the V-shape of <span class="arithmatex">\(|x|\)</span> or the parabola of <span class="arithmatex">\(x^2\)</span>, graphing any shifted or reflected version becomes simple.</p>
+</div>
 <p>Here are the key parent functions you should know:</p>
 <table>
 <thead>
@@ -3412,6 +3432,11 @@ Implementation: HTML/CSS/JavaScript with SVG or Canvas for graphs
 <li><span class="arithmatex">\(g(x) = f(x + h)\)</span> shifts the graph <strong>left</strong> by <span class="arithmatex">\(h\)</span> units if <span class="arithmatex">\(h &gt; 0\)</span></li>
 </ul>
 <p><strong>Important:</strong> Horizontal shifts can be counterintuitive! <span class="arithmatex">\(f(x - 3)\)</span> shifts right by 3, not left.</p>
+<div class="admonition mascot-encourage">
+<p class="admonition-title">Watch Out for Horizontal Shifts</p>
+<p><img alt="Sage encouraging" class="mascot-admonition-img" src="../../img/mascot/encouraging.png" />
+Inside the parentheses, horizontal shifts move in the opposite direction of the sign: <span class="arithmatex">\((x - 3)\)</span> shifts right by 3! Don't let that trick you—with a little practice, it quickly becomes second nature.</p>
+</div>
 <p><strong>Examples with the parent function <span class="arithmatex">\(f(x) = x^2\)</span>:</strong></p>
 <ul>
 <li><span class="arithmatex">\(g(x) = x^2 + 4\)</span> shifts the parabola up 4 units (vertex moves from <span class="arithmatex">\((0,0)\)</span> to <span class="arithmatex">\((0,4)\)</span>)</li>
@@ -3699,6 +3724,11 @@ Implementation notes:
 <p>We'll explore both of these important function types in much greater depth in Chapters 9 and 11.</p>
 <h2 id="real-world-applications-of-functions">Real-World Applications of Functions</h2>
 <p>Functions are not just abstract mathematical concepts—they model countless real-world relationships. Here are some examples:</p>
+<div class="admonition mascot-thinking">
+<p class="admonition-title">Functions Model Our World</p>
+<p><img alt="Sage thinking" class="mascot-admonition-img" src="../../img/mascot/thinking.png" />
+Whenever one quantity determines another, a function is at work. Identifying which variable is independent and which is dependent is the key to setting up any real-world model!</p>
+</div>
 <p><strong>Economics and Business:</strong></p>
 <ul>
 <li>Cost functions: <span class="arithmatex">\(C(n) = 50 + 3n\)</span> (total cost for <span class="arithmatex">\(n\)</span> items with fixed cost $50 and variable cost $3 per item)</li>
@@ -4032,6 +4062,11 @@ Implementation notes:
 </ul>
 <p>Functions provide a powerful framework for modeling relationships in the real world, from business applications to scientific phenomena. As you continue through Algebra I, you'll deepen your understanding of specific function types and develop expertise in using functions to solve complex problems.</p>
 <p>In the next chapter, we'll explore graphing in detail and focus extensively on linear functions—their properties, representations, and applications.</p>
+<div class="admonition mascot-celebration">
+<p class="admonition-title">You Conquered Functions!</p>
+<p><img alt="Sage celebrating" class="mascot-admonition-img" src="../../img/mascot/celebration.png" />
+Sensational job! You can now read function notation, find domains and ranges, and transform parent graphs across the coordinate plane. You have laid the bedrock for all advanced mathematics!</p>
+</div>
 <h2 id="references">References</h2>
 <ol>
 <li><a href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:functions/x2f8bb11595b61c86:introduction-to-the-domain-and-range-of-a-function/e/domain_and_range_0.5">Introduction to the domain and range of a function</a> - Khan Academy - Interactive exercises helping students understand domain and range concepts through graphs and function notation, with immediate feedback on practice problems.</li>

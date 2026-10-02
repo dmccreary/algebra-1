@@ -2406,6 +2406,11 @@
 </ul>
 <hr />
 <h2 id="the-coordinate-plane">The Coordinate Plane</h2>
+<div class="admonition mascot-welcome">
+<p class="admonition-title">Welcome to Chapter 9!</p>
+<p><img alt="Sage waving welcome" class="mascot-admonition-img" src="../../img/mascot/welcome.png" />
+Welcome to graphing linear functions! We are going to connect numbers and shapes by turning algebraic equations into beautiful geometric lines. Let's figure this out together!</p>
+</div>
 <p>The <strong>coordinate plane</strong> (also called the Cartesian plane, named after mathematician René Descartes) is one of the most powerful tools in mathematics. It provides a visual way to represent relationships between numbers and allows us to translate algebraic equations into geometric pictures.</p>
 <p>Think of the coordinate plane as a map for mathematics. Just as you can locate any place on Earth using latitude and longitude, you can locate any point on the coordinate plane using two numbers called coordinates.</p>
 <h3 id="structure-of-the-coordinate-plane">Structure of the Coordinate Plane</h3>
@@ -2822,6 +2827,11 @@ Implementation notes:
 <li>Run is positive if you move right</li>
 <li>Run is negative if you move left (though we usually move left to right)</li>
 </ul>
+<div class="admonition mascot-warning">
+<p class="admonition-title">Rise Over Run, Not Run Over Rise</p>
+<p><img alt="Sage warning" class="mascot-admonition-img" src="../../img/mascot/warning.png" />
+Always put the change in <span class="arithmatex">\(y\)</span> on top and the change in <span class="arithmatex">\(x\)</span> on the bottom! Flipping the ratio upside-down into <span class="arithmatex">\(\frac{\Delta x}{\Delta y}\)</span> is an easy trap to fall into when working fast.</p>
+</div>
 <h4 id="slope-formula">Slope Formula</h4>
 <div class="arithmatex">\[m = \frac{\text{rise}}{\text{run}} = \frac{\text{change in } y}{\text{change in } x} = \frac{y_2 - y_1}{x_2 - x_1}\]</div>
 <p>where:</p>
@@ -3077,6 +3087,11 @@ Implementation notes:
 <li>Slope: <span class="arithmatex">\(m = 3\)</span> (line rises 3 units for every 1 unit right)</li>
 <li>Y-intercept: <span class="arithmatex">\(b = -4\)</span> (line crosses y-axis at <span class="arithmatex">\((0, -4)\)</span>)</li>
 </ul>
+<div class="admonition mascot-tip">
+<p class="admonition-title">Begin with 'b', Move with 'm'</p>
+<p><img alt="Sage giving a tip" class="mascot-admonition-img" src="../../img/mascot/tip.png" />
+When graphing <span class="arithmatex">\(y = mx + b\)</span>, think "Begin with <span class="arithmatex">\(b\)</span> and Move with <span class="arithmatex">\(m\)</span>!" Plot the y-intercept <span class="arithmatex">\((0, b)\)</span> first as your home base, then count the rise and run to your next point.</p>
+</div>
 <p><strong>Graphing from slope-intercept form:</strong></p>
 <ol>
 <li>Plot the y-intercept <span class="arithmatex">\((0, b)\)</span></li>
@@ -3421,6 +3436,11 @@ Implementation notes:
 </details>
 <h2 id="special-cases-horizontal-and-vertical-lines">Special Cases: Horizontal and Vertical Lines</h2>
 <p>Two special types of lines deserve extra attention because they behave differently from typical diagonal lines.</p>
+<div class="admonition mascot-thinking">
+<p class="admonition-title">Zero vs. Undefined: Think of Skiing</p>
+<p><img alt="Sage thinking" class="mascot-admonition-img" src="../../img/mascot/thinking.png" />
+A horizontal line is cross-country skiing—zero effort, zero slope! A vertical line is dropping off a cliff—impossible to ski, and mathematically undefined because dividing by zero is forbidden.</p>
+</div>
 <h3 id="horizontal-lines">Horizontal Lines</h3>
 <p>A <strong>horizontal line</strong> is perfectly flat—it runs parallel to the x-axis. All points on a horizontal line have the same <span class="arithmatex">\(y\)</span>-coordinate.</p>
 <p><strong>Equation form:</strong> <span class="arithmatex">\(y = b\)</span> (where <span class="arithmatex">\(b\)</span> is a constant)</p>
@@ -3763,6 +3783,11 @@ Implementation notes:
 </details>
 <h2 id="graphing-linear-equations">Graphing Linear Equations</h2>
 <p>Now that you understand slope, intercepts, and the forms of linear equations, let's put it all together and learn efficient methods for graphing lines.</p>
+<div class="admonition mascot-encourage">
+<p class="admonition-title">Pick the Best Graphing Tool</p>
+<p><img alt="Sage encouraging" class="mascot-admonition-img" src="../../img/mascot/encouraging.png" />
+Different forms have different strengths! Use intercepts for standard form <span class="arithmatex">\(Ax + By = C\)</span>, and use slope for <span class="arithmatex">\(y = mx + b\)</span>. Choosing the easiest path saves time and prevents calculation slips.</p>
+</div>
 <h3 id="method-1-using-intercepts">Method 1: Using Intercepts</h3>
 <p>This method works best when intercepts are easy to find (integer values).</p>
 <p><strong>Steps:</strong>
@@ -4164,6 +4189,11 @@ Implementation notes:
 </details>
 <h2 id="writing-equations-of-lines">Writing Equations of Lines</h2>
 <p>Now that you can graph lines, let's work in reverse: given information about a line, how do you write its equation?</p>
+<div class="admonition mascot-thinking">
+<p class="admonition-title">Point-Slope Form is Your Secret Weapon</p>
+<p><img alt="Sage thinking" class="mascot-admonition-img" src="../../img/mascot/thinking.png" />
+Whenever you know a point and a slope, point-slope form <span class="arithmatex">\(y - y_1 = m(x - x_1)\)</span> gets you straight to the equation without guessing. From there, a quick distribute and add brings you to slope-intercept form!</p>
+</div>
 <h3 id="given-slope-and-y-intercept">Given Slope and Y-Intercept</h3>
 <p>This is the easiest case—just plug the values directly into slope-intercept form.</p>
 <p><strong>Example:</strong> Write an equation for a line with slope <span class="arithmatex">\(m = 4\)</span> and y-intercept <span class="arithmatex">\(b = -3\)</span>.</p>
@@ -4677,6 +4707,11 @@ Implementation notes:
 </ul>
 <p>Linear functions are everywhere in the real world, from pricing models to scientific formulas to financial planning. Mastering these concepts gives you powerful tools for modeling and solving real-world problems.</p>
 <p>In the next chapter, we'll extend these ideas to work with <strong>systems</strong> of linear equations—situations involving two or more linear relationships simultaneously.</p>
+<div class="admonition mascot-celebration">
+<p class="admonition-title">You Mastered Linear Graphs!</p>
+<p><img alt="Sage celebrating" class="mascot-admonition-img" src="../../img/mascot/celebration.png" />
+Fantastic achievement! You have mastered the coordinate plane, computed slopes, and translated effortlessly between equations and their visual graphs. You are ready to tackle systems of lines!</p>
+</div>
 <h2 id="references">References</h2>
 <ol>
 <li><a href="https://www.purplemath.com/modules/strtlneq.htm">Straight-Line Equations: Slope-Intercept Form</a> - Purplemath - Comprehensive tutorial on the slope-intercept form y = mx + b, explaining how to read slope and intercept directly from the equation and demonstrating graphing techniques with worked examples.</li>

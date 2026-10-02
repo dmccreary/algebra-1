@@ -2845,6 +2845,18 @@
 <p>This chapter assumes only the prerequisites listed in the <a href="../../course-description/">course description</a>.</p>
 <hr />
 <h2 id="introduction-to-algebra">Introduction to Algebra</h2>
+<div class="admonition mascot-welcome">
+<p class="admonition-title">Meet Sage!</p>
+<p><img alt="Sage waving welcome" class="mascot-admonition-img" src="../../img/mascot/welcome.png" />
+Hi! I'm Sage the Fox, your guide through Algebra I. Whenever you see me in this book, here is what I'm doing:
+1. <strong>Welcome</strong>: Previewing what you'll discover in a chapter and why it matters.
+2. <strong>Thinking</strong>: Highlighting a key insight or a powerful mental model.
+3. <strong>Tip</strong>: Sharing a helpful shortcut, heuristic, or sanity check.
+4. <strong>Warning</strong>: Flagging common pitfalls and sign errors before they trip you up.
+5. <strong>Encourage</strong>: Supporting you through tough concepts with practical problem-solving strategies.
+6. <strong>Celebration</strong>: Celebrating genuine milestones and summarizing what you've mastered.
+If I'm not doing one of those six things, I'm not in the chapter. Let's figure this out together!</p>
+</div>
 <p>Algebra is the language of mathematics. Just as you learned to read and write English to communicate ideas, you'll learn to read and write algebraic expressions to communicate mathematical relationships. In this chapter, you'll discover the fundamental building blocks that make algebra work.</p>
 <p>Think of algebra like learning a new language. First, you need to understand the alphabet and basic words before you can write sentences. In algebra, numbers, variables, and operations are like the alphabet. Once you understand these basics, you can build more complex expressions and solve real-world problems.</p>
 <h3 id="what-makes-algebra-different">What Makes Algebra Different?</h3>
@@ -3020,6 +3032,11 @@ Color scheme: Use distinct colors for each category as specified above</p>
 <li>When you see <span class="arithmatex">\(x\)</span> by itself, the coefficient is 1 (we write <span class="arithmatex">\(x\)</span> instead of <span class="arithmatex">\(1x\)</span>)</li>
 <li>When you see <span class="arithmatex">\(-x\)</span>, the coefficient is -1 (we write <span class="arithmatex">\(-x\)</span> instead of <span class="arithmatex">\(-1x\)</span>)</li>
 </ul>
+<div class="admonition mascot-warning">
+<p class="admonition-title">The Invisible 1</p>
+<p><img alt="Sage warning about a pitfall" class="mascot-admonition-img" src="../../img/mascot/warning.png" />
+Watch out for variables without a visible number in front! A lone <span class="arithmatex">\(-x\)</span> means <span class="arithmatex">\(-1x\)</span>, not <span class="arithmatex">\(0x\)</span>. Forgetting that negative one is one of the most common sign traps in algebra.</p>
+</div>
 <p>Understanding coefficients helps you combine like terms and solve equations efficiently.</p>
 <h2 id="terms-building-blocks-of-expressions">Terms: Building Blocks of Expressions</h2>
 <p>A <strong>term</strong> is a single number, variable, or the product of numbers and variables. Terms are separated by plus (+) or minus (-) signs.</p>
@@ -3206,6 +3223,11 @@ Color scheme: Use distinct colors for each category as specified above</p>
 <li><strong>Correct approach</strong> (PEMDAS): <span class="arithmatex">\(4 \times 2 = 8\)</span>, then <span class="arithmatex">\(3 + 8 = 11\)</span></li>
 </ul>
 <p>The order of operations ensures everyone gets the same answer!</p>
+<div class="admonition mascot-tip">
+<p class="admonition-title">Sage's PEMDAS Tip</p>
+<p><img alt="Sage giving a tip" class="mascot-admonition-img" src="../../img/mascot/tip.png" />
+Remember that multiplication and division have equal priority! You don't multiply before dividing—work them strictly from left to right as they appear.</p>
+</div>
 <h3 id="examples-of-order-of-operations">Examples of Order of Operations</h3>
 <p>Let's evaluate: <span class="arithmatex">\(2 + 3^2 \times 4 - 5\)</span></p>
 <p>Following PEMDAS:</p>
@@ -3328,6 +3350,11 @@ Color scheme: Use distinct colors for each category as specified above</p>
 <p><strong>Check</strong>:
 <span class="arithmatex">\(9 = 9\)</span> ✓ True!</p>
 <p>Yes, <span class="arithmatex">\(x = 6\)</span> is a solution.</p>
+<div class="admonition mascot-thinking">
+<p class="admonition-title">Parentheses Are Your Armor</p>
+<p><img alt="Sage thinking" class="mascot-admonition-img" src="../../img/mascot/thinking.png" />
+Whenever you substitute a number into an expression—especially a negative value—wrap it in parentheses first. Writing <span class="arithmatex">\((-3)^2 = 9\)</span> protects the negative sign from being separated into <span class="arithmatex">\(-3^2 = -9\)</span>.</p>
+</div>
 <h3 id="substitution-with-formulas">Substitution with Formulas</h3>
 <p>The area of a triangle is given by the formula:</p>
 <h4 id="area-of-a-triangle">Area of a Triangle</h4>
@@ -3360,6 +3387,11 @@ Color scheme: Use distinct colors for each category as specified above</p>
 - <span class="arithmatex">\(2xy\)</span> and <span class="arithmatex">\(2x\)</span> (different variable combinations)</p>
 <h3 id="why-like-terms-matter">Why Like Terms Matter</h3>
 <p>You can only combine terms that are like terms. Think of it like fruit: you can add 3 apples + 5 apples = 8 apples, but you can't directly combine 3 apples + 5 oranges into a single number of one fruit.</p>
+<div class="admonition mascot-thinking">
+<p class="admonition-title">Matching Powers Matter</p>
+<p><img alt="Sage thinking" class="mascot-admonition-img" src="../../img/mascot/thinking.png" />
+Notice that <span class="arithmatex">\(3x\)</span> and <span class="arithmatex">\(3x^2\)</span> share the letter <span class="arithmatex">\(x\)</span>, but they are not like terms because their powers differ. You can only combine terms whose variables and exponents match completely.</p>
+</div>
 <h2 id="combining-like-terms-simplifying-by-adding">Combining Like Terms: Simplifying by Adding</h2>
 <p><strong>Combining like terms</strong> means adding or subtracting the coefficients of like terms while keeping the variable part unchanged. This is one of the most important skills in algebra for simplifying expressions.</p>
 <h3 id="how-to-combine-like-terms">How to Combine Like Terms</h3>
@@ -3525,6 +3557,11 @@ Color scheme: Use distinct colors for each category as specified above</p>
 <p>(Note: <span class="arithmatex">\(-2 \times (-5) = +10\)</span>)</p>
 <p><strong>Example 3</strong>: Expand <span class="arithmatex">\(x(x + 7)\)</span></p>
 <p><span class="arithmatex">\(x(x + 7) = x^2 + 7x\)</span></p>
+<div class="admonition mascot-encourage">
+<p class="admonition-title">Sign Tracking Takes Practice</p>
+<p><img alt="Sage offering encouragement" class="mascot-admonition-img" src="../../img/mascot/encouraging.png" />
+If distributing negative signs feels tricky at first, that is completely normal! Draw small arrows from the outside factor to each inside term and calculate the signs one step at a time.</p>
+</div>
 <h3 id="when-to-expand-vs-factor">When to Expand vs. Factor</h3>
 <ul>
 <li><strong>Expand</strong> when you need to combine like terms or simplify further</li>
@@ -3851,6 +3888,11 @@ Color scheme: Use distinct colors for each category as specified above</p>
 <li>Every algebraic concept builds on the ones before it—master the basics first!</li>
 </ul>
 <hr />
+<div class="admonition mascot-celebration">
+<p class="admonition-title">Foundations Mastered!</p>
+<p><img alt="Sage celebrating" class="mascot-admonition-img" src="../../img/mascot/celebration.png" />
+You've built the complete vocabulary of algebra—variables, expressions, like terms, and PEMDAS! In Chapter 2, we'll see how number systems and field properties keep every equation in balance.</p>
+</div>
 <p>Continue to the next chapter to begin solving equations and applying these algebraic foundations to real problems.</p>
 <h2 id="references">References</h2>
 <ol>
