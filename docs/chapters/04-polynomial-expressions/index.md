@@ -39,6 +39,10 @@ This chapter builds on concepts from:
 
 ## Introduction to Polynomial Expressions
 
+!!! mascot-welcome "Welcome to Chapter 4!"
+    ![Sage waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    Welcome to the world of polynomials! Now that you know the laws of exponents, we'll combine variables and powers to model everything from roller coaster paths to geometric shapes. Let's figure this out!
+
 In Chapter 3, you learned that polynomials are algebraic expressions with variables raised to non-negative integer powers. Now it's time to master working with these expressions. Polynomials are everywhere in mathematics—they model trajectories of projectiles, describe areas and volumes, represent economic growth, and form the foundation of calculus.
 
 This chapter will teach you to manipulate polynomial expressions fluently. You'll learn to add, subtract, and multiply polynomials, discover elegant patterns like the difference of squares, and develop skills that will serve you throughout higher mathematics. Think of polynomials as the building blocks of algebra—once you can work with them confidently, complex problems become manageable puzzles.
@@ -74,6 +78,10 @@ Examples:
 
 - Standard form: $3x^4 - 2x^3 + 5x - 7$
 - Not standard form: $5x - 2x^3 + 3x^4 - 7$ (same polynomial, wrong order)
+
+!!! mascot-tip "Lead with the Highest Power"
+    ![Sage giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    Writing polynomials in standard form makes them much easier to compare and simplify! Scan for the term with the highest exponent first, then count your powers down to the constant.
 
 ### Polynomial Names by Degree
 
@@ -188,6 +196,10 @@ $= 3x^2 - 4x + 10$
 
 **Key insight:** Subtracting is the same as adding the opposite. Change the sign of every term in the second polynomial, then add.
 
+!!! mascot-warning "Distribute the Minus Sign to Every Term"
+    ![Sage warning about a pitfall](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    When subtracting polynomials, the negative sign applies to everything in the second set of parentheses! Forgetting to flip the sign on the middle or last term is the single most common mistake.
+
 ### Multiplying Polynomials
 
 To **multiply polynomials**, use the distributive property to multiply each term in the first polynomial by each term in the second polynomial, then combine like terms.
@@ -231,6 +243,10 @@ Example: $(x + 4)(x + 5)$
 - Last: $4 \cdot 5 = 20$
 
 Result: $x^2 + 5x + 4x + 20 = x^2 + 9x + 20$
+
+!!! mascot-thinking "FOIL Is Just Double Distribution"
+    ![Sage thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    FOIL is a handy mnemonic, but beneath the surface it's simply the distributive property! Every single term in the first binomial must shake hands with every term in the second.
 
 #### Diagram: FOIL Method Interactive Visualizer
 
@@ -314,6 +330,10 @@ $(a + b)(a - b) = a^2 - ab + ab - b^2 = a^2 - b^2$
 
 The middle terms cancel!
 
+!!! mascot-tip "The Middle Terms Vanish"
+    ![Sage giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    Whenever you multiply conjugate pairs like $(x + 5)(x - 5)$, the outer and inner terms $+5x$ and $-5x$ cancel to zero. You are always left with just the difference of two squares: $x^2 - 25$!
+
 Examples:
 
 - $(x + 5)(x - 5) = x^2 - 25$
@@ -385,6 +405,10 @@ Examples:
 
 - GCF: $5ab$
 - Result: $5ab(3a + 2b)$
+
+!!! mascot-encourage "Factoring Is Just Reverse Distribution"
+    ![Sage offering encouragement](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
+    If pulling out common factors feels backward at first, think of it as un-multiplying! You can always check your work by distributing the GCF back in—if you match the original polynomial, you're right on target.
 
 ### Prime Polynomial
 
@@ -547,6 +571,10 @@ $d = rt = (x + 10) \cdot 3 = 3x + 30$ miles
 - **Difference of cubes:** $a^3 - b^3 = (a-b)(a^2+ab+b^2)$
 - **Consecutive integers:** $n, n+1, n+2, ...$
 - Polynomial expressions model perimeter, area, distance, and many other real quantities
+
+!!! mascot-celebration "Polynomial Operations Mastered!"
+    ![Sage celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
+    You can now classify, add, subtract, and multiply polynomials with confidence! In Chapter 5, we'll turn multiplication inside out to master factoring polynomials completely.
 
 ## References
 

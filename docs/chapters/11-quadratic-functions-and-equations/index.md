@@ -44,6 +44,10 @@ This chapter builds on concepts from:
 
 ## Introduction to Quadratic Functions
 
+!!! mascot-welcome "Welcome to Chapter 11!"
+    ![Sage waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    Welcome to quadratic functions! We are moving beyond straight lines into graceful, curving parabolas that describe everything from thrown balls to satellite dishes. Let's figure this out together!
+
 In previous chapters, you worked extensively with linear functions, which produce straight-line graphs. Now we'll explore **quadratic functions**, which produce U-shaped curves called **parabolas**.
 
 A **quadratic function** has the form:
@@ -103,6 +107,10 @@ The magnitude of $|a|$ affects how "wide" or "narrow" the parabola is:
 ## Forms of Quadratic Functions
 
 Quadratic functions can be written in different forms, each revealing different information about the parabola.
+
+!!! mascot-thinking "Pick the Right Quadratic Form"
+    ![Sage thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    Standard form gives you the y-intercept instantly, while vertex form reveals the turning point at a glance. Recognizing which form you need will save you multiple conversion steps!
 
 ### Standard Form
 
@@ -292,6 +300,10 @@ When a quadratic equation has the form $x^2 = k$ or $(x - h)^2 = k$, we can solv
 
 **Square Root Property:** If $x^2 = k$, then $x = \pm\sqrt{k}$
 
+!!! mascot-warning "Don't Forget the Plus-or-Minus!"
+    ![Sage warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    Whenever you take the square root of both sides to solve an equation, write $\pm$ immediately! Both $(5)^2$ and $(-5)^2$ equal 25, so leaving out the negative solution loses half your answers.
+
 **Example 1:** Solve $x^2 = 49$
 
 $x = \pm\sqrt{49} = \pm 7$
@@ -409,6 +421,10 @@ $x^2 - 6x + 9 = -5 + 9$
 
 The **quadratic formula** is a universal method that works for any quadratic equation. It's derived by completing the square on the general form $ax^2 + bx + c = 0$.
 
+!!! mascot-tip "The Universal Solver"
+    ![Sage giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    Factoring is fast when numbers are friendly, but the quadratic formula never fails. When a quadratic resists factoring or has awkward fractions, plug straight into the formula!
+
 ### The Quadratic Formula
 
 $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
@@ -461,6 +477,10 @@ $$\Delta = b^2 - 4ac$$
 
 The discriminant determines the **nature of the roots** (solutions).
 
+!!! mascot-thinking "Predict Before You Calculate"
+    ![Sage thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    The discriminant $b^2 - 4ac$ acts like a preview window into your solutions. Checking its sign tells you right away whether the parabola crosses the x-axis twice, grazes it once, or floats above it!
+
 ### Nature of Roots
 
 | Discriminant | Nature of Roots | Graph |
@@ -488,6 +508,10 @@ $\Delta = (2)^2 - 4(1)(5) = 4 - 20 = -16 < 0$
 ## Complex Numbers and the Imaginary Unit
 
 When the discriminant is negative, the square root of a negative number appears in the quadratic formula. This leads to **complex numbers**.
+
+!!! mascot-encourage "New Numbers Solve Old Problems"
+    ![Sage encouraging](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
+    For centuries mathematicians thought $\sqrt{-1}$ was impossible, until they invented the imaginary unit $i$ to unlock it! Embracing $i$ ensures every single quadratic equation has a complete set of solutions.
 
 ### The Imaginary Unit
 
@@ -642,6 +666,10 @@ In this chapter, you've learned about quadratic functions and equations:
 - Optimization problems
 
 Quadratic functions and equations are fundamental in mathematics, physics, engineering, and many other fields where relationships involve squares or curved motion.
+
+!!! mascot-celebration "You Mastered Quadratics!"
+    ![Sage celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
+    Magnificent work! You can now analyze parabolas, solve quadratic equations with five distinct methods, and even venture into complex numbers. You have reached a major milestone in high school algebra!
 
 ## References
 

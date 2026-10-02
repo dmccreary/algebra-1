@@ -37,6 +37,10 @@ This chapter builds on concepts from:
 
 ## Introduction to Factoring
 
+!!! mascot-welcome "Welcome to Chapter 5!"
+    ![Sage waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    Welcome to factoring—the art of un-multiplying! In this chapter, we will learn how to break complex polynomials down into simpler pieces and use the zero product property to solve equations. Let's figure this out!
+
 **Factoring** is the process of breaking down a polynomial into simpler expressions (called **factors**) that, when multiplied together, give you the original polynomial. Think of factoring as the reverse of multiplication—instead of expanding $(x + 3)(x + 5)$ to get $x^2 + 8x + 15$, we start with $x^2 + 8x + 15$ and work backwards to find $(x + 3)(x + 5)$.
 
 Factoring is one of the most important skills in algebra because it allows us to:
@@ -84,6 +88,10 @@ $15a^4b^2 - 10a^2b^3 + 5a^3b = 5a^2b(3a^2b - 2b^2 + a)$
 
 **Important:** Always factor out the GCF first before using any other factoring method. This simplifies the remaining expression and makes other techniques easier to apply.
 
+!!! mascot-tip "Always Scout for the GCF First"
+    ![Sage giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    Before trying trinomial rules or special formulas, pull out the greatest common factor! Factoring out the GCF shrinks your coefficients and makes every subsequent step much simpler.
+
 ## Factoring Trinomials
 
 A **trinomial** is a polynomial with three terms. The most common trinomials you'll factor have the form $ax^2 + bx + c$.
@@ -109,6 +117,10 @@ Check sums:
 Therefore: $x^2 + 7x + 12 = (x + 3)(x + 4)$
 
 **Check:** $(x + 3)(x + 4) = x^2 + 4x + 3x + 12 = x^2 + 7x + 12$ ✓
+
+!!! mascot-thinking "Multiply to the End, Add to the Middle"
+    ![Sage thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    When factoring $x^2 + bx + c$, your two mystery numbers must multiply to the constant $c$ while adding to the coefficient $b$. Listing the factor pairs of $c$ systematically will always reveal the right pair!
 
 **Example with negative terms:** Factor $x^2 - 5x - 14$
 
@@ -149,6 +161,10 @@ $= x(3x + 2) + 3(3x + 2)$
 $= (x + 3)(3x + 2)$
 
 **Check:** $(x + 3)(3x + 2) = 3x^2 + 2x + 9x + 6 = 3x^2 + 11x + 6$ ✓
+
+!!! mascot-encourage "The AC Method Takes Practice"
+    ![Sage offering encouragement](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
+    When the leading coefficient isn't 1, factoring takes an extra step or two. Don't be discouraged if it feels slow at first—splitting the middle term and grouping becomes second nature with practice!
 
 ## Special Factoring Patterns
 
@@ -264,6 +280,10 @@ The **zero product property** is a fundamental principle that connects factoring
 **If $ab = 0$, then $a = 0$ or $b = 0$ (or both).**
 
 This property is true because zero multiplied by anything equals zero, so if a product is zero, at least one of the factors must be zero.
+
+!!! mascot-warning "Must Equal Zero First!"
+    ![Sage warning about a pitfall](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    The zero product property ONLY works when one side of the equation equals zero! If you have $(x - 2)(x + 3) = 6$, you cannot set the factors to 6—you must expand, subtract 6 to get zero, and factor again!
 
 ### Solving Equations by Factoring
 
@@ -425,6 +445,10 @@ In this chapter, you've learned powerful factoring techniques that are essential
 - **Zeros/roots:** Values that make the function equal zero
 
 Mastering factoring takes practice, but these techniques will serve you throughout algebra and beyond. In the next chapter, you'll apply factoring skills to solve linear equations systematically.
+
+!!! mascot-celebration "Factoring Mastered!"
+    ![Sage celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
+    You've conquered GCFs, trinomial factoring, difference of squares, and the zero product property! In Chapter 6, we'll put these tools to work as we master solving linear equations.
 
 ## References
 

@@ -31,6 +31,10 @@ This chapter builds on concepts from:
 
 ## Understanding Inequalities
 
+!!! mascot-welcome "Welcome to Chapter 7!"
+    ![Sage waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    Welcome to the world of inequalities! Instead of a single answer, we will discover whole ranges of solutions and learn how to graph them. Let's figure this out!
+
 An **inequality** is a mathematical statement that compares two expressions using inequality symbols rather than an equals sign. While equations state that two expressions are equal, inequalities describe relationships where one expression is greater than, less than, greater than or equal to, or less than or equal to another.
 
 ### Inequality Symbols
@@ -56,6 +60,10 @@ There are four main **inequality symbols** you need to know:
 - **Open circle** (○) for $<$ or $>$ (the endpoint is NOT included)
 - **Closed circle** (●) for $\leq$ or $\geq$ (the endpoint IS included)
 - **Shade** in the direction of the solutions
+
+!!! mascot-tip "Open or Closed Circle?"
+    ![Sage giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    Here is an easy memory trick: if the symbol has the extra line underneath ($\leq$ or $\geq$), fill in the circle because the endpoint is included! If there is no line underneath ($<$ or $>$), keep the circle open.
 
 **Examples:**
 
@@ -111,6 +119,10 @@ Multiply both sides by −1:
 $-3 \stackrel{?}{>} -1$ (false!)
 
 We need to reverse the symbol: $-3 < -1$ (true!)
+
+!!! mascot-warning "The Golden Rule of Inequalities"
+    ![Sage warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    Whenever you multiply or divide both sides by a negative number, you must flip the inequality symbol! Forgetting to flip the sign is the single most common mistake in algebra.
 
 ### Solving One-Step and Two-Step Inequalities
 
@@ -218,6 +230,10 @@ A **compound inequality** consists of two inequalities joined by "and" or "or."
 
 **And inequalities** require both conditions to be true simultaneously. The solution is the **intersection** of the two solution sets.
 
+!!! mascot-thinking "Conjunctions Matter: AND vs. OR"
+    ![Sage thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    An AND inequality is an overlap where both conditions must be true at once, forming a bounded segment. An OR inequality is generous—any value that satisfies either condition is part of your solution!
+
 **Form:** $a < x < b$ (meaning $x > a$ AND $x < b$)
 
 **Example 1:** Solve $-3 < x + 2 < 7$
@@ -307,6 +323,10 @@ Examples:
 **Key principle:** If $|x| = a$ where $a > 0$, then $x = a$ or $x = -a$.
 
 This is because both $a$ and $-a$ are distance $a$ from zero.
+
+!!! mascot-encourage "Always Expect Two Paths"
+    ![Sage encouraging](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
+    Because distance has no direction, both positive and negative values can have the exact same absolute value. Split your equation into two separate cases right away and solve each one!
 
 **Example 1:** Solve $|x| = 7$
 
@@ -445,6 +465,10 @@ Second: $2x > 4$, so $x > 2$
 | $\|x\| > a$ | $x < -a$ OR $x > a$ | OR (outside two values) |
 | $\|x\| \geq a$ | $x \leq -a$ OR $x \geq a$ | OR (outside, including endpoints) |
 
+!!! mascot-thinking "Less Than vs. GreatOR"
+    ![Sage thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    Remember the phonetics: $|x| < a$ is "less th-AND" (a trapped sandwich), while $|x| > a$ is "great-OR" (branches pointing outwards). This trick makes setting up the two cases effortless!
+
 ## Applications of Linear Equations and Inequalities
 
 Inequalities model many real-world situations where there are ranges of acceptable values rather than exact values.
@@ -528,6 +552,10 @@ In this chapter, you've learned to work with inequalities and absolute values:
 - Apply inequalities to real-world constraints
 
 These tools allow you to model and solve problems involving ranges, tolerances, and conditions—essential skills for mathematics, science, engineering, and everyday decision-making.
+
+!!! mascot-celebration "You Mastered Inequalities and Absolute Value!"
+    ![Sage celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
+    Incredible work! You can now solve inequalities, sketch them on number lines, and handle compound statements and absolute values like a pro. You have expanded your mathematical toolbox into whole regions of solutions!
 
 ## References
 

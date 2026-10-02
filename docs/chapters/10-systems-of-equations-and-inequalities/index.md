@@ -36,6 +36,10 @@ This chapter builds on concepts from:
 
 ## Introduction to Systems of Equations
 
+!!! mascot-welcome "Welcome to Chapter 10!"
+    ![Sage waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    Welcome to systems of equations! When two conditions must be true at the same exact time, we look for their shared meeting point. Let's figure this out together!
+
 In previous chapters, you learned to solve single linear equations with one variable. But many real-world situations involve multiple relationships between variables that must be satisfied simultaneously. This is where **systems of equations** come in.
 
 A **system of equations** is a set of two or more equations with the same variables. A **solution of a system** is an ordered pair (or ordered triple, etc.) that satisfies all equations in the system simultaneously.
@@ -79,6 +83,10 @@ d_1 + d_2 = 330
 ## Types of Systems
 
 Systems of linear equations can be classified based on the number of solutions they have.
+
+!!! mascot-thinking "Lines Tell the Whole Story"
+    ![Sage thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    Two lines can cross once (one solution), run parallel forever (no solution), or lie right on top of each other (infinite solutions). Looking at the slopes and intercepts tells you what to expect before you calculate anything!
 
 ### Consistent vs. Inconsistent Systems
 
@@ -206,6 +214,10 @@ Graph both lines and find that they intersect at $(3, 3)$.
 
 The **substitution method** is an algebraic approach where you solve one equation for one variable and substitute that expression into the other equation.
 
+!!! mascot-tip "Hunt for an Isolated Variable"
+    ![Sage giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    Substitution is fastest when an equation already has a variable with a coefficient of 1 or −1. Isolate that variable with one quick step, and drop it straight into the other equation!
+
 **Steps:**
 1. Solve one equation for one variable (choose the easiest)
 2. Substitute that expression into the other equation
@@ -315,6 +327,10 @@ $x = -6 - 4\left(-\frac{23}{11}\right) = -6 + \frac{92}{11} = -\frac{66}{11} + \
 ## Method 3: Solving by Elimination (Linear Combination)
 
 The **elimination method** (also called **linear combination**) involves adding or subtracting the equations to eliminate one variable.
+
+!!! mascot-encourage "Create Opposites to Eliminate"
+    ![Sage encouraging](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
+    If neither variable cancels out immediately, multiply one or both rows so the coefficients become exact opposites like $4x$ and $-4x$. Once they cancel, you are down to one simple equation!
 
 **Steps:**
 1. Arrange both equations in standard form: $Ax + By = C$
@@ -493,6 +509,10 @@ Any point on the line $x + 2y = 6$ is a solution.
 
 A **system of inequalities** consists of two or more inequalities with the same variables. The solution is the set of all ordered pairs that satisfy all inequalities in the system.
 
+!!! mascot-warning "Mind the Boundaries and Overlap"
+    ![Sage warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    Remember to draw dashed lines for strict inequalities ($<$ and $>$) and solid lines for inclusive ones ($\leq$ and $\geq$). The true solution is only the overlapping region where every shaded color meets!
+
 ### Graphing Systems of Inequalities
 
 To **graph a system of inequalities**, we graph each inequality and find the region where the shadings overlap.
@@ -664,6 +684,10 @@ In this chapter, you've learned to solve systems of equations and inequalities:
 - Optimization with constraints
 
 These techniques are essential for modeling situations with multiple constraints and finding optimal solutions in business, science, engineering, and everyday life.
+
+!!! mascot-celebration "You Solved Systems of Equations!"
+    ![Sage celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
+    Outstanding work! You can now solve systems by graphing, substitution, and elimination, and shade multi-condition inequality regions. You have unlocked the power to balance multiple constraints at once!
 
 ## References
 

@@ -33,6 +33,10 @@ This chapter builds on concepts from:
 
 ## Introduction to Exponential Functions
 
+!!! mascot-welcome "Welcome to Chapter 12!"
+    ![Sage waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    Welcome to exponential functions! When quantities grow or shrink by multiplying instead of adding, change happens with breathtaking speed. Let's figure this out together!
+
 In previous chapters, you studied linear functions (where the variable is in the base) and quadratic functions (where the variable is squared). Now we'll explore **exponential functions**, where the variable appears in the exponent.
 
 An **exponential function** has the form:
@@ -60,6 +64,10 @@ Exponential functions model situations where quantities change by constant facto
 ## Exponential Growth vs. Exponential Decay
 
 Exponential functions behave very differently depending on whether the base $b$ is greater than or less than 1.
+
+!!! mascot-thinking "The Power of the Base"
+    ![Sage thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    Look at the base $b$ to tell the future of the function! If $b > 1$, multiplying over and over makes the values explode upwards. If $0 < b < 1$, repeated multiplication shrinks the values closer and closer to zero.
 
 ### Exponential Growth
 
@@ -115,6 +123,10 @@ where $t$ is time in years.
 ## Growth and Decay Factors
 
 Understanding how to identify and work with growth and decay factors is essential for building exponential models.
+
+!!! mascot-warning "A Percentage is Not the Factor"
+    ![Sage warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    Never plug the percentage rate directly into the base as $b$! For a 5% increase, you must add to 1 to get $b = 1.05$, and for a 5% decrease, subtract to get $b = 0.95$.
 
 ### Growth Factor from Percent Increase
 
@@ -216,6 +228,10 @@ $M(3) = 200 \cdot (0.70)^3 = 200 \cdot 0.343 = 68.6$ mg
 
 One of the most important applications of exponential functions is **compound interest**—when interest is earned not only on the principal but also on previously earned interest.
 
+!!! mascot-tip "Earning Interest on Interest"
+    ![Sage giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    Compound interest is exponential growth working in your favor! Because you earn interest on top of past interest, your money accelerates faster with every passing year.
+
 ### Compound Interest Formula
 
 $$A = P(1 + r)^t$$
@@ -267,6 +283,10 @@ $\approx \$4,046.70$
 ## Comparing Linear and Exponential Functions
 
 It's crucial to recognize when a situation is best modeled by a linear function versus an exponential function.
+
+!!! mascot-encourage "Check the Table Differences"
+    ![Sage encouraging](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
+    When analyzing a data table, subtract consecutive outputs first. If the differences are constant, it's linear; if the ratios are constant, it's exponential!
 
 ### Linear vs. Exponential Growth
 
@@ -479,6 +499,10 @@ In this chapter, you've learned about exponential functions and their applicatio
 - Depreciation
 
 Exponential functions are essential for modeling real-world phenomena involving rapid growth or decay, making them fundamental in biology, economics, physics, and many other fields.
+
+!!! mascot-celebration "You Mastered Exponential Functions!"
+    ![Sage celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
+    Sensational job! You can now model rapid growth, track decay, calculate compound interest, and tell linear and exponential models apart. You have mastered one of the most practical tools in all of applied math!
 
 ## References
 

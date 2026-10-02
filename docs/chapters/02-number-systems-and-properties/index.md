@@ -33,6 +33,10 @@ This chapter builds on concepts from:
 
 ## Introduction to Numbers and Their Properties
 
+!!! mascot-welcome "Welcome to Chapter 2!"
+    ![Sage waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    Welcome back! Numbers aren't just isolated digits—they belong to an organized family tree. In this chapter, we'll see how real numbers behave under the fundamental properties that keep algebra in balance. Let's figure this out!
+
 Think about all the numbers you use every day. You might count the number of steps you take, calculate the cost of lunch, or measure your height. In algebra, understanding different types of numbers and how they behave is essential for solving equations and modeling real-world situations. This chapter explores the organized system of numbers that mathematicians have developed over centuries and the fundamental properties that govern how we work with them.
 
 Just as scientists classify living things into kingdoms and species, mathematicians organize numbers into different systems based on their characteristics. We'll begin with integers, expand to rational numbers, and then explore the complete system of real numbers. Along the way, you'll discover the powerful properties that make algebra work—properties that remain true whether you're adding small numbers or solving complex equations.
@@ -326,6 +330,10 @@ Example: $4 \times 7 = 7 \times 4$ (both equal 28)
 - Subtraction: $5 - 3 \neq 3 - 5$ (2 ≠ -2)
 - Division: $12 \div 4 \neq 4 \div 12$ (3 ≠ 1/3)
 
+!!! mascot-warning "Order Matters for Subtraction and Division"
+    ![Sage warning about a pitfall](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    Be careful! While $5 + 3 = 3 + 5$, subtraction and division do not commute. Flipping the order in $5 - 3$ gives $-2$ instead of $2$, completely reversing your sign!
+
 ### Associative Property: Grouping Doesn't Matter
 
 The **associative property** states that when you add or multiply three or more numbers, the way you group them doesn't affect the result.
@@ -502,6 +510,10 @@ Examples:
 
 **Note:** Zero has no multiplicative inverse because division by zero is undefined.
 
+!!! mascot-thinking "The Core Reset Tools"
+    ![Sage thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    Notice the symmetry between inverses: adding an opposite resets to $0$, while multiplying by a reciprocal resets to $1$. These two properties are the exact levers we use to isolate variables in every equation!
+
 ### Properties Summary Table
 
 Here's a quick reference for all the properties:
@@ -641,6 +653,10 @@ Examples:
 - $|0| = 0$ (zero's distance from zero is zero)
 - $|-\frac{3}{4}| = \frac{3}{4}$
 
+!!! mascot-tip "Distance Is Never Negative"
+    ![Sage giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    Think of absolute value as counting footsteps on a number line. Whether you take five steps to the right or five steps to the left, you've still traveled five steps!
+
 Key properties of absolute value:
 
 - $|a| \geq 0$ for all real numbers $a$
@@ -726,6 +742,10 @@ Every point in the plane is identified by an **ordered pair** $(x, y)$:
 - The first number ($x$) is the horizontal coordinate
 - The second number ($y$) is the vertical coordinate
 - Order matters: $(3, 5) \neq (5, 3)$
+
+!!! mascot-thinking "Crawl Before You Climb"
+    ![Sage thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    Always move horizontally along the $x$-axis before moving vertically along the $y$-axis. Remembering that $x$ comes before $y$ alphabetically keeps you from swapping your coordinates!
 
 ### The Four Quadrants
 
@@ -862,6 +882,10 @@ Mastering these fundamentals now will make everything that follows much easier t
 - **Absolute value** measures distance from zero: $|a| \geq 0$
 - The **coordinate system** uses ordered pairs $(x, y)$ to locate points in a plane
 - **Exponents** indicate repeated multiplication: in $b^n$, $b$ is the base and $n$ is the exponent
+
+!!! mascot-celebration "Number Systems Mastered!"
+    ![Sage celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
+    You now understand the real number system and the field properties that justify every move in algebra. Up next in Chapter 3, we'll dive deep into exponents and powers!
 
 ## References
 

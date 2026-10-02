@@ -10,7 +10,7 @@ content involving Sage must use this description as its source of truth.
 - **Species:** Fox
 - **Pronouns:** they/them
 - **Subject:** Algebra I
-- **Catchphrase:** “Let’s figure this out!”
+- **Catchphrase:** Let's figure this out!
 
 ## Visual Description
 
@@ -34,7 +34,7 @@ content involving Sage must use this description as its source of truth.
 - Uses clear, age-appropriate language and short sentences
 - Treats mistakes as useful evidence, never as failures
 - Asks guiding questions before revealing an answer
-- Signature phrases: “Let’s figure this out!”, “What pattern do you notice?”, “Check it one more way.”
+- Signature phrases: "Let's figure this out!", "What pattern do you notice?", "Check it one more way."
 
 ## Pose Set
 
@@ -53,6 +53,6 @@ See [`image-prompts.md`](image-prompts.md) for reproducible pose prompts.
 ## Why This Mascot
 
 Foxes suggest curiosity, pattern recognition, and flexible problem-solving,
-all central habits in algebra. Sage’s orange-and-blue styling matches the
+all central habits in algebra. Sage's orange-and-blue styling matches the
 book theme, while the glasses and scarf make the character recognizable at
 small sizes without leaning on a gendered presentation.

@@ -35,6 +35,10 @@ This chapter builds on concepts from:
 
 ## Introduction to Exponential Thinking
 
+!!! mascot-welcome "Welcome to Chapter 3!"
+    ![Sage waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    Get ready to see how repeated multiplication unlocks incredible growth! In this chapter, we'll discover the laws of exponents, tame negative and fractional powers, and use scientific notation. Let's figure this out!
+
 In Chapter 2, you learned the basics of exponents: that $2^3$ means $2 \times 2 \times 2 = 8$. But exponents are far more powerful than just a shorthand for repeated multiplication. They're the mathematical tool that describes explosive growth, radioactive decay, compound interest, and the exponential pace of technological change. Understanding exponents unlocks your ability to work with very large numbers (like the number of atoms in the universe) and very small numbers (like the size of a virus).
 
 This chapter will transform you from someone who knows what $5^3$ means into someone who can manipulate expressions like $x^{-2} \cdot x^5 \div x^{3/2}$ with confidence. You'll discover elegant patterns—the laws of exponents—that make complex calculations simple. You'll learn to express numbers in scientific notation, work with roots and radicals, and begin to see how exponents connect to the polynomial expressions you'll study in the next chapter.
@@ -67,6 +71,10 @@ Examples with integer exponents:
 - $-5^2 = -(5 \times 5) = -25$ (only 5 is squared, then negated)
 
 The parentheses make all the difference!
+
+!!! mascot-warning "Parentheses Change the Base"
+    ![Sage warning about a pitfall](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    Pay close attention to parentheses! $(-5)^2 = (-5)(-5) = 25$, but $-5^2 = -(5 \times 5) = -25$. Without parentheses, the exponent only attaches to the number 5, not the negative sign!
 
 ### Zero Exponent: The Special Case
 
@@ -123,6 +131,10 @@ The reciprocal relationship also works in reverse:
 $\frac{1}{b^{-n}} = b^n$
 
 Example: $\frac{1}{2^{-4}} = 2^4 = 16$
+
+!!! mascot-thinking "Negative Powers Aren't Negative Numbers"
+    ![Sage thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    A negative exponent does not make the result negative—it flips the base into its reciprocal! Think of a negative power as repeated division instead of repeated multiplication.
 
 #### Diagram: Exponent Types Interactive Explorer
 
@@ -302,6 +314,10 @@ Examples:
 - $(3^4)^2 = 3^{4 \cdot 2} = 3^8 = 6,561$
 - $(y^{-3})^4 = y^{-3 \cdot 4} = y^{-12} = \frac{1}{y^{12}}$
 - $(a^{1/2})^6 = a^{(1/2) \cdot 6} = a^3$
+
+!!! mascot-tip "Add vs. Multiply Powers"
+    ![Sage giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    Here is a quick rule of thumb: when multiplying separate powers with the same base like $x^2 \cdot x^3$, add the exponents to get $x^5$. When a power is raised to another power like $(x^2)^3$, multiply the exponents to get $x^6$!
 
 ### Additional Power Rules
 
@@ -705,6 +721,10 @@ Examples:
 - Factor: $48 = 16 \times 3 = 4^2 \times 3$
 - Simplify: $\sqrt{48} = 4\sqrt{3}$
 
+!!! mascot-encourage "Step-by-Step Factoring Works Too"
+    ![Sage offering encouragement](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
+    Simplifying radicals feels like detective work! If you don't spot the largest square factor immediately, that is completely fine. Pulling out smaller squares in two steps reaches the exact same simplified answer!
+
 #### Simplifying Cube Roots
 
 The same principle applies, but look for perfect cube factors:
@@ -1005,6 +1025,10 @@ Exponents connect to many other areas of mathematics:
 - **Polynomials:** Expressions with variables raised to non-negative integer powers
 - **Binomials:** Polynomials with exactly 2 terms
 - **Trinomials:** Polynomials with exactly 3 terms
+
+!!! mascot-celebration "Exponents Mastered!"
+    ![Sage celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
+    You've mastered the laws of exponents, negative powers, scientific notation, and radicals! These rules are the power tools for polynomial expressions, which we'll explore in Chapter 4!
 
 ## References
 

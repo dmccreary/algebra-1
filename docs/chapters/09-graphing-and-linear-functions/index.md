@@ -45,6 +45,10 @@ This chapter builds on concepts from:
 
 ## The Coordinate Plane
 
+!!! mascot-welcome "Welcome to Chapter 9!"
+    ![Sage waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    Welcome to graphing linear functions! We are going to connect numbers and shapes by turning algebraic equations into beautiful geometric lines. Let's figure this out together!
+
 The **coordinate plane** (also called the Cartesian plane, named after mathematician René Descartes) is one of the most powerful tools in mathematics. It provides a visual way to represent relationships between numbers and allows us to translate algebraic equations into geometric pictures.
 
 Think of the coordinate plane as a map for mathematics. Just as you can locate any place on Earth using latitude and longitude, you can locate any point on the coordinate plane using two numbers called coordinates.
@@ -353,6 +357,10 @@ Slope is calculated using two components:
 - Run is positive if you move right
 - Run is negative if you move left (though we usually move left to right)
 
+!!! mascot-warning "Rise Over Run, Not Run Over Rise"
+    ![Sage warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    Always put the change in $y$ on top and the change in $x$ on the bottom! Flipping the ratio upside-down into $\frac{\Delta x}{\Delta y}$ is an easy trap to fall into when working fast.
+
 #### Slope Formula
 
 $$m = \frac{\text{rise}}{\text{run}} = \frac{\text{change in } y}{\text{change in } x} = \frac{y_2 - y_1}{x_2 - x_1}$$
@@ -533,6 +541,10 @@ where:
 
 - Slope: $m = 3$ (line rises 3 units for every 1 unit right)
 - Y-intercept: $b = -4$ (line crosses y-axis at $(0, -4)$)
+
+!!! mascot-tip "Begin with 'b', Move with 'm'"
+    ![Sage giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    When graphing $y = mx + b$, think "Begin with $b$ and Move with $m$!" Plot the y-intercept $(0, b)$ first as your home base, then count the rise and run to your next point.
 
 **Graphing from slope-intercept form:**
 
@@ -762,6 +774,10 @@ You can convert between these three forms using algebraic manipulation:
 
 Two special types of lines deserve extra attention because they behave differently from typical diagonal lines.
 
+!!! mascot-thinking "Zero vs. Undefined: Think of Skiing"
+    ![Sage thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    A horizontal line is cross-country skiing—zero effort, zero slope! A vertical line is dropping off a cliff—impossible to ski, and mathematically undefined because dividing by zero is forbidden.
+
 ### Horizontal Lines
 
 A **horizontal line** is perfectly flat—it runs parallel to the x-axis. All points on a horizontal line have the same $y$-coordinate.
@@ -956,6 +972,10 @@ A **vertical line** runs straight up and down—it's parallel to the y-axis. All
 ## Graphing Linear Equations
 
 Now that you understand slope, intercepts, and the forms of linear equations, let's put it all together and learn efficient methods for graphing lines.
+
+!!! mascot-encourage "Pick the Best Graphing Tool"
+    ![Sage encouraging](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
+    Different forms have different strengths! Use intercepts for standard form $Ax + By = C$, and use slope for $y = mx + b$. Choosing the easiest path saves time and prevents calculation slips.
 
 ### Method 1: Using Intercepts
 
@@ -1199,6 +1219,10 @@ Plot these four points and draw the line through them.
 ## Writing Equations of Lines
 
 Now that you can graph lines, let's work in reverse: given information about a line, how do you write its equation?
+
+!!! mascot-thinking "Point-Slope Form is Your Secret Weapon"
+    ![Sage thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    Whenever you know a point and a slope, point-slope form $y - y_1 = m(x - x_1)$ gets you straight to the equation without guessing. From there, a quick distribute and add brings you to slope-intercept form!
 
 ### Given Slope and Y-Intercept
 
@@ -1569,6 +1593,10 @@ In this chapter, you've developed comprehensive skills for working with the coor
 Linear functions are everywhere in the real world, from pricing models to scientific formulas to financial planning. Mastering these concepts gives you powerful tools for modeling and solving real-world problems.
 
 In the next chapter, we'll extend these ideas to work with **systems** of linear equations—situations involving two or more linear relationships simultaneously.
+
+!!! mascot-celebration "You Mastered Linear Graphs!"
+    ![Sage celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
+    Fantastic achievement! You have mastered the coordinate plane, computed slopes, and translated effortlessly between equations and their visual graphs. You are ready to tackle systems of lines!
 
 ## References
 

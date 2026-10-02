@@ -35,6 +35,10 @@ This chapter builds on concepts from:
 
 ## Introduction to Data Analysis
 
+!!! mascot-welcome "Welcome to Chapter 13!"
+    ![Sage waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    Welcome to our capstone chapter! Here we bring together everything you have learned to explore real-world data, uncover trends, and predict the future. Let's figure this out together!
+
 Throughout this course, you've learned powerful algebraic tools for solving equations, working with functions, and analyzing relationships between variables. In this final chapter, we'll apply these skills to analyze real-world data and solve practical problems that connect mathematics to everyday life.
 
 **Data analysis** is the process of inspecting, organizing, and interpreting information to discover patterns and make informed decisions. Whether you're studying science, economics, sports statistics, or social trends, the ability to work with data is essential in today's world.
@@ -110,7 +114,9 @@ Understanding correlation helps us:
 - Identify relationships between quantities
 - Make informed decisions based on data patterns
 
-**Important note:** Correlation does NOT prove causation. Just because two variables are correlated doesn't mean one causes the other!
+!!! mascot-warning "Correlation Does Not Mean Causation"
+    ![Sage warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    Just because two trends move together does not mean one caused the other! Always ask whether a hidden third variable might be driving both before drawing conclusions.
 
 ### Types of Correlation
 
@@ -189,6 +195,10 @@ A **line of best fit** (also called a **trend line** or **regression line**) is 
 - **Make predictions:** Estimate y-values for new x-values (interpolation and extrapolation)
 - **Identify trends:** Understand the direction and strength of the relationship
 - **Simplify complex data:** Replace many points with a single model
+
+!!! mascot-thinking "Interpolation vs. Extrapolation"
+    ![Sage thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    Predicting within the bounds of your known data (interpolation) is generally trustworthy and reliable. Predicting far outside your data range (extrapolation) is risky because trends often change over time!
 
 ### Characteristics of a Good Line of Best Fit
 
@@ -365,6 +375,10 @@ The technology does the calculation work, but you still need to:
 
 An **arithmetic sequence** is a list of numbers in which each term after the first is found by adding a constant value called the **common difference**.
 
+!!! mascot-tip "Sequences are Just Discrete Functions"
+    ![Sage giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    An arithmetic sequence is secretly just a linear function with domain restricted to positive integers! The common difference $d$ is literally the slope of the line connecting each term.
+
 ### Structure of Arithmetic Sequences
 
 **General form:** $a_1, a_2, a_3, a_4, \ldots$
@@ -478,6 +492,10 @@ The 15th row has 76 seats.
 ## Geometric Sequences
 
 A **geometric sequence** is a list of numbers in which each term after the first is found by multiplying by a constant value called the **common ratio**.
+
+!!! mascot-encourage "Connecting Sequences to Exponentials"
+    ![Sage encouraging](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
+    Just as arithmetic sequences mirror lines, geometric sequences mirror exponential functions. The common ratio $r$ is your base, multiplying each step forward into rapid growth or decay!
 
 ### Structure of Geometric Sequences
 
@@ -923,6 +941,10 @@ The algebraic thinking you've developed in this course is foundational for:
 - Applied fields: Physics, chemistry, economics, computer science
 
 Congratulations on completing Algebra 1! You now have powerful mathematical tools to understand and solve problems in the world around you.
+
+!!! mascot-celebration "Congratulations, You Finished Algebra I!"
+    ![Sage celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
+    You did it! From your first steps with variables to graphing functions, solving quadratics, and modeling real-world data, you have built genuine mathematical power. I am so proud of your hard work—keep being curious and exploring!
 
 ## References
 

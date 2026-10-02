@@ -36,6 +36,10 @@ This chapter builds on concepts from:
 
 ## What is a Linear Equation?
 
+!!! mascot-welcome "Welcome to Chapter 6!"
+    ![Sage waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    Linear equations are the heart of algebra! Think of every equation like a balance scale where whatever you do to one side, you must do to the other. Let's figure this out together!
+
 A **linear equation in one variable** is an equation that can be written in the form $ax + b = c$, where $a$, $b$, and $c$ are constants and $a \neq 0$. The highest power of the variable is 1, which means when graphed, these equations produce straight lines (hence "linear").
 
 Examples of linear equations:
@@ -108,6 +112,10 @@ $x = -24$
 **Strategy:**
 1. Use addition or subtraction to eliminate the constant term
 2. Use multiplication or division to isolate the variable
+
+!!! mascot-thinking "Think About Inverse Operations"
+    ![Sage thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    Notice how solving two-step equations uses reverse order of operations? We undo addition or subtraction first, and then undo multiplication or division to isolate the variable.
 
 **Example 1:** Solve $3x + 7 = 22$
 
@@ -213,6 +221,10 @@ When variables appear on both sides of an equation, we need to collect all varia
 3. Move constant terms to the other side
 4. Solve for the variable
 
+!!! mascot-warning "Watch the Signs When Moving Terms"
+    ![Sage warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    When variables appear on both sides, collect them on one side first. Don't forget that subtracting a negative term turns into addition!
+
 **Example 1:** Solve $5x - 7 = 2x + 8$
 
 Step 1: Subtract $2x$ from both sides (to collect variables on the left)
@@ -256,6 +268,10 @@ $x = 13$
 Equations containing fractions can be solved in two ways: work with the fractions throughout, or eliminate them by multiplying by the least common denominator (LCD).
 
 **Method 1: Multiply by the LCD** (usually easier)
+
+!!! mascot-tip "Banish Fractions with the LCD"
+    ![Sage giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    Instead of juggling denominators at every step, multiply both sides by the least common denominator right away. Every fraction vanishes instantly!
 
 **Example 1:** Solve $\frac{x}{3} + \frac{x}{4} = 7$
 
@@ -336,6 +352,10 @@ $x = \frac{600}{7} \approx 85.71$
 A **literal equation** is an equation with two or more variables. **Solving for a variable** means isolating that variable on one side of the equation in terms of the other variables.
 
 This skill is essential for **formula manipulation**—rearranging formulas to solve for different variables.
+
+!!! mascot-encourage "Formulas Use the Same Rules"
+    ![Sage encouraging](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
+    Rearranging formulas with letters can feel strange at first. Treat every other variable just like a number, and you will isolate your target with ease!
 
 **Example 1:** Solve for $w$ in the perimeter formula $P = 2l + 2w$
 
@@ -442,6 +462,10 @@ Subtract $2x$ from both sides:
 $6 = 1$ ✗
 
 This is never true! There is **no solution**. The solution set is the empty set: $\emptyset$ or $\{\}$.
+
+!!! mascot-thinking "What Does It Mean When Variables Cancel?"
+    ![Sage thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    If the variable terms cancel out, look closely at what remains. A true statement like $6 = 6$ means every real number works, while a false statement like $6 = 1$ means no solution exists!
 
 ### Summary Table
 
@@ -601,6 +625,10 @@ In this chapter, you've developed systematic methods for solving linear equation
 6. Check that your answer makes sense
 
 Linear equations are foundational to algebra and appear throughout mathematics and science. The systematic approach you've learned here will serve you well as equations become more complex in future chapters.
+
+!!! mascot-celebration "You Solved Linear Equations!"
+    ![Sage celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
+    Outstanding work! You now know how to balance, isolate, and solve equations with integers, fractions, and multiple variables. You have built a superpower that unlocks the rest of algebra!
 
 ## References
 

@@ -34,6 +34,17 @@ This chapter assumes only the prerequisites listed in the [course description](.
 
 ## Introduction to Algebra
 
+!!! mascot-welcome "Meet Sage!"
+    ![Sage waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    Hi! I'm Sage the Fox, your guide through Algebra I. Whenever you see me in this book, here is what I'm doing:
+    1. **Welcome**: Previewing what you'll discover in a chapter and why it matters.
+    2. **Thinking**: Highlighting a key insight or a powerful mental model.
+    3. **Tip**: Sharing a helpful shortcut, heuristic, or sanity check.
+    4. **Warning**: Flagging common pitfalls and sign errors before they trip you up.
+    5. **Encourage**: Supporting you through tough concepts with practical problem-solving strategies.
+    6. **Celebration**: Celebrating genuine milestones and summarizing what you've mastered.
+    If I'm not doing one of those six things, I'm not in the chapter. Let's figure this out together!
+
 Algebra is the language of mathematics. Just as you learned to read and write English to communicate ideas, you'll learn to read and write algebraic expressions to communicate mathematical relationships. In this chapter, you'll discover the fundamental building blocks that make algebra work.
 
 Think of algebra like learning a new language. First, you need to understand the alphabet and basic words before you can write sentences. In algebra, numbers, variables, and operations are like the alphabet. Once you understand these basics, you can build more complex expressions and solve real-world problems.
@@ -183,6 +194,10 @@ Sometimes coefficients are not written explicitly:
 
 - When you see $x$ by itself, the coefficient is 1 (we write $x$ instead of $1x$)
 - When you see $-x$, the coefficient is -1 (we write $-x$ instead of $-1x$)
+
+!!! mascot-warning "The Invisible 1"
+    ![Sage warning about a pitfall](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    Watch out for variables without a visible number in front! A lone $-x$ means $-1x$, not $0x$. Forgetting that negative one is one of the most common sign traps in algebra.
 
 Understanding coefficients helps you combine like terms and solve equations efficiently.
 
@@ -378,6 +393,10 @@ Consider the expression: $3 + 4 \times 2$
 
 The order of operations ensures everyone gets the same answer!
 
+!!! mascot-tip "Sage's PEMDAS Tip"
+    ![Sage giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    Remember that multiplication and division have equal priority! You don't multiply before dividing—work them strictly from left to right as they appear.
+
 ### Examples of Order of Operations
 
 Let's evaluate: $2 + 3^2 \times 4 - 5$
@@ -541,6 +560,10 @@ $9 = 9$ ✓ True!
 
 Yes, $x = 6$ is a solution.
 
+!!! mascot-thinking "Parentheses Are Your Armor"
+    ![Sage thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    Whenever you substitute a number into an expression—especially a negative value—wrap it in parentheses first. Writing $(-3)^2 = 9$ protects the negative sign from being separated into $-3^2 = -9$.
+
 ### Substitution with Formulas
 
 The area of a triangle is given by the formula:
@@ -589,6 +612,10 @@ Look at these examples:
 ### Why Like Terms Matter
 
 You can only combine terms that are like terms. Think of it like fruit: you can add 3 apples + 5 apples = 8 apples, but you can't directly combine 3 apples + 5 oranges into a single number of one fruit.
+
+!!! mascot-thinking "Matching Powers Matter"
+    ![Sage thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    Notice that $3x$ and $3x^2$ share the letter $x$, but they are not like terms because their powers differ. You can only combine terms whose variables and exponents match completely.
 
 ## Combining Like Terms: Simplifying by Adding
 
@@ -814,6 +841,10 @@ $-2(3y - 5) = -6y + 10$
 **Example 3**: Expand $x(x + 7)$
 
 $x(x + 7) = x^2 + 7x$
+
+!!! mascot-encourage "Sign Tracking Takes Practice"
+    ![Sage offering encouragement](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
+    If distributing negative signs feels tricky at first, that is completely normal! Draw small arrows from the outside factor to each inside term and calculate the signs one step at a time.
 
 ### When to Expand vs. Factor
 
@@ -1168,6 +1199,10 @@ Remember these essential ideas:
 - Every algebraic concept builds on the ones before it—master the basics first!
 
 ---
+
+!!! mascot-celebration "Foundations Mastered!"
+    ![Sage celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
+    You've built the complete vocabulary of algebra—variables, expressions, like terms, and PEMDAS! In Chapter 2, we'll see how number systems and field properties keep every equation in balance.
 
 Continue to the next chapter to begin solving equations and applying these algebraic foundations to real problems.
 

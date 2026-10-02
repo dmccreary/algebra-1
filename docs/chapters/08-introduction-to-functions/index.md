@@ -38,6 +38,10 @@ This chapter builds on concepts from:
 
 ## What is a Function?
 
+!!! mascot-welcome "Welcome to Chapter 8!"
+    ![Sage waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    Welcome to functions—one of the grandest ideas in all of mathematics! Think of a function as a trustworthy machine where every unique input gives exactly one output. Let's figure this out together!
+
 A function is one of the most fundamental concepts in algebra and all of mathematics. At its core, a function is a special kind of relationship between two sets of numbers where each input value corresponds to exactly one output value. Think of a function like a machine: you put in a number, the machine processes it according to a specific rule, and you get exactly one number out.
 
 In everyday life, we encounter functions constantly. When you buy items at a store, the total cost is a function of how many items you purchase. When you drive a car at constant speed, the distance traveled is a function of time. When you set your thermostat, the temperature in your room changes as a function of time.
@@ -157,6 +161,10 @@ Why does this work? Remember that a function requires each input ($x$-value) to 
 ## Function Notation
 
 Mathematicians use a special notation to represent functions efficiently. Instead of always writing "let $y$ equal some expression in terms of $x$," we use **function notation**.
+
+!!! mascot-warning "Parentheses Don't Always Mean Multiply"
+    ![Sage warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    In function notation, $f(x)$ means "the function $f$ evaluated at input $x$," not $f$ times $x$! Treat the name $f$ as a label for the machine, never a number to distribute.
 
 The standard form is: $f(x)$
 
@@ -293,6 +301,10 @@ Two of the most important characteristics of any function are its **domain** and
 The **domain** of a function is the complete set of all possible input values ($x$-values) for which the function is defined. Think of the domain as "what you're allowed to put into the function."
 
 The **range** of a function is the complete set of all possible output values ($y$-values) that the function can produce. Think of the range as "what you can get out of the function."
+
+!!! mascot-thinking "Inputs and Outputs"
+    ![Sage thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    Domain is the set of everything that goes in, while range is everything that comes out. When looking for domain restrictions in algebra, keep an eye out for division by zero and square roots of negative numbers!
 
 ### Determining Domain
 
@@ -603,6 +615,10 @@ Absolute value functions are useful for modeling situations involving distance, 
 
 A **parent function** is the simplest form of a family of functions. It's the "basic" version before any transformations are applied. Understanding parent functions helps you quickly recognize and graph related functions.
 
+!!! mascot-tip "Learn the Basic Shapes"
+    ![Sage giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    Parent functions are your algebraic templates! Once you memorize the V-shape of $|x|$ or the parabola of $x^2$, graphing any shifted or reflected version becomes simple.
+
 Here are the key parent functions you should know:
 
 | Function Family | Parent Function | Graph Shape | Domain | Range |
@@ -737,6 +753,10 @@ Understanding transformations lets you graph complex functions quickly by starti
 - $g(x) = f(x + h)$ shifts the graph **left** by $h$ units if $h > 0$
 
 **Important:** Horizontal shifts can be counterintuitive! $f(x - 3)$ shifts right by 3, not left.
+
+!!! mascot-encourage "Watch Out for Horizontal Shifts"
+    ![Sage encouraging](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
+    Inside the parentheses, horizontal shifts move in the opposite direction of the sign: $(x - 3)$ shifts right by 3! Don't let that trick you—with a little practice, it quickly becomes second nature.
 
 **Examples with the parent function $f(x) = x^2$:**
 
@@ -941,6 +961,10 @@ We'll explore both of these important function types in much greater depth in Ch
 
 Functions are not just abstract mathematical concepts—they model countless real-world relationships. Here are some examples:
 
+!!! mascot-thinking "Functions Model Our World"
+    ![Sage thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    Whenever one quantity determines another, a function is at work. Identifying which variable is independent and which is dependent is the key to setting up any real-world model!
+
 **Economics and Business:**
 
 - Cost functions: $C(n) = 50 + 3n$ (total cost for $n$ items with fixed cost \$50 and variable cost \$3 per item)
@@ -1143,6 +1167,10 @@ In this chapter, you've been introduced to functions, one of the most powerful c
 Functions provide a powerful framework for modeling relationships in the real world, from business applications to scientific phenomena. As you continue through Algebra I, you'll deepen your understanding of specific function types and develop expertise in using functions to solve complex problems.
 
 In the next chapter, we'll explore graphing in detail and focus extensively on linear functions—their properties, representations, and applications.
+
+!!! mascot-celebration "You Conquered Functions!"
+    ![Sage celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
+    Sensational job! You can now read function notation, find domains and ranges, and transform parent graphs across the coordinate plane. You have laid the bedrock for all advanced mathematics!
 
 ## References
 
