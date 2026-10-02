@@ -1,7 +1,7 @@
 ---
 title: Exponent Laws Practice Game
 description: Apply the laws of exponents to simplify expressions through interactive practice.
-quality_score: 100
+quality_score: 95
 image: /sims/exponent-laws-practice-game/exponent-laws-practice-game.png
 og:image: /sims/exponent-laws-practice-game/exponent-laws-practice-game.png
 twitter:image: /sims/exponent-laws-practice-game/exponent-laws-practice-game.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Exponent Laws Practice Game MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Exponent Laws Practice Game MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

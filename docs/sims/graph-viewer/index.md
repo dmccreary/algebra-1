@@ -1,70 +1,55 @@
+---
+title: Learning Graph Viewer
+description: Interactive visualization of the complete 200-concept Algebra I learning graph with search, zoom, and dependency traversal.
+quality_score: 100
+image: /sims/graph-viewer/graph-viewer.png
+og:image: /sims/graph-viewer/graph-viewer.png
+twitter:image: /sims/graph-viewer/graph-viewer.png
+social:
+  cards: false
+---
+
 # Learning Graph Viewer
 
-[Run the Learning Graph Viewer](main.html){ .md-button .md-button--primary }
+<iframe src="main.html" height="652px" width="100%" scrolling="no"></iframe>
 
-This viewer reads a learning graph data from [../../learning-graph/learning-graph.json](../../learning-graph/learning-graph.json):
+[Run the Learning Graph Viewer MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
-1. **Search Functionality** - Quick node lookup with autocomplete
-2. **Taxonomy Legend Controls** - Filter nodes by category/taxonomy
+## About This MicroSim
 
-## Features
+Interactive visualization of the complete 200-concept Algebra I learning graph with search, zoom, and dependency traversal. This interactive learning tool provides direct visual feedback, enabling students to explore algebraic structures dynamically.
 
-### Search
-- Type-ahead search for node names
-- Displays matching results in a dropdown
-- Shows node group/category in results
-- Clicking a result focuses and highlights the node on the graph
-- Only searches visible nodes (respects taxonomy filters)
+## Iframe Embed Code
 
-### Taxonomy Legend with Checkboxes
-- Sidebar legend with all node categories
-- Toggle visibility of entire node groups
-- Color-coded categories matching the graph
-- "Check All" and "Uncheck All" buttons for bulk operations
-- Collapsible sidebar to maximize graph viewing area
+Copy this iframe to your website:
 
-### Graph Statistics
-Real-time statistics that update as you filter:
-- **Nodes**: Count of visible nodes
-- **Edges**: Count of visible edges (both endpoints must be visible)
-- **Orphans**: Nodes with no connections (this is an indication that the learning graph needs editing)
+```html
+<iframe src="https://dmccreary.github.io/algebra-1/sims/graph-viewer/main.html"
+        height="652px" width="100%" scrolling="no"></iframe>
+```
 
-## Sample Graph Demo
+## Lesson Plan
 
-The demo includes a Graph Theory learning graph with 10 taxonomy categories:
+### Learning Objective
 
-- **Foundation** (Red) - Core concepts in red boxes that should be pinned to the left
-- **Types** (Orange) - Graph types
-- **Representations** (Gold) - Data structures
-- **Algorithms** (Green) - Basic algorithms
-- **Paths** (Blue) - Shortest path algorithms
-- **Flow** (Indigo) - Network flow algorithms
-- **Advanced** (Violet) - Advanced topics
-- **Metrics** (Gray) - Centrality measures
-- **Spectral** (Brown) - Spectral theory
-- **ML & Networks** (Teal) - Machine learning
+Navigate the directed acyclic graph (DAG) of 200 algebra concepts to understand learning progressions.
 
-## Usage Tips
+### Audience and Prerequisites
 
-1. **Hide a category** - Uncheck a category in the sidebar to hide all nodes in that group
-2. **Search within visible nodes** - Use search to quickly find specific concepts among visible nodes
-3. **Focus on a topic** - Uncheck all categories, then check only the ones you want to study
-4. **Collapse sidebar** - Click the menu button (☰) to hide the sidebar and expand the graph view
-5. **Find orphans** - Check the statistics to see if any nodes lack connections
+Designed for Algebra I students in grade 9. Students should have arithmetic fluency and introductory familiarity with algebraic notation.
 
-## Implementation Notes
+### Suggested Activity
 
-This viewer follows the standard vis.js architectural patterns:
+1. Ask students to make a prediction before interacting with controls or moving parameters.
+2. Use the search bar to locate specific concepts (e.g., 'Slope-Intercept Form') and view direct prerequisites and downstream dependencies.
+3. Compare the visual model directly with the symbolic algebraic expression.
+4. Have students summarize their observations in a single sentence.
 
-- Uses `vis.DataSet` for nodes and edges
-- Implements node `hidden` property for filtering
-- Combines separate search and legend features
-- Updates statistics dynamically based on visibility
-- Maintains consistent styling across features
+### Assessment
 
-## Use Cases
+Students identify all prerequisites required to learn a target concept.
 
-- **Course planning** - Filter by topic area to design lesson sequences
-- **Concept exploration** - Search for specific concepts and see their dependencies
-- **Gap analysis** - Use orphan count to identify disconnected concepts
-- **Progressive learning** - Start with foundation concepts, gradually enable advanced topics
+## References
+
+1. [Related Algebra I Chapter](../../learning-graph/index.md) - Course explanation and background context.
+2. [vis-network Reference](https://visjs.github.io/vis-network/docs/network/) - Official library documentation.

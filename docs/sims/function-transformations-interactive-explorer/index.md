@@ -1,7 +1,7 @@
 ---
 title: Function Transformations Interactive Explorer
 description: Help students visualize and understand function transformations by manipulating parameters and seeing real-time graph changes.
-quality_score: 100
+quality_score: 95
 image: /sims/function-transformations-interactive-explorer/function-transformations-interactive-explorer.png
 og:image: /sims/function-transformations-interactive-explorer/function-transformations-interactive-explorer.png
 twitter:image: /sims/function-transformations-interactive-explorer/function-transformations-interactive-explorer.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Function Transformations Interactive Explorer MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Function Transformations Interactive Explorer MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

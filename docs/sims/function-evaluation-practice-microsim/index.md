@@ -1,7 +1,7 @@
 ---
 title: Function Evaluation Practice MicroSim
 description: Provide interactive practice for evaluating functions at different input values.
-quality_score: 100
+quality_score: 95
 image: /sims/function-evaluation-practice-microsim/function-evaluation-practice-microsim.png
 og:image: /sims/function-evaluation-practice-microsim/function-evaluation-practice-microsim.png
 twitter:image: /sims/function-evaluation-practice-microsim/function-evaluation-practice-microsim.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Function Evaluation Practice MicroSim MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Function Evaluation Practice MicroSim MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

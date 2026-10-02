@@ -1,7 +1,7 @@
 ---
 title: Radical Simplification Interactive Tool
 description: Learn to simplify radical expressions by identifying and extracting perfect square or perfect cube factors.
-quality_score: 100
+quality_score: 95
 image: /sims/radical-simplification-interactive-tool/radical-simplification-interactive-tool.png
 og:image: /sims/radical-simplification-interactive-tool/radical-simplification-interactive-tool.png
 twitter:image: /sims/radical-simplification-interactive-tool/radical-simplification-interactive-tool.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Radical Simplification Interactive Tool MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Radical Simplification Interactive Tool MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

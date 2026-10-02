@@ -1,7 +1,7 @@
 ---
 title: Real-World Function Modeling Interactive Scenarios
 description: Apply function concepts to model and solve real-world problems across various contexts.
-quality_score: 100
+quality_score: 95
 image: /sims/real-world-function-modeling-interactive-scenarios/real-world-function-modeling-interactive-scenarios.png
 og:image: /sims/real-world-function-modeling-interactive-scenarios/real-world-function-modeling-interactive-scenarios.png
 twitter:image: /sims/real-world-function-modeling-interactive-scenarios/real-world-function-modeling-interactive-scenarios.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Real-World Function Modeling Interactive Scenarios MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Real-World Function Modeling Interactive Scenarios MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

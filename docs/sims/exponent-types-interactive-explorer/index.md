@@ -1,7 +1,7 @@
 ---
 title: Exponent Types Interactive Explorer
 description: Explore how different types of exponents (positive, zero, negative) affect the value of powers.
-quality_score: 100
+quality_score: 95
 image: /sims/exponent-types-interactive-explorer/exponent-types-interactive-explorer.png
 og:image: /sims/exponent-types-interactive-explorer/exponent-types-interactive-explorer.png
 twitter:image: /sims/exponent-types-interactive-explorer/exponent-types-interactive-explorer.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Exponent Types Interactive Explorer MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Exponent Types Interactive Explorer MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

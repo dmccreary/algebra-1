@@ -1,7 +1,7 @@
 ---
 title: Number Systems Hierarchy Diagram
 description: Number Systems Hierarchy Diagram.
-quality_score: 100
+quality_score: 95
 image: /sims/number-systems-hierarchy-diagram/number-systems-hierarchy-diagram.png
 og:image: /sims/number-systems-hierarchy-diagram/number-systems-hierarchy-diagram.png
 twitter:image: /sims/number-systems-hierarchy-diagram/number-systems-hierarchy-diagram.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Number Systems Hierarchy Diagram MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Number Systems Hierarchy Diagram MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

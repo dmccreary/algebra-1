@@ -1,7 +1,7 @@
 ---
 title: Like Terms Matching Game MicroSim
 description: Help students practice identifying and combining like terms through an interactive matching and simplification game.
-quality_score: 100
+quality_score: 95
 image: /sims/like-terms-matching-game-microsim/like-terms-matching-game-microsim.png
 og:image: /sims/like-terms-matching-game-microsim/like-terms-matching-game-microsim.png
 twitter:image: /sims/like-terms-matching-game-microsim/like-terms-matching-game-microsim.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Like Terms Matching Game MicroSim MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Like Terms Matching Game MicroSim MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

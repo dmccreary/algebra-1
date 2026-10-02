@@ -1,7 +1,7 @@
 ---
 title: Slope Visualizer and Calculator
 description: Help students visualize slope, understand rise/run, and calculate slope between two points.
-quality_score: 100
+quality_score: 95
 image: /sims/slope-visualizer-and-calculator/slope-visualizer-and-calculator.png
 og:image: /sims/slope-visualizer-and-calculator/slope-visualizer-and-calculator.png
 twitter:image: /sims/slope-visualizer-and-calculator/slope-visualizer-and-calculator.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Slope Visualizer and Calculator MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Slope Visualizer and Calculator MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

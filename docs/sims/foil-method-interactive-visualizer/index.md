@@ -1,7 +1,7 @@
 ---
 title: FOIL Method Interactive Visualizer
 description: Master the FOIL method through visual representation and practice.
-quality_score: 100
+quality_score: 95
 image: /sims/foil-method-interactive-visualizer/foil-method-interactive-visualizer.png
 og:image: /sims/foil-method-interactive-visualizer/foil-method-interactive-visualizer.png
 twitter:image: /sims/foil-method-interactive-visualizer/foil-method-interactive-visualizer.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the FOIL Method Interactive Visualizer MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the FOIL Method Interactive Visualizer MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

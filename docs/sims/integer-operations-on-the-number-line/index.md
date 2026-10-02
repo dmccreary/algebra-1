@@ -1,7 +1,7 @@
 ---
 title: Integer Operations on the Number Line
 description: Visualize integer addition and subtraction as movements on the number line.
-quality_score: 100
+quality_score: 95
 image: /sims/integer-operations-on-the-number-line/integer-operations-on-the-number-line.png
 og:image: /sims/integer-operations-on-the-number-line/integer-operations-on-the-number-line.png
 twitter:image: /sims/integer-operations-on-the-number-line/integer-operations-on-the-number-line.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Integer Operations on the Number Line MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Integer Operations on the Number Line MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

@@ -1,7 +1,7 @@
 ---
 title: Prime Factorization Tree Builder MicroSim
 description: Practice building factor trees to find prime factorization of composite numbers through interactive tree construction.
-quality_score: 100
+quality_score: 95
 image: /sims/prime-factorization-tree-builder-microsim/prime-factorization-tree-builder-microsim.png
 og:image: /sims/prime-factorization-tree-builder-microsim/prime-factorization-tree-builder-microsim.png
 twitter:image: /sims/prime-factorization-tree-builder-microsim/prime-factorization-tree-builder-microsim.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Prime Factorization Tree Builder MicroSim MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Prime Factorization Tree Builder MicroSim MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

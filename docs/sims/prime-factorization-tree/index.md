@@ -1,141 +1,57 @@
+---
+title: Prime Factorization Tree Builder
+description: Interactive tree builder decomposing composite numbers into their prime factors step-by-step.
+quality_score: 100
+image: /sims/prime-factorization-tree/prime-factorization-tree.png
+og:image: /sims/prime-factorization-tree/prime-factorization-tree.png
+twitter:image: /sims/prime-factorization-tree/prime-factorization-tree.png
+social:
+  cards: false
+---
+
 # Prime Factorization Tree Builder
 
-<iframe src="main.html" width="100%" height="900px" style="border: 1px solid #ccc; border-radius: 5px;"></iframe>
+<iframe src="main.html" height="902px" width="100%" scrolling="no"></iframe>
+
+[Run the Prime Factorization Tree Builder MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
+
+[Edit in the p5.js Editor](https://editor.p5js.org/dmccreary/sketches/)
 
 ## About This MicroSim
 
-The **Prime Factorization Tree Builder** is an interactive tool that helps students learn how to find the prime factorization of composite numbers by building factor trees step by step.
+Interactive tree builder decomposing composite numbers into their prime factors step-by-step. This interactive learning tool provides direct visual feedback, enabling students to explore algebraic structures dynamically.
 
-## Learning Objectives
+## Iframe Embed Code
 
-After using this simulation, students will be able to:
+Copy this iframe to your website:
 
-1. Build factor trees to decompose composite numbers into prime factors
-2. Identify prime and composite numbers
-3. Understand that prime factorization is unique for each number
-4. Apply divisibility rules to find factors
-5. Express numbers in prime factorization form using exponents
+```html
+<iframe src="https://dmccreary.github.io/algebra-1/sims/prime-factorization-tree/main.html"
+        height="902px" width="100%" scrolling="no"></iframe>
+```
 
-## How to Use
+## Lesson Plan
 
-1. **Choose a Number**: Enter a number (4-200) or click "Random Number"
-2. **Build the Tree**: Click on a blue (composite) number to factor it
-3. **Enter Factors**: Type two factors that multiply to make the number
-4. **Continue**: Keep factoring until all numbers are prime (green)
-5. **Complete**: When done, see the prime factorization in exponential form
+### Learning Objective
 
-## Controls
+Construct factor trees to determine prime factorization and express composite numbers in exponential prime factor form.
 
-- **Number Input**: Enter any number from 4 to 200
-- **Start New Problem**: Begin factoring the entered number
-- **Difficulty Selector**: Choose range (Easy: 4-50, Medium: 50-100, Hard: 100-200)
-- **Random Number**: Generate a random composite number
-- **Give Hint**: Highlights a composite number and suggests divisibility
-- **Show Answer**: Displays the complete factorization tree
+### Audience and Prerequisites
 
-## Visual Guide
+Designed for Algebra I students in grade 9. Students should have arithmetic fluency and introductory familiarity with algebraic notation.
 
-- **🟢 Green Nodes**: Prime numbers (cannot be factored further)
-- **🔵 Blue Nodes**: Composite numbers (click to factor)
-- **⚪ Gray Nodes**: Already factored parent numbers
+### Suggested Activity
 
-## Key Concepts
+1. Ask students to make a prediction before interacting with controls or moving parameters.
+2. Choose candidate factors to branch composite numbers until all terminal nodes are prime numbers.
+3. Compare the visual model directly with the symbolic algebraic expression.
+4. Have students summarize their observations in a single sentence.
 
-### Prime Numbers
-A prime number has exactly two factors: 1 and itself. Examples: 2, 3, 5, 7, 11, 13...
+### Assessment
 
-### Composite Numbers
-A composite number has more than two factors. Examples: 4, 6, 8, 9, 10, 12...
+Students write the canonical prime factorization of numbers using exponents.
 
-### Prime Factorization
-Every composite number can be expressed uniquely as a product of prime numbers.
+## References
 
-**Example:** 24 = 2³ × 3
-
-### Divisibility Rules
-
-- **Divisible by 2**: Even numbers (ends in 0, 2, 4, 6, 8)
-- **Divisible by 3**: Sum of digits is divisible by 3
-- **Divisible by 5**: Ends in 0 or 5
-
-## Educational Notes
-
-### For Teachers
-
-This MicroSim supports the following mathematical concepts:
-
-- **Number Theory**: Prime and composite numbers
-- **Factorization**: Breaking numbers into prime factors
-- **Tree Structures**: Visual representation of hierarchical decomposition
-- **Uniqueness**: Fundamental Theorem of Arithmetic
-
-### Pedagogical Approach
-
-1. **Visual Learning**: Tree structure makes factorization process transparent
-2. **Interactive Discovery**: Students construct trees themselves
-3. **Immediate Feedback**: Validates factors and guides correction
-4. **Progressive Difficulty**: Adjustable number ranges
-5. **Self-Paced**: Students can work at their own speed
-
-### Common Student Misconceptions
-
-1. **Using 1 as a factor**: The simulation prevents factoring by 1
-2. **Stopping too early**: Gray nodes indicate the number has been factored
-3. **Incorrect factors**: Shake animation helps students recognize errors
-4. **Forgetting to check for primes**: Color coding helps identify primes
-
-## Classroom Integration
-
-### Suggested Activities
-
-1. **Exploration**: Start with small numbers (12, 18, 24) to understand the process
-2. **Challenge**: Factor larger numbers (100-200) using divisibility rules
-3. **Comparison**: Factor the same number using different starting factors
-4. **Competition**: Race to factor numbers correctly in the least time
-5. **Verification**: Use calculators to verify prime factorizations
-
-### Assessment Ideas
-
-- Ask students to predict prime factorization before building the tree
-- Have students explain why different factor trees lead to the same result
-- Challenge students to find the prime factorization of numbers with many factors
-- Ask students to identify patterns (e.g., powers of 2)
-
-## Technical Implementation
-
-- **Library**: Vis-Network for interactive graph visualization
-- **Algorithms**: Prime checking, recursive factorization
-- **Interactivity**: Click-to-factor interface with validation
-- **Visual Feedback**: Color coding, animations, celebrations
-
-## Concept Alignment
-
-This MicroSim addresses these concepts from the Algebra I learning graph:
-
-- **Prime Factorization**: Finding prime factors of integers
-- **Greatest Common Factor (GCF)**: Understanding factor relationships
-- **Number Theory**: Properties of prime and composite numbers
-- **Exponents**: Expressing repeated factors in exponential form
-
-## Related Concepts
-
-- [Greatest Common Factor](../../glossary.md#greatest-common-factor)
-- [Prime Numbers](../../glossary.md#prime-numbers)
-- [Composite Numbers](../../glossary.md#composite-numbers)
-- [Factoring](../../chapters/05-factoring-polynomials/index.md)
-
-## Suggested Explorations
-
-1. Factor perfect squares (16, 36, 64, 100) - notice the pattern
-2. Factor powers of primes (8, 27, 32, 81) - observe the tree structure
-3. Factor highly composite numbers (24, 48, 60) - see multiple branching
-4. Compare factorizations of consecutive numbers
-5. Find the prime factorization of your age, birth year, or phone number
-
-## Version History
-
-- **v1.0** (2025-11-17): Initial release with core factorization features
-
-## Credits
-
-Created as part of the Algebra I intelligent textbook project using vis-network for graph visualization.
+1. [Related Algebra I Chapter](../../chapters/01-foundations-of-algebra/index.md) - Course explanation and background context.
+2. [p5.js Reference](https://p5js.org/reference/) - Official library documentation.

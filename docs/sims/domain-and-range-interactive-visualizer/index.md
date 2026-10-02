@@ -1,7 +1,7 @@
 ---
 title: Domain and Range Interactive Visualizer
 description: Help students visualize domain and range for various function types and understand restrictions.
-quality_score: 100
+quality_score: 95
 image: /sims/domain-and-range-interactive-visualizer/domain-and-range-interactive-visualizer.png
 og:image: /sims/domain-and-range-interactive-visualizer/domain-and-range-interactive-visualizer.png
 twitter:image: /sims/domain-and-range-interactive-visualizer/domain-and-range-interactive-visualizer.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Domain and Range Interactive Visualizer MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Domain and Range Interactive Visualizer MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

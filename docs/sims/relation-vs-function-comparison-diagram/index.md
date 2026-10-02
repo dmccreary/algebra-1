@@ -1,7 +1,7 @@
 ---
 title: Relation vs. Function Comparison Diagram
 description: Relation vs. Function Comparison Diagram.
-quality_score: 100
+quality_score: 95
 image: /sims/relation-vs-function-comparison-diagram/relation-vs-function-comparison-diagram.png
 og:image: /sims/relation-vs-function-comparison-diagram/relation-vs-function-comparison-diagram.png
 twitter:image: /sims/relation-vs-function-comparison-diagram/relation-vs-function-comparison-diagram.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Relation vs. Function Comparison Diagram MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Relation vs. Function Comparison Diagram MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

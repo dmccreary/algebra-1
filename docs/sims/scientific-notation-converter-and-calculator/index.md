@@ -1,7 +1,7 @@
 ---
 title: Scientific Notation Converter and Calculator
 description: Practice converting between standard form and scientific notation, and perform operations with numbers in scientific notation.
-quality_score: 100
+quality_score: 95
 image: /sims/scientific-notation-converter-and-calculator/scientific-notation-converter-and-calculator.png
 og:image: /sims/scientific-notation-converter-and-calculator/scientific-notation-converter-and-calculator.png
 twitter:image: /sims/scientific-notation-converter-and-calculator/scientific-notation-converter-and-calculator.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Scientific Notation Converter and Calculator MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Scientific Notation Converter and Calculator MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

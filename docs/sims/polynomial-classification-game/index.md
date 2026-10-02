@@ -1,7 +1,7 @@
 ---
 title: Polynomial Classification Game
 description: Identify and classify algebraic expressions as monomials, binomials, trinomials, or non-polynomials.
-quality_score: 100
+quality_score: 95
 image: /sims/polynomial-classification-game/polynomial-classification-game.png
 og:image: /sims/polynomial-classification-game/polynomial-classification-game.png
 twitter:image: /sims/polynomial-classification-game/polynomial-classification-game.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Polynomial Classification Game MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Polynomial Classification Game MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

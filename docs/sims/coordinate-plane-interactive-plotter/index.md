@@ -1,7 +1,7 @@
 ---
 title: Coordinate Plane Interactive Plotter
 description: Practice plotting points on the coordinate plane and identifying quadrants.
-quality_score: 100
+quality_score: 95
 image: /sims/coordinate-plane-interactive-plotter/coordinate-plane-interactive-plotter.png
 og:image: /sims/coordinate-plane-interactive-plotter/coordinate-plane-interactive-plotter.png
 twitter:image: /sims/coordinate-plane-interactive-plotter/coordinate-plane-interactive-plotter.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Coordinate Plane Interactive Plotter MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Coordinate Plane Interactive Plotter MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

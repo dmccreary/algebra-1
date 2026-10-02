@@ -1,7 +1,7 @@
 ---
 title: Expression Explorer MicroSim
 description: Help students identify and understand the different parts of an algebraic expression interactively.
-quality_score: 100
+quality_score: 95
 image: /sims/expression-explorer-microsim/expression-explorer-microsim.png
 og:image: /sims/expression-explorer-microsim/expression-explorer-microsim.png
 twitter:image: /sims/expression-explorer-microsim/expression-explorer-microsim.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Expression Explorer MicroSim MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Expression Explorer MicroSim MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

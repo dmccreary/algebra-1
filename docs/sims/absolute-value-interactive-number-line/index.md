@@ -1,7 +1,7 @@
 ---
 title: Absolute Value Interactive Number Line
 description: Understand absolute value as distance from zero using an interactive number line with dynamic measurement.
-quality_score: 100
+quality_score: 95
 image: /sims/absolute-value-interactive-number-line/absolute-value-interactive-number-line.png
 og:image: /sims/absolute-value-interactive-number-line/absolute-value-interactive-number-line.png
 twitter:image: /sims/absolute-value-interactive-number-line/absolute-value-interactive-number-line.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Absolute Value Interactive Number Line MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Absolute Value Interactive Number Line MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

@@ -1,7 +1,7 @@
 ---
 title: Special Lines Explorer: Horizontal and Vertical
 description: Help students understand horizontal and vertical lines, their equations, slopes, and special properties.
-quality_score: 100
+quality_score: 95
 image: /sims/special-lines-explorer-horizontal-and-vertical/special-lines-explorer-horizontal-and-vertical.png
 og:image: /sims/special-lines-explorer-horizontal-and-vertical/special-lines-explorer-horizontal-and-vertical.png
 twitter:image: /sims/special-lines-explorer-horizontal-and-vertical/special-lines-explorer-horizontal-and-vertical.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Special Lines Explorer: Horizontal and Vertical MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Special Lines Explorer: Horizontal and Vertical MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

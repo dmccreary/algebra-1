@@ -1,79 +1,57 @@
 ---
 title: Number Systems Venn Diagram
-description: An interactive Venn diagram showing the hierarchical relationships between number systems from Natural Numbers to Complex Numbers.
+description: Interactive p5.js Venn diagram illustrating nested subsets from natural numbers to complex numbers.
+quality_score: 100
 image: /sims/number-systems-p5/number-systems-p5.png
 og:image: /sims/number-systems-p5/number-systems-p5.png
 twitter:image: /sims/number-systems-p5/number-systems-p5.png
 social:
-   cards: false
+  cards: false
 ---
 
 # Number Systems Venn Diagram
 
-<iframe src="main.html" height="412px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="414px" width="100%" scrolling="no"></iframe>
 
-[Run the Number Systems Venn Diagram Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Number Systems Venn Diagram MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
+
+[Edit in the p5.js Editor](https://editor.p5js.org/dmccreary/sketches/)
 
 ## About This MicroSim
 
-This interactive Venn diagram illustrates the hierarchical relationships between different types of numbers in mathematics. Hover over each region to learn about that number system, see its mathematical symbol, and view examples.
+Interactive p5.js Venn diagram illustrating nested subsets from natural numbers to complex numbers. This interactive learning tool provides direct visual feedback, enabling students to explore algebraic structures dynamically.
 
-## Number System Hierarchy
+## Iframe Embed Code
 
-The diagram shows these number systems as concentric regions (innermost to outermost):
-
-1. **Natural Numbers (ℕ)** - Counting numbers: 1, 2, 3, 4, ...
-2. **Whole Numbers (W)** - Natural numbers plus zero: 0, 1, 2, 3, ...
-3. **Integers (ℤ)** - Whole numbers and their negatives: ..., -2, -1, 0, 1, 2, ...
-4. **Rational Numbers (ℚ)** - Numbers expressible as fractions p/q
-5. **Real Numbers (ℝ)** - All points on the number line
-
-Plus two special sets:
-
-- **Irrational Numbers (I)** - Real numbers that cannot be expressed as fractions (like π and √2)
-- **Imaginary Numbers (𝕀)** - Multiples of i where i = √(-1)
-
-All of these are contained within:
-
-- **Complex Numbers (ℂ)** - Numbers of the form a + bi
-
-## Key Relationships
-
-- Every Natural Number is also a Whole Number, Integer, Rational, Real, and Complex
-- Irrational Numbers are Real but NOT Rational
-- Imaginary Numbers are Complex but NOT Real
-- Real Numbers = Rational Numbers ∪ Irrational Numbers
-
-## Embedding This MicroSim
-
-You can include this MicroSim on your website using the following iframe:
+Copy this iframe to your website:
 
 ```html
-<iframe src="https://dmccreary.github.io/algebra-1/sims/number-systems-p5/main.html" height="412px" scrolling="no"></iframe>
+<iframe src="https://dmccreary.github.io/algebra-1/sims/number-systems-p5/main.html"
+        height="414px" width="100%" scrolling="no"></iframe>
 ```
 
 ## Lesson Plan
 
-### Learning Objectives
+### Learning Objective
 
-After using this MicroSim, students will be able to:
+Interactively explore set inclusion relationships among mathematical number sets.
 
-1. Identify and define each type of number system
-2. Explain the subset relationships between number systems
-3. Classify given numbers into their appropriate number systems
-4. Distinguish between rational and irrational numbers
-5. Understand how complex numbers extend the real number system
+### Audience and Prerequisites
 
-### Activities
+Designed for Algebra I students in grade 9. Students should have arithmetic fluency and introductory familiarity with algebraic notation.
 
-1. **Number Classification**: Give students a list of numbers and have them identify all the number systems each belongs to
-2. **Venn Diagram Practice**: Have students draw their own Venn diagram from memory
-3. **Example Generation**: Ask students to provide their own examples for each number type
-4. **Real-World Connections**: Discuss where each number type appears in real life
+### Suggested Activity
 
-### Discussion Questions
+1. Ask students to make a prediction before interacting with controls or moving parameters.
+2. Highlight subsets to see which numbers belong to each category and see why integers are rational numbers.
+3. Compare the visual model directly with the symbolic algebraic expression.
+4. Have students summarize their observations in a single sentence.
 
-- Why do mathematicians need so many different types of numbers?
-- Can you think of a number that is rational but not an integer?
-- Why are irrational numbers called "irrational"?
-- When might you encounter complex numbers in real life?
+### Assessment
+
+Students explain why all whole numbers are integers, but not all integers are whole numbers.
+
+## References
+
+1. [Related Algebra I Chapter](../../chapters/02-number-systems-and-properties/index.md) - Course explanation and background context.
+2. [p5.js Reference](https://p5js.org/reference/) - Official library documentation.

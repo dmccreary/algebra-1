@@ -1,7 +1,7 @@
 ---
 title: Distributive Property Visualizer MicroSim
 description: Visualize the distributive property using area models and step-by-step algebraic expansion.
-quality_score: 100
+quality_score: 95
 image: /sims/distributive-property-visualizer-microsim/distributive-property-visualizer-microsim.png
 og:image: /sims/distributive-property-visualizer-microsim/distributive-property-visualizer-microsim.png
 twitter:image: /sims/distributive-property-visualizer-microsim/distributive-property-visualizer-microsim.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Distributive Property Visualizer MicroSim MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Distributive Property Visualizer MicroSim MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

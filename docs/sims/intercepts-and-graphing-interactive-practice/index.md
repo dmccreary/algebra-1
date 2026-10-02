@@ -1,7 +1,7 @@
 ---
 title: Intercepts and Graphing Interactive Practice
 description: Help students find intercepts algebraically and use them to graph linear equations.
-quality_score: 100
+quality_score: 95
 image: /sims/intercepts-and-graphing-interactive-practice/intercepts-and-graphing-interactive-practice.png
 og:image: /sims/intercepts-and-graphing-interactive-practice/intercepts-and-graphing-interactive-practice.png
 twitter:image: /sims/intercepts-and-graphing-interactive-practice/intercepts-and-graphing-interactive-practice.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Intercepts and Graphing Interactive Practice MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Intercepts and Graphing Interactive Practice MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

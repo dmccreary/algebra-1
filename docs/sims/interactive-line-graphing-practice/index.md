@@ -1,7 +1,7 @@
 ---
 title: Interactive Line Graphing Practice
 description: Practice graphing linear equations using all three methods (intercepts, slope-intercept, table of values).
-quality_score: 100
+quality_score: 95
 image: /sims/interactive-line-graphing-practice/interactive-line-graphing-practice.png
 og:image: /sims/interactive-line-graphing-practice/interactive-line-graphing-practice.png
 twitter:image: /sims/interactive-line-graphing-practice/interactive-line-graphing-practice.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Interactive Line Graphing Practice MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Interactive Line Graphing Practice MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

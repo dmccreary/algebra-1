@@ -1,7 +1,7 @@
 ---
 title: Parent Functions Reference Gallery
 description: Parent Functions Reference Gallery.
-quality_score: 100
+quality_score: 95
 image: /sims/parent-functions-reference-gallery/parent-functions-reference-gallery.png
 og:image: /sims/parent-functions-reference-gallery/parent-functions-reference-gallery.png
 twitter:image: /sims/parent-functions-reference-gallery/parent-functions-reference-gallery.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Parent Functions Reference Gallery MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Parent Functions Reference Gallery MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

@@ -1,66 +1,57 @@
+---
+title: Number Types Venn Diagram
+description: Interactive p5.js simulation demonstrating classification and set inclusion across rational and irrational numbers.
+quality_score: 100
+image: /sims/number-types-venn-p5/number-types-venn-p5.png
+og:image: /sims/number-types-venn-p5/number-types-venn-p5.png
+twitter:image: /sims/number-types-venn-p5/number-types-venn-p5.png
+social:
+  cards: false
+---
+
 # Number Types Venn Diagram
 
-## Description
+<iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-This interactive Venn diagram visualizes the hierarchical relationships between different types of numbers in mathematics. It demonstrates how number sets are nested within each other, showing that:
+[Run the Number Types Venn Diagram MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
-- **Natural Numbers** (1, 2, 3, ...) are the counting numbers
-- **Whole Numbers** include natural numbers plus zero (0, 1, 2, 3, ...)
-- **Integers** include whole numbers and their negatives (..., -2, -1, 0, 1, 2, ...)
-- **Rational Numbers** can be expressed as a ratio of two integers (fractions, terminating or repeating decimals)
-- **Irrational Numbers** cannot be expressed as fractions (π, √2, e)
-- **Real Numbers** encompass all rational and irrational numbers
+[Edit in the p5.js Editor](https://editor.p5js.org/dmccreary/sketches/)
 
-## Learning Objectives
+## About This MicroSim
 
-Students will be able to:
+Interactive p5.js simulation demonstrating classification and set inclusion across rational and irrational numbers. This interactive learning tool provides direct visual feedback, enabling students to explore algebraic structures dynamically.
 
-1. Identify the hierarchical relationship between different number types
-2. Understand that each inner set is a subset of the outer sets
-3. Classify numbers into their appropriate categories
-4. Recognize examples of each number type
-5. Distinguish between rational and irrational numbers
+## Iframe Embed Code
 
-## How to Use
+Copy this iframe to your website:
 
-- **Hover over any region** to see a tooltip explaining what that number type means
-- **Toggle "Show Labels"** to show or hide the names of each number set
-- **Toggle "Show Examples"** to show or hide example numbers in each region
+```html
+<iframe src="https://dmccreary.github.io/algebra-1/sims/number-types-venn-p5/main.html"
+        height="602px" width="100%" scrolling="no"></iframe>
+```
 
-## Interactive Visualization
+## Lesson Plan
 
-<iframe src="main.html" width="100%" height="702" scrolling="no" style="border: 1px solid #ccc;"></iframe>
+### Learning Objective
 
-## Key Concepts
+Categorize numbers as rational or irrational and understand their union as the set of real numbers.
 
-**Subset Relationships:**
+### Audience and Prerequisites
 
-The diagram illustrates that:
-- Natural ⊂ Whole ⊂ Integer ⊂ Rational ⊂ Real
-- Every natural number is also a whole number, integer, rational number, and real number
-- The symbol ⊂ means "is a subset of"
+Designed for Algebra I students in grade 9. Students should have arithmetic fluency and introductory familiarity with algebraic notation.
 
-**Rational vs. Irrational:**
+### Suggested Activity
 
-- Rational numbers can be written as fractions (a/b where b ≠ 0)
-- Irrational numbers have non-repeating, non-terminating decimal expansions
-- Together, rationals and irrationals make up all real numbers
+1. Ask students to make a prediction before interacting with controls or moving parameters.
+2. Interact with real number examples and drag or inspect their classification within the Venn diagram.
+3. Compare the visual model directly with the symbolic algebraic expression.
+4. Have students summarize their observations in a single sentence.
 
-## Assessment Questions
+### Assessment
 
-1. Is every integer also a rational number? Why or why not?
-2. Give an example of a number that is whole but not natural.
-3. Why is π (pi) classified as irrational?
-4. What is the smallest set that contains the number -7?
-5. Can a number be both rational and irrational? Explain.
+Students justify why repeating decimals are rational while non-repeating infinite decimals are irrational.
 
-## Extensions
+## References
 
-- Research imaginary and complex numbers - where would they fit?
-- Explore the cardinality (size) of these infinite sets
-- Investigate transcendental numbers as a subset of irrationals
-- Study the historical development of number systems
-
-## Credits
-
-Created using p5.js for educational purposes. Part of the MicroSims collection for interactive mathematics learning.
+1. [Related Algebra I Chapter](../../chapters/02-number-systems-and-properties/index.md) - Course explanation and background context.
+2. [p5.js Reference](https://p5js.org/reference/) - Official library documentation.

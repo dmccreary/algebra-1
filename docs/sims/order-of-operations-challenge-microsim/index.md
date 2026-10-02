@@ -1,7 +1,7 @@
 ---
 title: Order of Operations Challenge MicroSim
 description: Practice applying the order of operations (PEMDAS) through interactive step-by-step problem solving.
-quality_score: 100
+quality_score: 95
 image: /sims/order-of-operations-challenge-microsim/order-of-operations-challenge-microsim.png
 og:image: /sims/order-of-operations-challenge-microsim/order-of-operations-challenge-microsim.png
 twitter:image: /sims/order-of-operations-challenge-microsim/order-of-operations-challenge-microsim.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Order of Operations Challenge MicroSim MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Order of Operations Challenge MicroSim MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

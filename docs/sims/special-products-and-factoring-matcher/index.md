@@ -1,7 +1,7 @@
 ---
 title: Special Products and Factoring Matcher
 description: Recognize special product patterns and connect multiplication to factoring.
-quality_score: 100
+quality_score: 95
 image: /sims/special-products-and-factoring-matcher/special-products-and-factoring-matcher.png
 og:image: /sims/special-products-and-factoring-matcher/special-products-and-factoring-matcher.png
 twitter:image: /sims/special-products-and-factoring-matcher/special-products-and-factoring-matcher.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Special Products and Factoring Matcher MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Special Products and Factoring Matcher MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

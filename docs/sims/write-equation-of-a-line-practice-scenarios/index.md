@@ -1,7 +1,7 @@
 ---
 title: Write Equation of a Line Practice Scenarios
 description: Practice writing equations of lines given various types of information.
-quality_score: 100
+quality_score: 95
 image: /sims/write-equation-of-a-line-practice-scenarios/write-equation-of-a-line-practice-scenarios.png
 og:image: /sims/write-equation-of-a-line-practice-scenarios/write-equation-of-a-line-practice-scenarios.png
 twitter:image: /sims/write-equation-of-a-line-practice-scenarios/write-equation-of-a-line-practice-scenarios.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Write Equation of a Line Practice Scenarios MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Write Equation of a Line Practice Scenarios MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

@@ -1,7 +1,7 @@
 ---
 title: Vertical Line Test Interactive MicroSim
 description: Help students understand and apply the vertical line test to determine if a graph represents a function.
-quality_score: 100
+quality_score: 95
 image: /sims/vertical-line-test-interactive-microsim/vertical-line-test-interactive-microsim.png
 og:image: /sims/vertical-line-test-interactive-microsim/vertical-line-test-interactive-microsim.png
 twitter:image: /sims/vertical-line-test-interactive-microsim/vertical-line-test-interactive-microsim.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Vertical Line Test Interactive MicroSim MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Vertical Line Test Interactive MicroSim MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 

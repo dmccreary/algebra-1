@@ -1,14 +1,18 @@
 {
   "title": "Number Systems Hierarchy Diagram",
-  "description": "An interactive Venn-style diagram showing how natural, whole, integer, rational, and real numbers are nested within each other, highlighting the position of irrational numbers.",
-  "subject": "Mathematics - Number Systems",
-  "creator": "Dan McCreary and Claude AI",
-  "date": "2025-11-11",
-  "type": "Interactive Venn Diagram",
+  "description": "Visual nested Venn diagram illustrating the relationships between natural numbers, whole numbers, integers, rational numbers, and real numbers.",
+  "subject": [
+    "Algebra I",
+    "Number Systems and Properties",
+    "Number Sets"
+  ],
+  "creator": "Dan McCreary",
+  "date": "2026-10-01",
+  "type": "Interactive Simulation",
   "format": "text/html",
-  "language": "en-US",
+  "language": "en",
   "coverage": "Middle and High School Mathematics",
-  "rights": "CC-BY-4.0 Educational Use",
+  "rights": "CC BY-NC-SA 4.0",
   "audience": "Students and Educators",
   "diagram_type": "venn",
   "set_count": 6,
@@ -23,7 +27,7 @@
   ],
   "bloom_taxonomy": "Understand",
   "version": "1.0",
-  "library": "venn.js 0.2.20",
+  "library": "Custom / Canvas",
   "dependencies": [
     "d3.js 7.9.0",
     "venn.js 0.2.20"
@@ -65,6 +69,51 @@
       "immediate",
       "explanatory"
     ],
-    "interactionStyle": "respond"
+    "interactionStyle": "respond",
+    "teachingStrategy": "Interactive visual modeling with step-by-step exploration and immediate feedback",
+    "keyQuestions": [
+      "What mathematical relationship is illustrated by this model?",
+      "How does changing one variable or parameter influence the outcome?"
+    ],
+    "commonMisconceptions": [
+      "Confusing visual scale or orientation with underlying numeric operations"
+    ],
+    "assessmentOpportunities": [
+      "Explain the displayed relationship in student's own words",
+      "Solve an algebraic problem and confirm result with the interactive model"
+    ]
+  },
+  "identifier": "number-system-venn",
+  "completion_status": "implemented",
+  "canvasHeight": 800,
+  "educational": {
+    "gradeLevel": [
+      "9"
+    ],
+    "subjectArea": "Mathematics",
+    "topic": "Number Systems Hierarchy Diagram",
+    "learningObjectives": [
+      "Classify numbers into standard nested mathematical sets: Natural (N), Whole (W), Integer (Z), Rational (Q), and Real (R)."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Introductory familiarity with variables and algebraic expressions"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "Custom / Canvas",
+    "version": "1.0.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 800
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
   }
 }

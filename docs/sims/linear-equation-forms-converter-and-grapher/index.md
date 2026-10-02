@@ -1,7 +1,7 @@
 ---
 title: Linear Equation Forms Converter and Grapher
 description: Help students convert between different forms of linear equations and understand when each form is most useful.
-quality_score: 100
+quality_score: 95
 image: /sims/linear-equation-forms-converter-and-grapher/linear-equation-forms-converter-and-grapher.png
 og:image: /sims/linear-equation-forms-converter-and-grapher/linear-equation-forms-converter-and-grapher.png
 twitter:image: /sims/linear-equation-forms-converter-and-grapher/linear-equation-forms-converter-and-grapher.png
@@ -13,7 +13,7 @@ social:
 
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
-[Run the Linear Equation Forms Converter and Grapher MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Linear Equation Forms Converter and Grapher MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## About This MicroSim
 
