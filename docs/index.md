@@ -1,5 +1,5 @@
 ---
-title: Algebra I
+title: "Algebra I: An Interactive Intelligent Textbook"
 description: Introduction to Algebra for junior high or high school students with extensive interactive MicroSims.
 image: /img/cover.png
 og:image: /img/cover.png
