@@ -145,8 +145,8 @@ theme:
   logo: img/mascot/welcome.png
   favicon: img/favicon.ico
   palette:
-    primary: 'orange'
-    accent: 'blue'
+    primary: 'blue'
+    accent: 'orange'
   include_sidebar: true
   features:
     - content.code.copy

@@ -12,7 +12,7 @@ hide:
 </style>
 # Algebra I
 
-![](img/cover.png){ width="600px" }
+![](img/cover.png){ width="700px" }
 
 Welcome to our website for Algebra 1.  By building a [course dependency graph](sims/high-school-courses/main.html) you can see that Algebra 1 enables more courses in junior high and high school than any other class.  Algebra 1 opens more doors than any other class.  So it is essential that students do well in algebra.
 
