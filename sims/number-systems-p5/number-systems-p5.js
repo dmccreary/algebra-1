@@ -1,4 +1,5 @@
 // Number Systems Venn Diagram MicroSim
+// CANVAS_HEIGHT: 410
 // Shows the hierarchical relationship between number types
 // Natural ⊂ Whole ⊂ Integer ⊂ Rational ⊂ Real ⊂ Complex
 // Plus: Irrational ⊂ Real (disjoint from Rational)

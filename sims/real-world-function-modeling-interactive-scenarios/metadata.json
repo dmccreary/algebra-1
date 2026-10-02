@@ -1,0 +1,67 @@
+{
+  "title": "Real-World Function Modeling Interactive Scenarios",
+  "creator": "Dan McCreary",
+  "subject": [
+    "Algebra I",
+    "Introduction To Functions",
+    "Real-World Function Modeling Interactive Scenarios"
+  ],
+  "description": "Apply function concepts to model and solve real-world problems across various contexts",
+  "date": "2026-07-15",
+  "educational": {
+    "gradeLevel": [
+      "9"
+    ],
+    "subjectArea": "Mathematics",
+    "topic": "Real-World Function Modeling Interactive Scenarios",
+    "learningObjectives": [
+      "Apply function concepts to model and solve real-world problems across various contexts"
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Arithmetic fluency",
+      "Familiarity with variables and expressions"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.11.10",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 600
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 1.11.10"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Guided interactive exploration with immediate feedback",
+    "keyQuestions": [
+      "What changes when each control moves?",
+      "How does the visual model support the algebraic rule?"
+    ],
+    "commonMisconceptions": [
+      "Changing a representation changes the underlying mathematical relationship"
+    ],
+    "assessmentOpportunities": [
+      "Explain the displayed relationship",
+      "Use New Example and justify the result"
+    ]
+  },
+  "chapter": "08-introduction-to-functions",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "library": "p5.js",
+  "identifier": "real-world-function-modeling-interactive-scenarios",
+  "completion_status": "implemented",
+  "canvasHeight": 600
+}

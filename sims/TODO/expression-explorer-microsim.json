@@ -1,0 +1,15 @@
+{
+  "sim_id": "expression-explorer-microsim",
+  "diagram_name": "Expression Explorer MicroSim",
+  "chapter_number": 1,
+  "chapter_title": "Foundations Of Algebra",
+  "chapter_dir": "01-foundations-of-algebra",
+  "chapter_rel_dir": "chapters/01-foundations-of-algebra",
+  "library": null,
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Help students identify and understand the different parts of an algebraic expression interactively",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-15",
+  "specification": "Type: MicroSim\n\nLearning objective: Help students identify and understand the different parts of an algebraic expression interactively\n\nCanvas layout (800x600px):\n- Top section (800x100): Title and instructions\n- Left side (600x450): Main visualization area\n- Right side (200x450): Control panel\n- Bottom (800x50): Current analysis display\n\nVisual elements:\n- Display a randomly generated algebraic expression in large font\n- Color-code different parts:\n  - Coefficients in blue\n  - Variables in green\n  - Constants in orange\n  - Operation signs in gray\n- Highlight current selection with yellow background\n\nInteractive controls:\n- Button: \"New Expression\" (generates new random expression)\n- Dropdown: \"Expression Complexity\" (Simple, Medium, Complex)\n- Checkbox options to show/hide:\n  - \"Show Coefficients\"\n  - \"Show Variables\"\n  - \"Show Constants\"\n  - \"Show Terms\"\n- Button: \"Check My Understanding\" (quiz mode)\n\nDefault parameters:\n- Complexity: Simple\n- All checkboxes checked\n- Starting expression: $3x + 5y - 7$\n\nBehavior:\n- User can hover over any part to see its classification\n- Click on checkboxes to highlight only selected element types\n- \"New Expression\" button generates expressions based on complexity:\n  - Simple: 2-3 terms, single variables, small coefficients\n  - Medium: 3-5 terms, may include exponents, larger coefficients\n  - Complex: 4-6 terms, multiple variables, exponents, negative terms\n- \"Check My Understanding\" mode: Shows expression without colors, user clicks to identify parts, system provides feedback\n\nDisplay area shows:\n- Number of terms\n- List of coefficients found\n- List of variables found\n- List of constants found\n\nImplementation notes:\n- Use p5.js for rendering\n- Store expression as parsed components\n- Generate random expressions using arrays of coefficients, variables, and operations\n- Track user interactions for assessment\n\n**MicroSim Recommendation:** Use **microsim-p5** (Score: 95/100). This specification requires text parsing, color-coded highlighting, multiple interactive controls, and quiz functionality. P5.js provides complete control over text rendering, color highlighting, dynamic expression generation, and tracking user interactions for assessment."
+}

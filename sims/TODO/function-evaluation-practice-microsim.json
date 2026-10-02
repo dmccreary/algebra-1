@@ -1,0 +1,15 @@
+{
+  "sim_id": "function-evaluation-practice-microsim",
+  "diagram_name": "Function Evaluation Practice MicroSim",
+  "chapter_number": 8,
+  "chapter_title": "Introduction To Functions",
+  "chapter_dir": "08-introduction-to-functions",
+  "chapter_rel_dir": "chapters/08-introduction-to-functions",
+  "library": null,
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-07-15",
+  "specification": "Type: microsim\n\n    Learning objective: Provide interactive practice for evaluating functions at different input values\n\n    Canvas layout (800x600px):\n    - Left side (500x600): Problem display and work area\n    - Right side (300x600): Control panel and feedback\n\n    Visual elements:\n    - Display current function in large text at top: e.g., \"$f(x) = 2x^2 - 3x + 1$\"\n    - Show current evaluation problem: \"Evaluate $f(3)$\"\n    - Work area showing step-by-step evaluation:\n      - Step 1: \"Substitute 3 for x: $f(3) = 2(3)^2 - 3(3) + 1$\"\n      - Step 2: \"Simplify exponents: $f(3) = 2(9) - 3(3) + 1$\"\n      - Step 3: \"Multiply: $f(3) = 18 - 9 + 1$\"\n      - Step 4: \"Add/subtract: $f(3) = 10$\"\n    - Input box for student answer\n    - Feedback message (green for correct, red for incorrect)\n    - Running score: \"X out of Y correct\"\n\n    Interactive controls:\n    - Dropdown: \"Function type\"\n      Options:\n      1. Linear ($ax + b$)\n      2. Quadratic ($ax^2 + bx + c$)\n      3. Cubic ($ax^3 + bx^2 + cx + d$)\n      4. Absolute value ($a|x - h| + k$)\n      5. Mixed (random)\n    - Dropdown: \"Difficulty\"\n      Options:\n      1. Easy (single-digit positive inputs)\n      2. Medium (negative inputs, two-digit)\n      3. Hard (algebraic inputs like $2x$, $x+1$)\n    - Button: \"New Problem\"\n    - Button: \"Show Steps\" (toggles step-by-step work)\n    - Button: \"Reset Score\"\n    - Input field: \"Your answer\"\n    - Button: \"Check Answer\"\n\n    Default parameters:\n    - Function type: Linear\n    - Difficulty: Easy\n    - Show steps: Off initially\n\n    Behavior:\n    - Generate random function based on selected type\n    - Generate random input value based on difficulty level\n    - When \"Check Answer\" clicked:\n      - Compare student answer to correct answer\n      - Show green \"Correct!\" or red \"Incorrect. The answer is X\"\n      - Update score\n      - After 2 seconds, generate new problem\n    - \"Show Steps\" reveals complete step-by-step solution\n    - Track accuracy percentage\n\n    Implementation notes:\n    - Use p5.js for rendering\n    - Use MathJax or KaTeX for rendering equations\n    - Store function as JavaScript function for evaluation\n    - Generate random coefficients within reasonable ranges\n    - For \"Hard\" difficulty, include algebraic inputs and require simplified algebraic expressions as answers"
+}

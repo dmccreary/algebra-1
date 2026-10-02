@@ -1,0 +1,15 @@
+{
+  "sim_id": "special-products-and-factoring-matcher",
+  "diagram_name": "Special Products and Factoring Matcher",
+  "chapter_number": 4,
+  "chapter_title": "Polynomial Expressions",
+  "chapter_dir": "04-polynomial-expressions",
+  "chapter_rel_dir": "chapters/04-polynomial-expressions",
+  "library": null,
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-07-15",
+  "specification": "Type: microsim\n\n    Learning objective: Recognize special product patterns and connect multiplication to factoring\n\n    Canvas layout (900x650px):\n    - Left panel (450x650): Factored form\n    - Right panel (450x650): Expanded form\n    - Center: Matching interface\n\n    Visual elements:\n    - Cards on left showing factored forms\n    - Cards on right showing expanded forms\n    - Drag-and-drop or click-to-connect interface\n    - Pattern identification hints\n    - Score and timer\n\n    Game mechanics:\n    - Display 5-8 expressions in each column\n    - Student matches factored ↔ expanded forms\n    - Immediate feedback on match attempt\n    - Points for correct matches\n    - Hints available (highlight pattern type)\n\n    Expression types:\n    - Difference of squares: $(x+3)(x-3)$ ↔ $x^2-9$\n    - Perfect square trinomials: $(x+2)^2$ ↔ $x^2+4x+4$\n    - GCF factoring: $3x(x-5)$ ↔ $3x^2-15x$\n    - Sum/difference of cubes: $(x+2)(x^2-2x+4)$ ↔ $x^3+8$\n    - General binomial: $(x+3)(x+5)$ ↔ $x^2+8x+15$\n\n    Difficulty levels:\n    - Level 1: Only one pattern type\n    - Level 2: Mix of 2-3 patterns\n    - Level 3: All patterns mixed\n    - Level 4: Includes coefficients >1\n\n    Interactive controls:\n    - Drag from left to right to match\n    - Or click two cards to connect\n    - Button: \"Check all\"\n    - Button: \"Show hint\"\n    - Button: \"New set\"\n\n    Behavior:\n    - Correct match: cards stick together, green glow\n    - Incorrect match: red flash, cards return\n    - All matched: celebration animation, score display\n    - Hint: highlights pattern type with color\n\n    Visual features:\n    - Color coding by pattern type\n    - Connecting lines for matches\n    - Animation when matching\n    - Progress bar showing completion\n\n    Implementation: p5.js with drag-and-drop, card matching logic, animation"
+}

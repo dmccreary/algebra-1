@@ -1,0 +1,15 @@
+{
+  "sim_id": "coordinate-plane-interactive-plotter",
+  "diagram_name": "Coordinate Plane Interactive Plotter",
+  "chapter_number": 2,
+  "chapter_title": "Number Systems And Properties",
+  "chapter_dir": "02-number-systems-and-properties",
+  "chapter_rel_dir": "chapters/02-number-systems-and-properties",
+  "library": null,
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-07-15",
+  "specification": "Type: microsim\n\n    Learning objective: Practice plotting points on the coordinate plane and identifying quadrants\n\n    Canvas layout (700x700px):\n    - Main area (600x600): Coordinate grid\n    - Right panel (100x600): Information and controls\n    - Bottom panel (700x100): Instructions and feedback\n\n    Visual elements:\n    - Coordinate grid from -10 to +10 on both axes\n    - Major gridlines every 1 unit (light gray)\n    - Minor gridlines every 0.5 units (very light gray)\n    - x-axis and y-axis (bold black lines)\n    - Origin marked with special indicator\n    - Four quadrants shaded in different pastel colors\n    - Plotted points shown as colored circles\n    - Point labels showing coordinates\n\n    Interactive controls:\n    - Input: x-coordinate (-10 to 10)\n    - Input: y-coordinate (-10 to 10)\n    - Button: \"Plot Point\"\n    - Button: \"Clear All Points\"\n    - Dropdown: \"Challenge Mode\" (on/off)\n    - Display: List of plotted points with quadrant identification\n\n    Game mode (Challenge):\n    - Show coordinates and ask student to click where point should be\n    - Immediate feedback on accuracy\n    - Score tracking\n    - Progressive difficulty (starts with integer coordinates, adds decimals)\n\n    Default parameters:\n    - Grid range: -10 to +10\n    - Challenge mode: off\n    - Points plotted: none\n\n    Behavior:\n    - When coordinates entered and \"Plot\" clicked:\n      - Animate a point appearing at that location\n      - Add point to list with quadrant identification\n      - Highlight the quadrant briefly\n    - Mouse hover over grid: show current coordinates\n    - Click on grid: show coordinates and option to plot there\n    - In challenge mode:\n      - Display target coordinates\n      - Student clicks location\n      - Show distance from correct position\n      - Award points based on accuracy\n\n    Visual features:\n    - Quadrant colors:\n      - Quadrant I: light yellow\n      - Quadrant II: light blue\n      - Quadrant III: light green\n      - Quadrant IV: light pink\n    - Plotted points: bold colors with labels\n    - Hover effects: highlight nearest gridpoint\n\n    Information display:\n    - Current mouse position coordinates\n    - Quadrant name for current position\n    - List of all plotted points:\n      - \"(3, 5) - Quadrant I\"\n      - \"(-2, 4) - Quadrant II\"\n      - etc.\n\n    Implementation: p5.js with mouse interaction, input validation, smooth animations"
+}

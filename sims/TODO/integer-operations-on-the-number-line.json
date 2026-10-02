@@ -1,0 +1,15 @@
+{
+  "sim_id": "integer-operations-on-the-number-line",
+  "diagram_name": "Integer Operations on the Number Line",
+  "chapter_number": 2,
+  "chapter_title": "Number Systems And Properties",
+  "chapter_dir": "02-number-systems-and-properties",
+  "chapter_rel_dir": "chapters/02-number-systems-and-properties",
+  "library": null,
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-07-15",
+  "specification": "Type: microsim\n\n    Learning objective: Visualize integer addition and subtraction as movements on the number line\n\n    Canvas layout (800x400px):\n    - Top area (800x300): Drawing area showing a horizontal number line\n    - Bottom area (800x100): Control panel\n\n    Visual elements:\n    - Horizontal number line from -10 to +10 with tick marks and labels\n    - Current position marked with a blue circle\n    - Movement arrows showing operations (green for addition, red for subtraction)\n    - Start position marked with a small gray circle\n    - Operation history displayed as equation\n\n    Interactive controls:\n    - Button: \"Add 1\" through \"Add 5\"\n    - Button: \"Subtract 1\" through \"Subtract 5\"\n    - Button: \"Reset to Zero\"\n    - Display: Current equation (e.g., \"0 + 3 - 2 + 4 = 5\")\n    - Display: Current position value\n\n    Default parameters:\n    - Starting position: 0\n    - Number line range: -10 to +10\n\n    Behavior:\n    - When add/subtract button clicked, animate a movement arrow from current position\n    - For addition, arrow points right and is green\n    - For subtraction, arrow points left and is red\n    - Blue circle moves smoothly to new position\n    - Equation updates to show the operation\n    - If movement would go beyond -10 or +10, show warning message\n\n    Implementation: p5.js with smooth animation using lerp() for position transitions"
+}

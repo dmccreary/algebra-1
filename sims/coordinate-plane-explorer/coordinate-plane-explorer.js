@@ -1,4 +1,5 @@
 // Interactive Coordinate Plane Explorer
+// CANVAS_HEIGHT: 720
 // Educational MicroSim using p5.js
 // Helps students understand coordinate systems, quadrants, and point location
 

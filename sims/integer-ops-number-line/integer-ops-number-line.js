@@ -1,4 +1,5 @@
 // Integer Operations on the Number Line MicroSim
+// CANVAS_HEIGHT: 245
 // Follows MicroSim standard rules (responsive width, fixed height, 2 regions)
 // Learning objective: Visualize integer addition and subtraction as movements on the number line
 
