@@ -198,6 +198,7 @@ extra:
   schema: https://dmccreary.github.io/intelligent-textbooks/ns/textbook/v1
   textbook_name: Algebra I
   textbook_version: "1.0"
+  development_stage: Active Development
   generator: false
   analytics:
     provider: google
