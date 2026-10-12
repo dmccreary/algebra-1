@@ -298,9 +298,10 @@
     "simulation"
   ],
   "learningObjectives": [
-    "Understand the key concepts of this concept",
-    "Explore this concept through interactive visualization",
-    "Apply knowledge of this concept to solve problems"
+    "Explain why adding a positive integer moves the marker right and subtracting moves it left on a number line from -10 to +10",
+    "Predict the ending position of a sequence of additions and subtractions before pressing the Add n and Subtract n buttons",
+    "Trace a cumulative expression such as 0 + 3 - 2 + 4 = 5 by matching each term to a green or red arrow on the number line",
+    "Calculate the running total after each integer operation and verify it against the displayed equation"
   ],
   "bloomsTaxonomy": [
     "Understand",

@@ -14,9 +14,10 @@
     "interactive-demo"
   ],
   "learningObjectives": [
-    "Understand the key concepts of this concept",
-    "Explore this concept through interactive visualization",
-    "Apply knowledge of this concept to solve problems"
+    "Identify the nested relationship among natural numbers, integers, rational numbers, and real numbers in the diagram",
+    "Classify a given number such as -3, 2/5, or the square root of 2 into the smallest number system that contains it",
+    "Explain why every integer is a rational number but not every rational number is an integer",
+    "Locate the definition of each number system by clicking its node to jump to the matching page section"
   ],
   "bloomsTaxonomy": [
     "Understand",
