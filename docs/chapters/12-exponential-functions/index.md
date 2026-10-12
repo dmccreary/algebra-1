@@ -480,6 +480,4 @@ In this chapter, you've learned about exponential functions and their applicatio
 
 Exponential functions are essential for modeling real-world phenomena involving rapid growth or decay, making them fundamental in biology, economics, physics, and many other fields.
 
-## References
-
-1. [Exponential Growth and Decay](https://www.mathsisfun.com/algebra/exponential-growth.html) - Math is Fun - Clear explanation of exponential growth and decay formulas y = a × e^kt with practical real-world examples including population growth, tree growth, and caffeine half-life calculations.
+[See Annotated References](./references.md)

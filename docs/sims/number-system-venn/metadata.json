@@ -34,9 +34,11 @@
     "interactive-demo"
   ],
   "learningObjectives": [
-    "Understand the key concepts of number systems hierarchy diagram",
-    "Explore number systems hierarchy diagram through interactive visualization",
-    "Apply knowledge of number systems hierarchy diagram to solve problems"
+    "Classify numbers as natural, whole, integer, rational, irrational, or real using the nested Venn regions",
+    "Explain why every natural number is also a whole number, integer, rational number, and real number",
+    "Distinguish rational numbers from irrational numbers as non-overlapping regions inside the real numbers",
+    "Identify example numbers for each set (N, W, Z, Q, I, R) using the hover tooltips and definitions",
+    "Interpret set-containment notation by mapping the symbols N, W, Z, Q, and R onto the diagram's concentric regions"
   ],
   "bloomsTaxonomy": [
     "Remember",

@@ -1144,6 +1144,4 @@ Functions provide a powerful framework for modeling relationships in the real wo
 
 In the next chapter, we'll explore graphing in detail and focus extensively on linear functions—their properties, representations, and applications.
 
-## References
-
-1. [Introduction to the domain and range of a function](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:functions/x2f8bb11595b61c86:introduction-to-the-domain-and-range-of-a-function/e/domain_and_range_0.5) - Khan Academy - Interactive exercises helping students understand domain and range concepts through graphs and function notation, with immediate feedback on practice problems.
+[See Annotated References](./references.md)

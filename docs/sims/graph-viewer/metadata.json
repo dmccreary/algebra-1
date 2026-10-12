@@ -44,10 +44,10 @@
     "network"
   ],
   "learningObjectives": [
-    "Understand the mathematical concept of learning graph viewer",
-    "Apply learning graph viewer to solve problems",
-    "Visualize and interpret learning graph viewer relationships",
-    "Experiment with parameters to observe their effects on learning graph viewer"
+    "Identify prerequisite relationships between Algebra 1 concepts by following directed edges in the learning graph",
+    "Locate a specific concept node using the type-ahead search and inspect its incoming and outgoing dependencies",
+    "Filter the graph by taxonomy category checkboxes to isolate one topic area, such as foundation concepts, for study planning",
+    "Interpret the node, edge, and orphan statistics to spot disconnected concepts that indicate gaps in the learning graph"
   ],
   "pedagogical": {
     "pattern": "reference",

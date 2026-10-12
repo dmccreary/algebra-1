@@ -7,7 +7,7 @@
   "date": "2025-11-11",
   "type": "Interactive Simulation",
   "format": "text/html",
-  "identifier": "number-types-venn",
+  "identifier": "https://dmccreary.github.io/algebra-1/sims/number-types-venn-p5/",
   "language": "en-US",
   "audience": "Middle School (6-8), High School (9-12)",
   "educationLevel": "Grades 6-12",
@@ -76,12 +76,9 @@
     "simulation"
   ],
   "bloomsTaxonomy": [
-    "Remember",
     "Understand",
     "Apply",
-    "Analyze",
-    "Evaluate",
-    "Create"
+    "Analyze"
   ],
   "pedagogical": {
     "pattern": "worked-example",

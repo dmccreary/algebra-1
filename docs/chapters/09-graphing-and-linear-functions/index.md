@@ -1570,6 +1570,4 @@ Linear functions are everywhere in the real world, from pricing models to scient
 
 In the next chapter, we'll extend these ideas to work with **systems** of linear equations—situations involving two or more linear relationships simultaneously.
 
-## References
-
-1. [Straight-Line Equations: Slope-Intercept Form](https://www.purplemath.com/modules/strtlneq.htm) - Purplemath - Comprehensive tutorial on the slope-intercept form y = mx + b, explaining how to read slope and intercept directly from the equation and demonstrating graphing techniques with worked examples.
+[See Annotated References](./references.md)
