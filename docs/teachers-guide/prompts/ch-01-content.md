@@ -10,6 +10,6 @@
 
 ## Results
 
-[Chapter 1](../chapters/01-foundations-of-algebra/index.md)
+[Chapter 1](../../chapters/01-foundations-of-algebra/index.md)
 
 [Session Log]()

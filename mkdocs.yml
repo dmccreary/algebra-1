@@ -133,19 +133,21 @@ nav:
       - learning-graph/diagram-details.md
       - learning-graph/faq-coverage-gaps.md
       - learning-graph/faq-quality-report.md
-      - How We Built This Site: how-we-built-this-site.md
-      - Prompts:
-        - List of Prompts: learning-graph/prompts/index.md
-        - Cover Image: learning-graph/prompts/cover-image.md
-        - Icon: learning-graph/learning-graph/prompts/icon.md
-        - Generate Content Ch 1: learning-graph/prompts/ch-01-content.md
-        - Generate Content Ch 2-7: learning-graph/prompts/ch-02-to-07-content.md
-        - Generate Content Ch 8-13: learning-graph/prompts/ch-08-to-13.md
-        - Equation Rendering Test: learning-graph/equation-render-test.md
-  
+
   - Glossary: glossary.md
   - FAQs: faq.md
-  
+
+  - "Teacher's Guide":
+    - How We Built This Site: teachers-guide/how-we-built-this-site.md
+    - Prompts:
+      - List of Prompts: teachers-guide/prompts/index.md
+      - Cover Image: teachers-guide/prompts/cover-image.md
+      - Icon: teachers-guide/prompts/icon.md
+      - Generate Content Ch 1: teachers-guide/prompts/ch-01-content.md
+      - Generate Content Ch 2-7: teachers-guide/prompts/ch-02-to-07-content.md
+      - Generate Content Ch 8-13: teachers-guide/prompts/ch-08-to-13.md
+    - Equation Rendering Test: teachers-guide/equation-render-test.md
+
   - License: license.md
   - References: references.md
   - Contact: contact.md
