@@ -1,11 +1,9 @@
 ---
-title: Algebra I
+title: "Algebra I: An Interactive Intelligent Textbook"
 description: Introduction to Algebra for junior high or high school students with extensive interactive MicroSims.
-image: /img/cover-social-media-preview.png
-og:image: /img/cover-social-media-preview.png
-twitter:image: /img/cover-social-media-preview.png
-social:
-   cards: false
+image: /img/cover.png
+og:image: /img/cover.png
+twitter:image: /img/cover.png
 hide:
     toc
 ---
@@ -14,7 +12,7 @@ hide:
 </style>
 # Algebra I
 
-![](img/cover.png){ width="600px" }
+![](img/cover.png){ width="700px" }
 
 Welcome to our website for Algebra 1.  By building a [course dependency graph](sims/high-school-courses/main.html) you can see that Algebra 1 enables more courses in junior high and high school than any other class.  Algebra 1 opens more doors than any other class.  So it is essential that students do well in algebra.
 

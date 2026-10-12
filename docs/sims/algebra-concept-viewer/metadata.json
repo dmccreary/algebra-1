@@ -1,0 +1,65 @@
+{
+  "title": "Algebra Concept Viewer",
+  "creator": "Dan McCreary",
+  "subject": [
+    "Algebra I",
+    "Learning Graph",
+    "Concept Dependencies"
+  ],
+  "description": "Interactive network visualization of Algebra I concepts and their prerequisite dependencies using vis-network.",
+  "date": "2026-10-01",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "library": "vis-network",
+  "identifier": "algebra-concept-viewer",
+  "completion_status": "implemented",
+  "canvasHeight": 600,
+  "educational": {
+    "gradeLevel": [
+      "9"
+    ],
+    "subjectArea": "Mathematics",
+    "topic": "Algebra Concept Viewer",
+    "learningObjectives": [
+      "Explore concept relationships, prerequisite chains, and topical clusters across the Algebra I curriculum."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Introductory familiarity with variables and algebraic expressions"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "vis-network",
+    "version": "1.0.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 600
+    },
+    "responsive": true,
+    "dependencies": [
+      "vis-network 9.1.2"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive visual modeling with step-by-step exploration and immediate feedback",
+    "keyQuestions": [
+      "What mathematical relationship is illustrated by this model?",
+      "How does changing one variable or parameter influence the outcome?"
+    ],
+    "commonMisconceptions": [
+      "Confusing visual scale or orientation with underlying numeric operations"
+    ],
+    "assessmentOpportunities": [
+      "Explain the displayed relationship in student's own words",
+      "Solve an algebraic problem and confirm result with the interactive model"
+    ]
+  }
+}

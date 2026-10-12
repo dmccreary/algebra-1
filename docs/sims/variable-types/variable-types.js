@@ -131,7 +131,8 @@ function draw() {
   text('🖱️ Click cards to reveal additional real-world examples', canvasWidth/2, drawHeight + 50);
 
   // Reset defaults
-  stroke();
+  stroke('silver');
+  strokeWeight(1);
   textAlign(LEFT, CENTER);
   textSize(defaultTextSize);
 }
@@ -185,9 +186,9 @@ function drawCard(category, x, y, w, h, index) {
     textSize(13);
     fill('white');
     textAlign(LEFT, TOP);
-    text('More examples:', x + 15, y + 170);
+    text('More examples:', x + 15, y + 162);
     for (let i = 0; i < category.extraExamples.length; i++) {
-      text('• ' + category.extraExamples[i], x + 15, y + 195 + i * 35);
+      text('• ' + category.extraExamples[i], x + 15, y + 180 + i * 16);
     }
   }
 

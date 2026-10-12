@@ -33,6 +33,14 @@ class SocialOverridePlugin(BasePlugin):
                 new_tag = f'<meta name="twitter:image" content="{full_image_url}">'
                 html = html.replace(tag, new_tag)
         
+        # Override og:title and twitter:title if custom title in page.meta is provided
+        title = (page.meta or {}).get("title")
+        if title:
+            html = re.sub(r'<meta\s+property="og:title"\s+content="[^"]*"[^>]*>',
+                          f'<meta property="og:title" content="{title}">', html)
+            html = re.sub(r'<meta\s+(?:property|name)="twitter:title"\s+content="[^"]*"[^>]*>',
+                          f'<meta name="twitter:title" content="{title}">', html)
+
         return html
 
 # Make the plugin available to MkDocs
