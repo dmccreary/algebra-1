@@ -9,6 +9,7 @@ edit_uri: 'blob/main/docs'
 nav:
   - Home: index.md
   - Course Description: course-description.md
+  
   - Chapters:
       - Overview: chapters/index.md
       - 1. Foundations of Algebra:
@@ -63,24 +64,7 @@ nav:
           - Content: chapters/13-data-analysis-and-real-world-applications/index.md
           - Quiz: chapters/13-data-analysis-and-real-world-applications/quiz.md
           - Annotated References: chapters/13-data-analysis-and-real-world-applications/references.md
-  
-  - Learning Graph:
-      - Introduction: learning-graph/index.md
-      - Mascot Style Guide: learning-graph/mascot-test.md
-      - Course Description Assessment: learning-graph/course-description-assessment.md
-      - Concept List: learning-graph/concept-list.md
-      - Graph Quality Analysis: learning-graph/quality-metrics.md
-      - Concept Taxonomy: learning-graph/concept-taxonomy.md
-      - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
-      - Glossary Quality Report: learning-graph/glossary-quality-report.md
-      - Quiz Generation Report: learning-graph/quiz-generation-report.md
-      - learning-graph/book-metrics.md
-      - learning-graph/chapter-metrics.md
-      - learning-graph/diagram-table.md
-      - learning-graph/diagram-details.md
-      - learning-graph/faq-coverage-gaps.md
-      - learning-graph/faq-quality-report.md
-  
+   
   - MicroSims:
     - List of MicroSims: sims/index.md
     - Absolute Value Interactive Number Line: sims/absolute-value-interactive-number-line/index.md
@@ -133,20 +117,35 @@ nav:
     - Vertical Line Test Interactive MicroSim: sims/vertical-line-test-interactive-microsim/index.md
     - Write Equation of a Line Practice Scenarios: sims/write-equation-of-a-line-practice-scenarios/index.md
 
-
-
-  - Prompts:
-    - List of Prompts: prompts/index.md
-    - Cover Image: prompts/cover-image.md
-    - Icon: prompts/icon.md
-    - Generate Content Ch 1: prompts/ch-01-content.md
-    - Generate Content Ch 2-7: prompts/ch-02-to-07-content.md
-    - Generate Content Ch 8-13: prompts/ch-08-to-13.md
+  - Learning Graph:
+      - Introduction: learning-graph/index.md
+      - Mascot Style Guide: learning-graph/mascot-test.md
+      - Course Description Assessment: learning-graph/course-description-assessment.md
+      - Concept List: learning-graph/concept-list.md
+      - Graph Quality Analysis: learning-graph/quality-metrics.md
+      - Concept Taxonomy: learning-graph/concept-taxonomy.md
+      - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
+      - Glossary Quality Report: learning-graph/glossary-quality-report.md
+      - Quiz Generation Report: learning-graph/quiz-generation-report.md
+      - learning-graph/book-metrics.md
+      - learning-graph/chapter-metrics.md
+      - learning-graph/diagram-table.md
+      - learning-graph/diagram-details.md
+      - learning-graph/faq-coverage-gaps.md
+      - learning-graph/faq-quality-report.md
+      - How We Built This Site: how-we-built-this-site.md
+      - Prompts:
+        - List of Prompts: learning-graph/prompts/index.md
+        - Cover Image: learning-graph/prompts/cover-image.md
+        - Icon: learning-graph/learning-graph/prompts/icon.md
+        - Generate Content Ch 1: learning-graph/prompts/ch-01-content.md
+        - Generate Content Ch 2-7: learning-graph/prompts/ch-02-to-07-content.md
+        - Generate Content Ch 8-13: learning-graph/prompts/ch-08-to-13.md
+        - Equation Rendering Test: learning-graph/equation-render-test.md
   
   - Glossary: glossary.md
   - FAQs: faq.md
-  - Equation Rendering Test: equation-render-test.md
-  - How We Built This Site: how-we-built-this-site.md
+  
   - License: license.md
   - References: references.md
   - Contact: contact.md
